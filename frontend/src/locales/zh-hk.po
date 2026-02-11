@@ -3927,12 +3927,12 @@ msgid "Hi {0} 👋"
 msgstr "你好 {0} 👋"
 
 #: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
-msgid "Hi.Events Fee"
-msgstr "Hi.Events 費用"
+msgid "Ciencia Fee"
+msgstr "Ciencia 費用"
 
 #: src/components/routes/organizer/Reports/index.tsx:42
-msgid "Hi.Events platform fees and VAT breakdown by transaction"
-msgstr "Hi.Events 平台費用及每筆交易的增值稅明細"
+msgid "Ciencia platform fees and VAT breakdown by transaction"
+msgstr "Ciencia 平台費用及每筆交易的增值稅明細"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:90
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:310
@@ -7892,8 +7892,8 @@ msgid "Thank you for attending!"
 msgstr "感謝您的參與！"
 
 #: src/components/routes/account/ManageAccount/sections/PaymentSettings/index.tsx:90
-msgid "Thanks for your support as we continue to grow and improve Hi.Events!"
-msgstr "感謝您的支持，我們將繼續發展和改進 Hi.Events！"
+msgid "Thanks for your support as we continue to grow and improve Ciencia!"
+msgstr "感謝您的支持，我們將繼續發展和改進 Ciencia！"
 
 #: src/components/routes/product-widget/SelectProducts/index.tsx:176
 #: src/components/routes/product-widget/SelectProducts/index.tsx:224
@@ -8214,8 +8214,8 @@ msgid "This product is sold out"
 msgstr "此產品已售罄"
 
 #: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
-msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
-msgstr "此報告僅供參考。在將此數據用於會計或稅務目的之前，請務必諮詢稅務專業人士。請與您的Stripe儀表板進行交叉驗證，因為Hi.Events可能缺少歷史數據。"
+msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Ciencia may be missing historical data."
+msgstr "此報告僅供參考。在將此數據用於會計或稅務目的之前，請務必諮詢稅務專業人士。請與您的Stripe儀表板進行交叉驗證，因為Ciencia可能缺少歷史數據。"
 
 #: src/components/routes/auth/ResetPassword/index.tsx:28
 msgid "This reset password link is invalid or expired."
