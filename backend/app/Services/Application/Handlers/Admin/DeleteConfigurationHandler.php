@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
-use HiEvents\Exceptions\CannotDeleteEntityException;
-use HiEvents\Repository\Interfaces\AccountConfigurationRepositoryInterface;
+use Ciencia\Exceptions\CannotDeleteEntityException;
+use Ciencia\Repository\Interfaces\AccountConfigurationRepositoryInterface;
 
 class DeleteConfigurationHandler
 {

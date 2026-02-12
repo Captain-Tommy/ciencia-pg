@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\TicketLookup;
+namespace Ciencia\Http\Actions\TicketLookup;
 
-use HiEvents\Exceptions\InvalidTicketLookupTokenException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Order\OrderResourcePublic;
-use HiEvents\Services\Application\Handlers\TicketLookup\DTO\GetOrdersByLookupTokenDTO;
-use HiEvents\Services\Application\Handlers\TicketLookup\GetOrdersByLookupTokenHandler;
+use Ciencia\Exceptions\InvalidTicketLookupTokenException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Order\OrderResourcePublic;
+use Ciencia\Services\Application\Handlers\TicketLookup\DTO\GetOrdersByLookupTokenDTO;
+use Ciencia\Services\Application\Handlers\TicketLookup\GetOrdersByLookupTokenHandler;
 use Illuminate\Http\JsonResponse;
 
 class GetOrdersByLookupTokenAction extends BaseAction

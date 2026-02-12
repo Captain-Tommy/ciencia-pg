@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Stripe;
+namespace Ciencia\Services\Infrastructure\Stripe;
 
-use HiEvents\DomainObjects\Enums\StripePlatform;
-use HiEvents\Exceptions\Stripe\StripeClientConfigurationException;
+use Ciencia\DomainObjects\Enums\StripePlatform;
+use Ciencia\Exceptions\Stripe\StripeClientConfigurationException;
 use Stripe\StripeClient;
 
 class StripeClientFactory

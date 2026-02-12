@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\CurrencyConversion\Exception;
+namespace Ciencia\Services\Infrastructure\CurrencyConversion\Exception;
 
 use Exception;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AccountVatSettingDomainObject;
-use HiEvents\Models\AccountVatSetting;
-use HiEvents\Repository\Interfaces\AccountVatSettingRepositoryInterface;
+use Ciencia\DomainObjects\AccountVatSettingDomainObject;
+use Ciencia\Models\AccountVatSetting;
+use Ciencia\Repository\Interfaces\AccountVatSettingRepositoryInterface;
 
 class AccountVatSettingRepository extends BaseRepository implements AccountVatSettingRepositoryInterface
 {

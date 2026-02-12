@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order\Payment\Stripe;
+namespace Ciencia\Services\Application\Handlers\Order\Payment\Stripe;
 
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\Status\OrderPaymentStatus;
-use HiEvents\DomainObjects\StripePaymentDomainObject;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Order\Payment\Stripe\DTO\StripePaymentIntentPublicDTO;
-use HiEvents\Services\Domain\Payment\Stripe\EventHandlers\PaymentIntentSucceededHandler;
-use HiEvents\Services\Infrastructure\Stripe\StripeClientFactory;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\Status\OrderPaymentStatus;
+use Ciencia\DomainObjects\StripePaymentDomainObject;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Order\Payment\Stripe\DTO\StripePaymentIntentPublicDTO;
+use Ciencia\Services\Domain\Payment\Stripe\EventHandlers\PaymentIntentSucceededHandler;
+use Ciencia\Services\Infrastructure\Stripe\StripeClientFactory;
 use Psr\Log\LoggerInterface;
 use Stripe\Exception\ApiErrorException;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;

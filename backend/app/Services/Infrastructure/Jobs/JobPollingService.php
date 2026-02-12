@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Jobs;
+namespace Ciencia\Services\Infrastructure\Jobs;
 
-use HiEvents\Services\Infrastructure\Jobs\DTO\JobPollingResultDTO;
-use HiEvents\Services\Infrastructure\Jobs\Enum\JobStatusEnum;
+use Ciencia\Services\Infrastructure\Jobs\DTO\JobPollingResultDTO;
+use Ciencia\Services\Infrastructure\Jobs\Enum\JobStatusEnum;
 use Illuminate\Support\Facades\Bus;
 use Illuminate\Support\Facades\Storage;
 

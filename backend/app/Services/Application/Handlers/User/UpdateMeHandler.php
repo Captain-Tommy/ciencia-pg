@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\User;
+namespace Ciencia\Services\Application\Handlers\User;
 
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\PasswordInvalidException;
-use HiEvents\Mail\User\ConfirmEmailChangeMail;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\User\DTO\UpdateMeDTO;
-use HiEvents\Services\Infrastructure\Encryption\EncryptedPayloadService;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\PasswordInvalidException;
+use Ciencia\Mail\User\ConfirmEmailChangeMail;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\User\DTO\UpdateMeDTO;
+use Ciencia\Services\Infrastructure\Encryption\EncryptedPayloadService;
 use Illuminate\Contracts\Hashing\Hasher;
 use Illuminate\Contracts\Mail\Mailer;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;

@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\SelfService;
+namespace Ciencia\Http\Actions\SelfService;
 
-use HiEvents\Exceptions\SelfServiceDisabledException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\SelfService\DTO\ResendEmailPublicDTO;
-use HiEvents\Services\Application\Handlers\SelfService\ResendAttendeeTicketPublicHandler;
+use Ciencia\Exceptions\SelfServiceDisabledException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\SelfService\DTO\ResendEmailPublicDTO;
+use Ciencia\Services\Application\Handlers\SelfService\ResendAttendeeTicketPublicHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;

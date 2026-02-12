@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\OrderAuditLogDomainObject;
-use HiEvents\Repository\Eloquent\BaseRepository;
+use Ciencia\DomainObjects\OrderAuditLogDomainObject;
+use Ciencia\Repository\Eloquent\BaseRepository;
 
 /**
  * @extends BaseRepository<OrderAuditLogDomainObject>

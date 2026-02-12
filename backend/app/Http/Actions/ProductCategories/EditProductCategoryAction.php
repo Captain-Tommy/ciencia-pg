@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\ProductCategories;
+namespace Ciencia\Http\Actions\ProductCategories;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\ProductCategory\UpsertProductCategoryRequest;
-use HiEvents\Resources\ProductCategory\ProductCategoryResource;
-use HiEvents\Services\Application\Handlers\ProductCategory\DTO\UpsertProductCategoryDTO;
-use HiEvents\Services\Application\Handlers\ProductCategory\EditProductCategoryHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\ProductCategory\UpsertProductCategoryRequest;
+use Ciencia\Resources\ProductCategory\ProductCategoryResource;
+use Ciencia\Services\Application\Handlers\ProductCategory\DTO\UpsertProductCategoryDTO;
+use Ciencia\Services\Application\Handlers\ProductCategory\EditProductCategoryHandler;
 use Illuminate\Http\JsonResponse;
 
 class EditProductCategoryAction extends BaseAction

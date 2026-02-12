@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Request\Organizer\Settings;
+namespace Ciencia\Http\Request\Organizer\Settings;
 
-use HiEvents\DomainObjects\Enums\AttendeeDetailsCollectionMethod;
-use HiEvents\DomainObjects\Enums\HomepageBackgroundType;
-use HiEvents\DomainObjects\Enums\OrganizerHomepageVisibility;
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Validators\Rules\RulesHelper;
+use Ciencia\DomainObjects\Enums\AttendeeDetailsCollectionMethod;
+use Ciencia\DomainObjects\Enums\HomepageBackgroundType;
+use Ciencia\DomainObjects\Enums\OrganizerHomepageVisibility;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Validators\Rules\RulesHelper;
 use Illuminate\Validation\Rule;
 
 class PartialUpdateOrganizerSettingsRequest extends BaseRequest

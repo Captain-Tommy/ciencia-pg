@@ -1,22 +1,22 @@
 <?php
 
-namespace HiEvents\Services\Domain\Mail;
+namespace Ciencia\Services\Domain\Mail;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\InvoiceDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Mail\Order\OrderFailed;
-use HiEvents\Mail\Order\OrderSummary;
-use HiEvents\Mail\Organizer\OrderSummaryForOrganizer;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Domain\Attendee\SendAttendeeTicketService;
-use HiEvents\Services\Domain\Email\MailBuilderService;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\InvoiceDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Mail\Order\OrderFailed;
+use Ciencia\Mail\Order\OrderSummary;
+use Ciencia\Mail\Organizer\OrderSummaryForOrganizer;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Domain\Attendee\SendAttendeeTicketService;
+use Ciencia\Services\Domain\Email\MailBuilderService;
 use Illuminate\Mail\Mailer;
 
 class SendOrderDetailsService

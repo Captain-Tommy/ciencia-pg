@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Organizer\DTO;
+namespace Ciencia\Services\Application\Handlers\Organizer\DTO;
 
-use HiEvents\DataTransferObjects\AddressDTO;
-use HiEvents\DataTransferObjects\BaseDataObject;
-use HiEvents\DomainObjects\Enums\AttendeeDetailsCollectionMethod;
-use HiEvents\DomainObjects\Enums\OrganizerHomepageVisibility;
+use Ciencia\DataTransferObjects\AddressDTO;
+use Ciencia\DataTransferObjects\BaseDataObject;
+use Ciencia\DomainObjects\Enums\AttendeeDetailsCollectionMethod;
+use Ciencia\DomainObjects\Enums\OrganizerHomepageVisibility;
 use Spatie\LaravelData\Attributes\MapInputName;
 use Spatie\LaravelData\Attributes\WithCast;
 use Spatie\LaravelData\Casts\EnumCast;

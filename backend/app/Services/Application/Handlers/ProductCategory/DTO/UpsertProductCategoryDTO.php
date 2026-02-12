@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\ProductCategory\DTO;
+namespace Ciencia\Services\Application\Handlers\ProductCategory\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class UpsertProductCategoryDTO extends BaseDTO
 {

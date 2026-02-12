@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Jobs\Event;
+namespace Ciencia\Jobs\Event;
 
-use HiEvents\Exceptions\UnableToSendMessageException;
-use HiEvents\Services\Application\Handlers\Message\DTO\SendMessageDTO;
-use HiEvents\Services\Domain\Mail\SendEventEmailMessagesService;
+use Ciencia\Exceptions\UnableToSendMessageException;
+use Ciencia\Services\Application\Handlers\Message\DTO\SendMessageDTO;
+use Ciencia\Services\Domain\Mail\SendEventEmailMessagesService;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

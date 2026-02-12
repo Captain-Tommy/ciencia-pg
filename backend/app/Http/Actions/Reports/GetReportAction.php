@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Reports;
+namespace Ciencia\Http\Actions\Reports;
 
-use HiEvents\DomainObjects\Enums\ReportTypes;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Report\GetReportRequest;
-use HiEvents\Services\Application\Handlers\Reports\DTO\GetReportDTO;
-use HiEvents\Services\Application\Handlers\Reports\GetReportHandler;
+use Ciencia\DomainObjects\Enums\ReportTypes;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Report\GetReportRequest;
+use Ciencia\Services\Application\Handlers\Reports\DTO\GetReportDTO;
+use Ciencia\Services\Application\Handlers\Reports\GetReportHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Carbon;
 use Illuminate\Validation\ValidationException;

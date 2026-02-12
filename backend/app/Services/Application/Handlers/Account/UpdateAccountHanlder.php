@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Account;
+namespace Ciencia\Services\Application\Handlers\Account;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Account\DTO\UpdateAccountDTO;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Account\DTO\UpdateAccountDTO;
 use Psr\Log\LoggerInterface;
 
 class UpdateAccountHanlder

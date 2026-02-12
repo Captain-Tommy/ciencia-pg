@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\Generated\MessageDomainObjectAbstract;
-use HiEvents\DomainObjects\MessageDomainObject;
-use HiEvents\DomainObjects\Status\MessageStatus;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Models\Message;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\DomainObjects\Generated\MessageDomainObjectAbstract;
+use Ciencia\DomainObjects\MessageDomainObject;
+use Ciencia\DomainObjects\Status\MessageStatus;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Models\Message;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Pagination\LengthAwarePaginator;
 

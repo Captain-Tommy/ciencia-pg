@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\User;
+namespace Ciencia\Services\Application\Handlers\User;
 
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\User\DTO\ConfirmEmailWithCodeDTO;
-use HiEvents\Services\Application\Handlers\User\Exception\InvalidEmailVerificationCodeException;
-use HiEvents\Services\Domain\User\VerifyUserEmailService;
-use HiEvents\Services\Infrastructure\User\EmailVerificationCodeService;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\User\DTO\ConfirmEmailWithCodeDTO;
+use Ciencia\Services\Application\Handlers\User\Exception\InvalidEmailVerificationCodeException;
+use Ciencia\Services\Domain\User\VerifyUserEmailService;
+use Ciencia\Services\Infrastructure\User\EmailVerificationCodeService;
 use Illuminate\Database\DatabaseManager;
 
 class ConfirmEmailWithCodeHandler

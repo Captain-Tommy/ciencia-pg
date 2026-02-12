@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Domain\SelfService\DTO;
+namespace Ciencia\Services\Domain\SelfService\DTO;
 
 class EditOrderResultDTO
 {

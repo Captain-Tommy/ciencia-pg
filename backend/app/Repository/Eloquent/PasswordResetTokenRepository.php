@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\PasswordResetTokenDomainObject;
-use HiEvents\Models\PasswordResetToken;
-use HiEvents\Repository\Interfaces\PasswordResetTokenRepositoryInterface;
+use Ciencia\DomainObjects\PasswordResetTokenDomainObject;
+use Ciencia\Models\PasswordResetToken;
+use Ciencia\Repository\Interfaces\PasswordResetTokenRepositoryInterface;
 
 class PasswordResetTokenRepository extends BaseRepository implements PasswordResetTokenRepositoryInterface
 {

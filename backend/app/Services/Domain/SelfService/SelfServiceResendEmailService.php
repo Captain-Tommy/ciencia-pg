@@ -1,21 +1,21 @@
 <?php
 
-namespace HiEvents\Services\Domain\SelfService;
+namespace Ciencia\Services\Domain\SelfService;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Enums\OrderAuditAction;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\InvoiceDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Domain\Attendee\SendAttendeeTicketService;
-use HiEvents\Services\Domain\Mail\SendOrderDetailsService;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Enums\OrderAuditAction;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\InvoiceDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Domain\Attendee\SendAttendeeTicketService;
+use Ciencia\Services\Domain\Mail\SendOrderDetailsService;
 
 class SelfServiceResendEmailService
 {

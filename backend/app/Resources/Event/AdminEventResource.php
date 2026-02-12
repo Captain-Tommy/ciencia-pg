@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\Event;
+namespace Ciencia\Resources\Event;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Resources\BaseResource;
 use Illuminate\Http\Request;
 
 /**

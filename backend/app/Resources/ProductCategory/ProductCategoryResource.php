@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\ProductCategory;
+namespace Ciencia\Resources\ProductCategory;
 
-use HiEvents\DomainObjects\ProductCategoryDomainObject;
-use HiEvents\Resources\Product\ProductResource;
+use Ciencia\DomainObjects\ProductCategoryDomainObject;
+use Ciencia\Resources\Product\ProductResource;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 /**

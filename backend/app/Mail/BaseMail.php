@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Mail;
+namespace Ciencia\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

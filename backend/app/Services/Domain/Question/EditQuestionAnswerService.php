@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Domain\Question;
+namespace Ciencia\Services\Domain\Question;
 
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\QuestionDomainObject;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\QuestionAnswerRepositoryInterface;
-use HiEvents\Services\Domain\Question\Exception\InvalidAnswerException;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\QuestionDomainObject;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\QuestionAnswerRepositoryInterface;
+use Ciencia\Services\Domain\Question\Exception\InvalidAnswerException;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
 use BackedEnum;
 use UnitEnum;

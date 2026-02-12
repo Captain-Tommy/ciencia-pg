@@ -2,19 +2,19 @@
 
 namespace Tests\Unit\Services\Domain\EventStatistics;
 
-use HiEvents\DomainObjects\EventDailyStatisticDomainObject;
-use HiEvents\DomainObjects\EventStatisticDomainObject;
-use HiEvents\DomainObjects\Generated\ProductDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\Repository\Interfaces\EventDailyStatisticRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventStatisticRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
-use HiEvents\Services\Domain\EventStatistics\EventStatisticsIncrementService;
-use HiEvents\Services\Infrastructure\Utlitiy\Retry\Retrier;
+use Ciencia\DomainObjects\EventDailyStatisticDomainObject;
+use Ciencia\DomainObjects\EventStatisticDomainObject;
+use Ciencia\DomainObjects\Generated\ProductDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\Repository\Interfaces\EventDailyStatisticRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventStatisticRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\Services\Domain\EventStatistics\EventStatisticsIncrementService;
+use Ciencia\Services\Infrastructure\Utlitiy\Retry\Retrier;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Support\Collection;
 use Mockery;

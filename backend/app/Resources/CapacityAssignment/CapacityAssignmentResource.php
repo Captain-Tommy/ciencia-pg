@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Resources\CapacityAssignment;
+namespace Ciencia\Resources\CapacityAssignment;
 
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
-use HiEvents\DomainObjects\Enums\CapacityAssignmentAppliesTo;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\DomainObjects\Enums\CapacityAssignmentAppliesTo;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Resources\BaseResource;
 use Illuminate\Http\Request;
 
 /**

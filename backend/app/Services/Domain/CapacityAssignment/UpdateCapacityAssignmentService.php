@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Domain\CapacityAssignment;
+namespace Ciencia\Services\Domain\CapacityAssignment;
 
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
-use HiEvents\DomainObjects\Enums\CapacityAssignmentAppliesTo;
-use HiEvents\DomainObjects\Generated\CapacityAssignmentDomainObjectAbstract;
-use HiEvents\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
-use HiEvents\Services\Domain\Product\EventProductValidationService;
-use HiEvents\Services\Domain\Product\Exception\UnrecognizedProductIdException;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\DomainObjects\Enums\CapacityAssignmentAppliesTo;
+use Ciencia\DomainObjects\Generated\CapacityAssignmentDomainObjectAbstract;
+use Ciencia\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
+use Ciencia\Services\Domain\Product\EventProductValidationService;
+use Ciencia\Services\Domain\Product\Exception\UnrecognizedProductIdException;
 use Illuminate\Database\DatabaseManager;
 
 class UpdateCapacityAssignmentService

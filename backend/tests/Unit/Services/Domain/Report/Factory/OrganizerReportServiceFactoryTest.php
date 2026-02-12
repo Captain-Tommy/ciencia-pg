@@ -2,12 +2,12 @@
 
 namespace Tests\Unit\Services\Domain\Report\Factory;
 
-use HiEvents\DomainObjects\Enums\OrganizerReportTypes;
-use HiEvents\Services\Domain\Report\Factory\OrganizerReportServiceFactory;
-use HiEvents\Services\Domain\Report\OrganizerReports\EventsPerformanceReport;
-use HiEvents\Services\Domain\Report\OrganizerReports\RevenueSummaryReport;
-use HiEvents\Services\Domain\Report\OrganizerReports\TaxSummaryReport;
-use HiEvents\Services\Domain\Report\OrganizerReports\CheckInSummaryReport;
+use Ciencia\DomainObjects\Enums\OrganizerReportTypes;
+use Ciencia\Services\Domain\Report\Factory\OrganizerReportServiceFactory;
+use Ciencia\Services\Domain\Report\OrganizerReports\EventsPerformanceReport;
+use Ciencia\Services\Domain\Report\OrganizerReports\RevenueSummaryReport;
+use Ciencia\Services\Domain\Report\OrganizerReports\TaxSummaryReport;
+use Ciencia\Services\Domain\Report\OrganizerReports\CheckInSummaryReport;
 use Tests\TestCase;
 
 class OrganizerReportServiceFactoryTest extends TestCase

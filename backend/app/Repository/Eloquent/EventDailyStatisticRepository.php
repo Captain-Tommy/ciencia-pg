@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\EventDailyStatisticDomainObject;
-use HiEvents\Models\EventDailyStatistic;
-use HiEvents\Repository\Interfaces\EventDailyStatisticRepositoryInterface;
+use Ciencia\DomainObjects\EventDailyStatisticDomainObject;
+use Ciencia\Models\EventDailyStatistic;
+use Ciencia\Repository\Interfaces\EventDailyStatisticRepositoryInterface;
 
 class EventDailyStatisticRepository extends BaseRepository implements EventDailyStatisticRepositoryInterface
 {

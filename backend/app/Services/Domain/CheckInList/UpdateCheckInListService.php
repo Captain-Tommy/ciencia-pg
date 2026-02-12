@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Services\Domain\CheckInList;
+namespace Ciencia\Services\Domain\CheckInList;
 
-use HiEvents\DomainObjects\CheckInListDomainObject;
-use HiEvents\DomainObjects\Generated\CheckInListDomainObjectAbstract;
-use HiEvents\Helper\DateHelper;
-use HiEvents\Repository\Interfaces\CheckInListRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Services\Domain\Product\EventProductValidationService;
-use HiEvents\Services\Domain\Product\Exception\UnrecognizedProductIdException;
+use Ciencia\DomainObjects\CheckInListDomainObject;
+use Ciencia\DomainObjects\Generated\CheckInListDomainObjectAbstract;
+use Ciencia\Helper\DateHelper;
+use Ciencia\Repository\Interfaces\CheckInListRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Services\Domain\Product\EventProductValidationService;
+use Ciencia\Services\Domain\Product\Exception\UnrecognizedProductIdException;
 use Illuminate\Database\DatabaseManager;
 
 class UpdateCheckInListService

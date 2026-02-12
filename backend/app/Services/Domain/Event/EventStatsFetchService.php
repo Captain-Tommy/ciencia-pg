@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Domain\Event;
+namespace Ciencia\Services\Domain\Event;
 
 use Carbon\Carbon;
-use HiEvents\Services\Application\Handlers\Event\DTO\EventStatsRequestDTO;
-use HiEvents\Services\Application\Handlers\Event\DTO\EventStatsResponseDTO;
-use HiEvents\Services\Domain\Event\DTO\EventCheckInStatsResponseDTO;
-use HiEvents\Services\Domain\Event\DTO\EventDailyStatsResponseDTO;
+use Ciencia\Services\Application\Handlers\Event\DTO\EventStatsRequestDTO;
+use Ciencia\Services\Application\Handlers\Event\DTO\EventStatsResponseDTO;
+use Ciencia\Services\Domain\Event\DTO\EventCheckInStatsResponseDTO;
+use Ciencia\Services\Domain\Event\DTO\EventDailyStatsResponseDTO;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Support\Collection;
 

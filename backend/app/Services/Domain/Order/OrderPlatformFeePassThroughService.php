@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Domain\Order;
+namespace Ciencia\Services\Domain\Order;
 
 use Brick\Money\Currency as BrickCurrency;
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\Helper\Currency;
-use HiEvents\Services\Infrastructure\CurrencyConversion\CurrencyConversionClientInterface;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\Helper\Currency;
+use Ciencia\Services\Infrastructure\CurrencyConversion\CurrencyConversionClientInterface;
 use Illuminate\Config\Repository;
 
 class OrderPlatformFeePassThroughService

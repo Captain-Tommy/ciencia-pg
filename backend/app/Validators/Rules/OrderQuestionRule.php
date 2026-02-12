@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Validators\Rules;
+namespace Ciencia\Validators\Rules;
 
-use HiEvents\DomainObjects\QuestionDomainObject;
+use Ciencia\DomainObjects\QuestionDomainObject;
 use Illuminate\Support\Collection;
 use Illuminate\Validation\ValidationException;
 

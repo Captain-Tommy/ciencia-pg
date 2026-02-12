@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\SelfService;
+namespace Ciencia\Services\Application\Handlers\SelfService;
 
-use HiEvents\DomainObjects\Generated\AttendeeDomainObjectAbstract;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Application\Handlers\SelfService\DTO\ResendEmailPublicDTO;
-use HiEvents\Services\Domain\SelfService\SelfServiceResendEmailService;
+use Ciencia\DomainObjects\Generated\AttendeeDomainObjectAbstract;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Application\Handlers\SelfService\DTO\ResendEmailPublicDTO;
+use Ciencia\Services\Domain\SelfService\SelfServiceResendEmailService;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 class ResendAttendeeTicketPublicHandler

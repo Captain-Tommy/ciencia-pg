@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\Tax;
+namespace Ciencia\Resources\Tax;
 
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\Resources\BaseResource;
 
 /**
  * @mixin TaxAndFeesDomainObject

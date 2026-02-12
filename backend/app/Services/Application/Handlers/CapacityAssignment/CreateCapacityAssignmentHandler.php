@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CapacityAssignment;
+namespace Ciencia\Services\Application\Handlers\CapacityAssignment;
 
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
-use HiEvents\DomainObjects\Enums\CapacityAssignmentAppliesTo;
-use HiEvents\Services\Application\Handlers\CapacityAssignment\DTO\UpsertCapacityAssignmentDTO;
-use HiEvents\Services\Domain\CapacityAssignment\CreateCapacityAssignmentService;
-use HiEvents\Services\Domain\Product\Exception\UnrecognizedProductIdException;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\DomainObjects\Enums\CapacityAssignmentAppliesTo;
+use Ciencia\Services\Application\Handlers\CapacityAssignment\DTO\UpsertCapacityAssignmentDTO;
+use Ciencia\Services\Domain\CapacityAssignment\CreateCapacityAssignmentService;
+use Ciencia\Services\Domain\Product\Exception\UnrecognizedProductIdException;
 
 class CreateCapacityAssignmentHandler
 {

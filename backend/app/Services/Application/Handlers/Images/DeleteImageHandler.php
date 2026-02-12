@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Images;
+namespace Ciencia\Services\Application\Handlers\Images;
 
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\Exceptions\CannotDeleteEntityException;
-use HiEvents\Repository\Interfaces\ImageRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Images\DTO\DeleteImageDTO;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\Exceptions\CannotDeleteEntityException;
+use Ciencia\Repository\Interfaces\ImageRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Images\DTO\DeleteImageDTO;
 
 class DeleteImageHandler
 {

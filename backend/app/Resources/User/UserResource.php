@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Resources\User;
+namespace Ciencia\Resources\User;
 
 use Exception;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Resources\BaseResource;
 use Illuminate\Http\Request;
 
 /**

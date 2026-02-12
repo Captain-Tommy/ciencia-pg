@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\TaxAndFee;
+namespace Ciencia\Services\Application\Handlers\TaxAndFee;
 
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\Exceptions\ResourceNameAlreadyExistsException;
-use HiEvents\Repository\Interfaces\TaxAndFeeRepositoryInterface;
-use HiEvents\Services\Application\Handlers\TaxAndFee\DTO\UpsertTaxDTO;
-use HiEvents\Services\Domain\Tax\DuplicateTaxService;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\Exceptions\ResourceNameAlreadyExistsException;
+use Ciencia\Repository\Interfaces\TaxAndFeeRepositoryInterface;
+use Ciencia\Services\Application\Handlers\TaxAndFee\DTO\UpsertTaxDTO;
+use Ciencia\Services\Domain\Tax\DuplicateTaxService;
 use Psr\Log\LoggerInterface;
 
 class EditTaxHandler

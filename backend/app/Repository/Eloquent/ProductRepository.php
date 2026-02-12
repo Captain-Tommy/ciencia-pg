@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
 use Exception;
-use HiEvents\Constants;
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
-use HiEvents\DomainObjects\Generated\ProductDomainObjectAbstract;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Models\CapacityAssignment;
-use HiEvents\Models\CheckInList;
-use HiEvents\Models\Product;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Constants;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\DomainObjects\Generated\ProductDomainObjectAbstract;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Models\CapacityAssignment;
+use Ciencia\Models\CheckInList;
+use Ciencia\Models\Product;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;

@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order;
+namespace Ciencia\Services\Application\Handlers\Order;
 
-use HiEvents\DomainObjects\Generated\OrderDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Order\DTO\CancelOrderDTO;
-use HiEvents\Services\Application\Handlers\Order\DTO\RefundOrderDTO;
-use HiEvents\Services\Application\Handlers\Order\Payment\Stripe\RefundOrderHandler;
-use HiEvents\Services\Domain\Order\OrderCancelService;
+use Ciencia\DomainObjects\Generated\OrderDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Order\DTO\CancelOrderDTO;
+use Ciencia\Services\Application\Handlers\Order\DTO\RefundOrderDTO;
+use Ciencia\Services\Application\Handlers\Order\Payment\Stripe\RefundOrderHandler;
+use Ciencia\Services\Domain\Order\OrderCancelService;
 use Illuminate\Database\DatabaseManager;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 use Throwable;

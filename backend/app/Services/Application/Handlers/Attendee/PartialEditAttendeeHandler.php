@@ -1,17 +1,17 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Attendee;
+namespace Ciencia\Services\Application\Handlers\Attendee;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Status\AttendeeStatus;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Attendee\DTO\PartialEditAttendeeDTO;
-use HiEvents\Services\Domain\EventStatistics\EventStatisticsCancellationService;
-use HiEvents\Services\Domain\Product\ProductQuantityUpdateService;
-use HiEvents\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\AttendeeEvent;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Status\AttendeeStatus;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Attendee\DTO\PartialEditAttendeeDTO;
+use Ciencia\Services\Domain\EventStatistics\EventStatisticsCancellationService;
+use Ciencia\Services\Domain\Product\ProductQuantityUpdateService;
+use Ciencia\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\AttendeeEvent;
 use Illuminate\Database\DatabaseManager;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 use Throwable;

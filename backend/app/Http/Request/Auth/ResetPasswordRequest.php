@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Http\Request\Auth;
+namespace Ciencia\Http\Request\Auth;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rules\Password;

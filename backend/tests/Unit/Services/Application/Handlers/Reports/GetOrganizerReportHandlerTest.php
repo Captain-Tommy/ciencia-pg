@@ -2,11 +2,11 @@
 
 namespace Tests\Unit\Services\Application\Handlers\Reports;
 
-use HiEvents\DomainObjects\Enums\OrganizerReportTypes;
-use HiEvents\Services\Application\Handlers\Reports\DTO\GetOrganizerReportDTO;
-use HiEvents\Services\Application\Handlers\Reports\GetOrganizerReportHandler;
-use HiEvents\Services\Domain\Report\AbstractOrganizerReportService;
-use HiEvents\Services\Domain\Report\Factory\OrganizerReportServiceFactory;
+use Ciencia\DomainObjects\Enums\OrganizerReportTypes;
+use Ciencia\Services\Application\Handlers\Reports\DTO\GetOrganizerReportDTO;
+use Ciencia\Services\Application\Handlers\Reports\GetOrganizerReportHandler;
+use Ciencia\Services\Domain\Report\AbstractOrganizerReportService;
+use Ciencia\Services\Domain\Report\Factory\OrganizerReportServiceFactory;
 use Mockery as m;
 use Tests\TestCase;
 

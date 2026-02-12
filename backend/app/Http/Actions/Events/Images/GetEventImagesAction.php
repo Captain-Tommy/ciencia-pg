@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Events\Images;
+namespace Ciencia\Http\Actions\Events\Images;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\ImageRepositoryInterface;
-use HiEvents\Resources\Image\ImageResource;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\ImageRepositoryInterface;
+use Ciencia\Resources\Image\ImageResource;
 use Illuminate\Http\JsonResponse;
 
 class GetEventImagesAction extends BaseAction

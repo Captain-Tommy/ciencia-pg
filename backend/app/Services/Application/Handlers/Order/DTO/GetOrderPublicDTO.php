@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order\DTO;
+namespace Ciencia\Services\Application\Handlers\Order\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class GetOrderPublicDTO extends BaseDTO
 {

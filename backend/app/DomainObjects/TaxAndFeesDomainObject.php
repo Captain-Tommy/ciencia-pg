@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
-use HiEvents\DomainObjects\Enums\TaxType;
+use Ciencia\DomainObjects\Enums\TaxType;
 
 class TaxAndFeesDomainObject extends Generated\TaxAndFeesDomainObjectAbstract
 {

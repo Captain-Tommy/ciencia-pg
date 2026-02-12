@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\TicketLookup\DTO;
+namespace Ciencia\Services\Application\Handlers\TicketLookup\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
+use Ciencia\DataTransferObjects\BaseDataObject;
 
 class SendTicketLookupEmailDTO extends BaseDataObject
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\Organizer;
+namespace Ciencia\Resources\Organizer;
 
-use HiEvents\DomainObjects\OrganizerSettingDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\OrganizerSettingDomainObject;
+use Ciencia\Resources\BaseResource;
 
 /**
  * @mixin OrganizerSettingDomainObject

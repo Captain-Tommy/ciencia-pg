@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\User;
+namespace Ciencia\Services\Application\Handlers\User;
 
-use HiEvents\DomainObjects\AccountUserDomainObject;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\DomainObjects\Status\UserStatus;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\CannotUpdateResourceException;
-use HiEvents\Repository\Interfaces\AccountUserRepositoryInterface;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\User\DTO\UpdateUserDTO;
+use Ciencia\DomainObjects\AccountUserDomainObject;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\DomainObjects\Status\UserStatus;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\CannotUpdateResourceException;
+use Ciencia\Repository\Interfaces\AccountUserRepositoryInterface;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\User\DTO\UpdateUserDTO;
 use Illuminate\Database\DatabaseManager;
 use Psr\Log\LoggerInterface;
 use Throwable;

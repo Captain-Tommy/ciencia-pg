@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Email;
+namespace Ciencia\Services\Infrastructure\Email;
 
 use Exception;
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
 use Liquid\Exception\ParseException;
 use Liquid\Template;
 use RuntimeException;

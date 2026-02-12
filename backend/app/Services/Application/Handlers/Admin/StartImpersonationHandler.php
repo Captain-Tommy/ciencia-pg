@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Exceptions\UnauthorizedException;
-use HiEvents\Models\User;
-use HiEvents\Repository\Interfaces\AccountUserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Admin\DTO\StartImpersonationDTO;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Exceptions\UnauthorizedException;
+use Ciencia\Models\User;
+use Ciencia\Repository\Interfaces\AccountUserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Admin\DTO\StartImpersonationDTO;
 use Illuminate\Auth\AuthManager;
 
 class StartImpersonationHandler

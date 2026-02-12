@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\EmailTemplate\DTO;
+namespace Ciencia\Services\Application\Handlers\EmailTemplate\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\DataTransferObjects\BaseDataObject;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
 
 class GetEmailTemplatesDTO extends BaseDataObject
 {

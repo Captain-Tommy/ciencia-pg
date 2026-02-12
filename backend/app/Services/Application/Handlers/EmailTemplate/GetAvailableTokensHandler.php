@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\EmailTemplate;
+namespace Ciencia\Services\Application\Handlers\EmailTemplate;
 
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
-use HiEvents\Services\Infrastructure\Email\LiquidTemplateRenderer;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\Services\Infrastructure\Email\LiquidTemplateRenderer;
 
 class GetAvailableTokensHandler
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Attendees;
+namespace Ciencia\Http\Actions\Attendees;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Resources\Attendee\AttendeeResource;
-use HiEvents\Services\Application\Handlers\Attendee\GetAttendeesHandler;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Resources\Attendee\AttendeeResource;
+use Ciencia\Services\Application\Handlers\Attendee\GetAttendeesHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

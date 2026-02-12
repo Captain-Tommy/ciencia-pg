@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Auth;
+namespace Ciencia\Services\Application\Handlers\Auth;
 
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\PasswordInvalidException;
-use HiEvents\Mail\User\ResetPasswordSuccess;
-use HiEvents\Repository\Interfaces\PasswordResetTokenRepositoryInterface;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Auth\DTO\ResetPasswordDTO;
-use HiEvents\Services\Domain\Auth\ResetPasswordTokenValidateService;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\PasswordInvalidException;
+use Ciencia\Mail\User\ResetPasswordSuccess;
+use Ciencia\Repository\Interfaces\PasswordResetTokenRepositoryInterface;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Auth\DTO\ResetPasswordDTO;
+use Ciencia\Services\Domain\Auth\ResetPasswordTokenValidateService;
 use Illuminate\Contracts\Mail\Mailer;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Hashing\HashManager;

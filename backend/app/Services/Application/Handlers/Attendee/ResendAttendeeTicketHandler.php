@@ -1,18 +1,18 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Attendee;
+namespace Ciencia\Services\Application\Handlers\Attendee;
 
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\Status\AttendeeStatus;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Attendee\DTO\ResendAttendeeTicketDTO;
-use HiEvents\Services\Domain\Attendee\SendAttendeeTicketService;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\Status\AttendeeStatus;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Attendee\DTO\ResendAttendeeTicketDTO;
+use Ciencia\Services\Domain\Attendee\SendAttendeeTicketService;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

@@ -1,20 +1,20 @@
 <?php
 
-namespace HiEvents\Http\Actions\Attendees;
+namespace Ciencia\Http\Actions\Attendees;
 
-use HiEvents\DomainObjects\AttendeeCheckInDomainObject;
-use HiEvents\DomainObjects\CheckInListDomainObject;
-use HiEvents\DomainObjects\Enums\QuestionBelongsTo;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\QuestionAndAnswerViewDomainObject;
-use HiEvents\Exports\AttendeesExport;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\QuestionRepositoryInterface;
+use Ciencia\DomainObjects\AttendeeCheckInDomainObject;
+use Ciencia\DomainObjects\CheckInListDomainObject;
+use Ciencia\DomainObjects\Enums\QuestionBelongsTo;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\QuestionAndAnswerViewDomainObject;
+use Ciencia\Exports\AttendeesExport;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\QuestionRepositoryInterface;
 use Maatwebsite\Excel\Facades\Excel;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 

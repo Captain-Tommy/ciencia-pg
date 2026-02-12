@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\Models\TaxAndFee;
-use HiEvents\Repository\Interfaces\TaxAndFeeRepositoryInterface;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\Models\TaxAndFee;
+use Ciencia\Repository\Interfaces\TaxAndFeeRepositoryInterface;
 
 class TaxAndFeeRepository extends BaseRepository implements TaxAndFeeRepositoryInterface
 {

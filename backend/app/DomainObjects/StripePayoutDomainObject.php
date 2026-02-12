@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
-use HiEvents\DomainObjects\Generated\StripePayoutDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\StripePayoutDomainObjectAbstract;
 
 class StripePayoutDomainObject extends StripePayoutDomainObjectAbstract
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
 class AccountVatSettingDomainObject extends Generated\AccountVatSettingDomainObjectAbstract
 {

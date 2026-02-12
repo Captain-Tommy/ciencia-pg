@@ -2,10 +2,10 @@
 
 namespace Tests\Unit\Services\Application\Handlers\Admin;
 
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
-use HiEvents\Exceptions\CannotDeleteEntityException;
-use HiEvents\Repository\Interfaces\AccountConfigurationRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Admin\DeleteConfigurationHandler;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\Exceptions\CannotDeleteEntityException;
+use Ciencia\Repository\Interfaces\AccountConfigurationRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Admin\DeleteConfigurationHandler;
 use Mockery;
 use Tests\TestCase;
 

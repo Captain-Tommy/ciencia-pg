@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
-use HiEvents\Models\AccountConfiguration;
-use HiEvents\Repository\Interfaces\AccountConfigurationRepositoryInterface;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\Models\AccountConfiguration;
+use Ciencia\Repository\Interfaces\AccountConfigurationRepositoryInterface;
 
 class AccountConfigurationRepository extends BaseRepository implements AccountConfigurationRepositoryInterface
 {

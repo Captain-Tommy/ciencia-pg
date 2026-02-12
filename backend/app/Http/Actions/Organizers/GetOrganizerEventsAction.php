@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\Organizers;
+namespace Ciencia\Http\Actions\Organizers;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Resources\Event\EventResource;
-use HiEvents\Services\Application\Handlers\Organizer\DTO\GetOrganizerEventsDTO;
-use HiEvents\Services\Application\Handlers\Organizer\GetOrganizerEventsHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Resources\Event\EventResource;
+use Ciencia\Services\Application\Handlers\Organizer\DTO\GetOrganizerEventsDTO;
+use Ciencia\Services\Application\Handlers\Organizer\GetOrganizerEventsHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

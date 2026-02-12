@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Exports\AnswerExportSheets;
+namespace Ciencia\Exports\AnswerExportSheets;
 
-use HiEvents\DomainObjects\Enums\QuestionTypeEnum;
-use HiEvents\DomainObjects\QuestionAndAnswerViewDomainObject;
-use HiEvents\Helper\Url;
-use HiEvents\Services\Domain\Question\QuestionAnswerFormatter;
+use Ciencia\DomainObjects\Enums\QuestionTypeEnum;
+use Ciencia\DomainObjects\QuestionAndAnswerViewDomainObject;
+use Ciencia\Helper\Url;
+use Ciencia\Services\Domain\Question\QuestionAnswerFormatter;
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\ShouldAutoSize;

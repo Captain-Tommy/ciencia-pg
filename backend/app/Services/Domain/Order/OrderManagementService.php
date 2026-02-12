@@ -1,18 +1,18 @@
 <?php
 
-namespace HiEvents\Services\Domain\Order;
+namespace Ciencia\Services\Domain\Order;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\AffiliateDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\Generated\OrderDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\PromoCodeDomainObject;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Helper\IdHelper;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Domain\Tax\TaxAndFeeOrderRollupService;
+use Ciencia\DomainObjects\AffiliateDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\Generated\OrderDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Helper\IdHelper;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Domain\Tax\TaxAndFeeOrderRollupService;
 use Illuminate\Support\Collection;
 
 class OrderManagementService

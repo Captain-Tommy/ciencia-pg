@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\ProductCategoryDomainObject;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Models\ProductCategory;
-use HiEvents\Repository\Interfaces\ProductCategoryRepositoryInterface;
+use Ciencia\DomainObjects\ProductCategoryDomainObject;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Models\ProductCategory;
+use Ciencia\Repository\Interfaces\ProductCategoryRepositoryInterface;
 use Illuminate\Support\Collection;
 
 class ProductCategoryRepository extends BaseRepository implements ProductCategoryRepositoryInterface

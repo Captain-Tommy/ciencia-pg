@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order;
+namespace Ciencia\Services\Application\Handlers\Order;
 
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Services\Application\Handlers\Order\DTO\MarkOrderAsPaidDTO;
-use HiEvents\Services\Domain\Order\MarkOrderAsPaidService;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Services\Application\Handlers\Order\DTO\MarkOrderAsPaidDTO;
+use Ciencia\Services\Domain\Order\MarkOrderAsPaidService;
 use Psr\Log\LoggerInterface;
 use Throwable;
 

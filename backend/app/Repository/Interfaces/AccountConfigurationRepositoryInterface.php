@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
-use HiEvents\Repository\Eloquent\BaseRepository;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\Repository\Eloquent\BaseRepository;
 
 /**
  * @extends BaseRepository<AccountConfigurationDomainObject>

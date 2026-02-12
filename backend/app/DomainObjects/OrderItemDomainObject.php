@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
-use HiEvents\Helper\Currency;
+use Ciencia\Helper\Currency;
 
 class OrderItemDomainObject extends Generated\OrderItemDomainObjectAbstract
 {

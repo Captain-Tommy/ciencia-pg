@@ -2,12 +2,12 @@
 
 namespace Tests\Unit\Jobs\Message;
 
-use HiEvents\DomainObjects\MessageDomainObject;
-use HiEvents\DomainObjects\Status\MessageStatus;
-use HiEvents\Jobs\Event\SendMessagesJob;
-use HiEvents\Jobs\Message\SendScheduledMessagesJob;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
-use HiEvents\Services\Domain\Message\MessageDispatchService;
+use Ciencia\DomainObjects\MessageDomainObject;
+use Ciencia\DomainObjects\Status\MessageStatus;
+use Ciencia\Jobs\Event\SendMessagesJob;
+use Ciencia\Jobs\Message\SendScheduledMessagesJob;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\Services\Domain\Message\MessageDispatchService;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Bus;
 use Mockery as m;

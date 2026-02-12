@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Request\CheckInList;
+namespace Ciencia\Http\Request\CheckInList;
 
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Validators\Rules\RulesHelper;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Validators\Rules\RulesHelper;
 
 class UpsertCheckInListRequest extends BaseRequest
 {

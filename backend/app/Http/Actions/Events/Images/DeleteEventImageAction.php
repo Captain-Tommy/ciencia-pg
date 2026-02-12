@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Events\Images;
+namespace Ciencia\Http\Actions\Events\Images;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Event\DeleteEventImageHandler;
-use HiEvents\Services\Application\Handlers\Event\DTO\DeleteEventImageDTO;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Event\DeleteEventImageHandler;
+use Ciencia\Services\Application\Handlers\Event\DTO\DeleteEventImageDTO;
 use Illuminate\Http\Response;
 
 class DeleteEventImageAction extends BaseAction

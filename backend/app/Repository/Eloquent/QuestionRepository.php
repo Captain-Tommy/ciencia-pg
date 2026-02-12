@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\Generated\QuestionDomainObjectAbstract;
-use HiEvents\DomainObjects\QuestionDomainObject;
-use HiEvents\Models\Question;
-use HiEvents\Models\ProductQuestion;
-use HiEvents\Repository\Interfaces\QuestionRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\DomainObjects\Generated\QuestionDomainObjectAbstract;
+use Ciencia\DomainObjects\QuestionDomainObject;
+use Ciencia\Models\Question;
+use Ciencia\Models\ProductQuestion;
+use Ciencia\Repository\Interfaces\QuestionRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Collection;

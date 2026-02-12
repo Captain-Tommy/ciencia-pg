@@ -1,23 +1,23 @@
 <?php
 
-namespace HiEvents\Services\Domain\Product;
+namespace Ciencia\Services\Domain\Product;
 
-use HiEvents\Constants;
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\ProductCategoryDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\PromoCodeDomainObject;
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\Helper\Currency;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Services\Domain\Order\OrderPlatformFeePassThroughService;
-use HiEvents\Services\Domain\Product\DTO\AvailableProductQuantitiesDTO;
-use HiEvents\Services\Domain\Tax\TaxAndFeeCalculationService;
+use Ciencia\Constants;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\ProductCategoryDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\Helper\Currency;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Services\Domain\Order\OrderPlatformFeePassThroughService;
+use Ciencia\Services\Domain\Product\DTO\AvailableProductQuantitiesDTO;
+use Ciencia\Services\Domain\Tax\TaxAndFeeCalculationService;
 use Illuminate\Support\Collection;
 
 class ProductFilterService

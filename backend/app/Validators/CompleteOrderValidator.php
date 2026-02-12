@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Validators;
+namespace Ciencia\Validators;
 
-use HiEvents\DomainObjects\Enums\QuestionBelongsTo;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\Generated\ProductDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\QuestionDomainObjectAbstract;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\QuestionDomainObject;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\EventSettingsRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Repository\Interfaces\QuestionRepositoryInterface;
-use HiEvents\Validators\Rules\OrderQuestionRule;
-use HiEvents\Validators\Rules\ProductQuestionRule;
+use Ciencia\DomainObjects\Enums\QuestionBelongsTo;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\Generated\ProductDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\QuestionDomainObjectAbstract;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\QuestionDomainObject;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\EventSettingsRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Repository\Interfaces\QuestionRepositoryInterface;
+use Ciencia\Validators\Rules\OrderQuestionRule;
+use Ciencia\Validators\Rules\ProductQuestionRule;
 use Illuminate\Routing\Route;
 
 class CompleteOrderValidator extends BaseValidator

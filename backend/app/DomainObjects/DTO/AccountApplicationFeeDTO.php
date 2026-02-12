@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DomainObjects\DTO;
+namespace Ciencia\DomainObjects\DTO;
 
 class AccountApplicationFeeDTO
 {

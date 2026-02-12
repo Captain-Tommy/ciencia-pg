@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order\DTO;
+namespace Ciencia\Services\Application\Handlers\Order\DTO;
 
-use HiEvents\DataTransferObjects\Attributes\CollectionOf;
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\Services\Domain\Product\DTO\OrderProductPriceDTO;
+use Ciencia\DataTransferObjects\Attributes\CollectionOf;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\Services\Domain\Product\DTO\OrderProductPriceDTO;
 use Illuminate\Support\Collection;
 
 class ProductOrderDetailsDTO extends BaseDTO

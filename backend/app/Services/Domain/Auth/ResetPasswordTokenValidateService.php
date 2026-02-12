@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Domain\Auth;
+namespace Ciencia\Services\Domain\Auth;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\PasswordResetTokenDomainObject;
-use HiEvents\Exceptions\InvalidPasswordResetTokenException;
-use HiEvents\Repository\Interfaces\PasswordResetTokenRepositoryInterface;
+use Ciencia\DomainObjects\PasswordResetTokenDomainObject;
+use Ciencia\Exceptions\InvalidPasswordResetTokenException;
+use Ciencia\Repository\Interfaces\PasswordResetTokenRepositoryInterface;
 use Illuminate\Config\Repository;
 
 class ResetPasswordTokenValidateService

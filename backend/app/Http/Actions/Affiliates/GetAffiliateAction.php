@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Affiliates;
+namespace Ciencia\Http\Actions\Affiliates;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\AffiliateRepositoryInterface;
-use HiEvents\Resources\Affiliate\AffiliateResource;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\AffiliateRepositoryInterface;
+use Ciencia\Resources\Affiliate\AffiliateResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;

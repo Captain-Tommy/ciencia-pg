@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
-use HiEvents\DomainObjects\Status\AttendeeStatus;
-use HiEvents\DomainObjects\Status\EventStatus;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Admin\DTO\GetAdminStatsDTO;
+use Ciencia\DomainObjects\Status\AttendeeStatus;
+use Ciencia\DomainObjects\Status\EventStatus;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Admin\DTO\GetAdminStatsDTO;
 
 class GetAdminStatsHandler
 {

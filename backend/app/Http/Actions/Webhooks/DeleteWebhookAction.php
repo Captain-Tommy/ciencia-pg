@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Actions\Webhooks;
+namespace Ciencia\Http\Actions\Webhooks;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Webhook\DeleteWebhookHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Webhook\DeleteWebhookHandler;
 use Illuminate\Http\Response;
 
 class DeleteWebhookAction extends BaseAction

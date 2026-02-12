@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\Interfaces\IsSortable;
-use HiEvents\DomainObjects\SortingAndFiltering\AllowedSorts;
+use Ciencia\DomainObjects\Interfaces\IsSortable;
+use Ciencia\DomainObjects\SortingAndFiltering\AllowedSorts;
 use Illuminate\Support\Collection;
 
 class CheckInListDomainObject extends Generated\CheckInListDomainObjectAbstract implements IsSortable

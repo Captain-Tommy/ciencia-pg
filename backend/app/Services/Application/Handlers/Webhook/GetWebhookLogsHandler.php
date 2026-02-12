@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Webhook;
+namespace Ciencia\Services\Application\Handlers\Webhook;
 
-use HiEvents\Repository\Interfaces\WebhookLogRepositoryInterface;
-use HiEvents\Repository\Interfaces\WebhookRepositoryInterface;
+use Ciencia\Repository\Interfaces\WebhookLogRepositoryInterface;
+use Ciencia\Repository\Interfaces\WebhookRepositoryInterface;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

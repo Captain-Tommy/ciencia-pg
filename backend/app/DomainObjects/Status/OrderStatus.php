@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\DomainObjects\Status;
+namespace Ciencia\DomainObjects\Status;
 
-use HiEvents\DomainObjects\Enums\BaseEnum;
+use Ciencia\DomainObjects\Enums\BaseEnum;
 
 enum OrderStatus
 {

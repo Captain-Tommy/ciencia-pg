@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Domain\EventStatistics;
+namespace Ciencia\Services\Domain\EventStatistics;
 
-use HiEvents\DomainObjects\Generated\OrderDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\Status\AttendeeStatus;
-use HiEvents\Exceptions\EventStatisticsVersionMismatchException;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventDailyStatisticRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventStatisticRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Infrastructure\Utlitiy\Retry\Retrier;
+use Ciencia\DomainObjects\Generated\OrderDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\Status\AttendeeStatus;
+use Ciencia\Exceptions\EventStatisticsVersionMismatchException;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventDailyStatisticRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventStatisticRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Infrastructure\Utlitiy\Retry\Retrier;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Support\Carbon;
 use Psr\Log\LoggerInterface;

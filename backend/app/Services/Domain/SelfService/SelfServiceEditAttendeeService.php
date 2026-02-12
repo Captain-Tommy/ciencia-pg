@@ -1,21 +1,21 @@
 <?php
 
-namespace HiEvents\Services\Domain\SelfService;
+namespace Ciencia\Services\Domain\SelfService;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Helper\IdHelper;
-use HiEvents\Mail\Attendee\AttendeeDetailsChangedMail;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Services\Domain\Attendee\SendAttendeeTicketService;
-use HiEvents\Services\Domain\SelfService\DTO\EditAttendeeResultDTO;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Helper\IdHelper;
+use Ciencia\Mail\Attendee\AttendeeDetailsChangedMail;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Services\Domain\Attendee\SendAttendeeTicketService;
+use Ciencia\Services\Domain\SelfService\DTO\EditAttendeeResultDTO;
 use Illuminate\Support\Facades\Mail;
 
 class SelfServiceEditAttendeeService

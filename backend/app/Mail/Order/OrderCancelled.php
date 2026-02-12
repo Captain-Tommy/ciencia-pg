@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Mail\Order;
+namespace Ciencia\Mail\Order;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Helper\Url;
-use HiEvents\Mail\BaseMail;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Helper\Url;
+use Ciencia\Mail\BaseMail;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 

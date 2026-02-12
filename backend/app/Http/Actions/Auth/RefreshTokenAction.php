@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Http\Actions\Auth;
+namespace Ciencia\Http\Actions\Auth;
 
 use Illuminate\Http\JsonResponse;
 

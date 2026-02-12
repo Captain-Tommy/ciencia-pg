@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Exports;
+namespace Ciencia\Exports;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\AffiliateDomainObject;
-use HiEvents\Resources\Affiliate\AffiliateResource;
+use Ciencia\DomainObjects\AffiliateDomainObject;
+use Ciencia\Resources\Affiliate\AffiliateResource;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Maatwebsite\Excel\Concerns\FromCollection;

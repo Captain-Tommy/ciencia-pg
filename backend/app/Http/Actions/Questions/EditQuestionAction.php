@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Http\Actions\Questions;
+namespace Ciencia\Http\Actions\Questions;
 
-use HiEvents\DomainObjects\Enums\QuestionBelongsTo;
-use HiEvents\DomainObjects\Enums\QuestionTypeEnum;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Questions\UpsertQuestionRequest;
-use HiEvents\Resources\Question\QuestionResource;
-use HiEvents\Services\Application\Handlers\Question\DTO\UpsertQuestionDTO;
-use HiEvents\Services\Application\Handlers\Question\EditQuestionHandler;
+use Ciencia\DomainObjects\Enums\QuestionBelongsTo;
+use Ciencia\DomainObjects\Enums\QuestionTypeEnum;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Questions\UpsertQuestionRequest;
+use Ciencia\Resources\Question\QuestionResource;
+use Ciencia\Services\Application\Handlers\Question\DTO\UpsertQuestionDTO;
+use Ciencia\Services\Application\Handlers\Question\EditQuestionHandler;
 use Illuminate\Http\JsonResponse;
 use Throwable;
 

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Admin\Users;
+namespace Ciencia\Http\Actions\Admin\Users;
 
-use HiEvents\Http\Actions\Auth\BaseAuthAction;
-use HiEvents\Services\Application\Handlers\Admin\DTO\StopImpersonationDTO;
-use HiEvents\Services\Application\Handlers\Admin\StopImpersonationHandler;
+use Ciencia\Http\Actions\Auth\BaseAuthAction;
+use Ciencia\Services\Application\Handlers\Admin\DTO\StopImpersonationDTO;
+use Ciencia\Services\Application\Handlers\Admin\StopImpersonationHandler;
 use Illuminate\Auth\AuthManager;
 use Illuminate\Http\JsonResponse;
 

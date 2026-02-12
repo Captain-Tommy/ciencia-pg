@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event\DTO;
+namespace Ciencia\Services\Application\Handlers\Event\DTO;
 
-use HiEvents\DataTransferObjects\Attributes\CollectionOf;
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\Services\Domain\Event\DTO\EventCheckInStatsResponseDTO;
-use HiEvents\Services\Domain\Event\DTO\EventDailyStatsResponseDTO;
+use Ciencia\DataTransferObjects\Attributes\CollectionOf;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\Services\Domain\Event\DTO\EventCheckInStatsResponseDTO;
+use Ciencia\Services\Domain\Event\DTO\EventDailyStatsResponseDTO;
 use Illuminate\Support\Collection;
 
 class EventStatsResponseDTO extends BaseDTO

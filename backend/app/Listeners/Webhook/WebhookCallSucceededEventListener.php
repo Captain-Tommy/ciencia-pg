@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Listeners\Webhook;
+namespace Ciencia\Listeners\Webhook;
 
 use Spatie\WebhookServer\Events\WebhookCallSucceededEvent;
 

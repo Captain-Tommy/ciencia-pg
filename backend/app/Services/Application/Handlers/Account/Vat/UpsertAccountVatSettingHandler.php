@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Account\Vat;
+namespace Ciencia\Services\Application\Handlers\Account\Vat;
 
-use HiEvents\DomainObjects\AccountVatSettingDomainObject;
-use HiEvents\DomainObjects\Status\VatValidationStatus;
-use HiEvents\Jobs\Vat\ValidateVatNumberJob;
-use HiEvents\Repository\Interfaces\AccountVatSettingRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Account\Vat\DTO\UpsertAccountVatSettingDTO;
-use HiEvents\Services\Infrastructure\Vat\ViesValidationService;
+use Ciencia\DomainObjects\AccountVatSettingDomainObject;
+use Ciencia\DomainObjects\Status\VatValidationStatus;
+use Ciencia\Jobs\Vat\ValidateVatNumberJob;
+use Ciencia\Repository\Interfaces\AccountVatSettingRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Account\Vat\DTO\UpsertAccountVatSettingDTO;
+use Ciencia\Services\Infrastructure\Vat\ViesValidationService;
 use Psr\Log\LoggerInterface;
 
 class UpsertAccountVatSettingHandler

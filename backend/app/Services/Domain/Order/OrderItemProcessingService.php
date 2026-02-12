@@ -1,27 +1,27 @@
 <?php
 
-namespace HiEvents\Services\Domain\Order;
+namespace Ciencia\Services\Domain\Order;
 
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
-use HiEvents\DomainObjects\Enums\TaxCalculationType;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\Generated\ProductDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\PromoCodeDomainObject;
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\Helper\Currency;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Order\DTO\ProductOrderDetailsDTO;
-use HiEvents\Services\Domain\Product\DTO\OrderProductPriceDTO;
-use HiEvents\Services\Domain\Product\ProductPriceService;
-use HiEvents\Services\Domain\Tax\TaxAndFeeCalculationService;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\DomainObjects\Enums\TaxCalculationType;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\Generated\ProductDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\Helper\Currency;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Order\DTO\ProductOrderDetailsDTO;
+use Ciencia\Services\Domain\Product\DTO\OrderProductPriceDTO;
+use Ciencia\Services\Domain\Product\ProductPriceService;
+use Ciencia\Services\Domain\Tax\TaxAndFeeCalculationService;
 use Illuminate\Support\Collection;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

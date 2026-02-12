@@ -1,9 +1,9 @@
-@php /** @var \HiEvents\DomainObjects\OrderDomainObject $order */ @endphp
-@php /** @var \HiEvents\DomainObjects\EventDomainObject $event */ @endphp
-@php /** @var \HiEvents\DomainObjects\OrganizerDomainObject $organizer */ @endphp
-@php /** @var \HiEvents\DomainObjects\EventSettingDomainObject $eventSettings */ @endphp
+@php /** @var \Ciencia\DomainObjects\OrderDomainObject $order */ @endphp
+@php /** @var \Ciencia\DomainObjects\EventDomainObject $event */ @endphp
+@php /** @var \Ciencia\DomainObjects\OrganizerDomainObject $organizer */ @endphp
+@php /** @var \Ciencia\DomainObjects\EventSettingDomainObject $eventSettings */ @endphp
 
-@php /** @see \HiEvents\Mail\Order\PaymentSuccessButOrderExpiredMail */ @endphp
+@php /** @see \Ciencia\Mail\Order\PaymentSuccessButOrderExpiredMail */ @endphp
 
 <x-mail::message>
 {{ __('Hello') }},

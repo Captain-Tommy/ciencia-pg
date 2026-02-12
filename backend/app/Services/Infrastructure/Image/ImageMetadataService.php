@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Image;
+namespace Ciencia\Services\Infrastructure\Image;
 
-use HiEvents\Services\Infrastructure\Image\DTO\ImageMetadataDTO;
+use Ciencia\Services\Infrastructure\Image\DTO\ImageMetadataDTO;
 use Illuminate\Http\UploadedFile;
 use Imagick;
 use Psr\Log\LoggerInterface;

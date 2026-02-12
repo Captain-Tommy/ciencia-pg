@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\User\DTO;
+namespace Ciencia\Services\Application\Handlers\User\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
-use HiEvents\DomainObjects\Enums\Role;
+use Ciencia\DataTransferObjects\BaseDataObject;
+use Ciencia\DomainObjects\Enums\Role;
 use Spatie\LaravelData\Attributes\WithCast;
 use Spatie\LaravelData\Casts\EnumCast;
 

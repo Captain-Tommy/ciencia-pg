@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventStatisticDomainObject;
-use HiEvents\DomainObjects\Generated\EventDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\EventSettingDomainObjectAbstract;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\Status\EventStatus;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Models\Event;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventStatisticDomainObject;
+use Ciencia\DomainObjects\Generated\EventDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\EventSettingDomainObjectAbstract;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\Status\EventStatus;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Models\Event;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Pagination\LengthAwarePaginator;
 

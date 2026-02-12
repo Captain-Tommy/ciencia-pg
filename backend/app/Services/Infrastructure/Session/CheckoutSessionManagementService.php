@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Session;
+namespace Ciencia\Services\Infrastructure\Session;
 
 use Illuminate\Config\Repository;
 use Illuminate\Http\Request;

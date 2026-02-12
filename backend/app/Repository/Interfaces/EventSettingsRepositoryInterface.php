@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\Repository\Eloquent\BaseRepository;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\Repository\Eloquent\BaseRepository;
 
 /**
  * @extends BaseRepository<EventSettingDomainObject>

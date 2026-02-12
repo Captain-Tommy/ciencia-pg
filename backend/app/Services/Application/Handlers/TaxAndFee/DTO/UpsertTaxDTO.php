@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\TaxAndFee\DTO;
+namespace Ciencia\Services\Application\Handlers\TaxAndFee\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Enums\TaxCalculationType;
-use HiEvents\DomainObjects\Enums\TaxType;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Enums\TaxCalculationType;
+use Ciencia\DomainObjects\Enums\TaxType;
 
 class UpsertTaxDTO extends BaseDTO
 {

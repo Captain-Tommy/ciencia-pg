@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
 use Carbon\Carbon;
-use HiEvents\Helper\Currency;
+use Ciencia\Helper\Currency;
 use LogicException;
 
 class ProductPriceDomainObject extends Generated\ProductPriceDomainObjectAbstract

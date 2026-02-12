@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\OrderRefundDomainObject;
-use HiEvents\Models\OrderRefund;
-use HiEvents\Repository\Interfaces\OrderRefundRepositoryInterface;
+use Ciencia\DomainObjects\OrderRefundDomainObject;
+use Ciencia\Models\OrderRefund;
+use Ciencia\Repository\Interfaces\OrderRefundRepositoryInterface;
 
 class OrderRefundRepository extends BaseRepository implements OrderRefundRepositoryInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DomainObjects\Enums;
+namespace Ciencia\DomainObjects\Enums;
 
 enum CheckInAction
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
 
 class UpdateAccountMessagingTierHandler
 {

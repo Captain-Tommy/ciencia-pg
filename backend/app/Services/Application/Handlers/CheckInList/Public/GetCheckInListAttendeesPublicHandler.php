@@ -1,18 +1,18 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CheckInList\Public;
+namespace Ciencia\Services\Application\Handlers\CheckInList\Public;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\CheckInListDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\Generated\CheckInListDomainObjectAbstract;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Exceptions\CannotCheckInException;
-use HiEvents\Helper\DateHelper;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\CheckInListRepositoryInterface;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\CheckInListDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\Generated\CheckInListDomainObjectAbstract;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Exceptions\CannotCheckInException;
+use Ciencia\Helper\DateHelper;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\CheckInListRepositoryInterface;
 use Illuminate\Contracts\Pagination\Paginator;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

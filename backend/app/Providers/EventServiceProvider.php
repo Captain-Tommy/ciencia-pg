@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Providers;
+namespace Ciencia\Providers;
 
-use HiEvents\Listeners\Webhook\WebhookEventListener;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\AttendeeEvent;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\CheckinEvent;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\OrderEvent;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\ProductEvent;
+use Ciencia\Listeners\Webhook\WebhookEventListener;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\AttendeeEvent;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\CheckinEvent;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\OrderEvent;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\ProductEvent;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Event;
 

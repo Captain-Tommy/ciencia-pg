@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Users;
+namespace Ciencia\Http\Actions\Users;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\User\CreateUserRequest;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Resources\User\UserResource;
-use HiEvents\Services\Application\Handlers\User\CreateUserHandler;
-use HiEvents\Services\Application\Handlers\User\DTO\CreateUserDTO;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\User\CreateUserRequest;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Resources\User\UserResource;
+use Ciencia\Services\Application\Handlers\User\CreateUserHandler;
+use Ciencia\Services\Application\Handlers\User\DTO\CreateUserDTO;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\ValidationException;
 use Throwable;

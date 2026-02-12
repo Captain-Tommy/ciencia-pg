@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DomainObjects\SortingAndFiltering;
+namespace Ciencia\DomainObjects\SortingAndFiltering;
 
 class AllowedSort
 {

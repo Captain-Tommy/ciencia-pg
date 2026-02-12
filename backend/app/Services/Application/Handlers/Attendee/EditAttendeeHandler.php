@@ -1,21 +1,21 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Attendee;
+namespace Ciencia\Services\Application\Handlers\Attendee;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Enums\ProductPriceType;
-use HiEvents\DomainObjects\Generated\AttendeeDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\ProductDomainObjectAbstract;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\Exceptions\NoTicketsAvailableException;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Attendee\DTO\EditAttendeeDTO;
-use HiEvents\Services\Domain\Product\ProductQuantityUpdateService;
-use HiEvents\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\AttendeeEvent;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Enums\ProductPriceType;
+use Ciencia\DomainObjects\Generated\AttendeeDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\ProductDomainObjectAbstract;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\Exceptions\NoTicketsAvailableException;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Attendee\DTO\EditAttendeeDTO;
+use Ciencia\Services\Domain\Product\ProductQuantityUpdateService;
+use Ciencia\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\AttendeeEvent;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Validation\ValidationException;
 use Throwable;

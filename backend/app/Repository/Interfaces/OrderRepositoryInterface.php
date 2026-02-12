@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Repository\Eloquent\BaseRepository;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Repository\Eloquent\BaseRepository;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\AccountMessagingTierDomainObject;
+use Ciencia\DomainObjects\AccountMessagingTierDomainObject;
 
 /**
  * @extends RepositoryInterface<AccountMessagingTierDomainObject>

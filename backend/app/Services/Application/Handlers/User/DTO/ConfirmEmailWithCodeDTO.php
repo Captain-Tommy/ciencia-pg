@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\User\DTO;
+namespace Ciencia\Services\Application\Handlers\User\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
+use Ciencia\DataTransferObjects\BaseDataObject;
 
 class ConfirmEmailWithCodeDTO extends BaseDataObject
 {

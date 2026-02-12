@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Services\Domain\Payment\Stripe;
+namespace Ciencia\Services\Domain\Payment\Stripe;
 
-use HiEvents\DomainObjects\Enums\PaymentProviders;
-use HiEvents\DomainObjects\Generated\OrderPaymentPlatformFeeDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\StripePaymentDomainObject;
-use HiEvents\Repository\Interfaces\OrderPaymentPlatformFeeRepositoryInterface;
-use HiEvents\Services\Domain\Order\OrderPaymentPlatformFeeService;
-use HiEvents\Services\Infrastructure\Stripe\StripeClientFactory;
+use Ciencia\DomainObjects\Enums\PaymentProviders;
+use Ciencia\DomainObjects\Generated\OrderPaymentPlatformFeeDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\StripePaymentDomainObject;
+use Ciencia\Repository\Interfaces\OrderPaymentPlatformFeeRepositoryInterface;
+use Ciencia\Services\Domain\Order\OrderPaymentPlatformFeeService;
+use Ciencia\Services\Infrastructure\Stripe\StripeClientFactory;
 use Psr\Log\LoggerInterface;
 use Stripe\Charge;
 use Throwable;

@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Question\DTO;
+namespace Ciencia\Services\Application\Handlers\Question\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Enums\QuestionBelongsTo;
-use HiEvents\DomainObjects\Enums\QuestionTypeEnum;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Enums\QuestionBelongsTo;
+use Ciencia\DomainObjects\Enums\QuestionTypeEnum;
 
 class UpsertQuestionDTO extends BaseDTO
 {

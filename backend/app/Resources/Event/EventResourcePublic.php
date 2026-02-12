@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Resources\Event;
+namespace Ciencia\Resources\Event;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Resources\BaseResource;
-use HiEvents\Resources\Image\ImageResource;
-use HiEvents\Resources\Organizer\OrganizerResourcePublic;
-use HiEvents\Resources\ProductCategory\ProductCategoryResourcePublic;
-use HiEvents\Resources\Question\QuestionResource;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Resources\BaseResource;
+use Ciencia\Resources\Image\ImageResource;
+use Ciencia\Resources\Organizer\OrganizerResourcePublic;
+use Ciencia\Resources\ProductCategory\ProductCategoryResourcePublic;
+use Ciencia\Resources\Question\QuestionResource;
 use Illuminate\Http\Request;
 
 /**

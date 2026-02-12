@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Http\Actions\Users;
+namespace Ciencia\Http\Actions\Users;
 
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\User\UserResource;
-use HiEvents\Services\Application\Handlers\User\ConfirmEmailChangeHandler;
-use HiEvents\Services\Application\Handlers\User\DTO\ConfirmEmailChangeDTO;
-use HiEvents\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
-use HiEvents\Services\Infrastructure\Encryption\Exception\EncryptedPayloadExpiredException;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\User\UserResource;
+use Ciencia\Services\Application\Handlers\User\ConfirmEmailChangeHandler;
+use Ciencia\Services\Application\Handlers\User\DTO\ConfirmEmailChangeDTO;
+use Ciencia\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
+use Ciencia\Services\Infrastructure\Encryption\Exception\EncryptedPayloadExpiredException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Symfony\Component\HttpFoundation\Response as HttpCodes;

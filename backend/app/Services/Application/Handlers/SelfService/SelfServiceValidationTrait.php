@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\SelfService;
+namespace Ciencia\Services\Application\Handlers\SelfService;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Exceptions\SelfServiceDisabledException;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Exceptions\SelfServiceDisabledException;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 trait SelfServiceValidationTrait

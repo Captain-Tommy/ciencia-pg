@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Domain\Product;
+namespace Ciencia\Services\Domain\Product;
 
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
 
 class ProductOrderingService
 {

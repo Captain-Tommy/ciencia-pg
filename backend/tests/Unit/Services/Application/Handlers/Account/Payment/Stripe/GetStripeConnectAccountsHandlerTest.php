@@ -2,12 +2,12 @@
 
 namespace Tests\Unit\Services\Application\Handlers\Account\Payment\Stripe;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\DomainObjects\AccountStripePlatformDomainObject;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Account\Payment\Stripe\GetStripeConnectAccountsHandler;
-use HiEvents\Services\Domain\Payment\Stripe\StripeAccountSyncService;
-use HiEvents\Services\Infrastructure\Stripe\StripeClientFactory;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\DomainObjects\AccountStripePlatformDomainObject;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Account\Payment\Stripe\GetStripeConnectAccountsHandler;
+use Ciencia\Services\Domain\Payment\Stripe\StripeAccountSyncService;
+use Ciencia\Services\Infrastructure\Stripe\StripeClientFactory;
 use Mockery as m;
 use Psr\Log\LoggerInterface;
 use Tests\TestCase;

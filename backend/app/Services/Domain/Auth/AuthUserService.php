@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Domain\Auth;
+namespace Ciencia\Services\Domain\Auth;
 
 use Exception;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\DomainObjects\Interfaces\DomainObjectInterface;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Models\User;
-use HiEvents\Repository\Interfaces\AccountUserRepositoryInterface;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\DomainObjects\Interfaces\DomainObjectInterface;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Models\User;
+use Ciencia\Repository\Interfaces\AccountUserRepositoryInterface;
 use Illuminate\Auth\AuthManager;
 use PHPOpenSourceSaver\JWTAuth\Exceptions\JWTException;
 use PHPOpenSourceSaver\JWTAuth\Payload;

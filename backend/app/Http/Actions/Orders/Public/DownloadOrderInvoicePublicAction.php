@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders\Public;
+namespace Ciencia\Http\Actions\Orders\Public;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Order\Public\DownloadOrderInvoicePublicHandler;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Order\Public\DownloadOrderInvoicePublicHandler;
 use Illuminate\Http\Response;
 
 class DownloadOrderInvoicePublicAction extends BaseAction

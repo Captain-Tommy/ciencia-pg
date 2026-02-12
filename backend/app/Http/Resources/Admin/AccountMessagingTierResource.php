@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Resources\Admin;
+namespace Ciencia\Http\Resources\Admin;
 
-use HiEvents\DomainObjects\AccountMessagingTierDomainObject;
+use Ciencia\DomainObjects\AccountMessagingTierDomainObject;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 

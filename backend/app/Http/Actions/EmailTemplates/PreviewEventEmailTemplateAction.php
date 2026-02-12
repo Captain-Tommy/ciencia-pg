@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Actions\EmailTemplates;
+namespace Ciencia\Http\Actions\EmailTemplates;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Services\Application\Handlers\EmailTemplate\PreviewEmailTemplateHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Services\Application\Handlers\EmailTemplate\PreviewEmailTemplateHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

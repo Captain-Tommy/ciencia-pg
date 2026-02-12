@@ -1,19 +1,19 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event;
+namespace Ciencia\Services\Application\Handlers\Event;
 
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\DomainObjects\ProductCategoryDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\Status\EventStatus;
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\Repository\Eloquent\Value\OrderAndDirection;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Event\DTO\GetPublicOrganizerEventsDTO;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\DomainObjects\ProductCategoryDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\Status\EventStatus;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\Repository\Eloquent\Value\OrderAndDirection;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Event\DTO\GetPublicOrganizerEventsDTO;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 class GetPublicEventsHandler

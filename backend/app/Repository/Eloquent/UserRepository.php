@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AccountUserDomainObject;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Models\AccountUser;
-use HiEvents\Models\User;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\DomainObjects\AccountUserDomainObject;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Models\AccountUser;
+use Ciencia\Models\User;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Collection;

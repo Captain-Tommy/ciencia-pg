@@ -1,11 +1,11 @@
-@php use Carbon\Carbon; use HiEvents\Helper\Currency; use HiEvents\Helper\DateHelper; @endphp
-@php /** @var \HiEvents\DomainObjects\OrderDomainObject $order */ @endphp
-@php /** @var \HiEvents\DomainObjects\EventDomainObject $event */ @endphp
-@php /** @var \HiEvents\DomainObjects\OrganizerDomainObject $organizer */ @endphp
-@php /** @var \HiEvents\DomainObjects\EventSettingDomainObject $eventSettings */ @endphp
+@php use Carbon\Carbon; use Ciencia\Helper\Currency; use Ciencia\Helper\DateHelper; @endphp
+@php /** @var \Ciencia\DomainObjects\OrderDomainObject $order */ @endphp
+@php /** @var \Ciencia\DomainObjects\EventDomainObject $event */ @endphp
+@php /** @var \Ciencia\DomainObjects\OrganizerDomainObject $organizer */ @endphp
+@php /** @var \Ciencia\DomainObjects\EventSettingDomainObject $eventSettings */ @endphp
 @php /** @var string $orderUrl */ @endphp
 
-@php /** @see \HiEvents\Mail\Order\OrderSummary */ @endphp
+@php /** @see \Ciencia\Mail\Order\OrderSummary */ @endphp
 
 <x-mail::message>
 # {{ __('Your Order is Confirmed! ') }} 🎉

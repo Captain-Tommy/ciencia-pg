@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Admin\Configurations;
+namespace Ciencia\Http\Actions\Admin\Configurations;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\AccountConfigurationRepositoryInterface;
-use HiEvents\Resources\Account\AccountConfigurationResource;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\AccountConfigurationRepositoryInterface;
+use Ciencia\Resources\Account\AccountConfigurationResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

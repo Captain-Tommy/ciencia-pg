@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\TaxesAndFees;
+namespace Ciencia\Http\Actions\TaxesAndFees;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\TaxAndFeeRepositoryInterface;
-use HiEvents\Resources\Tax\TaxAndFeeResource;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\TaxAndFeeRepositoryInterface;
+use Ciencia\Resources\Tax\TaxAndFeeResource;
 use Illuminate\Http\JsonResponse;
 
 class GetTaxOrFeeAction extends BaseAction

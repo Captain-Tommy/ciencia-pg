@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Domain\Order;
+namespace Ciencia\Services\Domain\Order;
 
-use HiEvents\DomainObjects\Generated\OrderPaymentPlatformFeeDomainObjectAbstract;
-use HiEvents\Helper\Currency;
-use HiEvents\Repository\Interfaces\OrderPaymentPlatformFeeRepositoryInterface;
+use Ciencia\DomainObjects\Generated\OrderPaymentPlatformFeeDomainObjectAbstract;
+use Ciencia\Helper\Currency;
+use Ciencia\Repository\Interfaces\OrderPaymentPlatformFeeRepositoryInterface;
 
 class OrderPaymentPlatformFeeService
 {

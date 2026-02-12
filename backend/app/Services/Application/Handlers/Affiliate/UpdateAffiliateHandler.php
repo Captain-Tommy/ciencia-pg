@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Affiliate;
+namespace Ciencia\Services\Application\Handlers\Affiliate;
 
-use HiEvents\DomainObjects\AffiliateDomainObject;
-use HiEvents\Repository\Interfaces\AffiliateRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Affiliate\DTO\UpsertAffiliateDTO;
+use Ciencia\DomainObjects\AffiliateDomainObject;
+use Ciencia\Repository\Interfaces\AffiliateRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Affiliate\DTO\UpsertAffiliateDTO;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class UpdateAffiliateHandler

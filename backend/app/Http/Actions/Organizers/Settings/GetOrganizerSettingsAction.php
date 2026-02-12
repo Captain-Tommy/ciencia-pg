@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Organizers\Settings;
+namespace Ciencia\Http\Actions\Organizers\Settings;
 
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\OrganizerSettingsRepositoryInterface;
-use HiEvents\Resources\Organizer\OrganizerSettingsResource;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\OrganizerSettingsRepositoryInterface;
+use Ciencia\Resources\Organizer\OrganizerSettingsResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 

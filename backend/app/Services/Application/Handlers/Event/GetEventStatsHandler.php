@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event;
+namespace Ciencia\Services\Application\Handlers\Event;
 
-use HiEvents\Services\Application\Handlers\Event\DTO\EventStatsRequestDTO;
-use HiEvents\Services\Application\Handlers\Event\DTO\EventStatsResponseDTO;
-use HiEvents\Services\Domain\Event\EventStatsFetchService;
+use Ciencia\Services\Application\Handlers\Event\DTO\EventStatsRequestDTO;
+use Ciencia\Services\Application\Handlers\Event\DTO\EventStatsResponseDTO;
+use Ciencia\Services\Domain\Event\EventStatsFetchService;
 
 readonly class GetEventStatsHandler
 {

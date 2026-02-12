@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Domain\Event\DTO;
+namespace Ciencia\Services\Domain\Event\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class DuplicateEventDataDTO extends BaseDTO
 {

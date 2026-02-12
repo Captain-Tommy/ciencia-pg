@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Http\Actions\Organizers;
+namespace Ciencia\Http\Actions\Organizers;
 
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Exceptions\AccountNotVerifiedException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Organizer\UpdateOrganizerStatusRequest;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Resources\Organizer\OrganizerResource;
-use HiEvents\Services\Application\Handlers\Organizer\DTO\UpdateOrganizerStatusDTO;
-use HiEvents\Services\Application\Handlers\Organizer\UpdateOrganizerStatusHandler;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Exceptions\AccountNotVerifiedException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Organizer\UpdateOrganizerStatusRequest;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Resources\Organizer\OrganizerResource;
+use Ciencia\Services\Application\Handlers\Organizer\DTO\UpdateOrganizerStatusDTO;
+use Ciencia\Services\Application\Handlers\Organizer\UpdateOrganizerStatusHandler;
 use Illuminate\Http\JsonResponse;
 
 class UpdateOrganizerStatusAction extends BaseAction

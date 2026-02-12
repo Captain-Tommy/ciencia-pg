@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\DomainObjects\Enums;
+namespace Ciencia\DomainObjects\Enums;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\UserDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\UserDomainObject;
 use InvalidArgumentException;
 
 enum ImageType

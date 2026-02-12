@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Listeners\Order;
+namespace Ciencia\Listeners\Order;
 
-use HiEvents\Events\OrderStatusChangedEvent;
-use HiEvents\Jobs\Order\SendOrderDetailsEmailJob;
+use Ciencia\Events\OrderStatusChangedEvent;
+use Ciencia\Jobs\Order\SendOrderDetailsEmailJob;
 
 class SendOrderDetailsEmailListener
 {

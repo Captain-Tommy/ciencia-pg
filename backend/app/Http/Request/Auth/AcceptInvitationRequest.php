@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Request\Auth;
+namespace Ciencia\Http\Request\Auth;
 
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Validators\Rules\RulesHelper;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Validators\Rules\RulesHelper;
 
 class AcceptInvitationRequest extends BaseRequest
 {

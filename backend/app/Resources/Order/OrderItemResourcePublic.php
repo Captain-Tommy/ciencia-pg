@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Resources\Order;
+namespace Ciencia\Resources\Order;
 
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\Resources\BaseResource;
-use HiEvents\Resources\Product\ProductResourcePublic;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\Resources\BaseResource;
+use Ciencia\Resources\Product\ProductResourcePublic;
 use Illuminate\Http\Request;
 
 /**

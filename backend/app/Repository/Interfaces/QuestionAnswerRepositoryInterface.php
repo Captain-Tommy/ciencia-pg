@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\QuestionAnswerDomainObject;
-use HiEvents\Repository\Eloquent\BaseRepository;
+use Ciencia\DomainObjects\QuestionAnswerDomainObject;
+use Ciencia\Repository\Eloquent\BaseRepository;
 
 /**
  * @extends BaseRepository<QuestionAnswerDomainObject>

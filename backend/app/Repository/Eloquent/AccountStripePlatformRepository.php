@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AccountStripePlatformDomainObject;
-use HiEvents\Models\AccountStripePlatform;
-use HiEvents\Repository\Interfaces\AccountStripePlatformRepositoryInterface;
+use Ciencia\DomainObjects\AccountStripePlatformDomainObject;
+use Ciencia\Models\AccountStripePlatform;
+use Ciencia\Repository\Interfaces\AccountStripePlatformRepositoryInterface;
 
 class AccountStripePlatformRepository extends BaseRepository implements AccountStripePlatformRepositoryInterface
 {

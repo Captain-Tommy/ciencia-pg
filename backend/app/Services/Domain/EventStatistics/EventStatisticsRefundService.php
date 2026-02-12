@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Domain\EventStatistics;
+namespace Ciencia\Services\Domain\EventStatistics;
 
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Repository\Interfaces\EventDailyStatisticRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventStatisticRepositoryInterface;
-use HiEvents\Values\MoneyValue;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Repository\Interfaces\EventDailyStatisticRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventStatisticRepositoryInterface;
+use Ciencia\Values\MoneyValue;
 use Illuminate\Support\Carbon;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;

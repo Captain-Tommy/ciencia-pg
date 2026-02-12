@@ -11,7 +11,7 @@ export interface UtmData {
     utm_raw: Record<string, string> | null;
 }
 
-const UTM_STORAGE_KEY = 'hi_events_utm_first_touch';
+const UTM_STORAGE_KEY = 'ticketing.ciencia2k26.qzz.io_utm_first_touch';
 
 export function captureUtmData(): void {
     if (typeof window === 'undefined') return;

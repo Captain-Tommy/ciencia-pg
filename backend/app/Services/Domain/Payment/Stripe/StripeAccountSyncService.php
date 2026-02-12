@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Services\Domain\Payment\Stripe;
+namespace Ciencia\Services\Domain\Payment\Stripe;
 
-use HiEvents\DomainObjects\AccountStripePlatformDomainObject;
-use HiEvents\DomainObjects\Enums\CountryCode;
-use HiEvents\DomainObjects\Generated\AccountStripePlatformDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\AccountVatSettingDomainObjectAbstract;
-use HiEvents\Helper\Url;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\AccountStripePlatformRepositoryInterface;
-use HiEvents\Repository\Interfaces\AccountVatSettingRepositoryInterface;
+use Ciencia\DomainObjects\AccountStripePlatformDomainObject;
+use Ciencia\DomainObjects\Enums\CountryCode;
+use Ciencia\DomainObjects\Generated\AccountStripePlatformDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\AccountVatSettingDomainObjectAbstract;
+use Ciencia\Helper\Url;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountStripePlatformRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountVatSettingRepositoryInterface;
 use Illuminate\Config\Repository;
 use Psr\Log\LoggerInterface;
 use Stripe\Account;

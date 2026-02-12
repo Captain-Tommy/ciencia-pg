@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CapacityAssignment;
+namespace Ciencia\Services\Application\Handlers\CapacityAssignment;
 
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
-use HiEvents\Services\Application\Handlers\CapacityAssignment\DTO\GetCapacityAssignmentsDTO;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
+use Ciencia\Services\Application\Handlers\CapacityAssignment\DTO\GetCapacityAssignmentsDTO;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 
 class GetCapacityAssignmentsHandler

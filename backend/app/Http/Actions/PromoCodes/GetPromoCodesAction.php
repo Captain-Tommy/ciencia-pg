@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\PromoCodes;
+namespace Ciencia\Http\Actions\PromoCodes;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\PromoCodeDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
-use HiEvents\Resources\PromoCode\PromoCodeResource;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\Resources\PromoCode\PromoCodeResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

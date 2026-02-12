@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\EmailTemplate;
+namespace Ciencia\Services\Application\Handlers\EmailTemplate;
 
-use HiEvents\Exceptions\EmailTemplateNotFoundException;
-use HiEvents\Repository\Interfaces\EmailTemplateRepositoryInterface;
-use HiEvents\Services\Application\Handlers\EmailTemplate\DTO\DeleteEmailTemplateDTO;
+use Ciencia\Exceptions\EmailTemplateNotFoundException;
+use Ciencia\Repository\Interfaces\EmailTemplateRepositoryInterface;
+use Ciencia\Services\Application\Handlers\EmailTemplate\DTO\DeleteEmailTemplateDTO;
 
 class DeleteEmailTemplateHandler
 {

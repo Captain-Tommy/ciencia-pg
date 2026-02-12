@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Resources\PromoCode;
+namespace Ciencia\Resources\PromoCode;
 
-use HiEvents\DomainObjects\PromoCodeDomainObject;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 

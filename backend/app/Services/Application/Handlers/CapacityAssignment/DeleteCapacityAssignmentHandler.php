@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CapacityAssignment;
+namespace Ciencia\Services\Application\Handlers\CapacityAssignment;
 
-use HiEvents\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
 use Illuminate\Database\DatabaseManager;
 
 class DeleteCapacityAssignmentHandler

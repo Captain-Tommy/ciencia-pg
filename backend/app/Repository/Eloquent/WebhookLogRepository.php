@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\WebhookLogDomainObject;
-use HiEvents\Models\WebhookLog;
-use HiEvents\Repository\Interfaces\WebhookLogRepositoryInterface;
+use Ciencia\DomainObjects\WebhookLogDomainObject;
+use Ciencia\Models\WebhookLog;
+use Ciencia\Repository\Interfaces\WebhookLogRepositoryInterface;
 
 class WebhookLogRepository extends BaseRepository implements WebhookLogRepositoryInterface
 {

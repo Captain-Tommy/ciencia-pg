@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Http\Request\Attendee;
+namespace Ciencia\Http\Request\Attendee;
 
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\Http\Request\BaseRequest;
 
 class CheckInAttendeeRequest extends BaseRequest
 {

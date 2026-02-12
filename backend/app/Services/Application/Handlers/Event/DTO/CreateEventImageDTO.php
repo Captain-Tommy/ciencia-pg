@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event\DTO;
+namespace Ciencia\Services\Application\Handlers\Event\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Enums\ImageType;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Enums\ImageType;
 use Illuminate\Http\UploadedFile;
 
 class CreateEventImageDTO extends BaseDTO

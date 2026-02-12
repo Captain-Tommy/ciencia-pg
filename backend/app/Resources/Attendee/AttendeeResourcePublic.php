@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\Attendee;
+namespace Ciencia\Resources\Attendee;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\Resources\Product\ProductMinimalResourcePublic;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\Resources\Product\ProductMinimalResourcePublic;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\EmailTemplate;
+namespace Ciencia\Services\Application\Handlers\EmailTemplate;
 
-use HiEvents\Repository\Interfaces\EmailTemplateRepositoryInterface;
-use HiEvents\Services\Application\Handlers\EmailTemplate\DTO\GetEmailTemplatesDTO;
+use Ciencia\Repository\Interfaces\EmailTemplateRepositoryInterface;
+use Ciencia\Services\Application\Handlers\EmailTemplate\DTO\GetEmailTemplatesDTO;
 use Illuminate\Support\Collection;
 
 class GetEmailTemplatesHandler

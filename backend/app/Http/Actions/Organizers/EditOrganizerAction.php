@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Organizers;
+namespace Ciencia\Http\Actions\Organizers;
 
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Organizer\UpsertOrganizerRequest;
-use HiEvents\Resources\Organizer\OrganizerResource;
-use HiEvents\Services\Application\Handlers\Organizer\DTO\EditOrganizerDTO;
-use HiEvents\Services\Application\Handlers\Organizer\EditOrganizerHandler;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Organizer\UpsertOrganizerRequest;
+use Ciencia\Resources\Organizer\OrganizerResource;
+use Ciencia\Services\Application\Handlers\Organizer\DTO\EditOrganizerDTO;
+use Ciencia\Services\Application\Handlers\Organizer\EditOrganizerHandler;
 use Illuminate\Http\JsonResponse;
 
 class EditOrganizerAction extends BaseAction

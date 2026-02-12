@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\EventSettings\DTO;
+namespace Ciencia\Services\Application\Handlers\EventSettings\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class PartialUpdateEventSettingsDTO extends BaseDTO
 {

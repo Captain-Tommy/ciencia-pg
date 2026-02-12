@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Domain\Report\Reports;
+namespace Ciencia\Services\Domain\Report\Reports;
 
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Services\Domain\Report\AbstractReportService;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Services\Domain\Report\AbstractReportService;
 use Illuminate\Support\Carbon;
 
 class PromoCodesReport extends AbstractReportService

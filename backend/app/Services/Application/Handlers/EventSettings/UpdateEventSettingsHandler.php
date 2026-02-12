@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\EventSettings;
+namespace Ciencia\Services\Application\Handlers\EventSettings;
 
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\Repository\Interfaces\EventSettingsRepositoryInterface;
-use HiEvents\Services\Application\Handlers\EventSettings\DTO\UpdateEventSettingsDTO;
-use HiEvents\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\Repository\Interfaces\EventSettingsRepositoryInterface;
+use Ciencia\Services\Application\Handlers\EventSettings\DTO\UpdateEventSettingsDTO;
+use Ciencia\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
 use Illuminate\Database\DatabaseManager;
 use Throwable;
 

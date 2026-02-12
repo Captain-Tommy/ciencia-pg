@@ -1,18 +1,18 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Images;
+namespace Ciencia\Services\Application\Handlers\Images;
 
-use HiEvents\DomainObjects\Enums\ImageType;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\ImageRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Images\DTO\CreateImageDTO;
-use HiEvents\Services\Domain\Image\ImageUploadService;
-use HiEvents\Services\Infrastructure\Image\Exception\CouldNotUploadImageException;
+use Ciencia\DomainObjects\Enums\ImageType;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\ImageRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Images\DTO\CreateImageDTO;
+use Ciencia\Services\Domain\Image\ImageUploadService;
+use Ciencia\Services\Infrastructure\Image\Exception\CouldNotUploadImageException;
 
 class CreateImageHandler
 {

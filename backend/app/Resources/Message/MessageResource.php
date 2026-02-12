@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\Message;
+namespace Ciencia\Resources\Message;
 
-use HiEvents\DomainObjects\MessageDomainObject;
-use HiEvents\Resources\User\UserResource;
+use Ciencia\DomainObjects\MessageDomainObject;
+use Ciencia\Resources\User\UserResource;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 

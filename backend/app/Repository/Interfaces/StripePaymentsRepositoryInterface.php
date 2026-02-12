@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\StripePaymentDomainObject;
-use HiEvents\Repository\Eloquent\BaseRepository;
+use Ciencia\DomainObjects\StripePaymentDomainObject;
+use Ciencia\Repository\Eloquent\BaseRepository;
 
 /**
  * @extends BaseRepository<StripePaymentDomainObject>

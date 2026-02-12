@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\ProductCategory;
+namespace Ciencia\Services\Application\Handlers\ProductCategory;
 
-use HiEvents\DomainObjects\ProductCategoryDomainObject;
-use HiEvents\Repository\Interfaces\ProductCategoryRepositoryInterface;
-use HiEvents\Services\Application\Handlers\ProductCategory\DTO\UpsertProductCategoryDTO;
+use Ciencia\DomainObjects\ProductCategoryDomainObject;
+use Ciencia\Repository\Interfaces\ProductCategoryRepositoryInterface;
+use Ciencia\Services\Application\Handlers\ProductCategory\DTO\UpsertProductCategoryDTO;
 
 class EditProductCategoryHandler
 {

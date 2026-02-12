@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Mail\Account;
+namespace Ciencia\Mail\Account;
 
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Helper\Url;
-use HiEvents\Mail\BaseMail;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Helper\Url;
+use Ciencia\Mail\BaseMail;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 

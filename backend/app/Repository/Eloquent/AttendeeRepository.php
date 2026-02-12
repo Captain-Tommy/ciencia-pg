@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AttendeeCheckInDomainObject;
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Generated\AttendeeDomainObjectAbstract;
-use HiEvents\DomainObjects\Status\AttendeeStatus;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Models\Attendee;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\DomainObjects\AttendeeCheckInDomainObject;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Generated\AttendeeDomainObjectAbstract;
+use Ciencia\DomainObjects\Status\AttendeeStatus;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Models\Attendee;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Pagination\LengthAwarePaginator;

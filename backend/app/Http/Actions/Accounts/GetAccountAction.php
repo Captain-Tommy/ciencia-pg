@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Accounts;
+namespace Ciencia\Http\Actions\Accounts;
 
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
-use HiEvents\DomainObjects\AccountStripePlatformDomainObject;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Resources\Account\AccountResource;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\DomainObjects\AccountStripePlatformDomainObject;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Resources\Account\AccountResource;
 use Illuminate\Http\JsonResponse;
 
 class GetAccountAction extends BaseAction

@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Question;
+namespace Ciencia\Services\Application\Handlers\Question;
 
-use HiEvents\DomainObjects\QuestionDomainObject;
-use HiEvents\Services\Application\Handlers\Question\DTO\UpsertQuestionDTO;
-use HiEvents\Services\Domain\Question\CreateQuestionService;
-use HiEvents\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
+use Ciencia\DomainObjects\QuestionDomainObject;
+use Ciencia\Services\Application\Handlers\Question\DTO\UpsertQuestionDTO;
+use Ciencia\Services\Domain\Question\CreateQuestionService;
+use Ciencia\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
 use Throwable;
 
 class CreateQuestionHandler

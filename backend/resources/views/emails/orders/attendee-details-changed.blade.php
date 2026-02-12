@@ -1,7 +1,7 @@
 @php /** @var string $ticketTitle */ @endphp
-@php /** @var \HiEvents\DomainObjects\EventDomainObject $event */ @endphp
-@php /** @var \HiEvents\DomainObjects\OrganizerDomainObject $organizer */ @endphp
-@php /** @var \HiEvents\DomainObjects\EventSettingDomainObject $eventSettings */ @endphp
+@php /** @var \Ciencia\DomainObjects\EventDomainObject $event */ @endphp
+@php /** @var \Ciencia\DomainObjects\OrganizerDomainObject $organizer */ @endphp
+@php /** @var \Ciencia\DomainObjects\EventSettingDomainObject $eventSettings */ @endphp
 @php /** @var array $changedFields */ @endphp
 
 <x-mail::message>

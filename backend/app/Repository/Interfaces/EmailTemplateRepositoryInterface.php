@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\EmailTemplateDomainObject;
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\DomainObjects\EmailTemplateDomainObject;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
 use Illuminate\Support\Collection;
 
 /**

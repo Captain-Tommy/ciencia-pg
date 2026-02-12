@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\OrderAuditLogDomainObject;
-use HiEvents\Models\OrderAuditLog;
-use HiEvents\Repository\Interfaces\OrderAuditLogRepositoryInterface;
+use Ciencia\DomainObjects\OrderAuditLogDomainObject;
+use Ciencia\Models\OrderAuditLog;
+use Ciencia\Repository\Interfaces\OrderAuditLogRepositoryInterface;
 
 class OrderAuditLogRepository extends BaseRepository implements OrderAuditLogRepositoryInterface
 {

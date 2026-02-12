@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\User\DTO;
+namespace Ciencia\Services\Application\Handlers\User\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\DomainObjects\Status\UserStatus;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\DomainObjects\Status\UserStatus;
 
 class UpdateUserDTO extends BaseDTO
 {

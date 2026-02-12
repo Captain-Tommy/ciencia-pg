@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\CheckInListDomainObject;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Repository\DTO\CheckedInAttendeesCountDTO;
+use Ciencia\DomainObjects\CheckInListDomainObject;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Repository\DTO\CheckedInAttendeesCountDTO;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 

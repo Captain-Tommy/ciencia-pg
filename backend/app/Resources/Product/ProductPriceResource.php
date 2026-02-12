@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\Product;
+namespace Ciencia\Resources\Product;
 
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\Resources\BaseResource;
 use Illuminate\Http\Request;
 
 /**

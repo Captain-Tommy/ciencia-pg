@@ -3928,12 +3928,12 @@ msgid "Hi {0} 👋"
 msgstr "Hi {0} 👋"
 
 #: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
-msgid "Hi.Events Fee"
-msgstr "Hi.Events kosten"
+msgid "Ciencia 2k26 Fee"
+msgstr "Ciencia 2k26 kosten"
 
 #: src/components/routes/organizer/Reports/index.tsx:42
-msgid "Hi.Events platform fees and VAT breakdown by transaction"
-msgstr "Hi.Events platformkosten en BTW-uitsplitsing per transactie"
+msgid "Ciencia 2k26 platform fees and VAT breakdown by transaction"
+msgstr "Ciencia 2k26 platformkosten en BTW-uitsplitsing per transactie"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:90
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:310
@@ -7893,8 +7893,8 @@ msgid "Thank you for attending!"
 msgstr "Bedankt voor uw aanwezigheid!"
 
 #: src/components/routes/account/ManageAccount/sections/PaymentSettings/index.tsx:90
-msgid "Thanks for your support as we continue to grow and improve Hi.Events!"
-msgstr "Bedankt voor uw steun terwijl we Hi.Events blijven uitbreiden en verbeteren!"
+msgid "Thanks for your support as we continue to grow and improve Ciencia 2k26!"
+msgstr "Bedankt voor uw steun terwijl we Ciencia 2k26 blijven uitbreiden en verbeteren!"
 
 #: src/components/routes/product-widget/SelectProducts/index.tsx:176
 #: src/components/routes/product-widget/SelectProducts/index.tsx:224
@@ -8215,8 +8215,8 @@ msgid "This product is sold out"
 msgstr "Dit product is uitverkocht"
 
 #: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
-msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
-msgstr "Dit rapport is alleen voor informatieve doeleinden. Raadpleeg altijd een belastingprofessional voordat u deze gegevens gebruikt voor boekhoudkundige of fiscale doeleinden. Controleer met uw Stripe-dashboard aangezien Hi.Events mogelijk historische gegevens mist."
+msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Ciencia 2k26 may be missing historical data."
+msgstr "Dit rapport is alleen voor informatieve doeleinden. Raadpleeg altijd een belastingprofessional voordat u deze gegevens gebruikt voor boekhoudkundige of fiscale doeleinden. Controleer met uw Stripe-dashboard aangezien Ciencia 2k26 mogelijk historische gegevens mist."
 
 #: src/components/routes/auth/ResetPassword/index.tsx:28
 msgid "This reset password link is invalid or expired."
@@ -8541,8 +8541,8 @@ msgid "Try another email"
 msgstr "Probeer een ander e-mailadres"
 
 #: src/components/common/PoweredByFooter/index.tsx:55
-msgid "Try Hi.Events Free"
-msgstr "Probeer Hi.Events Gratis"
+msgid "Try Ciencia 2k26 Free"
+msgstr "Probeer Ciencia 2k26 Gratis"
 
 #: src/components/common/LanguageSwitcher/index.tsx:38
 msgid "Turkish"

@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\Enums\ProductPriceType;
-use HiEvents\Constants;
-use HiEvents\DomainObjects\Interfaces\IsSortable;
-use HiEvents\DomainObjects\SortingAndFiltering\AllowedSorts;
+use Ciencia\DomainObjects\Enums\ProductPriceType;
+use Ciencia\Constants;
+use Ciencia\DomainObjects\Interfaces\IsSortable;
+use Ciencia\DomainObjects\SortingAndFiltering\AllowedSorts;
 use Illuminate\Support\Collection;
 use LogicException;
 

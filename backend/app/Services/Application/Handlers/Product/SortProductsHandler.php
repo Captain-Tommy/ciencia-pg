@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Product;
+namespace Ciencia\Services\Application\Handlers\Product;
 
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Repository\Interfaces\ProductCategoryRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Repository\Interfaces\ProductCategoryRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
 
 readonly class SortProductsHandler
 {

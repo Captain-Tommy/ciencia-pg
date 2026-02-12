@@ -1,18 +1,18 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders;
+namespace Ciencia\Http\Actions\Orders;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\Generated\OrderDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\QuestionAndAnswerViewDomainObject;
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Eloquent\Value\OrderAndDirection;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Resources\Order\OrderResource;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\Generated\OrderDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\QuestionAndAnswerViewDomainObject;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Eloquent\Value\OrderAndDirection;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Resources\Order\OrderResource;
 use Illuminate\Http\JsonResponse;
 
 class GetOrderAction extends BaseAction

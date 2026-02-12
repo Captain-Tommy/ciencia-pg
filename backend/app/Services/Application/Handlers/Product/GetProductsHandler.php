@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Product;
+namespace Ciencia\Services\Application\Handlers\Product;
 
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Services\Domain\Product\ProductFilterService;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Services\Domain\Product\ProductFilterService;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 class GetProductsHandler

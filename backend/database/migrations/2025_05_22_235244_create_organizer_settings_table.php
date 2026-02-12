@@ -1,8 +1,8 @@
 <?php
 
-use HiEvents\DomainObjects\Enums\ColorTheme;
-use HiEvents\DomainObjects\Enums\OrganizerHomepageVisibility;
-use HiEvents\Models\Organizer;
+use Ciencia\DomainObjects\Enums\ColorTheme;
+use Ciencia\DomainObjects\Enums\OrganizerHomepageVisibility;
+use Ciencia\Models\Organizer;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;

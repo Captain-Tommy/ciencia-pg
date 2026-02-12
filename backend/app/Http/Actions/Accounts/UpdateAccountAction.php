@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Accounts;
+namespace Ciencia\Http\Actions\Accounts;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Account\UpdateAccountRequest;
-use HiEvents\Resources\Account\AccountResource;
-use HiEvents\Services\Application\Handlers\Account\DTO\UpdateAccountDTO;
-use HiEvents\Services\Application\Handlers\Account\UpdateAccountHanlder;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Account\UpdateAccountRequest;
+use Ciencia\Resources\Account\AccountResource;
+use Ciencia\Services\Application\Handlers\Account\DTO\UpdateAccountDTO;
+use Ciencia\Services\Application\Handlers\Account\UpdateAccountHanlder;
 use Illuminate\Http\JsonResponse;
 
 class UpdateAccountAction extends BaseAction

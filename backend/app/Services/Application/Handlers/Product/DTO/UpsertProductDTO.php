@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Product\DTO;
+namespace Ciencia\Services\Application\Handlers\Product\DTO;
 
-use HiEvents\DataTransferObjects\Attributes\CollectionOf;
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Enums\ProductPriceType;
-use HiEvents\DomainObjects\Enums\ProductType;
-use HiEvents\Services\Domain\Product\DTO\ProductPriceDTO;
+use Ciencia\DataTransferObjects\Attributes\CollectionOf;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Enums\ProductPriceType;
+use Ciencia\DomainObjects\Enums\ProductType;
+use Ciencia\Services\Domain\Product\DTO\ProductPriceDTO;
 use Illuminate\Support\Collection;
 
 class UpsertProductDTO extends BaseDTO

@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Events;
+namespace Ciencia\Http\Actions\Events;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Event\DuplicateEventRequest;
-use HiEvents\Resources\Event\EventResource;
-use HiEvents\Services\Application\Handlers\Event\DuplicateEventHandler;
-use HiEvents\Services\Domain\Event\DTO\DuplicateEventDataDTO;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Event\DuplicateEventRequest;
+use Ciencia\Resources\Event\EventResource;
+use Ciencia\Services\Application\Handlers\Event\DuplicateEventHandler;
+use Ciencia\Services\Domain\Event\DTO\DuplicateEventDataDTO;
 use Illuminate\Http\JsonResponse;
 use Throwable;
 

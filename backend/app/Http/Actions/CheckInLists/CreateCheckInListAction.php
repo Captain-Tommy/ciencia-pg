@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\CheckInLists;
+namespace Ciencia\Http\Actions\CheckInLists;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\CheckInList\UpsertCheckInListRequest;
-use HiEvents\Resources\CheckInList\CheckInListResource;
-use HiEvents\Services\Application\Handlers\CheckInList\CreateCheckInListHandler;
-use HiEvents\Services\Application\Handlers\CheckInList\DTO\UpsertCheckInListDTO;
-use HiEvents\Services\Domain\Product\Exception\UnrecognizedProductIdException;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\CheckInList\UpsertCheckInListRequest;
+use Ciencia\Resources\CheckInList\CheckInListResource;
+use Ciencia\Services\Application\Handlers\CheckInList\CreateCheckInListHandler;
+use Ciencia\Services\Application\Handlers\CheckInList\DTO\UpsertCheckInListDTO;
+use Ciencia\Services\Domain\Product\Exception\UnrecognizedProductIdException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 

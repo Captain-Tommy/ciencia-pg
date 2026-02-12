@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\TaxAndFee;
+namespace Ciencia\Services\Application\Handlers\TaxAndFee;
 
-use HiEvents\DomainObjects\Generated\TaxAndFeesDomainObjectAbstract;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Repository\Interfaces\TaxAndFeeRepositoryInterface;
-use HiEvents\Services\Application\Handlers\TaxAndFee\DTO\DeleteTaxDTO;
+use Ciencia\DomainObjects\Generated\TaxAndFeesDomainObjectAbstract;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Repository\Interfaces\TaxAndFeeRepositoryInterface;
+use Ciencia\Services\Application\Handlers\TaxAndFee\DTO\DeleteTaxDTO;
 use Illuminate\Database\DatabaseManager;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;

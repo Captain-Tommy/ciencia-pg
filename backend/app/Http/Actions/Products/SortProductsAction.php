@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\Products;
+namespace Ciencia\Http\Actions\Products;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Product\SortProductsRequest;
-use HiEvents\Services\Application\Handlers\Product\SortProductsHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Product\SortProductsRequest;
+use Ciencia\Services\Application\Handlers\Product\SortProductsHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 

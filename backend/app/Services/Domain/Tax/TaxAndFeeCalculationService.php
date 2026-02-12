@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Domain\Tax;
+namespace Ciencia\Services\Domain\Tax;
 
-use HiEvents\DomainObjects\Enums\TaxCalculationType;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\Services\Domain\Tax\DTO\TaxCalculationResponse;
+use Ciencia\DomainObjects\Enums\TaxCalculationType;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\Services\Domain\Tax\DTO\TaxCalculationResponse;
 use InvalidArgumentException;
 
 class TaxAndFeeCalculationService

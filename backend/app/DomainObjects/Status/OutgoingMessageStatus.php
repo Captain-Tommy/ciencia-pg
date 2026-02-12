@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DomainObjects\Status;
+namespace Ciencia\DomainObjects\Status;
 
 enum OutgoingMessageStatus
 {

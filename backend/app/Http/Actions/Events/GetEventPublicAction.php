@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\Events;
+namespace Ciencia\Http\Actions\Events;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\Status\EventStatus;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Event\EventResourcePublic;
-use HiEvents\Services\Application\Handlers\Event\DTO\GetPublicEventDTO;
-use HiEvents\Services\Application\Handlers\Event\GetPublicEventHandler;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\Status\EventStatus;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Event\EventResourcePublic;
+use Ciencia\Services\Application\Handlers\Event\DTO\GetPublicEventDTO;
+use Ciencia\Services\Application\Handlers\Event\GetPublicEventHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Question;
+namespace Ciencia\Services\Application\Handlers\Question;
 
-use HiEvents\Exceptions\CannotDeleteEntityException;
-use HiEvents\Repository\Interfaces\QuestionAnswerRepositoryInterface;
-use HiEvents\Repository\Interfaces\QuestionRepositoryInterface;
+use Ciencia\Exceptions\CannotDeleteEntityException;
+use Ciencia\Repository\Interfaces\QuestionAnswerRepositoryInterface;
+use Ciencia\Repository\Interfaces\QuestionRepositoryInterface;
 use Illuminate\Database\DatabaseManager;
 use Throwable;
 

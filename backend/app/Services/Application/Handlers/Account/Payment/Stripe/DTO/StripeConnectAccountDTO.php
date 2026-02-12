@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Account\Payment\Stripe\DTO;
+namespace Ciencia\Services\Application\Handlers\Account\Payment\Stripe\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
-use HiEvents\DomainObjects\Enums\StripePlatform;
+use Ciencia\DataTransferObjects\BaseDataObject;
+use Ciencia\DomainObjects\Enums\StripePlatform;
 
 class StripeConnectAccountDTO extends BaseDataObject
 {

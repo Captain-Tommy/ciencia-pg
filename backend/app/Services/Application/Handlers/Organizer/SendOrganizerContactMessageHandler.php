@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Organizer;
+namespace Ciencia\Services\Application\Handlers\Organizer;
 
-use HiEvents\DomainObjects\Status\OrganizerStatus;
-use HiEvents\Mail\Organizer\OrganizerContactEmail;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Organizer\DTO\SendOrganizerContactMessageDTO;
-use HiEvents\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
+use Ciencia\DomainObjects\Status\OrganizerStatus;
+use Ciencia\Mail\Organizer\OrganizerContactEmail;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Organizer\DTO\SendOrganizerContactMessageDTO;
+use Ciencia\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
 use Illuminate\Mail\Mailer;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

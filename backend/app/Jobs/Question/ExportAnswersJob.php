@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Jobs\Question;
+namespace Ciencia\Jobs\Question;
 
-use HiEvents\Exports\AnswersExport;
-use HiEvents\Services\Application\Handlers\Question\ExportAnswersHandler;
+use Ciencia\Exports\AnswersExport;
+use Ciencia\Services\Application\Handlers\Question\ExportAnswersHandler;
 use Illuminate\Bus\Batchable;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

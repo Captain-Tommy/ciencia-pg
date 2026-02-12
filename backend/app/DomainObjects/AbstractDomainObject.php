@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
-use HiEvents\DomainObjects\Interfaces\DomainObjectInterface;
+use Ciencia\DomainObjects\Interfaces\DomainObjectInterface;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;

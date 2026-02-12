@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Account\Vat\DTO;
+namespace Ciencia\Services\Application\Handlers\Account\Vat\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
+use Ciencia\DataTransferObjects\BaseDataObject;
 
 class ViesValidationResponseDTO extends BaseDataObject
 {

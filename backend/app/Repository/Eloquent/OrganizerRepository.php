@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\Generated\OrganizerDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\OrganizerSettingDomainObjectAbstract;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\Status\OrganizerStatus;
-use HiEvents\Models\Organizer;
-use HiEvents\Repository\DTO\Organizer\OrganizerStatsResponseDTO;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\DomainObjects\Generated\OrganizerDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\OrganizerSettingDomainObjectAbstract;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\Status\OrganizerStatus;
+use Ciencia\Models\Organizer;
+use Ciencia\Repository\DTO\Organizer\OrganizerStatsResponseDTO;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 class OrganizerRepository extends BaseRepository implements OrganizerRepositoryInterface

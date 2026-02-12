@@ -3,11 +3,11 @@
 namespace Tests\Unit\Services\Domain\Order;
 
 use Brick\Money\Currency;
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\Services\Domain\Order\OrderPlatformFeePassThroughService;
-use HiEvents\Services\Infrastructure\CurrencyConversion\CurrencyConversionClientInterface;
-use HiEvents\Values\MoneyValue;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\Services\Domain\Order\OrderPlatformFeePassThroughService;
+use Ciencia\Services\Infrastructure\CurrencyConversion\CurrencyConversionClientInterface;
+use Ciencia\Values\MoneyValue;
 use Illuminate\Config\Repository;
 use PHPUnit\Framework\TestCase;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\EmailTemplates;
+namespace Ciencia\Http\Actions\EmailTemplates;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\AccountNotVerifiedException;
-use HiEvents\Exceptions\EmailTemplateNotFoundException;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Services\Application\Handlers\EmailTemplate\DeleteEmailTemplateHandler;
-use HiEvents\Services\Application\Handlers\EmailTemplate\DTO\DeleteEmailTemplateDTO;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\AccountNotVerifiedException;
+use Ciencia\Exceptions\EmailTemplateNotFoundException;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Services\Application\Handlers\EmailTemplate\DeleteEmailTemplateHandler;
+use Ciencia\Services\Application\Handlers\EmailTemplate\DTO\DeleteEmailTemplateDTO;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;

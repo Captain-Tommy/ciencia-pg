@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Request\Attendee;
+namespace Ciencia\Http\Request\Attendee;
 
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Locale;
-use HiEvents\Validators\Rules\RulesHelper;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Locale;
+use Ciencia\Validators\Rules\RulesHelper;
 use Illuminate\Validation\Rule;
 
 class CreateAttendeeRequest extends BaseRequest

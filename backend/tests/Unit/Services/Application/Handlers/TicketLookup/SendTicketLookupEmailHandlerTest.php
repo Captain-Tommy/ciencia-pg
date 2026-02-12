@@ -2,14 +2,14 @@
 
 namespace Tests\Unit\Services\Application\Handlers\TicketLookup;
 
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Mail\TicketLookup\TicketLookupEmail;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Repository\Interfaces\TicketLookupTokenRepositoryInterface;
-use HiEvents\Services\Application\Handlers\TicketLookup\DTO\SendTicketLookupEmailDTO;
-use HiEvents\Services\Application\Handlers\TicketLookup\SendTicketLookupEmailHandler;
-use HiEvents\Services\Infrastructure\TokenGenerator\TokenGeneratorService;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Mail\TicketLookup\TicketLookupEmail;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Repository\Interfaces\TicketLookupTokenRepositoryInterface;
+use Ciencia\Services\Application\Handlers\TicketLookup\DTO\SendTicketLookupEmailDTO;
+use Ciencia\Services\Application\Handlers\TicketLookup\SendTicketLookupEmailHandler;
+use Ciencia\Services\Infrastructure\TokenGenerator\TokenGeneratorService;
 use Illuminate\Contracts\Mail\Mailer;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Support\Collection;

@@ -2,12 +2,12 @@
 
 namespace Tests\Unit\Services\Application\Handlers\CheckInList\Public;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\CheckInListDomainObject;
-use HiEvents\Exceptions\CannotCheckInException;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\CheckInListRepositoryInterface;
-use HiEvents\Services\Application\Handlers\CheckInList\Public\GetCheckInListAttendeePublicHandler;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\CheckInListDomainObject;
+use Ciencia\Exceptions\CannotCheckInException;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\CheckInListRepositoryInterface;
+use Ciencia\Services\Application\Handlers\CheckInList\Public\GetCheckInListAttendeePublicHandler;
 use Mockery as m;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 use Tests\TestCase;

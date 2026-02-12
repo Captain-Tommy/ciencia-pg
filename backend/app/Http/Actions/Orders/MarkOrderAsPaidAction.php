@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders;
+namespace Ciencia\Http\Actions\Orders;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Order\OrderResource;
-use HiEvents\Services\Application\Handlers\Order\DTO\MarkOrderAsPaidDTO;
-use HiEvents\Services\Application\Handlers\Order\MarkOrderAsPaidHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Order\OrderResource;
+use Ciencia\Services\Application\Handlers\Order\DTO\MarkOrderAsPaidDTO;
+use Ciencia\Services\Application\Handlers\Order\MarkOrderAsPaidHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 

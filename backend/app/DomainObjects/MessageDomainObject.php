@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
-use HiEvents\DomainObjects\Interfaces\IsFilterable;
-use HiEvents\DomainObjects\Interfaces\IsSortable;
-use HiEvents\DomainObjects\SortingAndFiltering\AllowedSorts;
-use HiEvents\Helper\StringHelper;
+use Ciencia\DomainObjects\Interfaces\IsFilterable;
+use Ciencia\DomainObjects\Interfaces\IsSortable;
+use Ciencia\DomainObjects\SortingAndFiltering\AllowedSorts;
+use Ciencia\Helper\StringHelper;
 
 class MessageDomainObject extends Generated\MessageDomainObjectAbstract implements IsSortable, IsFilterable
 {

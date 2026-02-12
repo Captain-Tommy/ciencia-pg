@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Webhook;
+namespace Ciencia\Services\Application\Handlers\Webhook;
 
-use HiEvents\DomainObjects\WebhookDomainObject;
-use HiEvents\Services\Application\Handlers\Webhook\DTO\CreateWebhookDTO;
-use HiEvents\Services\Domain\CreateWebhookService;
+use Ciencia\DomainObjects\WebhookDomainObject;
+use Ciencia\Services\Application\Handlers\Webhook\DTO\CreateWebhookDTO;
+use Ciencia\Services\Domain\CreateWebhookService;
 use Illuminate\Database\DatabaseManager;
 use Throwable;
 

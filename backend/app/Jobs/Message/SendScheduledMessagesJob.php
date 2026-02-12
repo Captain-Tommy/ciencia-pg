@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Jobs\Message;
+namespace Ciencia\Jobs\Message;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\Status\MessageStatus;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
-use HiEvents\Services\Domain\Message\MessageDispatchService;
+use Ciencia\DomainObjects\Status\MessageStatus;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\Services\Domain\Message\MessageDispatchService;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

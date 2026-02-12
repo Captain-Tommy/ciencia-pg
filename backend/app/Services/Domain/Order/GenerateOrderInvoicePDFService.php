@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Services\Domain\Order;
+namespace Ciencia\Services\Domain\Order;
 
 use Barryvdh\DomPDF\Facade\Pdf;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\InvoiceRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Domain\Order\DTO\InvoicePdfResponseDTO;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\InvoiceRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Domain\Order\DTO\InvoicePdfResponseDTO;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 class GenerateOrderInvoicePDFService

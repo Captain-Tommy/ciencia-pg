@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Event;
+namespace Ciencia\Services\Application\Handlers\Event;
 
-use HiEvents\DomainObjects\Enums\EventCategory;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\OrganizerNotFoundException;
-use HiEvents\Services\Application\Handlers\Event\DTO\CreateEventDTO;
-use HiEvents\Services\Domain\Event\CreateEventService;
-use HiEvents\Services\Domain\Organizer\OrganizerFetchService;
-use HiEvents\Services\Domain\ProductCategory\CreateProductCategoryService;
+use Ciencia\DomainObjects\Enums\EventCategory;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\OrganizerNotFoundException;
+use Ciencia\Services\Application\Handlers\Event\DTO\CreateEventDTO;
+use Ciencia\Services\Domain\Event\CreateEventService;
+use Ciencia\Services\Domain\Organizer\OrganizerFetchService;
+use Ciencia\Services\Domain\ProductCategory\CreateProductCategoryService;
 use Illuminate\Database\DatabaseManager;
 use Throwable;
 

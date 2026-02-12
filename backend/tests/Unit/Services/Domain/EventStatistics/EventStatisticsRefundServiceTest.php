@@ -2,13 +2,13 @@
 
 namespace Tests\Unit\Services\Domain\EventStatistics;
 
-use HiEvents\DomainObjects\EventDailyStatisticDomainObject;
-use HiEvents\DomainObjects\EventStatisticDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Repository\Interfaces\EventDailyStatisticRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventStatisticRepositoryInterface;
-use HiEvents\Services\Domain\EventStatistics\EventStatisticsRefundService;
-use HiEvents\Values\MoneyValue;
+use Ciencia\DomainObjects\EventDailyStatisticDomainObject;
+use Ciencia\DomainObjects\EventStatisticDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Repository\Interfaces\EventDailyStatisticRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventStatisticRepositoryInterface;
+use Ciencia\Services\Domain\EventStatistics\EventStatisticsRefundService;
+use Ciencia\Values\MoneyValue;
 use Mockery;
 use Mockery\MockInterface;
 use Psr\Log\LoggerInterface;

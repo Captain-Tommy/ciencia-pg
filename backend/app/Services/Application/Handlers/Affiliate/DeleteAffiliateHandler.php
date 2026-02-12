@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Affiliate;
+namespace Ciencia\Services\Application\Handlers\Affiliate;
 
-use HiEvents\Repository\Interfaces\AffiliateRepositoryInterface;
+use Ciencia\Repository\Interfaces\AffiliateRepositoryInterface;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class DeleteAffiliateHandler

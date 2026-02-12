@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
-use HiEvents\DomainObjects\Generated\OrderDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\OrderDomainObjectAbstract;
 
 class QuestionAnswerDomainObject extends Generated\QuestionAnswerDomainObjectAbstract
 {

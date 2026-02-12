@@ -2,14 +2,14 @@
 
 namespace Tests\Unit\Services\Domain\Image;
 
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\Repository\Interfaces\ImageRepositoryInterface;
-use HiEvents\Services\Domain\Image\ImageUploadService;
-use HiEvents\Services\Infrastructure\Image\DTO\ImageMetadataDTO;
-use HiEvents\Services\Infrastructure\Image\DTO\ImageStorageResponseDTO;
-use HiEvents\Services\Infrastructure\Image\Exception\CouldNotUploadImageException;
-use HiEvents\Services\Infrastructure\Image\ImageMetadataService;
-use HiEvents\Services\Infrastructure\Image\ImageStorageService;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\Repository\Interfaces\ImageRepositoryInterface;
+use Ciencia\Services\Domain\Image\ImageUploadService;
+use Ciencia\Services\Infrastructure\Image\DTO\ImageMetadataDTO;
+use Ciencia\Services\Infrastructure\Image\DTO\ImageStorageResponseDTO;
+use Ciencia\Services\Infrastructure\Image\Exception\CouldNotUploadImageException;
+use Ciencia\Services\Infrastructure\Image\ImageMetadataService;
+use Ciencia\Services\Infrastructure\Image\ImageStorageService;
 use Illuminate\Http\UploadedFile;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;

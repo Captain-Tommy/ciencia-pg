@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Middleware;
+namespace Ciencia\Http\Middleware;
 
 use Closure;
-use HiEvents\Providers\RouteServiceProvider;
+use Ciencia\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Symfony\Component\HttpFoundation\Response;

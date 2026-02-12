@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Domain\CheckInList\DTO;
+namespace Ciencia\Services\Domain\CheckInList\DTO;
 
 class CheckInResultDTO
 {

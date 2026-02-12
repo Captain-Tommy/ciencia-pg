@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Domain\Sitemap;
+namespace Ciencia\Services\Domain\Sitemap;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use XMLWriter;

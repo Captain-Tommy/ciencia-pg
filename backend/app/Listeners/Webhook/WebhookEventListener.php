@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Listeners\Webhook;
+namespace Ciencia\Listeners\Webhook;
 
-use HiEvents\Jobs\Order\Webhook\DispatchAttendeeWebhookJob;
-use HiEvents\Jobs\Order\Webhook\DispatchCheckInWebhookJob;
-use HiEvents\Jobs\Order\Webhook\DispatchOrderWebhookJob;
-use HiEvents\Jobs\Order\Webhook\DispatchProductWebhookJob;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\AttendeeEvent;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\BaseDomainEvent;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\CheckinEvent;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\OrderEvent;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\ProductEvent;
+use Ciencia\Jobs\Order\Webhook\DispatchAttendeeWebhookJob;
+use Ciencia\Jobs\Order\Webhook\DispatchCheckInWebhookJob;
+use Ciencia\Jobs\Order\Webhook\DispatchOrderWebhookJob;
+use Ciencia\Jobs\Order\Webhook\DispatchProductWebhookJob;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\AttendeeEvent;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\BaseDomainEvent;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\CheckinEvent;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\OrderEvent;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\ProductEvent;
 use Illuminate\Config\Repository;
 
 class WebhookEventListener

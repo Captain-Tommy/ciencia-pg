@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\CheckInListDomainObject;
-use HiEvents\DomainObjects\Generated\CapacityAssignmentDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\CheckInListDomainObjectAbstract;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Models\CheckInList;
-use HiEvents\Repository\DTO\CheckedInAttendeesCountDTO;
-use HiEvents\Repository\Interfaces\CheckInListRepositoryInterface;
+use Ciencia\DomainObjects\CheckInListDomainObject;
+use Ciencia\DomainObjects\Generated\CapacityAssignmentDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\CheckInListDomainObjectAbstract;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Models\CheckInList;
+use Ciencia\Repository\DTO\CheckedInAttendeesCountDTO;
+use Ciencia\Repository\Interfaces\CheckInListRepositoryInterface;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;

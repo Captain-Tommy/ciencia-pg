@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders\Payment;
+namespace Ciencia\Http\Actions\Orders\Payment;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\RefundNotPossibleException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Order\RefundOrderRequest;
-use HiEvents\Resources\Order\OrderResource;
-use HiEvents\Services\Application\Handlers\Order\DTO\RefundOrderDTO;
-use HiEvents\Services\Application\Handlers\Order\Payment\Stripe\RefundOrderHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\RefundNotPossibleException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Order\RefundOrderRequest;
+use Ciencia\Resources\Order\OrderResource;
+use Ciencia\Services\Application\Handlers\Order\DTO\RefundOrderDTO;
+use Ciencia\Services\Application\Handlers\Order\Payment\Stripe\RefundOrderHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\ValidationException;
 use Stripe\Exception\ApiErrorException;

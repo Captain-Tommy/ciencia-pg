@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\OutgoingMessageDomainObject;
-use HiEvents\Models\OutgoingMessage;
-use HiEvents\Repository\Interfaces\OutgoingMessageRepositoryInterface;
+use Ciencia\DomainObjects\OutgoingMessageDomainObject;
+use Ciencia\Models\OutgoingMessage;
+use Ciencia\Repository\Interfaces\OutgoingMessageRepositoryInterface;
 
 class OutgoingMessageRepository extends BaseRepository implements OutgoingMessageRepositoryInterface
 {

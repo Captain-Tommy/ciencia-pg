@@ -1,19 +1,19 @@
 <?php
 
-namespace HiEvents\Services\Domain\Message;
+namespace Ciencia\Services\Domain\Message;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\AccountMessagingTierDomainObject;
-use HiEvents\DomainObjects\AccountStripePlatformDomainObject;
-use HiEvents\DomainObjects\Enums\MessagingEligibilityFailureEnum;
-use HiEvents\DomainObjects\Enums\MessagingTierViolationEnum;
-use HiEvents\Repository\Interfaces\AccountMessagingTierRepositoryInterface;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Domain\Message\DTO\MessagingEligibilityFailureDTO;
-use HiEvents\Services\Domain\Message\DTO\MessagingTierViolationDTO;
+use Ciencia\DomainObjects\AccountMessagingTierDomainObject;
+use Ciencia\DomainObjects\AccountStripePlatformDomainObject;
+use Ciencia\DomainObjects\Enums\MessagingEligibilityFailureEnum;
+use Ciencia\DomainObjects\Enums\MessagingTierViolationEnum;
+use Ciencia\Repository\Interfaces\AccountMessagingTierRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Domain\Message\DTO\MessagingEligibilityFailureDTO;
+use Ciencia\Services\Domain\Message\DTO\MessagingTierViolationDTO;
 
 class MessagingEligibilityService
 {

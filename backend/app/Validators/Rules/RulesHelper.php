@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Validators\Rules;
+namespace Ciencia\Validators\Rules;
 
 class RulesHelper
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders;
+namespace Ciencia\Http\Actions\Orders;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Order\DTO\GetOrderInvoiceDTO;
-use HiEvents\Services\Application\Handlers\Order\GetOrderInvoiceHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Order\DTO\GetOrderInvoiceDTO;
+use Ciencia\Services\Application\Handlers\Order\GetOrderInvoiceHandler;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 

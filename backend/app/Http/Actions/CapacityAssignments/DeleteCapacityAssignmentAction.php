@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Actions\CapacityAssignments;
+namespace Ciencia\Http\Actions\CapacityAssignments;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\CapacityAssignment\DeleteCapacityAssignmentHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\CapacityAssignment\DeleteCapacityAssignmentHandler;
 use Illuminate\Http\Response;
 
 class DeleteCapacityAssignmentAction extends BaseAction

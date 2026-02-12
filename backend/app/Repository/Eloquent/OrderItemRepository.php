@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\Models\OrderItem;
-use HiEvents\Repository\Interfaces\OrderItemRepositoryInterface;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\Models\OrderItem;
+use Ciencia\Repository\Interfaces\OrderItemRepositoryInterface;
 
 class OrderItemRepository extends BaseRepository implements OrderItemRepositoryInterface
 {

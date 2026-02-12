@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\PromoCode;
+namespace Ciencia\Services\Application\Handlers\PromoCode;
 
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
-use HiEvents\Services\Application\Handlers\PromoCode\DTO\DeletePromoCodeDTO;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\Services\Application\Handlers\PromoCode\DTO\DeletePromoCodeDTO;
 use Psr\Log\LoggerInterface;
 
 readonly class DeletePromoCodeHandler

@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\Images;
+namespace Ciencia\Http\Actions\Images;
 
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\Exceptions\CannotDeleteEntityException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Images\DeleteImageHandler;
-use HiEvents\Services\Application\Handlers\Images\DTO\DeleteImageDTO;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\Exceptions\CannotDeleteEntityException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Images\DeleteImageHandler;
+use Ciencia\Services\Application\Handlers\Images\DTO\DeleteImageDTO;
 use Illuminate\Http\Response;
 
 class DeleteImageAction extends BaseAction

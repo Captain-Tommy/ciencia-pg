@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CapacityAssignment;
+namespace Ciencia\Services\Application\Handlers\CapacityAssignment;
 
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 class GetCapacityAssignmentHandler

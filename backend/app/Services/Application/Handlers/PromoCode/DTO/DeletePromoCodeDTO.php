@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\PromoCode\DTO;
+namespace Ciencia\Services\Application\Handlers\PromoCode\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class DeletePromoCodeDTO extends BaseDTO
 {

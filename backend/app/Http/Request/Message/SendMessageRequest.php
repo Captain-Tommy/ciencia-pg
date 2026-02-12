@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Request\Message;
+namespace Ciencia\Http\Request\Message;
 
-use HiEvents\DomainObjects\Enums\MessageTypeEnum;
-use HiEvents\DomainObjects\Status\OrderStatus;
+use Ciencia\DomainObjects\Enums\MessageTypeEnum;
+use Ciencia\DomainObjects\Status\OrderStatus;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rules\In;
 

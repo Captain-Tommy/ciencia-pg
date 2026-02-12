@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Common\Webhooks;
+namespace Ciencia\Http\Actions\Common\Webhooks;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Services\Application\Handlers\Order\Payment\Stripe\DTO\StripeWebhookDTO;
-use HiEvents\Services\Application\Handlers\Order\Payment\Stripe\IncomingWebhookHandler;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Services\Application\Handlers\Order\Payment\Stripe\DTO\StripeWebhookDTO;
+use Ciencia\Services\Application\Handlers\Order\Payment\Stripe\IncomingWebhookHandler;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Throwable;

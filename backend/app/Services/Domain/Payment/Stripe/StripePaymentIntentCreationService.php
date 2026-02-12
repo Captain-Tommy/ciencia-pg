@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Services\Domain\Payment\Stripe;
+namespace Ciencia\Services\Domain\Payment\Stripe;
 
-use HiEvents\DomainObjects\StripeCustomerDomainObject;
-use HiEvents\Exceptions\Stripe\CreatePaymentIntentFailedException;
-use HiEvents\Repository\Interfaces\StripeCustomerRepositoryInterface;
-use HiEvents\Services\Domain\Order\DTO\ApplicationFeeValuesDTO;
-use HiEvents\Services\Domain\Order\OrderApplicationFeeCalculationService;
-use HiEvents\Services\Domain\Payment\Stripe\DTOs\CreatePaymentIntentRequestDTO;
-use HiEvents\Services\Domain\Payment\Stripe\DTOs\CreatePaymentIntentResponseDTO;
+use Ciencia\DomainObjects\StripeCustomerDomainObject;
+use Ciencia\Exceptions\Stripe\CreatePaymentIntentFailedException;
+use Ciencia\Repository\Interfaces\StripeCustomerRepositoryInterface;
+use Ciencia\Services\Domain\Order\DTO\ApplicationFeeValuesDTO;
+use Ciencia\Services\Domain\Order\OrderApplicationFeeCalculationService;
+use Ciencia\Services\Domain\Payment\Stripe\DTOs\CreatePaymentIntentRequestDTO;
+use Ciencia\Services\Domain\Payment\Stripe\DTOs\CreatePaymentIntentResponseDTO;
 use Illuminate\Config\Repository;
 use Illuminate\Database\DatabaseManager;
 use Psr\Log\LoggerInterface;

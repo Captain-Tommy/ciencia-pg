@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Image\Exception;
+namespace Ciencia\Services\Infrastructure\Image\Exception;
 
 use Exception;
 

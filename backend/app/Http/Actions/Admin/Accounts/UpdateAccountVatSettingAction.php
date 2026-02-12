@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Admin\Accounts;
+namespace Ciencia\Http\Actions\Admin\Accounts;
 
-use HiEvents\DataTransferObjects\UpdateAdminAccountVatSettingDTO;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Account\AccountVatSettingResource;
-use HiEvents\Services\Application\Handlers\Admin\UpdateAdminAccountVatSettingHandler;
+use Ciencia\DataTransferObjects\UpdateAdminAccountVatSettingDTO;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Account\AccountVatSettingResource;
+use Ciencia\Services\Application\Handlers\Admin\UpdateAdminAccountVatSettingHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

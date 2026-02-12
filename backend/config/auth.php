@@ -66,7 +66,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => \HiEvents\Models\User::class,
+            'model' => \Ciencia\Models\User::class,
         ],
 
         // 'users' => [

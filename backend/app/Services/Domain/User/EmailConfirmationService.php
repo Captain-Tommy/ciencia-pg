@@ -1,17 +1,17 @@
 <?php
 
-namespace HiEvents\Services\Domain\User;
+namespace Ciencia\Services\Domain\User;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Mail\Account\ConfirmEmailAddressEmail;
-use HiEvents\Mail\Account\EmailConfirmationCodeEmail;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Infrastructure\Encryption\EncryptedPayloadService;
-use HiEvents\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
-use HiEvents\Services\Infrastructure\Encryption\Exception\EncryptedPayloadExpiredException;
-use HiEvents\Services\Infrastructure\User\EmailVerificationCodeService;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Mail\Account\ConfirmEmailAddressEmail;
+use Ciencia\Mail\Account\EmailConfirmationCodeEmail;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Infrastructure\Encryption\EncryptedPayloadService;
+use Ciencia\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
+use Ciencia\Services\Infrastructure\Encryption\Exception\EncryptedPayloadExpiredException;
+use Ciencia\Services\Infrastructure\User\EmailVerificationCodeService;
 use Illuminate\Contracts\Mail\Mailer;
 use Illuminate\Database\DatabaseManager;
 use Throwable;

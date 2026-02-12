@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Actions\EmailTemplates;
+namespace Ciencia\Http\Actions\EmailTemplates;
 
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Domain\Email\EmailTemplateService;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Domain\Email\EmailTemplateService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

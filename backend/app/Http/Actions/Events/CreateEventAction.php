@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Events;
+namespace Ciencia\Http\Actions\Events;
 
-use HiEvents\Exceptions\OrganizerNotFoundException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Event\CreateEventRequest;
-use HiEvents\Resources\Event\EventResource;
-use HiEvents\Services\Application\Handlers\Event\CreateEventHandler;
-use HiEvents\Services\Application\Handlers\Event\DTO\CreateEventDTO;
+use Ciencia\Exceptions\OrganizerNotFoundException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Event\CreateEventRequest;
+use Ciencia\Resources\Event\EventResource;
+use Ciencia\Services\Application\Handlers\Event\CreateEventHandler;
+use Ciencia\Services\Application\Handlers\Event\DTO\CreateEventDTO;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\ValidationException;
 use Throwable;

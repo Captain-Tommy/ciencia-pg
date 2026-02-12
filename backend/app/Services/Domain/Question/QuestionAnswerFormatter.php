@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Domain\Question;
+namespace Ciencia\Services\Domain\Question;
 
-use HiEvents\DomainObjects\Enums\QuestionTypeEnum;
+use Ciencia\DomainObjects\Enums\QuestionTypeEnum;
 
 class QuestionAnswerFormatter
 {

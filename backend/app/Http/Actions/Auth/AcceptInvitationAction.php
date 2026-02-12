@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Http\Actions\Auth;
+namespace Ciencia\Http\Actions\Auth;
 
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Auth\AcceptInvitationRequest;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Services\Application\Handlers\Auth\AcceptInvitationHandler;
-use HiEvents\Services\Application\Handlers\Auth\DTO\AcceptInvitationDTO;
-use HiEvents\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
-use HiEvents\Services\Infrastructure\Encryption\Exception\EncryptedPayloadExpiredException;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Auth\AcceptInvitationRequest;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Services\Application\Handlers\Auth\AcceptInvitationHandler;
+use Ciencia\Services\Application\Handlers\Auth\DTO\AcceptInvitationDTO;
+use Ciencia\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
+use Ciencia\Services\Infrastructure\Encryption\Exception\EncryptedPayloadExpiredException;
 use Illuminate\Http\Response;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;

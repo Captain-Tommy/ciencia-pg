@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Accounts\Vat;
+namespace Ciencia\Http\Actions\Accounts\Vat;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Account\AccountVatSettingResource;
-use HiEvents\Services\Application\Handlers\Account\Vat\GetAccountVatSettingHandler;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Account\AccountVatSettingResource;
+use Ciencia\Services\Application\Handlers\Account\Vat\GetAccountVatSettingHandler;
 use Illuminate\Http\JsonResponse;
 
 class GetAccountVatSettingAction extends BaseAction

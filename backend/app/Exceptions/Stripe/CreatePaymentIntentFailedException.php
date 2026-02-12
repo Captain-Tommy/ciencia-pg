@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Exceptions\Stripe;
+namespace Ciencia\Exceptions\Stripe;
 
 use Exception;
 

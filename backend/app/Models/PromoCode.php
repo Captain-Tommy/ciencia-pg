@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Models;
+namespace Ciencia\Models;
 
-use HiEvents\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class PromoCode extends BaseModel

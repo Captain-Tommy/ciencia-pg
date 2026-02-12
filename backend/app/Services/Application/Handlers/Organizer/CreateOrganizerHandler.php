@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Organizer;
+namespace Ciencia\Services\Application\Handlers\Organizer;
 
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Organizer\DTO\CreateOrganizerDTO;
-use HiEvents\Services\Domain\Organizer\CreateDefaultOrganizerSettingsService;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Organizer\DTO\CreateOrganizerDTO;
+use Ciencia\Services\Domain\Organizer\CreateDefaultOrganizerSettingsService;
 use Illuminate\Database\DatabaseManager;
 use Throwable;
 

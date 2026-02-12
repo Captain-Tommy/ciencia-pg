@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Exceptions;
+namespace Ciencia\Exceptions;
 
 use Exception;
 

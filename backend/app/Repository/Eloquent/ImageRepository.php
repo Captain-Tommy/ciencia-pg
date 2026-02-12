@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\Models\Image;
-use HiEvents\Repository\Interfaces\ImageRepositoryInterface;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\Models\Image;
+use Ciencia\Repository\Interfaces\ImageRepositoryInterface;
 
 class ImageRepository extends BaseRepository implements ImageRepositoryInterface
 {

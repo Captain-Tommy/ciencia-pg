@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\Images;
+namespace Ciencia\Http\Actions\Images;
 
-use HiEvents\DomainObjects\Enums\ImageType;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Image\CreateImageRequest;
-use HiEvents\Resources\Image\ImageResource;
-use HiEvents\Services\Application\Handlers\Images\CreateImageHandler;
-use HiEvents\Services\Application\Handlers\Images\DTO\CreateImageDTO;
-use HiEvents\Services\Infrastructure\Image\Exception\CouldNotUploadImageException;
+use Ciencia\DomainObjects\Enums\ImageType;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Image\CreateImageRequest;
+use Ciencia\Resources\Image\ImageResource;
+use Ciencia\Services\Application\Handlers\Images\CreateImageHandler;
+use Ciencia\Services\Application\Handlers\Images\DTO\CreateImageDTO;
+use Ciencia\Services\Infrastructure\Image\Exception\CouldNotUploadImageException;
 use Illuminate\Http\JsonResponse;
 
 class CreateImageAction extends BaseAction

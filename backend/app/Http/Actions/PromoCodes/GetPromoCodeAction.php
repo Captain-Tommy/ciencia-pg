@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\PromoCodes;
+namespace Ciencia\Http\Actions\PromoCodes;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
-use HiEvents\Resources\PromoCode\PromoCodeResource;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\Resources\PromoCode\PromoCodeResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

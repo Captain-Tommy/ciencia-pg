@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\Webhooks;
+namespace Ciencia\Http\Actions\Webhooks;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\WebhookLogDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Webhook\WebhookLogResource;
-use HiEvents\Services\Application\Handlers\Webhook\GetWebhookLogsHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\WebhookLogDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Webhook\WebhookLogResource;
+use Ciencia\Services\Application\Handlers\Webhook\GetWebhookLogsHandler;
 use Illuminate\Http\JsonResponse;
 
 class GetWebhookLogsAction extends BaseAction

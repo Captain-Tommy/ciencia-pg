@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Hi.Events backend HTTP layer uses a standardized pattern built around invokable action classes that extend `BaseAction`. This provides consistent response methods, authorization patterns, and request handling across the entire API.
+The Ciencia 2k26 backend HTTP layer uses a standardized pattern built around invokable action classes that extend `BaseAction`. This provides consistent response methods, authorization patterns, and request handling across the entire API.
 
 ```mermaid
 graph TB
@@ -34,9 +34,9 @@ All HTTP actions extend `BaseAction` which provides standardized methods for:
 ### Action Structure
 
 ```php
-namespace HiEvents\Http\Actions\PromoCodes;
+namespace Ciencia\Http\Actions\PromoCodes;
 
-use HiEvents\Http\Actions\BaseAction;
+use Ciencia\Http\Actions\BaseAction;
 
 class CreatePromoCodeAction extends BaseAction
 {
@@ -810,7 +810,7 @@ try {
 
 ## Summary
 
-The Hi.Events HTTP layer provides:
+The Ciencia 2k26 HTTP layer provides:
 
 1. **Invokable Actions**: Single-purpose action classes extending `BaseAction`
 2. **Standardized Responses**: Consistent response methods for all endpoints

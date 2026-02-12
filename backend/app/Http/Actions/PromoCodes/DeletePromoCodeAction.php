@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\PromoCodes;
+namespace Ciencia\Http\Actions\PromoCodes;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\PromoCode\DeletePromoCodeHandler;
-use HiEvents\Services\Application\Handlers\PromoCode\DTO\DeletePromoCodeDTO;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\PromoCode\DeletePromoCodeHandler;
+use Ciencia\Services\Application\Handlers\PromoCode\DTO\DeletePromoCodeDTO;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 

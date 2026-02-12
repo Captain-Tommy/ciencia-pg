@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Mail\Event;
+namespace Ciencia\Mail\Event;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\Mail\BaseMail;
-use HiEvents\Services\Application\Handlers\Message\DTO\SendMessageDTO;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\Mail\BaseMail;
+use Ciencia\Services\Application\Handlers\Message\DTO\SendMessageDTO;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 

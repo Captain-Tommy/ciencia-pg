@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Request\Event;
+namespace Ciencia\Http\Request\Event;
 
-use HiEvents\DomainObjects\Enums\ImageType;
-use HiEvents\Validators\Rules\RulesHelper;
+use Ciencia\DomainObjects\Enums\ImageType;
+use Ciencia\Validators\Rules\RulesHelper;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 

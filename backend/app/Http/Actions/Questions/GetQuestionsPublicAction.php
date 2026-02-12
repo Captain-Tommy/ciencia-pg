@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\Questions;
+namespace Ciencia\Http\Actions\Questions;
 
-use HiEvents\DomainObjects\Generated\QuestionDomainObjectAbstract;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\QuestionRepositoryInterface;
-use HiEvents\Resources\Question\QuestionResourcePublic;
+use Ciencia\DomainObjects\Generated\QuestionDomainObjectAbstract;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\QuestionRepositoryInterface;
+use Ciencia\Resources\Question\QuestionResourcePublic;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

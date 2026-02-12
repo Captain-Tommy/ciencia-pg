@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\DomainObjects\Interfaces;
+namespace Ciencia\DomainObjects\Interfaces;
 
-use HiEvents\DomainObjects\SortingAndFiltering\AllowedSorts;
+use Ciencia\DomainObjects\SortingAndFiltering\AllowedSorts;
 
 interface IsSortable
 {

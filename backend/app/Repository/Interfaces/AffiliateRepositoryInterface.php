@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\Http\DTO\QueryParamsDTO;
+use Ciencia\Http\DTO\QueryParamsDTO;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 interface AffiliateRepositoryInterface extends RepositoryInterface

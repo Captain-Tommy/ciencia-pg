@@ -104,7 +104,7 @@ Sitemap: ${frontendUrl}/sitemap.xml
                 .map((value) => value.toString() || "")
                 .join(" ");
 
-            const envVariablesHtml = `<script>window.hievents = ${getViteEnvironmentVariables()};</script>`;
+            const envVariablesHtml = `<script>window.ciencias = ${getViteEnvironmentVariables()};</script>`;
 
             const headSnippets = [];
             if (process.env.VITE_FATHOM_SITE_ID) {

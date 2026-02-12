@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\CurrencyConversion;
+namespace Ciencia\Services\Infrastructure\CurrencyConversion;
 
 use Brick\Money\Currency;
-use HiEvents\Values\MoneyValue;
+use Ciencia\Values\MoneyValue;
 use Psr\Log\LoggerInterface;
 
 class NoOpCurrencyConversionClient implements CurrencyConversionClientInterface

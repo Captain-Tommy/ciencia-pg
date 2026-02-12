@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Http\Actions\Messages;
+namespace Ciencia\Http\Actions\Messages;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\AccountNotVerifiedException;
-use HiEvents\Exceptions\MessagingTierLimitExceededException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Message\SendMessageRequest;
-use HiEvents\Resources\Message\MessageResource;
-use HiEvents\Services\Application\Handlers\Message\DTO\SendMessageDTO;
-use HiEvents\Services\Application\Handlers\Message\SendMessageHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\AccountNotVerifiedException;
+use Ciencia\Exceptions\MessagingTierLimitExceededException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Message\SendMessageRequest;
+use Ciencia\Resources\Message\MessageResource;
+use Ciencia\Services\Application\Handlers\Message\DTO\SendMessageDTO;
+use Ciencia\Services\Application\Handlers\Message\SendMessageHandler;
 use Illuminate\Http\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 

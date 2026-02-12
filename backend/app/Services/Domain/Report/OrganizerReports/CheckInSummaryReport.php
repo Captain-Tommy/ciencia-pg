@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Domain\Report\OrganizerReports;
+namespace Ciencia\Services\Domain\Report\OrganizerReports;
 
-use HiEvents\DomainObjects\Status\AttendeeStatus;
-use HiEvents\Services\Domain\Report\AbstractOrganizerReportService;
+use Ciencia\DomainObjects\Status\AttendeeStatus;
+use Ciencia\Services\Domain\Report\AbstractOrganizerReportService;
 use Illuminate\Support\Carbon;
 
 class CheckInSummaryReport extends AbstractOrganizerReportService

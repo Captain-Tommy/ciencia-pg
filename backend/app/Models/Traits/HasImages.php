@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Models\Traits;
+namespace Ciencia\Models\Traits;
 
-use HiEvents\Models\Image;
+use Ciencia\Models\Image;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait HasImages

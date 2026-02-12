@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Domain\Event;
+namespace Ciencia\Services\Domain\Event;
 
-use HiEvents\DomainObjects\Enums\ImageType;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\Repository\Interfaces\ImageRepositoryInterface;
-use HiEvents\Services\Domain\Image\ImageUploadService;
+use Ciencia\DomainObjects\Enums\ImageType;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\Repository\Interfaces\ImageRepositoryInterface;
+use Ciencia\Services\Domain\Image\ImageUploadService;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Http\UploadedFile;
 use Throwable;

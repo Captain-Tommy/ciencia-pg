@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Listeners\Order;
+namespace Ciencia\Listeners\Order;
 
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Events\OrderStatusChangedEvent;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Services\Domain\Invoice\InvoiceCreateService;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Events\OrderStatusChangedEvent;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Services\Domain\Invoice\InvoiceCreateService;
 
 class CreateInvoiceListener
 {

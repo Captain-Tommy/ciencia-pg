@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Resources\Event;
+namespace Ciencia\Resources\Event;
 
-use HiEvents\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 /**

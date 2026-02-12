@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Domain\Product;
+namespace Ciencia\Services\Domain\Product;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\Helper\DateHelper;
-use HiEvents\Repository\Eloquent\ProductPriceRepository;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\Helper\DateHelper;
+use Ciencia\Repository\Eloquent\ProductPriceRepository;
 use Illuminate\Support\Collection;
 
 class ProductPriceCreateService

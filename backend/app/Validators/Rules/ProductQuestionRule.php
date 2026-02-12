@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Validators\Rules;
+namespace Ciencia\Validators\Rules;
 
-use HiEvents\DomainObjects\Enums\AttendeeDetailsCollectionMethod;
-use HiEvents\DomainObjects\Enums\ProductType;
-use HiEvents\DomainObjects\QuestionDomainObject;
+use Ciencia\DomainObjects\Enums\AttendeeDetailsCollectionMethod;
+use Ciencia\DomainObjects\Enums\ProductType;
+use Ciencia\DomainObjects\QuestionDomainObject;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\ValidationException;

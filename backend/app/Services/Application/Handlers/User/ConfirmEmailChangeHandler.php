@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\User;
+namespace Ciencia\Services\Application\Handlers\User;
 
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\User\DTO\ConfirmEmailChangeDTO;
-use HiEvents\Services\Infrastructure\Encryption\EncryptedPayloadService;
-use HiEvents\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\User\DTO\ConfirmEmailChangeDTO;
+use Ciencia\Services\Infrastructure\Encryption\EncryptedPayloadService;
+use Ciencia\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
 use Illuminate\Database\DatabaseManager;
 use Psr\Log\LoggerInterface;
 use Throwable;

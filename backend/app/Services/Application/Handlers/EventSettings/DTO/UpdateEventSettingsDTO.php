@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\EventSettings\DTO;
+namespace Ciencia\Services\Application\Handlers\EventSettings\DTO;
 
-use HiEvents\DataTransferObjects\AddressDTO;
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Enums\AttendeeDetailsCollectionMethod;
-use HiEvents\DomainObjects\Enums\HomepageBackgroundType;
-use HiEvents\DomainObjects\Enums\PaymentProviders;
-use HiEvents\DomainObjects\Enums\PriceDisplayMode;
-use HiEvents\DomainObjects\OrganizerDomainObject;
+use Ciencia\DataTransferObjects\AddressDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Enums\AttendeeDetailsCollectionMethod;
+use Ciencia\DomainObjects\Enums\HomepageBackgroundType;
+use Ciencia\DomainObjects\Enums\PaymentProviders;
+use Ciencia\DomainObjects\Enums\PriceDisplayMode;
+use Ciencia\DomainObjects\OrganizerDomainObject;
 
 class UpdateEventSettingsDTO extends BaseDTO
 {

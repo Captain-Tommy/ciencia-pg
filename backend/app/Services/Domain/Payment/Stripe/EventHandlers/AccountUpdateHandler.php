@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Domain\Payment\Stripe\EventHandlers;
+namespace Ciencia\Services\Domain\Payment\Stripe\EventHandlers;
 
-use HiEvents\DomainObjects\AccountStripePlatformDomainObject;
-use HiEvents\DomainObjects\Generated\AccountStripePlatformDomainObjectAbstract;
-use HiEvents\Repository\Interfaces\AccountStripePlatformRepositoryInterface;
-use HiEvents\Services\Domain\Payment\Stripe\StripeAccountSyncService;
+use Ciencia\DomainObjects\AccountStripePlatformDomainObject;
+use Ciencia\DomainObjects\Generated\AccountStripePlatformDomainObjectAbstract;
+use Ciencia\Repository\Interfaces\AccountStripePlatformRepositoryInterface;
+use Ciencia\Services\Domain\Payment\Stripe\StripeAccountSyncService;
 use Stripe\Account;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

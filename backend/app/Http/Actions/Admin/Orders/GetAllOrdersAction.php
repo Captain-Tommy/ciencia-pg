@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Admin\Orders;
+namespace Ciencia\Http\Actions\Admin\Orders;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Order\AdminOrderResource;
-use HiEvents\Services\Application\Handlers\Admin\DTO\GetAllOrdersDTO;
-use HiEvents\Services\Application\Handlers\Admin\GetAllOrdersHandler;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Order\AdminOrderResource;
+use Ciencia\Services\Application\Handlers\Admin\DTO\GetAllOrdersDTO;
+use Ciencia\Services\Application\Handlers\Admin\GetAllOrdersHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

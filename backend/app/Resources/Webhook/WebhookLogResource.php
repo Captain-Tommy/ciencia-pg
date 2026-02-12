@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\Webhook;
+namespace Ciencia\Resources\Webhook;
 
-use HiEvents\DomainObjects\WebhookLogDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\WebhookLogDomainObject;
+use Ciencia\Resources\BaseResource;
 
 /**
  * @mixin WebhookLogDomainObject

@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions;
+namespace Ciencia\Http\Actions;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\DomainObjects\Interfaces\DomainObjectInterface;
-use HiEvents\DomainObjects\Interfaces\IsFilterable;
-use HiEvents\DomainObjects\Interfaces\IsSortable;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\UnauthorizedException;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Resources\BaseResource;
-use HiEvents\Services\Domain\Auth\AuthUserService;
-use HiEvents\Services\Infrastructure\Authorization\IsAuthorizedService;
+use Ciencia\DataTransferObjects\BaseDataObject;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\DomainObjects\Interfaces\DomainObjectInterface;
+use Ciencia\DomainObjects\Interfaces\IsFilterable;
+use Ciencia\DomainObjects\Interfaces\IsSortable;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\UnauthorizedException;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Resources\BaseResource;
+use Ciencia\Services\Domain\Auth\AuthUserService;
+use Ciencia\Services\Infrastructure\Authorization\IsAuthorizedService;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\JsonResponse;

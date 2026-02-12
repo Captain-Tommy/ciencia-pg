@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Product;
+namespace Ciencia\Services\Application\Handlers\Product;
 
-use HiEvents\DomainObjects\Enums\ProductPriceType;
-use HiEvents\DomainObjects\Generated\ProductPriceDomainObjectAbstract;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\Services\Application\Handlers\Product\DTO\UpsertProductDTO;
-use HiEvents\Services\Domain\Product\CreateProductService;
-use HiEvents\Services\Domain\Product\DTO\ProductPriceDTO;
-use HiEvents\Services\Domain\ProductCategory\GetProductCategoryService;
+use Ciencia\DomainObjects\Enums\ProductPriceType;
+use Ciencia\DomainObjects\Generated\ProductPriceDomainObjectAbstract;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\Services\Application\Handlers\Product\DTO\UpsertProductDTO;
+use Ciencia\Services\Domain\Product\CreateProductService;
+use Ciencia\Services\Domain\Product\DTO\ProductPriceDTO;
+use Ciencia\Services\Domain\ProductCategory\GetProductCategoryService;
 use Throwable;
 
 class CreateProductHandler

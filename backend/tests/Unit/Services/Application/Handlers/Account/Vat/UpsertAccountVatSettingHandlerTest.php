@@ -2,14 +2,14 @@
 
 namespace Tests\Unit\Services\Application\Handlers\Account\Vat;
 
-use HiEvents\DomainObjects\AccountVatSettingDomainObject;
-use HiEvents\DomainObjects\Status\VatValidationStatus;
-use HiEvents\Jobs\Vat\ValidateVatNumberJob;
-use HiEvents\Repository\Interfaces\AccountVatSettingRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Account\Vat\DTO\UpsertAccountVatSettingDTO;
-use HiEvents\Services\Application\Handlers\Account\Vat\DTO\ViesValidationResponseDTO;
-use HiEvents\Services\Application\Handlers\Account\Vat\UpsertAccountVatSettingHandler;
-use HiEvents\Services\Infrastructure\Vat\ViesValidationService;
+use Ciencia\DomainObjects\AccountVatSettingDomainObject;
+use Ciencia\DomainObjects\Status\VatValidationStatus;
+use Ciencia\Jobs\Vat\ValidateVatNumberJob;
+use Ciencia\Repository\Interfaces\AccountVatSettingRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Account\Vat\DTO\UpsertAccountVatSettingDTO;
+use Ciencia\Services\Application\Handlers\Account\Vat\DTO\ViesValidationResponseDTO;
+use Ciencia\Services\Application\Handlers\Account\Vat\UpsertAccountVatSettingHandler;
+use Ciencia\Services\Infrastructure\Vat\ViesValidationService;
 use Illuminate\Support\Facades\Queue;
 use Mockery;
 use Psr\Log\LoggerInterface;

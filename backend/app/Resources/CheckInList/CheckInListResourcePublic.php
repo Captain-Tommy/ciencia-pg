@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Resources\CheckInList;
+namespace Ciencia\Resources\CheckInList;
 
-use HiEvents\DomainObjects\CheckInListDomainObject;
-use HiEvents\Resources\Event\EventResourcePublic;
-use HiEvents\Resources\Product\ProductMinimalResourcePublic;
+use Ciencia\DomainObjects\CheckInListDomainObject;
+use Ciencia\Resources\Event\EventResourcePublic;
+use Ciencia\Resources\Product\ProductMinimalResourcePublic;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 /**

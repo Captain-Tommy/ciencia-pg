@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\DomainEvents;
+namespace Ciencia\Services\Infrastructure\DomainEvents;
 
-use HiEvents\Services\Infrastructure\DomainEvents\Events\BaseDomainEvent;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\BaseDomainEvent;
 use Illuminate\Events\Dispatcher as EventDispatcher;
 use Psr\Log\LoggerInterface;
 use Throwable;

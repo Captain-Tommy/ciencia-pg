@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Webhook;
+namespace Ciencia\Services\Infrastructure\Webhook;
 
 use GuzzleHttp\Psr7\Response;
-use HiEvents\Repository\Interfaces\WebhookLogRepositoryInterface;
-use HiEvents\Repository\Interfaces\WebhookRepositoryInterface;
+use Ciencia\Repository\Interfaces\WebhookLogRepositoryInterface;
+use Ciencia\Repository\Interfaces\WebhookRepositoryInterface;
 use Illuminate\Database\DatabaseManager;
 use Psr\Log\LoggerInterface;
 

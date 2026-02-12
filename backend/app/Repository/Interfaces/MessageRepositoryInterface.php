@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\MessageDomainObject;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Repository\Eloquent\BaseRepository;
+use Ciencia\DomainObjects\MessageDomainObject;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Repository\Eloquent\BaseRepository;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 /**

@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Account\Payment\Stripe\DTO;
+namespace Ciencia\Services\Application\Handlers\Account\Payment\Stripe\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\AccountDomainObject;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\AccountDomainObject;
 
 class CreateStripeConnectAccountResponse extends BaseDTO
 {

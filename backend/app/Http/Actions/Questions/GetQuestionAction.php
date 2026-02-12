@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\Questions;
+namespace Ciencia\Http\Actions\Questions;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\Generated\QuestionDomainObjectAbstract;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\QuestionRepositoryInterface;
-use HiEvents\Resources\Question\QuestionResource;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\Generated\QuestionDomainObjectAbstract;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\QuestionRepositoryInterface;
+use Ciencia\Resources\Question\QuestionResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\Organizers\Orders;
+namespace Ciencia\Http\Actions\Organizers\Orders;
 
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Order\OrderResource;
-use HiEvents\Services\Application\Handlers\Organizer\Order\GetOrganizerOrdersHandler;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Order\OrderResource;
+use Ciencia\Services\Application\Handlers\Organizer\Order\GetOrganizerOrdersHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

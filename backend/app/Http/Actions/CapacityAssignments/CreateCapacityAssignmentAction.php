@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\CapacityAssignments;
+namespace Ciencia\Http\Actions\CapacityAssignments;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\CapacityAssigment\UpsertCapacityAssignmentRequest;
-use HiEvents\Resources\CapacityAssignment\CapacityAssignmentResource;
-use HiEvents\Services\Application\Handlers\CapacityAssignment\CreateCapacityAssignmentHandler;
-use HiEvents\Services\Application\Handlers\CapacityAssignment\DTO\UpsertCapacityAssignmentDTO;
-use HiEvents\Services\Domain\Product\Exception\UnrecognizedProductIdException;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\CapacityAssigment\UpsertCapacityAssignmentRequest;
+use Ciencia\Resources\CapacityAssignment\CapacityAssignmentResource;
+use Ciencia\Services\Application\Handlers\CapacityAssignment\CreateCapacityAssignmentHandler;
+use Ciencia\Services\Application\Handlers\CapacityAssignment\DTO\UpsertCapacityAssignmentDTO;
+use Ciencia\Services\Domain\Product\Exception\UnrecognizedProductIdException;
 use Illuminate\Http\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 

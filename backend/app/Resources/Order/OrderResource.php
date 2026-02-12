@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Resources\Order;
+namespace Ciencia\Resources\Order;
 
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Resources\Attendee\AttendeeResource;
-use HiEvents\Resources\BaseResource;
-use HiEvents\Resources\Order\Invoice\InvoiceResource;
-use HiEvents\Resources\Question\QuestionAnswerViewResource;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Resources\Attendee\AttendeeResource;
+use Ciencia\Resources\BaseResource;
+use Ciencia\Resources\Order\Invoice\InvoiceResource;
+use Ciencia\Resources\Question\QuestionAnswerViewResource;
 use Illuminate\Http\Request;
 
 /**

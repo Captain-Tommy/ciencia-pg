@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Organizer;
+namespace Ciencia\Services\Application\Handlers\Organizer;
 
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\DomainObjects\OrganizerSettingDomainObject;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\DomainObjects\OrganizerSettingDomainObject;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
 
 class GetPublicOrganizerHandler
 {

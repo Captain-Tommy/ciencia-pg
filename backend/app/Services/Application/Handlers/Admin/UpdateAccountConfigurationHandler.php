@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
-use HiEvents\DataTransferObjects\UpdateAccountConfigurationDTO;
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
-use HiEvents\Repository\Interfaces\AccountConfigurationRepositoryInterface;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\DataTransferObjects\UpdateAccountConfigurationDTO;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\Repository\Interfaces\AccountConfigurationRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
 
 class UpdateAccountConfigurationHandler
 {

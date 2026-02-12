@@ -2,7 +2,7 @@
 
 ## Overview
 
-Hi.Events uses PostgreSQL with a multi-tenant architecture built around accounts. The database schema consists of approximately 57 migration files with core schema defined in `database/migrations/schema.sql`.
+Ciencia 2k26 uses PostgreSQL with a multi-tenant architecture built around accounts. The database schema consists of approximately 57 migration files with core schema defined in `database/migrations/schema.sql`.
 
 ## Core Entity Hierarchy
 

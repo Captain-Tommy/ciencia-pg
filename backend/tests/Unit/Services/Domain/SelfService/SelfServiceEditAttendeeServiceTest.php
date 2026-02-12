@@ -2,18 +2,18 @@
 
 namespace Tests\Unit\Services\Domain\SelfService;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Mail\Attendee\AttendeeDetailsChangedMail;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Services\Domain\Attendee\SendAttendeeTicketService;
-use HiEvents\Services\Domain\SelfService\OrderAuditLogService;
-use HiEvents\Services\Domain\SelfService\SelfServiceEditAttendeeService;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Mail\Attendee\AttendeeDetailsChangedMail;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Services\Domain\Attendee\SendAttendeeTicketService;
+use Ciencia\Services\Domain\SelfService\OrderAuditLogService;
+use Ciencia\Services\Domain\SelfService\SelfServiceEditAttendeeService;
 use Illuminate\Support\Facades\Mail;
 use Mockery;
 use Mockery\MockInterface;

@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Domain\Organizer;
+namespace Ciencia\Services\Domain\Organizer;
 
-use HiEvents\DomainObjects\Enums\ColorTheme;
-use HiEvents\DomainObjects\Enums\OrganizerHomepageVisibility;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Repository\Interfaces\OrganizerSettingsRepositoryInterface;
+use Ciencia\DomainObjects\Enums\ColorTheme;
+use Ciencia\DomainObjects\Enums\OrganizerHomepageVisibility;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Repository\Interfaces\OrganizerSettingsRepositoryInterface;
 
 class CreateDefaultOrganizerSettingsService
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Locale;
+namespace Ciencia\Services\Application\Locale;
 
-use HiEvents\Locale;
+use Ciencia\Locale;
 use Illuminate\Config\Repository;
 
 class LocaleService

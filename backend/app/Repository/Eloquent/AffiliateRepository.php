@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AffiliateDomainObject;
-use HiEvents\DomainObjects\Generated\AffiliateDomainObjectAbstract;
-use HiEvents\DomainObjects\Status\AffiliateStatus;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Models\Affiliate;
-use HiEvents\Repository\Interfaces\AffiliateRepositoryInterface;
+use Ciencia\DomainObjects\AffiliateDomainObject;
+use Ciencia\DomainObjects\Generated\AffiliateDomainObjectAbstract;
+use Ciencia\DomainObjects\Status\AffiliateStatus;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Models\Affiliate;
+use Ciencia\Repository\Interfaces\AffiliateRepositoryInterface;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Pagination\LengthAwarePaginator;
 

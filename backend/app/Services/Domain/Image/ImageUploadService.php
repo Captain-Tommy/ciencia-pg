@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Domain\Image;
+namespace Ciencia\Services\Domain\Image;
 
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\Repository\Interfaces\ImageRepositoryInterface;
-use HiEvents\Services\Infrastructure\Image\Exception\CouldNotUploadImageException;
-use HiEvents\Services\Infrastructure\Image\ImageMetadataService;
-use HiEvents\Services\Infrastructure\Image\ImageStorageService;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\Repository\Interfaces\ImageRepositoryInterface;
+use Ciencia\Services\Infrastructure\Image\Exception\CouldNotUploadImageException;
+use Ciencia\Services\Infrastructure\Image\ImageMetadataService;
+use Ciencia\Services\Infrastructure\Image\ImageStorageService;
 use Illuminate\Http\UploadedFile;
 
 class ImageUploadService

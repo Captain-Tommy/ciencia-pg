@@ -1,28 +1,28 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order\Payment\Stripe;
+namespace Ciencia\Services\Application\Handlers\Order\Payment\Stripe;
 
 use Brick\Math\Exception\MathException;
 use Brick\Math\Exception\NumberFormatException;
 use Brick\Math\Exception\RoundingNecessaryException;
 use Brick\Money\Exception\UnknownCurrencyException;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\Generated\OrderDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\Status\OrderRefundStatus;
-use HiEvents\DomainObjects\StripePaymentDomainObject;
-use HiEvents\Exceptions\RefundNotPossibleException;
-use HiEvents\Mail\Order\OrderRefunded;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Order\DTO\RefundOrderDTO;
-use HiEvents\Services\Domain\Order\OrderCancelService;
-use HiEvents\Services\Domain\Payment\Stripe\StripePaymentIntentRefundService;
-use HiEvents\Services\Infrastructure\Stripe\StripeClientFactory;
-use HiEvents\Values\MoneyValue;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\Generated\OrderDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\Status\OrderRefundStatus;
+use Ciencia\DomainObjects\StripePaymentDomainObject;
+use Ciencia\Exceptions\RefundNotPossibleException;
+use Ciencia\Mail\Order\OrderRefunded;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Order\DTO\RefundOrderDTO;
+use Ciencia\Services\Domain\Order\OrderCancelService;
+use Ciencia\Services\Domain\Payment\Stripe\StripePaymentIntentRefundService;
+use Ciencia\Services\Infrastructure\Stripe\StripeClientFactory;
+use Ciencia\Values\MoneyValue;
 use Illuminate\Contracts\Mail\Mailer;
 use Illuminate\Database\DatabaseManager;
 use Stripe\Exception\ApiErrorException;

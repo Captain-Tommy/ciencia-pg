@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders;
+namespace Ciencia\Http\Actions\Orders;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\InvoiceDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Resources\Order\OrderResource;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\InvoiceDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Resources\Order\OrderResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

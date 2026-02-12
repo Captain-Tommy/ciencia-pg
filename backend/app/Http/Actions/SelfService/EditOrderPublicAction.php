@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\SelfService;
+namespace Ciencia\Http\Actions\SelfService;
 
-use HiEvents\Exceptions\SelfServiceDisabledException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\SelfService\EditOrderPublicRequest;
-use HiEvents\Services\Application\Handlers\SelfService\DTO\EditOrderPublicDTO;
-use HiEvents\Services\Application\Handlers\SelfService\EditOrderPublicHandler;
+use Ciencia\Exceptions\SelfServiceDisabledException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\SelfService\EditOrderPublicRequest;
+use Ciencia\Services\Application\Handlers\SelfService\DTO\EditOrderPublicDTO;
+use Ciencia\Services\Application\Handlers\SelfService\EditOrderPublicHandler;
 use Illuminate\Http\JsonResponse;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

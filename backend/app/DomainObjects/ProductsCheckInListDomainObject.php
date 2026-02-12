@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
 class ProductsCheckInListDomainObject extends Generated\ProductCheckInListDomainObjectAbstract
 {

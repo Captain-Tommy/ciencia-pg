@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\PromoCode;
+namespace Ciencia\Services\Application\Handlers\PromoCode;
 
-use HiEvents\DomainObjects\PromoCodeDomainObject;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Services\Application\Handlers\PromoCode\DTO\UpsertPromoCodeDTO;
-use HiEvents\Services\Domain\Product\Exception\UnrecognizedProductIdException;
-use HiEvents\Services\Domain\PromoCode\CreatePromoCodeService;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Services\Application\Handlers\PromoCode\DTO\UpsertPromoCodeDTO;
+use Ciencia\Services\Domain\Product\Exception\UnrecognizedProductIdException;
+use Ciencia\Services\Domain\PromoCode\CreatePromoCodeService;
 
 readonly class CreatePromoCodeHandler
 {

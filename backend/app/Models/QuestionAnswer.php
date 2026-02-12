@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Models;
+namespace Ciencia\Models;
 
-use HiEvents\DomainObjects\Generated\QuestionAnswerDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\QuestionAnswerDomainObjectAbstract;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 

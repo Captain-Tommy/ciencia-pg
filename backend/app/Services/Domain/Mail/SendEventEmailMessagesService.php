@@ -1,25 +1,25 @@
 <?php
 
-namespace HiEvents\Services\Domain\Mail;
+namespace Ciencia\Services\Domain\Mail;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Enums\MessageTypeEnum;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\Status\AttendeeStatus;
-use HiEvents\DomainObjects\Status\MessageStatus;
-use HiEvents\Exceptions\UnableToSendMessageException;
-use HiEvents\Jobs\Event\SendEventEmailJob;
-use HiEvents\Mail\Event\EventMessage;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Message\DTO\SendMessageDTO;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Enums\MessageTypeEnum;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\Status\AttendeeStatus;
+use Ciencia\DomainObjects\Status\MessageStatus;
+use Ciencia\Exceptions\UnableToSendMessageException;
+use Ciencia\Jobs\Event\SendEventEmailJob;
+use Ciencia\Mail\Event\EventMessage;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Message\DTO\SendMessageDTO;
 use Illuminate\Contracts\Bus\Dispatcher;
 use Illuminate\Support\Collection;
 use Symfony\Component\HttpKernel\Log\Logger;

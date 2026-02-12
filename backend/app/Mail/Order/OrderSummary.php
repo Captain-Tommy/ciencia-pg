@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Mail\Order;
+namespace Ciencia\Mail\Order;
 
 use Barryvdh\DomPDF\Facade\Pdf;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\InvoiceDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Helper\Url;
-use HiEvents\Mail\BaseMail;
-use HiEvents\Services\Domain\Email\DTO\RenderedEmailTemplateDTO;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\InvoiceDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Helper\Url;
+use Ciencia\Mail\BaseMail;
+use Ciencia\Services\Domain\Email\DTO\RenderedEmailTemplateDTO;
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;

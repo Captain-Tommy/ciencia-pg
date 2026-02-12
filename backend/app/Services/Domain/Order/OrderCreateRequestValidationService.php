@@ -1,21 +1,21 @@
 <?php
 
-namespace HiEvents\Services\Domain\Order;
+namespace Ciencia\Services\Domain\Order;
 
 use Exception;
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
-use HiEvents\DomainObjects\Enums\ProductPriceType;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\Helper\Currency;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Services\Domain\Product\AvailableProductQuantitiesFetchService;
-use HiEvents\Services\Domain\Product\DTO\AvailableProductQuantitiesDTO;
-use HiEvents\Services\Domain\Product\DTO\AvailableProductQuantitiesResponseDTO;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\DomainObjects\Enums\ProductPriceType;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\Helper\Currency;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Services\Domain\Product\AvailableProductQuantitiesFetchService;
+use Ciencia\Services\Domain\Product\DTO\AvailableProductQuantitiesDTO;
+use Ciencia\Services\Domain\Product\DTO\AvailableProductQuantitiesResponseDTO;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\ValidationException;

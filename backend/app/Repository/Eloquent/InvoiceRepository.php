@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\InvoiceDomainObject;
-use HiEvents\Models\Invoice;
-use HiEvents\Repository\Interfaces\InvoiceRepositoryInterface;
+use Ciencia\DomainObjects\InvoiceDomainObject;
+use Ciencia\Models\Invoice;
+use Ciencia\Repository\Interfaces\InvoiceRepositoryInterface;
 
 class InvoiceRepository extends BaseRepository implements InvoiceRepositoryInterface
 {

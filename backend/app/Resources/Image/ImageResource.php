@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Resources\Image;
+namespace Ciencia\Resources\Image;
 
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\Helper\Url;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\Helper\Url;
+use Ciencia\Resources\BaseResource;
 
 /**
  * @mixin ImageDomainObject

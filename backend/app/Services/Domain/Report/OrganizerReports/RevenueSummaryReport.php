@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Domain\Report\OrganizerReports;
+namespace Ciencia\Services\Domain\Report\OrganizerReports;
 
-use HiEvents\Services\Domain\Report\AbstractOrganizerReportService;
+use Ciencia\Services\Domain\Report\AbstractOrganizerReportService;
 use Illuminate\Support\Carbon;
 
 class RevenueSummaryReport extends AbstractOrganizerReportService

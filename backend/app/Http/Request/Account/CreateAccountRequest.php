@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Request\Account;
+namespace Ciencia\Http\Request\Account;
 
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Locale;
-use HiEvents\Validators\Rules\RulesHelper;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Locale;
+use Ciencia\Validators\Rules\RulesHelper;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\Rules\Password;
 

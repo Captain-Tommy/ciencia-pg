@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Domain\CheckInList;
+namespace Ciencia\Services\Domain\CheckInList;
 
-use HiEvents\DomainObjects\AttendeeCheckInDomainObject;
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Generated\AttendeeCheckInDomainObjectAbstract;
-use HiEvents\Exceptions\CannotCheckInException;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AttendeeCheckInRepositoryInterface;
+use Ciencia\DomainObjects\AttendeeCheckInDomainObject;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Generated\AttendeeCheckInDomainObjectAbstract;
+use Ciencia\Exceptions\CannotCheckInException;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AttendeeCheckInRepositoryInterface;
 
 class DeleteAttendeeCheckInService
 {

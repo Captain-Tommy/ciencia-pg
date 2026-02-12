@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Models;
+namespace Ciencia\Models;
 
-use HiEvents\Models\Traits\HasImages;
+use Ciencia\Models\Traits\HasImages;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;

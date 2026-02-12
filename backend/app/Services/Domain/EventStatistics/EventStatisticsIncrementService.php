@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Domain\EventStatistics;
+namespace Ciencia\Services\Domain\EventStatistics;
 
-use HiEvents\DomainObjects\Generated\ProductDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\Exceptions\EventStatisticsVersionMismatchException;
-use HiEvents\Repository\Interfaces\EventDailyStatisticRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventStatisticRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
-use HiEvents\Services\Infrastructure\Utlitiy\Retry\Retrier;
+use Ciencia\DomainObjects\Generated\ProductDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\Exceptions\EventStatisticsVersionMismatchException;
+use Ciencia\Repository\Interfaces\EventDailyStatisticRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventStatisticRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\Services\Infrastructure\Utlitiy\Retry\Retrier;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Support\Carbon;
 use Psr\Log\LoggerInterface;

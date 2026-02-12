@@ -36,7 +36,7 @@ services:
       - MAIL_FROM_NAME=${MAIL_FROM_NAME}
       - FILESYSTEM_PUBLIC_DISK=${FILESYSTEM_PUBLIC_DISK}
       - FILESYSTEM_PRIVATE_DISK=${FILESYSTEM_PRIVATE_DISK}
-      - DATABASE_URL=postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-secret}@postgres:5432/${POSTGRES_DB:-hi-events}
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-secret}@postgres:5432/${POSTGRES_DB:-ciencia-2k26}
       - REDIS_HOST=redis
       - REDIS_PASSWORD=
       - REDIS_PORT=6379
@@ -71,7 +71,7 @@ services:
       timeout: 5s
       retries: 5
     environment:
-      POSTGRES_DB: ${POSTGRES_DB:-hi-events}
+      POSTGRES_DB: ${POSTGRES_DB:-ciencia-2k26}
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-secret}
     volumes:
@@ -80,9 +80,7 @@ services:
   tunnel:
     image: cloudflare/cloudflared:latest
     restart: unless-stopped
-    command: tunnel run
-    environment:
-      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
+    command: tunnel --no-autoupdate run --token ${TUNNEL_TOKEN}
     depends_on:
       - all-in-one
 

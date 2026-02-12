@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Actions\Users;
+namespace Ciencia\Http\Actions\Users;
 
-use HiEvents\Http\Actions\Auth\BaseAuthAction;
-use HiEvents\Resources\User\UserResource;
+use Ciencia\Http\Actions\Auth\BaseAuthAction;
+use Ciencia\Resources\User\UserResource;
 use Illuminate\Http\JsonResponse;
 
 class GetMeAction extends BaseAuthAction

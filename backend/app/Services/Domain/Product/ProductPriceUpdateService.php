@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Services\Domain\Product;
+namespace Ciencia\Services\Domain\Product;
 
-use HiEvents\DomainObjects\Enums\ProductPriceType;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\Exceptions\CannotDeleteEntityException;
-use HiEvents\Helper\DateHelper;
-use HiEvents\Repository\Eloquent\ProductPriceRepository;
-use HiEvents\Services\Application\Handlers\Product\DTO\UpsertProductDTO;
-use HiEvents\Services\Domain\Product\DTO\ProductPriceDTO;
+use Ciencia\DomainObjects\Enums\ProductPriceType;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\Exceptions\CannotDeleteEntityException;
+use Ciencia\Helper\DateHelper;
+use Ciencia\Repository\Eloquent\ProductPriceRepository;
+use Ciencia\Services\Application\Handlers\Product\DTO\UpsertProductDTO;
+use Ciencia\Services\Domain\Product\DTO\ProductPriceDTO;
 use Illuminate\Support\Collection;
 
 class ProductPriceUpdateService

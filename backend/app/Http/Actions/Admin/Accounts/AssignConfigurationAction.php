@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Admin\Accounts;
+namespace Ciencia\Http\Actions\Admin\Accounts;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Admin\AssignConfigurationHandler;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Admin\AssignConfigurationHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

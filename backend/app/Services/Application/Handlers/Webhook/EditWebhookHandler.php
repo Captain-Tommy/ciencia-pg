@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Webhook;
+namespace Ciencia\Services\Application\Handlers\Webhook;
 
-use HiEvents\DomainObjects\WebhookDomainObject;
-use HiEvents\Repository\Interfaces\WebhookRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Webhook\DTO\EditWebhookDTO;
+use Ciencia\DomainObjects\WebhookDomainObject;
+use Ciencia\Repository\Interfaces\WebhookRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Webhook\DTO\EditWebhookDTO;
 use Illuminate\Database\DatabaseManager;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

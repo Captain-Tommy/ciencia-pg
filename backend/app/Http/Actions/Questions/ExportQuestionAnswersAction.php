@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Questions;
+namespace Ciencia\Http\Actions\Questions;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Jobs\Question\ExportAnswersJob;
-use HiEvents\Services\Infrastructure\Jobs\JobPollingService;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Jobs\Question\ExportAnswersJob;
+use Ciencia\Services\Infrastructure\Jobs\JobPollingService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Throwable;

@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders\Payment\Stripe;
+namespace Ciencia\Http\Actions\Orders\Payment\Stripe;
 
-use HiEvents\Exceptions\Stripe\CreatePaymentIntentFailedException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Order\Payment\Stripe\CreatePaymentIntentHandler;
+use Ciencia\Exceptions\Stripe\CreatePaymentIntentFailedException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Order\Payment\Stripe\CreatePaymentIntentHandler;
 use Illuminate\Http\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 

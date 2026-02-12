@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\Questions;
+namespace Ciencia\Http\Actions\Questions;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\QuestionRepositoryInterface;
-use HiEvents\Resources\Question\QuestionResource;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\QuestionRepositoryInterface;
+use Ciencia\Resources\Question\QuestionResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

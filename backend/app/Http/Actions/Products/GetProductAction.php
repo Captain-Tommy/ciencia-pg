@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Products;
+namespace Ciencia\Http\Actions\Products;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\Generated\ProductDomainObjectAbstract;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Resources\Product\ProductResource;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\Generated\ProductDomainObjectAbstract;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Resources\Product\ProductResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 

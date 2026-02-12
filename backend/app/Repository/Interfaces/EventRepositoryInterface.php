@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Repository\Eloquent\BaseRepository;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Repository\Eloquent\BaseRepository;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 /**

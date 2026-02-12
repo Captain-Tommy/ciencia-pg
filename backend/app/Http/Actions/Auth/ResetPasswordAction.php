@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Auth;
+namespace Ciencia\Http\Actions\Auth;
 
-use HiEvents\Exceptions\InvalidPasswordResetTokenException;
-use HiEvents\Exceptions\PasswordInvalidException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Auth\ResetPasswordRequest;
-use HiEvents\Services\Application\Handlers\Auth\DTO\ResetPasswordDTO;
-use HiEvents\Services\Application\Handlers\Auth\ResetPasswordHandler;
+use Ciencia\Exceptions\InvalidPasswordResetTokenException;
+use Ciencia\Exceptions\PasswordInvalidException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Auth\ResetPasswordRequest;
+use Ciencia\Services\Application\Handlers\Auth\DTO\ResetPasswordDTO;
+use Ciencia\Services\Application\Handlers\Auth\ResetPasswordHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\ValidationException;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;

@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\SelfService\DTO;
+namespace Ciencia\Services\Application\Handlers\SelfService\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
+use Ciencia\DataTransferObjects\BaseDataObject;
 
 class EditOrderPublicDTO extends BaseDataObject
 {

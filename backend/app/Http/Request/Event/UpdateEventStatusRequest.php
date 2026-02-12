@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Request\Event;
+namespace Ciencia\Http\Request\Event;
 
-use HiEvents\DomainObjects\Status\EventStatus;
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\DomainObjects\Status\EventStatus;
+use Ciencia\Http\Request\BaseRequest;
 use Illuminate\Validation\Rule;
 
 class UpdateEventStatusRequest extends BaseRequest

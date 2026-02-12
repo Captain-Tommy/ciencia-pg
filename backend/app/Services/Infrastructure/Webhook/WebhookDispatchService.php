@@ -1,25 +1,25 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Webhook;
+namespace Ciencia\Services\Infrastructure\Webhook;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\QuestionAndAnswerViewDomainObject;
-use HiEvents\DomainObjects\Status\WebhookStatus;
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\DomainObjects\WebhookDomainObject;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AttendeeCheckInRepositoryInterface;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Repository\Interfaces\WebhookRepositoryInterface;
-use HiEvents\Resources\Attendee\AttendeeResource;
-use HiEvents\Resources\CheckInList\AttendeeCheckInResource;
-use HiEvents\Resources\Order\OrderResource;
-use HiEvents\Resources\Product\ProductResource;
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\QuestionAndAnswerViewDomainObject;
+use Ciencia\DomainObjects\Status\WebhookStatus;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\DomainObjects\WebhookDomainObject;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AttendeeCheckInRepositoryInterface;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Repository\Interfaces\WebhookRepositoryInterface;
+use Ciencia\Resources\Attendee\AttendeeResource;
+use Ciencia\Resources\CheckInList\AttendeeCheckInResource;
+use Ciencia\Resources\Order\OrderResource;
+use Ciencia\Resources\Product\ProductResource;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Collection;
 use Psr\Log\LoggerInterface;

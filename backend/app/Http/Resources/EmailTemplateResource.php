@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Resources;
+namespace Ciencia\Http\Resources;
 
-use HiEvents\DomainObjects\EmailTemplateDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\EmailTemplateDomainObject;
+use Ciencia\Resources\BaseResource;
 use Illuminate\Http\Request;
 
 /**

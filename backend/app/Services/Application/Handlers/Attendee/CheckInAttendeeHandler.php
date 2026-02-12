@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Attendee;
+namespace Ciencia\Services\Application\Handlers\Attendee;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Enums\CheckInAction;
-use HiEvents\DomainObjects\Generated\AttendeeDomainObjectAbstract;
-use HiEvents\DomainObjects\Status\AttendeeStatus;
-use HiEvents\Exceptions\CannotCheckInException;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Attendee\DTO\CheckInAttendeeDTO;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Enums\CheckInAction;
+use Ciencia\DomainObjects\Generated\AttendeeDomainObjectAbstract;
+use Ciencia\DomainObjects\Status\AttendeeStatus;
+use Ciencia\Exceptions\CannotCheckInException;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Attendee\DTO\CheckInAttendeeDTO;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

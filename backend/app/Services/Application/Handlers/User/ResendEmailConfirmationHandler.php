@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\User;
+namespace Ciencia\Services\Application\Handlers\User;
 
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Services\Domain\User\EmailConfirmationService;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Services\Domain\User\EmailConfirmationService;
 
 class ResendEmailConfirmationHandler
 {

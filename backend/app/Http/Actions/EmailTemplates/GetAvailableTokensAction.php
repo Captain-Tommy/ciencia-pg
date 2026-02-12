@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\EmailTemplates;
+namespace Ciencia\Http\Actions\EmailTemplates;
 
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Services\Application\Handlers\EmailTemplate\GetAvailableTokensHandler;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Services\Application\Handlers\EmailTemplate\GetAvailableTokensHandler;
 use Illuminate\Http\JsonResponse;
 
 class GetAvailableTokensAction extends BaseAction

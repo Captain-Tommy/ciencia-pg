@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Domain\Product\DTO;
+namespace Ciencia\Services\Domain\Product\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Status\ProductStatus;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Status\ProductStatus;
 
 class ProductPriceDTO extends BaseDTO
 {

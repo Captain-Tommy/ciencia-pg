@@ -2,15 +2,15 @@
 
 namespace Tests\Unit\Services\Application\Handlers\PromoCode;
 
-use HiEvents\DomainObjects\Enums\PromoCodeDiscountTypeEnum;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\PromoCodeDomainObject;
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
-use HiEvents\Services\Application\Handlers\PromoCode\DTO\UpsertPromoCodeDTO;
-use HiEvents\Services\Application\Handlers\PromoCode\UpdatePromoCodeHandler;
-use HiEvents\Services\Domain\Product\EventProductValidationService;
+use Ciencia\DomainObjects\Enums\PromoCodeDiscountTypeEnum;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\Services\Application\Handlers\PromoCode\DTO\UpsertPromoCodeDTO;
+use Ciencia\Services\Application\Handlers\PromoCode\UpdatePromoCodeHandler;
+use Ciencia\Services\Domain\Product\EventProductValidationService;
 use Mockery as m;
 use Tests\TestCase;
 

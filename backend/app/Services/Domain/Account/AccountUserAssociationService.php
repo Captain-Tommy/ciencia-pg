@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Services\Domain\Account;
+namespace Ciencia\Services\Domain\Account;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\DomainObjects\AccountUserDomainObject;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\DomainObjects\Status\UserStatus;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\UnauthorizedException;
-use HiEvents\Repository\Interfaces\AccountUserRepositoryInterface;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\DomainObjects\AccountUserDomainObject;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\DomainObjects\Status\UserStatus;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\UnauthorizedException;
+use Ciencia\Repository\Interfaces\AccountUserRepositoryInterface;
 
 readonly class AccountUserAssociationService
 {

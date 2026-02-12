@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Reports\DTO;
+namespace Ciencia\Services\Application\Handlers\Reports\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Enums\ReportTypes;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Enums\ReportTypes;
 
 class GetReportDTO extends BaseDTO
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
-use HiEvents\Constants;
-use HiEvents\DomainObjects\Interfaces\IsSortable;
-use HiEvents\DomainObjects\SortingAndFiltering\AllowedSorts;
+use Ciencia\Constants;
+use Ciencia\DomainObjects\Interfaces\IsSortable;
+use Ciencia\DomainObjects\SortingAndFiltering\AllowedSorts;
 use Illuminate\Support\Collection;
 
 class CapacityAssignmentDomainObject extends Generated\CapacityAssignmentDomainObjectAbstract implements IsSortable

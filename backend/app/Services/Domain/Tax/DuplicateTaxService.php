@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Domain\Tax;
+namespace Ciencia\Services\Domain\Tax;
 
-use HiEvents\Repository\Interfaces\TaxAndFeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\TaxAndFeeRepositoryInterface;
 
 class DuplicateTaxService
 {

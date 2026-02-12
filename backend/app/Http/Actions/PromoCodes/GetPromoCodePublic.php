@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Actions\PromoCodes;
+namespace Ciencia\Http\Actions\PromoCodes;
 
-use HiEvents\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

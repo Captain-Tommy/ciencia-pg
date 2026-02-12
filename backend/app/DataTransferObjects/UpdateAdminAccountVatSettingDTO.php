@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DataTransferObjects;
+namespace Ciencia\DataTransferObjects;
 
 class UpdateAdminAccountVatSettingDTO extends BaseDataObject
 {

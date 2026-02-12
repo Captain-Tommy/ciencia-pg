@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Affiliate\DTO;
+namespace Ciencia\Services\Application\Handlers\Affiliate\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Status\AffiliateStatus;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Status\AffiliateStatus;
 
 class UpsertAffiliateDTO extends BaseDTO
 {

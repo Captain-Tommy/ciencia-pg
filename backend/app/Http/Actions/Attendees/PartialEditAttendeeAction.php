@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Attendees;
+namespace Ciencia\Http\Actions\Attendees;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Attendee\PartialEditAttendeeRequest;
-use HiEvents\Resources\Attendee\AttendeeResource;
-use HiEvents\Services\Application\Handlers\Attendee\DTO\PartialEditAttendeeDTO;
-use HiEvents\Services\Application\Handlers\Attendee\PartialEditAttendeeHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Attendee\PartialEditAttendeeRequest;
+use Ciencia\Resources\Attendee\AttendeeResource;
+use Ciencia\Services\Application\Handlers\Attendee\DTO\PartialEditAttendeeDTO;
+use Ciencia\Services\Application\Handlers\Attendee\PartialEditAttendeeHandler;
 use Illuminate\Http\JsonResponse;
 
 class PartialEditAttendeeAction extends BaseAction

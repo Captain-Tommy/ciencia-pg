@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\EventSettings;
+namespace Ciencia\Http\Actions\EventSettings;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\EventSettingsRepositoryInterface;
-use HiEvents\Resources\Event\EventSettingsResource;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\EventSettingsRepositoryInterface;
+use Ciencia\Resources\Event\EventSettingsResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 

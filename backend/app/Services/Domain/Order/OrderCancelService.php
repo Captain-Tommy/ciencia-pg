@@ -1,23 +1,23 @@
 <?php
 
-namespace HiEvents\Services\Domain\Order;
+namespace Ciencia\Services\Domain\Order;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\Status\AttendeeStatus;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Mail\Order\OrderCancelled;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Domain\Product\ProductQuantityUpdateService;
-use HiEvents\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\OrderEvent;
-use HiEvents\Services\Domain\EventStatistics\EventStatisticsCancellationService;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\Status\AttendeeStatus;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Mail\Order\OrderCancelled;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Domain\Product\ProductQuantityUpdateService;
+use Ciencia\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\OrderEvent;
+use Ciencia\Services\Domain\EventStatistics\EventStatisticsCancellationService;
 use Illuminate\Contracts\Mail\Mailer;
 use Illuminate\Database\DatabaseManager;
 use Throwable;

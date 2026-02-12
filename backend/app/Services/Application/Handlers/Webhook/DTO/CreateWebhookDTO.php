@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Webhook\DTO;
+namespace Ciencia\Services\Application\Handlers\Webhook\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Status\WebhookStatus;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Status\WebhookStatus;
 
 class CreateWebhookDTO extends BaseDTO
 {

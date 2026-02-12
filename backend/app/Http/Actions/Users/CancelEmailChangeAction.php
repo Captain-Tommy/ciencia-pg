@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\Users;
+namespace Ciencia\Http\Actions\Users;
 
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\User\UserResource;
-use HiEvents\Services\Application\Handlers\User\CancelEmailChangeHandler;
-use HiEvents\Services\Application\Handlers\User\DTO\CancelEmailChangeDTO;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\User\UserResource;
+use Ciencia\Services\Application\Handlers\User\CancelEmailChangeHandler;
+use Ciencia\Services\Application\Handlers\User\DTO\CancelEmailChangeDTO;
 use Illuminate\Http\JsonResponse;
 
 class CancelEmailChangeAction extends BaseAction

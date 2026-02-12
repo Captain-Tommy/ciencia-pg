@@ -4,16 +4,16 @@ declare(strict_types=1);
 
 namespace Database\Factories;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\DomainObjects\Status\UserStatus;
-use HiEvents\Locale;
-use HiEvents\Models\Account;
-use HiEvents\Models\User;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\DomainObjects\Status\UserStatus;
+use Ciencia\Locale;
+use Ciencia\Models\Account;
+use Ciencia\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\HiEvents\Core\Models\User>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\Ciencia\Core\Models\User>
  */
 class UserFactory extends Factory
 {

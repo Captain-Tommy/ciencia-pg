@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\EmailTemplate\DTO;
+namespace Ciencia\Services\Application\Handlers\EmailTemplate\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
-use HiEvents\DomainObjects\Enums\EmailTemplateEngine;
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\DataTransferObjects\BaseDataObject;
+use Ciencia\DomainObjects\Enums\EmailTemplateEngine;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
 
 class UpsertEmailTemplateDTO extends BaseDataObject
 {

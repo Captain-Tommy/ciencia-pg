@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Domain\Order\Vat;
+namespace Ciencia\Services\Domain\Order\Vat;
 
-use HiEvents\DomainObjects\AccountVatSettingDomainObject;
-use HiEvents\DomainObjects\Enums\CountryCode;
+use Ciencia\DomainObjects\AccountVatSettingDomainObject;
+use Ciencia\DomainObjects\Enums\CountryCode;
 use Illuminate\Config\Repository;
 use ValueError;
 

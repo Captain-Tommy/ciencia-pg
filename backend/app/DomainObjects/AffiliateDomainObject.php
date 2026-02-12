@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
-use HiEvents\DomainObjects\Interfaces\IsSortable;
-use HiEvents\DomainObjects\SortingAndFiltering\AllowedSorts;
+use Ciencia\DomainObjects\Interfaces\IsSortable;
+use Ciencia\DomainObjects\SortingAndFiltering\AllowedSorts;
 
 class AffiliateDomainObject extends Generated\AffiliateDomainObjectAbstract implements IsSortable
 {

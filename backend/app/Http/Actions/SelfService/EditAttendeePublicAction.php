@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\SelfService;
+namespace Ciencia\Http\Actions\SelfService;
 
-use HiEvents\Exceptions\SelfServiceDisabledException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\SelfService\EditAttendeePublicRequest;
-use HiEvents\Services\Application\Handlers\SelfService\DTO\EditAttendeePublicDTO;
-use HiEvents\Services\Application\Handlers\SelfService\EditAttendeePublicHandler;
+use Ciencia\Exceptions\SelfServiceDisabledException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\SelfService\EditAttendeePublicRequest;
+use Ciencia\Services\Application\Handlers\SelfService\DTO\EditAttendeePublicDTO;
+use Ciencia\Services\Application\Handlers\SelfService\EditAttendeePublicHandler;
 use Illuminate\Http\JsonResponse;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

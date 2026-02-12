@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Domain\Message;
+namespace Ciencia\Services\Domain\Message;
 
-use HiEvents\DomainObjects\Enums\MessageTypeEnum;
-use HiEvents\DomainObjects\MessageDomainObject;
-use HiEvents\DomainObjects\Status\MessageStatus;
-use HiEvents\Jobs\Event\SendMessagesJob;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Message\DTO\SendMessageDTO;
+use Ciencia\DomainObjects\Enums\MessageTypeEnum;
+use Ciencia\DomainObjects\MessageDomainObject;
+use Ciencia\DomainObjects\Status\MessageStatus;
+use Ciencia\Jobs\Event\SendMessagesJob;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Message\DTO\SendMessageDTO;
 use Illuminate\Support\Facades\Log;
 use Throwable;
 

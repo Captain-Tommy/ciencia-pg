@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Admin\Configurations;
+namespace Ciencia\Http\Actions\Admin\Configurations;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Exceptions\CannotDeleteEntityException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Admin\DeleteConfigurationHandler;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Exceptions\CannotDeleteEntityException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Admin\DeleteConfigurationHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Illuminate\Validation\ValidationException;

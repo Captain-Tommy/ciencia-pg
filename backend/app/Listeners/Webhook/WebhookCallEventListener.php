@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Listeners\Webhook;
+namespace Ciencia\Listeners\Webhook;
 
-use HiEvents\Services\Infrastructure\Webhook\WebhookResponseHandlerService;
+use Ciencia\Services\Infrastructure\Webhook\WebhookResponseHandlerService;
 use RuntimeException;
 use Spatie\WebhookServer\Events\WebhookCallEvent;
 

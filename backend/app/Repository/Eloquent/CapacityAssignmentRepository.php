@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
-use HiEvents\DomainObjects\Generated\CapacityAssignmentDomainObjectAbstract;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Models\CapacityAssignment;
-use HiEvents\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\DomainObjects\Generated\CapacityAssignmentDomainObjectAbstract;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Models\CapacityAssignment;
+use Ciencia\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Pagination\LengthAwarePaginator;
 

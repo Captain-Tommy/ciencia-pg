@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Domain\Tax;
+namespace Ciencia\Services\Domain\Tax;
 
 use Illuminate\Support\Collection;
 

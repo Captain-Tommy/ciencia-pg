@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Request\Event;
+namespace Ciencia\Http\Request\Event;
 
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Validators\EventRules;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Validators\EventRules;
 
 class DuplicateEventRequest extends BaseRequest
 {

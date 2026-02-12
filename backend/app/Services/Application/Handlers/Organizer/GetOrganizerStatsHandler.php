@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Organizer;
+namespace Ciencia\Services\Application\Handlers\Organizer;
 
-use HiEvents\Repository\DTO\Organizer\OrganizerStatsResponseDTO;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Organizer\DTO\GetOrganizerStatsRequestDTO;
+use Ciencia\Repository\DTO\Organizer\OrganizerStatsResponseDTO;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Organizer\DTO\GetOrganizerStatsRequestDTO;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 class GetOrganizerStatsHandler

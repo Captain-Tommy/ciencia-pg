@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
 class ApplicationFeeDomainObject extends Generated\ApplicationFeeDomainObjectAbstract
 {

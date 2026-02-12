@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Message;
+namespace Ciencia\Services\Application\Handlers\Message;
 
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
-use HiEvents\Repository\Interfaces\OutgoingMessageRepositoryInterface;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\Repository\Interfaces\OutgoingMessageRepositoryInterface;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 class GetMessageRecipientsHandler

@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\TicketLookupTokenDomainObject;
-use HiEvents\Models\TicketLookupToken;
-use HiEvents\Repository\Interfaces\TicketLookupTokenRepositoryInterface;
+use Ciencia\DomainObjects\TicketLookupTokenDomainObject;
+use Ciencia\Models\TicketLookupToken;
+use Ciencia\Repository\Interfaces\TicketLookupTokenRepositoryInterface;
 
 class TicketLookupTokenRepository extends BaseRepository implements TicketLookupTokenRepositoryInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent\Value;
+namespace Ciencia\Repository\Eloquent\Value;
 
 use InvalidArgumentException;
 

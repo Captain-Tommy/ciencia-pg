@@ -1,20 +1,20 @@
 <?php
 
-namespace HiEvents\Http;
+namespace Ciencia\Http;
 
-use HiEvents\Http\Middleware\Authenticate;
-use HiEvents\Http\Middleware\EncryptCookies;
-use HiEvents\Http\Middleware\HandleDeprecatedTimezones;
-use HiEvents\Http\Middleware\LogImpersonationMiddleware;
-use HiEvents\Http\Middleware\PreventRequestsDuringMaintenance;
-use HiEvents\Http\Middleware\RedirectIfAuthenticated;
-use HiEvents\Http\Middleware\SetAccountContext;
-use HiEvents\Http\Middleware\SetUserLocaleMiddleware;
-use HiEvents\Http\Middleware\TrimStrings;
-use HiEvents\Http\Middleware\TrustProxies;
-use HiEvents\Http\Middleware\ValidateSignature;
-use HiEvents\Http\Middleware\VaporBinaryResponseMiddleware;
-use HiEvents\Http\Middleware\VerifyCsrfToken;
+use Ciencia\Http\Middleware\Authenticate;
+use Ciencia\Http\Middleware\EncryptCookies;
+use Ciencia\Http\Middleware\HandleDeprecatedTimezones;
+use Ciencia\Http\Middleware\LogImpersonationMiddleware;
+use Ciencia\Http\Middleware\PreventRequestsDuringMaintenance;
+use Ciencia\Http\Middleware\RedirectIfAuthenticated;
+use Ciencia\Http\Middleware\SetAccountContext;
+use Ciencia\Http\Middleware\SetUserLocaleMiddleware;
+use Ciencia\Http\Middleware\TrimStrings;
+use Ciencia\Http\Middleware\TrustProxies;
+use Ciencia\Http\Middleware\ValidateSignature;
+use Ciencia\Http\Middleware\VaporBinaryResponseMiddleware;
+use Ciencia\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Auth\Middleware\AuthenticateWithBasicAuth;
 use Illuminate\Auth\Middleware\Authorize;
 use Illuminate\Auth\Middleware\EnsureEmailIsVerified;

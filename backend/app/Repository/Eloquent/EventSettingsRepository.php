@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\Models\EventSetting;
-use HiEvents\Repository\Interfaces\EventSettingsRepositoryInterface;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\Models\EventSetting;
+use Ciencia\Repository\Interfaces\EventSettingsRepositoryInterface;
 
 class EventSettingsRepository extends BaseRepository implements EventSettingsRepositoryInterface
 {

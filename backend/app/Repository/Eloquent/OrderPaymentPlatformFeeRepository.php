@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\OrderPaymentPlatformFeeDomainObject;
-use HiEvents\Models\OrderPaymentPlatformFee;
-use HiEvents\Repository\Interfaces\OrderPaymentPlatformFeeRepositoryInterface;
+use Ciencia\DomainObjects\OrderPaymentPlatformFeeDomainObject;
+use Ciencia\Models\OrderPaymentPlatformFee;
+use Ciencia\Repository\Interfaces\OrderPaymentPlatformFeeRepositoryInterface;
 
 class OrderPaymentPlatformFeeRepository extends BaseRepository implements OrderPaymentPlatformFeeRepositoryInterface
 {

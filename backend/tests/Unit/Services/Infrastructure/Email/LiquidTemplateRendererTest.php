@@ -2,8 +2,8 @@
 
 namespace Tests\Unit\Services\Infrastructure\Email;
 
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
-use HiEvents\Services\Infrastructure\Email\LiquidTemplateRenderer;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\Services\Infrastructure\Email\LiquidTemplateRenderer;
 use Tests\TestCase;
 
 class LiquidTemplateRendererTest extends TestCase

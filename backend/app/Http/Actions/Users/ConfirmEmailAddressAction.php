@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Users;
+namespace Ciencia\Http\Actions\Users;
 
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\User\ConfirmEmailAddressHandler;
-use HiEvents\Services\Application\Handlers\User\DTO\ConfirmEmailChangeDTO;
-use HiEvents\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
-use HiEvents\Services\Infrastructure\Encryption\Exception\EncryptedPayloadExpiredException;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\User\ConfirmEmailAddressHandler;
+use Ciencia\Services\Application\Handlers\User\DTO\ConfirmEmailChangeDTO;
+use Ciencia\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
+use Ciencia\Services\Infrastructure\Encryption\Exception\EncryptedPayloadExpiredException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Throwable;

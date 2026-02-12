@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Jobs\Vat;
+namespace Ciencia\Jobs\Vat;
 
 use DateTimeInterface;
-use HiEvents\DomainObjects\Status\VatValidationStatus;
-use HiEvents\Repository\Interfaces\AccountVatSettingRepositoryInterface;
-use HiEvents\Services\Infrastructure\Vat\ViesValidationService;
+use Ciencia\DomainObjects\Status\VatValidationStatus;
+use Ciencia\Repository\Interfaces\AccountVatSettingRepositoryInterface;
+use Ciencia\Services\Infrastructure\Vat\ViesValidationService;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

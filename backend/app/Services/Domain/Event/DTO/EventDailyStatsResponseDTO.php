@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Domain\Event\DTO;
+namespace Ciencia\Services\Domain\Event\DTO;
 
 readonly class EventDailyStatsResponseDTO
 {

@@ -30,6 +30,6 @@ export const getConfig = (key: ConfigKeys, fallback?: string): string | undefine
         return serverEnv[key] as string | undefined || fallback;
     }
 
-    const clientEnv = typeof window !== "undefined" && window.hievents ? window.hievents : {};
+    const clientEnv = typeof window !== "undefined" && window.ciencia ? window.ciencia : {};
     return clientEnv[key] || clientBuildEnv[key] || fallback;
 };

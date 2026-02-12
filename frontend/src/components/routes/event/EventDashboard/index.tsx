@@ -20,7 +20,7 @@ import {confirmationDialog} from "../../../../utilites/confirmationDialog.tsx";
 import {showError, showSuccess} from "../../../../utilites/notifications.tsx";
 import {useEffect, useState} from 'react';
 import {StripePlatform} from "../../../../types.ts";
-import {isHiEvents} from "../../../../utilites/helpers.ts";
+import {isCiencia} from "../../../../utilites/helpers.ts";
 import {StripeConnectButton} from "../../../common/StripeConnectButton";
 import {trackEvent, AnalyticsEvents} from "../../../../utilites/analytics.ts";
 
@@ -50,7 +50,7 @@ export const EventDashboard = () => {
 
     const showStripeUpgradeNotice = account?.stripe_platform === StripePlatform.Canada.valueOf()
         && account?.stripe_connect_setup_complete
-        && isHiEvents();
+        && isCiencia();
 
     useEffect(() => {
         setIsMounted(true);

@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Services\Domain\Product;
+namespace Ciencia\Services\Domain\Product;
 
-use HiEvents\DomainObjects\Generated\ProductDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\ProductPriceDomainObjectAbstract;
-use HiEvents\Exceptions\CannotDeleteEntityException;
-use HiEvents\Repository\Interfaces\ProductPriceRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\ProductEvent;
+use Ciencia\DomainObjects\Generated\ProductDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\ProductPriceDomainObjectAbstract;
+use Ciencia\Exceptions\CannotDeleteEntityException;
+use Ciencia\Repository\Interfaces\ProductPriceRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\ProductEvent;
 use Illuminate\Database\DatabaseManager;
 use Psr\Log\LoggerInterface;
 use Throwable;

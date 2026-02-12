@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Users;
+namespace Ciencia\Http\Actions\Users;
 
-use HiEvents\DomainObjects\AccountUserDomainObject;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Resources\User\UserResource;
+use Ciencia\DomainObjects\AccountUserDomainObject;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Resources\User\UserResource;
 use Illuminate\Http\JsonResponse;
 
 class GetUsersAction extends BaseAction

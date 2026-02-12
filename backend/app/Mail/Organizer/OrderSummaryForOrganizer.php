@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Mail\Organizer;
+namespace Ciencia\Mail\Organizer;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Helper\Currency;
-use HiEvents\Helper\Url;
-use HiEvents\Mail\BaseMail;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Helper\Currency;
+use Ciencia\Helper\Url;
+use Ciencia\Mail\BaseMail;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Support\Str;

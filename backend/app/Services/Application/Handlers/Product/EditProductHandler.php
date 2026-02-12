@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Product;
+namespace Ciencia\Services\Application\Handlers\Product;
 
 use Exception;
-use HiEvents\DomainObjects\Interfaces\DomainObjectInterface;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\Exceptions\CannotChangeProductTypeException;
-use HiEvents\Helper\DateHelper;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Product\DTO\UpsertProductDTO;
-use HiEvents\Services\Domain\Product\ProductPriceUpdateService;
-use HiEvents\Services\Domain\ProductCategory\GetProductCategoryService;
-use HiEvents\Services\Domain\Tax\DTO\TaxAndProductAssociateParams;
-use HiEvents\Services\Domain\Tax\TaxAndProductAssociationService;
-use HiEvents\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\ProductEvent;
-use HiEvents\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
+use Ciencia\DomainObjects\Interfaces\DomainObjectInterface;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\Exceptions\CannotChangeProductTypeException;
+use Ciencia\Helper\DateHelper;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Product\DTO\UpsertProductDTO;
+use Ciencia\Services\Domain\Product\ProductPriceUpdateService;
+use Ciencia\Services\Domain\ProductCategory\GetProductCategoryService;
+use Ciencia\Services\Domain\Tax\DTO\TaxAndProductAssociateParams;
+use Ciencia\Services\Domain\Tax\TaxAndProductAssociationService;
+use Ciencia\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\ProductEvent;
+use Ciencia\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
 use Illuminate\Database\DatabaseManager;
 use Throwable;
 

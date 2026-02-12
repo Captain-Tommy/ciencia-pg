@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders;
+namespace Ciencia\Http\Actions\Orders;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Order\EditOrderRequest;
-use HiEvents\Resources\Order\OrderResource;
-use HiEvents\Services\Application\Handlers\Order\DTO\EditOrderDTO;
-use HiEvents\Services\Application\Handlers\Order\EditOrderHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Order\EditOrderRequest;
+use Ciencia\Resources\Order\OrderResource;
+use Ciencia\Services\Application\Handlers\Order\DTO\EditOrderDTO;
+use Ciencia\Services\Application\Handlers\Order\EditOrderHandler;
 use Illuminate\Http\JsonResponse;
 
 class EditOrderAction extends BaseAction

@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Domain\Auth\DTO;
+namespace Ciencia\Services\Domain\Auth\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\UserDomainObject;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\UserDomainObject;
 use Illuminate\Support\Collection;
 
 class LoginResponse extends BaseDTO

@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\DomainEvents\Events;
+namespace Ciencia\Services\Infrastructure\DomainEvents\Events;
 
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
 
 class AttendeeEvent extends BaseDomainEvent
 {

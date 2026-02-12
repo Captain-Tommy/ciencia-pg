@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Product;
+namespace Ciencia\Services\Application\Handlers\Product;
 
-use HiEvents\Exceptions\CannotDeleteEntityException;
-use HiEvents\Services\Domain\Product\DeleteProductService;
+use Ciencia\Exceptions\CannotDeleteEntityException;
+use Ciencia\Services\Domain\Product\DeleteProductService;
 use Throwable;
 
 class DeleteProductHandler

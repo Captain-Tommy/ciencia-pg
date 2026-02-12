@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Admin\Accounts;
+namespace Ciencia\Http\Actions\Admin\Accounts;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Account\AdminAccountDetailResource;
-use HiEvents\Services\Application\Handlers\Admin\GetAccountHandler;
-use HiEvents\Services\Application\Handlers\Admin\UpdateAccountMessagingTierHandler;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Account\AdminAccountDetailResource;
+use Ciencia\Services\Application\Handlers\Admin\GetAccountHandler;
+use Ciencia\Services\Application\Handlers\Admin\UpdateAccountMessagingTierHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

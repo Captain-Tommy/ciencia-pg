@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Domain\CapacityAssignment\Exception;
+namespace Ciencia\Services\Domain\CapacityAssignment\Exception;
 
 use Exception;
 

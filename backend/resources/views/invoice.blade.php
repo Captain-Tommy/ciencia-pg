@@ -1,10 +1,10 @@
 @php use Carbon\Carbon; @endphp
-@php use HiEvents\Helper\Currency; @endphp
-@php use HiEvents\DomainObjects\Status\InvoiceStatus; @endphp
-@php /** @var \HiEvents\DomainObjects\EventDomainObject $event */ @endphp
-@php /** @var \HiEvents\DomainObjects\EventSettingDomainObject $eventSettings */ @endphp
-@php /** @var \HiEvents\DomainObjects\OrderDomainObject $order */ @endphp
-@php /** @var \HiEvents\DomainObjects\InvoiceDomainObject $invoice */ @endphp
+@php use Ciencia\Helper\Currency; @endphp
+@php use Ciencia\DomainObjects\Status\InvoiceStatus; @endphp
+@php /** @var \Ciencia\DomainObjects\EventDomainObject $event */ @endphp
+@php /** @var \Ciencia\DomainObjects\EventSettingDomainObject $eventSettings */ @endphp
+@php /** @var \Ciencia\DomainObjects\OrderDomainObject $order */ @endphp
+@php /** @var \Ciencia\DomainObjects\InvoiceDomainObject $invoice */ @endphp
 @php
     $isPaid = $invoice->getStatus() === InvoiceStatus::PAID->name;
     $isVoid = $invoice->getStatus() === InvoiceStatus::VOID->name;

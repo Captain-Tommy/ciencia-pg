@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Attendees;
+namespace Ciencia\Http\Actions\Attendees;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Attendee\DTO\ResendAttendeeTicketDTO;
-use HiEvents\Services\Application\Handlers\Attendee\ResendAttendeeTicketHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Attendee\DTO\ResendAttendeeTicketDTO;
+use Ciencia\Services\Application\Handlers\Attendee\ResendAttendeeTicketHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;

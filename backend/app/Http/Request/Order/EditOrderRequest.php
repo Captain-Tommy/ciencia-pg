@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Request\Order;
+namespace Ciencia\Http\Request\Order;
 
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Validators\Rules\RulesHelper;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Validators\Rules\RulesHelper;
 
 class EditOrderRequest extends BaseRequest
 {

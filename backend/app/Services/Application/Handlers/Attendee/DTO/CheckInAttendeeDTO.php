@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Attendee\DTO;
+namespace Ciencia\Services\Application\Handlers\Attendee\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class CheckInAttendeeDTO extends BaseDTO
 {

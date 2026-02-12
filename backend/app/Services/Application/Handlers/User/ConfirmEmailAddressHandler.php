@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\User;
+namespace Ciencia\Services\Application\Handlers\User;
 
-use HiEvents\Services\Application\Handlers\User\DTO\ConfirmEmailChangeDTO;
-use HiEvents\Services\Domain\User\EmailConfirmationService;
-use HiEvents\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
+use Ciencia\Services\Application\Handlers\User\DTO\ConfirmEmailChangeDTO;
+use Ciencia\Services\Domain\User\EmailConfirmationService;
+use Ciencia\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
 use Throwable;
 
 readonly class ConfirmEmailAddressHandler

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Admin\Events;
+namespace Ciencia\Http\Actions\Admin\Events;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Event\AdminEventResource;
-use HiEvents\Services\Application\Handlers\Admin\DTO\GetAllEventsDTO;
-use HiEvents\Services\Application\Handlers\Admin\GetAllEventsHandler;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Event\AdminEventResource;
+use Ciencia\Services\Application\Handlers\Admin\DTO\GetAllEventsDTO;
+use Ciencia\Services\Application\Handlers\Admin\GetAllEventsHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

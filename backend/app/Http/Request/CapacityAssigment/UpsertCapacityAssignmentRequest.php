@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Request\CapacityAssigment;
+namespace Ciencia\Http\Request\CapacityAssigment;
 
-use HiEvents\DomainObjects\Status\CapacityAssignmentStatus;
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Validators\Rules\RulesHelper;
+use Ciencia\DomainObjects\Status\CapacityAssignmentStatus;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Validators\Rules\RulesHelper;
 use Illuminate\Validation\Rule;
 
 class UpsertCapacityAssignmentRequest extends BaseRequest

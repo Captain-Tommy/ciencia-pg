@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Domain\Order\DTO;
+namespace Ciencia\Services\Domain\Order\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
-use HiEvents\Values\MoneyValue;
+use Ciencia\DataTransferObjects\BaseDataObject;
+use Ciencia\Values\MoneyValue;
 
 class ApplicationFeeValuesDTO extends BaseDataObject
 {

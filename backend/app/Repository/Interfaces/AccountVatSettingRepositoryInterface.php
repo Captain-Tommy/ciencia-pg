@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\AccountVatSettingDomainObject;
+use Ciencia\DomainObjects\AccountVatSettingDomainObject;
 
 interface AccountVatSettingRepositoryInterface extends RepositoryInterface
 {

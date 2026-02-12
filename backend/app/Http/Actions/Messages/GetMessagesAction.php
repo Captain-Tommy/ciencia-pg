@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Http\Actions\Messages;
+namespace Ciencia\Http\Actions\Messages;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\MessageDomainObject;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
-use HiEvents\Resources\Message\MessageResource;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\MessageDomainObject;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\Resources\Message\MessageResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

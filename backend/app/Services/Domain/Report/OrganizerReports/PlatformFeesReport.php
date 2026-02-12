@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Domain\Report\OrganizerReports;
+namespace Ciencia\Services\Domain\Report\OrganizerReports;
 
-use HiEvents\DomainObjects\Status\OrderRefundStatus;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Helper\Currency;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
-use HiEvents\Services\Domain\Report\DTO\PaginatedReportDTO;
+use Ciencia\DomainObjects\Status\OrderRefundStatus;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Helper\Currency;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\Services\Domain\Report\DTO\PaginatedReportDTO;
 use Illuminate\Cache\Repository;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Support\Carbon;

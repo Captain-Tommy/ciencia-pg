@@ -1,25 +1,25 @@
 <?php
 
-namespace HiEvents\Services\Domain\CheckInList;
+namespace Ciencia\Services\Domain\CheckInList;
 
 use Exception;
-use HiEvents\DataTransferObjects\ErrorBagDTO;
-use HiEvents\DomainObjects\AttendeeCheckInDomainObject;
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\CheckInListDomainObject;
-use HiEvents\DomainObjects\Enums\AttendeeCheckInActionType;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\Generated\AttendeeCheckInDomainObjectAbstract;
-use HiEvents\DomainObjects\Status\AttendeeStatus;
-use HiEvents\Exceptions\CannotCheckInException;
-use HiEvents\Helper\DateHelper;
-use HiEvents\Helper\IdHelper;
-use HiEvents\Repository\Interfaces\AttendeeCheckInRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventSettingsRepositoryInterface;
-use HiEvents\Services\Application\Handlers\CheckInList\Public\DTO\AttendeeAndActionDTO;
-use HiEvents\Services\Domain\CheckInList\DTO\CheckInResultDTO;
-use HiEvents\Services\Domain\CheckInList\DTO\CreateAttendeeCheckInsResponseDTO;
-use HiEvents\Services\Domain\Order\MarkOrderAsPaidService;
+use Ciencia\DataTransferObjects\ErrorBagDTO;
+use Ciencia\DomainObjects\AttendeeCheckInDomainObject;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\CheckInListDomainObject;
+use Ciencia\DomainObjects\Enums\AttendeeCheckInActionType;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\Generated\AttendeeCheckInDomainObjectAbstract;
+use Ciencia\DomainObjects\Status\AttendeeStatus;
+use Ciencia\Exceptions\CannotCheckInException;
+use Ciencia\Helper\DateHelper;
+use Ciencia\Helper\IdHelper;
+use Ciencia\Repository\Interfaces\AttendeeCheckInRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventSettingsRepositoryInterface;
+use Ciencia\Services\Application\Handlers\CheckInList\Public\DTO\AttendeeAndActionDTO;
+use Ciencia\Services\Domain\CheckInList\DTO\CheckInResultDTO;
+use Ciencia\Services\Domain\CheckInList\DTO\CreateAttendeeCheckInsResponseDTO;
+use Ciencia\Services\Domain\Order\MarkOrderAsPaidService;
 use Illuminate\Database\ConnectionInterface;
 use Illuminate\Support\Collection;
 use Throwable;

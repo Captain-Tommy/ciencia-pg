@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Domain\Tax\DTO;
+namespace Ciencia\Services\Domain\Tax\DTO;
 
 class TaxAndProductAssociateParams
 {

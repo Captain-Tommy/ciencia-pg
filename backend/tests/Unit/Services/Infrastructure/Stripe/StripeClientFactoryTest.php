@@ -2,10 +2,10 @@
 
 namespace Tests\Unit\Services\Infrastructure\Stripe;
 
-use HiEvents\DomainObjects\Enums\StripePlatform;
-use HiEvents\Exceptions\Stripe\StripeClientConfigurationException;
-use HiEvents\Services\Infrastructure\Stripe\StripeClientFactory;
-use HiEvents\Services\Infrastructure\Stripe\StripeConfigurationService;
+use Ciencia\DomainObjects\Enums\StripePlatform;
+use Ciencia\Exceptions\Stripe\StripeClientConfigurationException;
+use Ciencia\Services\Infrastructure\Stripe\StripeClientFactory;
+use Ciencia\Services\Infrastructure\Stripe\StripeConfigurationService;
 use Mockery;
 use Stripe\StripeClient;
 use Tests\TestCase;

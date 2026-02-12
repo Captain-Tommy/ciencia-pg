@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Http;
+namespace Ciencia\Http;
 
 class ResponseCodes
 {

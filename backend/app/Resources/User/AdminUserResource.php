@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Resources\User;
+namespace Ciencia\Resources\User;
 
-use HiEvents\Resources\BaseResource;
+use Ciencia\Resources\BaseResource;
 use Illuminate\Http\Request;
 
 class AdminUserResource extends BaseResource

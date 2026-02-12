@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Helper;
+namespace Ciencia\Helper;
 
 use NumberFormatter;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\CapacityAssignments;
+namespace Ciencia\Http\Actions\CapacityAssignments;
 
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\CapacityAssignment\CapacityAssignmentResource;
-use HiEvents\Services\Application\Handlers\CapacityAssignment\DTO\GetCapacityAssignmentsDTO;
-use HiEvents\Services\Application\Handlers\CapacityAssignment\GetCapacityAssignmentsHandler;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\CapacityAssignment\CapacityAssignmentResource;
+use Ciencia\Services\Application\Handlers\CapacityAssignment\DTO\GetCapacityAssignmentsDTO;
+use Ciencia\Services\Application\Handlers\CapacityAssignment\GetCapacityAssignmentsHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

@@ -596,17 +596,17 @@ const SelectProducts = (props: SelectProductsProps) => {
 
             {
                 /**
-                 * (c) Hi.Events Ltd 2025
+                 * (c) Ciencia 2k26 Ltd 2025
                  *
                  * PLEASE NOTE:
                  *
-                 * Hi.Events is licensed under the GNU Affero General Public License (AGPL) version 3.
+                 * Ciencia 2k26 is licensed under the GNU Affero General Public License (AGPL) version 3.
                  *
-                 * You can find the full license text at: https://github.com/HiEventsDev/hi.events/blob/main/LICENCE
+                 * You can find the full license text at: https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io/blob/main/LICENCE
                  *
-                 * In accordance with Section 7(b) of the AGPL, we ask that you retain the "Powered by Hi.Events" notice.
+                 * In accordance with Section 7(b) of the AGPL, we ask that you retain the "Powered by Ciencia 2k26" notice.
                  *
-                 * If you wish to remove this notice, a commercial license is available at: https://hi.events/licensing
+                 * If you wish to remove this notice, a commercial license is available at: https://ticketing.ciencia2k26.qzz.io/licensing
                  */
             }
             {(props.showPoweredBy ?? true) && (

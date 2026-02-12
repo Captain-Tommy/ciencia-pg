@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Actions\Organizers\Public;
+namespace Ciencia\Http\Actions\Organizers\Public;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Organizer\DTO\SendOrganizerContactMessageDTO;
-use HiEvents\Services\Application\Handlers\Organizer\SendOrganizerContactMessageHandler;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Organizer\DTO\SendOrganizerContactMessageDTO;
+use Ciencia\Services\Application\Handlers\Organizer\SendOrganizerContactMessageHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;

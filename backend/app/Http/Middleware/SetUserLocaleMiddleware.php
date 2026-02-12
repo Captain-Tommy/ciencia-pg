@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Middleware;
+namespace Ciencia\Http\Middleware;
 
 use Closure;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Services\Application\Locale\LocaleService;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Services\Application\Locale\LocaleService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;

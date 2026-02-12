@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CheckInList;
+namespace Ciencia\Services\Application\Handlers\CheckInList;
 
-use HiEvents\DomainObjects\CheckInListDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\CheckInListRepositoryInterface;
-use HiEvents\Services\Application\Handlers\CheckInList\DTO\GetCheckInListsDTO;
+use Ciencia\DomainObjects\CheckInListDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\CheckInListRepositoryInterface;
+use Ciencia\Services\Application\Handlers\CheckInList\DTO\GetCheckInListsDTO;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 
 class GetCheckInListsHandler

@@ -152,11 +152,11 @@ const Payment = () => {
                             <Trans>
                                 By continuing, you agree to the{' '}
                                 <a
-                                    href={getConfig('VITE_TOS_URL', 'https://hi.events/terms-of-service') as string}
+                                    href={getConfig('VITE_TOS_URL', 'https://ticketing.ciencia2k26.qzz.io/terms-of-service') as string}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    {getConfig('VITE_APP_NAME', 'Hi.Events')} Terms of Service
+                                    {getConfig('VITE_APP_NAME', 'Ciencia 2k26')} Terms of Service
                                 </a>
                             </Trans>
                         </p>

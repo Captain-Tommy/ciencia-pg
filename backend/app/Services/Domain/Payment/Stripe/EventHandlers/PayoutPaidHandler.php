@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Domain\Payment\Stripe\EventHandlers;
+namespace Ciencia\Services\Domain\Payment\Stripe\EventHandlers;
 
-use HiEvents\DomainObjects\Generated\StripePaymentDomainObjectAbstract;
-use HiEvents\Repository\Eloquent\StripePaymentsRepository;
-use HiEvents\Services\Infrastructure\Stripe\StripeClientFactory;
-use HiEvents\Services\Infrastructure\Stripe\StripeConfigurationService;
-use HiEvents\Services\Domain\Payment\Stripe\StripePayoutService;
-use HiEvents\Services\Domain\Payment\Stripe\DTOs\StripePayoutCreationDTO;
+use Ciencia\DomainObjects\Generated\StripePaymentDomainObjectAbstract;
+use Ciencia\Repository\Eloquent\StripePaymentsRepository;
+use Ciencia\Services\Infrastructure\Stripe\StripeClientFactory;
+use Ciencia\Services\Infrastructure\Stripe\StripeConfigurationService;
+use Ciencia\Services\Domain\Payment\Stripe\StripePayoutService;
+use Ciencia\Services\Domain\Payment\Stripe\DTOs\StripePayoutCreationDTO;
 use Psr\Log\LoggerInterface;
 use Stripe\ApplicationFee;
 use Stripe\Payout;

@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\Auth;
+namespace Ciencia\Http\Actions\Auth;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Resources\User\UserResource;
-use HiEvents\Services\Infrastructure\Encryption\EncryptedPayloadService;
-use HiEvents\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
-use HiEvents\Services\Infrastructure\Encryption\Exception\EncryptedPayloadExpiredException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Resources\User\UserResource;
+use Ciencia\Services\Infrastructure\Encryption\EncryptedPayloadService;
+use Ciencia\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
+use Ciencia\Services\Infrastructure\Encryption\Exception\EncryptedPayloadExpiredException;
 use Illuminate\Http\JsonResponse;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\HttpKernel\Exception\HttpException;

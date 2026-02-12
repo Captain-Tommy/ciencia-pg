@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Resources\Account;
+namespace Ciencia\Resources\Account;
 
-use HiEvents\DomainObjects\AccountMessagingTierDomainObject;
-use HiEvents\Http\Resources\Admin\AccountMessagingTierResource;
-use HiEvents\Models\Account;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\AccountMessagingTierDomainObject;
+use Ciencia\Http\Resources\Admin\AccountMessagingTierResource;
+use Ciencia\Models\Account;
+use Ciencia\Resources\BaseResource;
 use Illuminate\Http\Request;
 
 /**

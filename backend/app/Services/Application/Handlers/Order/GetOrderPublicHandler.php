@@ -1,26 +1,26 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order;
+namespace Ciencia\Services\Application\Handlers\Order;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\Generated\EventDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\OrganizerDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\ProductDomainObjectAbstract;
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\DomainObjects\InvoiceDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Exceptions\UnauthorizedException;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Order\DTO\GetOrderPublicDTO;
-use HiEvents\Services\Infrastructure\Session\CheckoutSessionManagementService;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\Generated\EventDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\OrganizerDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\ProductDomainObjectAbstract;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\DomainObjects\InvoiceDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Exceptions\UnauthorizedException;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Order\DTO\GetOrderPublicDTO;
+use Ciencia\Services\Infrastructure\Session\CheckoutSessionManagementService;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 class GetOrderPublicHandler

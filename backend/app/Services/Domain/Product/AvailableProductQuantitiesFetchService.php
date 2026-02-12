@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Services\Domain\Product;
+namespace Ciencia\Services\Domain\Product;
 
-use HiEvents\Constants;
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
-use HiEvents\DomainObjects\Enums\CapacityAssignmentAppliesTo;
-use HiEvents\DomainObjects\Status\CapacityAssignmentStatus;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
-use HiEvents\Services\Domain\Product\DTO\AvailableProductQuantitiesDTO;
-use HiEvents\Services\Domain\Product\DTO\AvailableProductQuantitiesResponseDTO;
+use Ciencia\Constants;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\DomainObjects\Enums\CapacityAssignmentAppliesTo;
+use Ciencia\DomainObjects\Status\CapacityAssignmentStatus;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
+use Ciencia\Services\Domain\Product\DTO\AvailableProductQuantitiesDTO;
+use Ciencia\Services\Domain\Product\DTO\AvailableProductQuantitiesResponseDTO;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Contracts\Cache\Repository as Cache;
 use Illuminate\Database\DatabaseManager;

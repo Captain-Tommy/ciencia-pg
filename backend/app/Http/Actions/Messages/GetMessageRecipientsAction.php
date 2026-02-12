@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Messages;
+namespace Ciencia\Http\Actions\Messages;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Message\OutgoingMessageResource;
-use HiEvents\Services\Application\Handlers\Message\GetMessageRecipientsHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Message\OutgoingMessageResource;
+use Ciencia\Services\Application\Handlers\Message\GetMessageRecipientsHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

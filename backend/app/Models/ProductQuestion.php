@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Models;
+namespace Ciencia\Models;
 
-use HiEvents\DomainObjects\Generated\ProductQuestionDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\ProductQuestionDomainObjectAbstract;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class ProductQuestion extends BaseModel

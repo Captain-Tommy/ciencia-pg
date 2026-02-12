@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Http\Request\Questions;
+namespace Ciencia\Http\Request\Questions;
 
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\Http\Request\BaseRequest;
 
 class SortQuestionsRequest extends BaseRequest
 {

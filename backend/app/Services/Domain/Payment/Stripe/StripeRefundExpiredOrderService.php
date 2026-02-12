@@ -1,21 +1,21 @@
 <?php
 
-namespace HiEvents\Services\Domain\Payment\Stripe;
+namespace Ciencia\Services\Domain\Payment\Stripe;
 
 use Brick\Math\Exception\MathException;
 use Brick\Math\Exception\NumberFormatException;
 use Brick\Math\Exception\RoundingNecessaryException;
 use Brick\Money\Exception\UnknownCurrencyException;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\StripePaymentDomainObject;
-use HiEvents\Exceptions\Stripe\StripeClientConfigurationException;
-use HiEvents\Mail\Order\PaymentSuccessButOrderExpiredMail;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Services\Infrastructure\Stripe\StripeClientFactory;
-use HiEvents\Values\MoneyValue;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\StripePaymentDomainObject;
+use Ciencia\Exceptions\Stripe\StripeClientConfigurationException;
+use Ciencia\Mail\Order\PaymentSuccessButOrderExpiredMail;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Services\Infrastructure\Stripe\StripeClientFactory;
+use Ciencia\Values\MoneyValue;
 use Illuminate\Contracts\Mail\Mailer;
 use Psr\Log\LoggerInterface;
 use Stripe\Exception\ApiErrorException;

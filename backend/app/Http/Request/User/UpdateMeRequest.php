@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Request\User;
+namespace Ciencia\Http\Request\User;
 
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Locale;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Locale;
 use Illuminate\Validation\Rules\Password;
 
 class UpdateMeRequest extends BaseRequest

@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Resources\Order;
+namespace Ciencia\Resources\Order;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Resources\Attendee\AttendeeResourcePublic;
-use HiEvents\Resources\BaseResource;
-use HiEvents\Resources\Event\EventResourcePublic;
-use HiEvents\Resources\Order\Invoice\InvoiceResourcePublic;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Resources\Attendee\AttendeeResourcePublic;
+use Ciencia\Resources\BaseResource;
+use Ciencia\Resources\Event\EventResourcePublic;
+use Ciencia\Resources\Order\Invoice\InvoiceResourcePublic;
 use Illuminate\Http\Request;
 
 /**

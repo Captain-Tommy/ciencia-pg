@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Generated\OrderDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\Status\OrderPaymentStatus;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Models\Order;
-use HiEvents\Models\OrderItem;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Generated\OrderDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\Status\OrderPaymentStatus;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Models\Order;
+use Ciencia\Models\OrderItem;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\AccountDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\AccountDomainObject;
 
 class OrderRepository extends BaseRepository implements OrderRepositoryInterface
 {

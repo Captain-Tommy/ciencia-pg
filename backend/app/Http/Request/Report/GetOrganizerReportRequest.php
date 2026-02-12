@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Http\Request\Report;
+namespace Ciencia\Http\Request\Report;
 
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\Http\Request\BaseRequest;
 
 class GetOrganizerReportRequest extends BaseRequest
 {

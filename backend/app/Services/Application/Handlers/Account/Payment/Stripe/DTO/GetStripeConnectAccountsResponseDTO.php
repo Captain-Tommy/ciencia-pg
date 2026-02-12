@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Account\Payment\Stripe\DTO;
+namespace Ciencia\Services\Application\Handlers\Account\Payment\Stripe\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
-use HiEvents\DomainObjects\AccountDomainObject;
+use Ciencia\DataTransferObjects\BaseDataObject;
+use Ciencia\DomainObjects\AccountDomainObject;
 use Illuminate\Support\Collection;
 
 class GetStripeConnectAccountsResponseDTO extends BaseDataObject

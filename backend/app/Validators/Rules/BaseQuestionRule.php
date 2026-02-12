@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Validators\Rules;
+namespace Ciencia\Validators\Rules;
 
 use Closure;
-use HiEvents\DomainObjects\Enums\QuestionTypeEnum;
-use HiEvents\DomainObjects\QuestionDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\Enums\QuestionTypeEnum;
+use Ciencia\DomainObjects\QuestionDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
 use Illuminate\Contracts\Validation\DataAwareRule;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Contracts\Validation\ValidatorAwareRule;

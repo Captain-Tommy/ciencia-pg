@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\User;
+namespace Ciencia\Services\Application\Handlers\User;
 
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\User\DTO\CancelEmailChangeDTO;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\User\DTO\CancelEmailChangeDTO;
 use Psr\Log\LoggerInterface;
 
 class CancelEmailChangeHandler

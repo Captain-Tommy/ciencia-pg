@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Domain\Report\Factory;
+namespace Ciencia\Services\Domain\Report\Factory;
 
-use HiEvents\DomainObjects\Enums\ReportTypes;
-use HiEvents\Services\Domain\Report\AbstractReportService;
-use HiEvents\Services\Domain\Report\Reports\DailySalesReport;
-use HiEvents\Services\Domain\Report\Reports\ProductSalesReport;
-use HiEvents\Services\Domain\Report\Reports\PromoCodesReport;
+use Ciencia\DomainObjects\Enums\ReportTypes;
+use Ciencia\Services\Domain\Report\AbstractReportService;
+use Ciencia\Services\Domain\Report\Reports\DailySalesReport;
+use Ciencia\Services\Domain\Report\Reports\ProductSalesReport;
+use Ciencia\Services\Domain\Report\Reports\PromoCodesReport;
 use Illuminate\Support\Facades\App;
 
 class ReportServiceFactory

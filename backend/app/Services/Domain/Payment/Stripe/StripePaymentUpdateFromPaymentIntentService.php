@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Domain\Payment\Stripe;
+namespace Ciencia\Services\Domain\Payment\Stripe;
 
-use HiEvents\DomainObjects\Generated\StripePaymentDomainObjectAbstract;
-use HiEvents\Repository\Eloquent\StripePaymentsRepository;
+use Ciencia\DomainObjects\Generated\StripePaymentDomainObjectAbstract;
+use Ciencia\Repository\Eloquent\StripePaymentsRepository;
 use Stripe\PaymentIntent;
 
 readonly class StripePaymentUpdateFromPaymentIntentService

@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\EmailTemplate\DTO;
+namespace Ciencia\Services\Application\Handlers\EmailTemplate\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
+use Ciencia\DataTransferObjects\BaseDataObject;
 
 class DeleteEmailTemplateDTO extends BaseDataObject
 {

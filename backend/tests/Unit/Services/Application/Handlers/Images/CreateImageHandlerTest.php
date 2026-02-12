@@ -2,15 +2,15 @@
 
 namespace Tests\Unit\Services\Application\Handlers\Images;
 
-use HiEvents\DomainObjects\Enums\ImageType;
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\ImageRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Images\CreateImageHandler;
-use HiEvents\Services\Application\Handlers\Images\DTO\CreateImageDTO;
-use HiEvents\Services\Domain\Image\ImageUploadService;
+use Ciencia\DomainObjects\Enums\ImageType;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\ImageRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Images\CreateImageHandler;
+use Ciencia\Services\Application\Handlers\Images\DTO\CreateImageDTO;
+use Ciencia\Services\Domain\Image\ImageUploadService;
 use Illuminate\Http\UploadedFile;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;

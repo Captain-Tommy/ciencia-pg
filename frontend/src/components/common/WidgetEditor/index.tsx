@@ -50,26 +50,26 @@ export const WidgetEditor = () => {
     useEffect(() => {
         setHtmlEmbedCode(
             '<div ' +
-            'data-hievents-id="' + eventId + '" ' +
-            'data-hievents-primary-color="' + form.values.primary_color + '" ' +
-            'data-hievents-primary-text-color="' + form.values.primary_text_color + '" ' +
-            'data-hievents-secondary-color="' + form.values.secondary_color + '" ' +
-            'data-hievents-secondary-text-color="' + form.values.secondary_text_color + '" ' +
-            'data-hievents-background-color="' + form.values.background_color + '" ' +
-            'data-hievents-widget-type="widget" ' +
-            'data-hievents-widget-version="1.0" ' +
-            'data-hievents-locale="en" ' +
-            'data-hievents-padding="' + form.values.padding + 'px" ' +
-            'data-hievents-autoresize="' + form.values.autoResize + '" ' +
-            'data-hievents-continue-button-text="' + form.values.continue_button_text + '" ' +
-            'class="hievents-widget">' +
+            'data-ciencia-id="' + eventId + '" ' +
+            'data-ciencia-primary-color="' + form.values.primary_color + '" ' +
+            'data-ciencia-primary-text-color="' + form.values.primary_text_color + '" ' +
+            'data-ciencia-secondary-color="' + form.values.secondary_color + '" ' +
+            'data-ciencia-secondary-text-color="' + form.values.secondary_text_color + '" ' +
+            'data-ciencia-background-color="' + form.values.background_color + '" ' +
+            'data-ciencia-widget-type="widget" ' +
+            'data-ciencia-widget-version="1.0" ' +
+            'data-ciencia-locale="en" ' +
+            'data-ciencia-padding="' + form.values.padding + 'px" ' +
+            'data-ciencia-autoresize="' + form.values.autoResize + '" ' +
+            'data-ciencia-continue-button-text="' + form.values.continue_button_text + '" ' +
+            'class="ciencia-widget">' +
             '</div>'
         );
 
         setReactComponentCode(`
 import React, { useEffect } from 'react';
 
-const HiEventsWidget = ({
+const CienciaWidget = ({
   eventId,
   primaryColor = "${form.values.primary_color}",
   primaryTextColor = "${form.values.primary_text_color}",
@@ -93,32 +93,32 @@ const HiEventsWidget = ({
 
   return (
     <div
-      data-hievents-id={eventId}
-      data-hievents-primary-color={primaryColor}
-      data-hievents-primary-text-color={primaryTextColor}
-      data-hievents-secondary-color={secondaryColor}
-      data-hievents-secondary-text-color={secondaryTextColor}
-      data-hievents-background-color={backgroundColor}
-      data-hievents-widget-type={widgetType}
-      data-hievents-widget-version={widgetVersion}
-      data-hievents-locale={locale}
-      className="hievents-widget"
+      data-ciencia-id={eventId}
+      data-ciencia-primary-color={primaryColor}
+      data-ciencia-primary-text-color={primaryTextColor}
+      data-ciencia-secondary-color={secondaryColor}
+      data-ciencia-secondary-text-color={secondaryTextColor}
+      data-ciencia-background-color={backgroundColor}
+      data-ciencia-widget-type={widgetType}
+      data-ciencia-widget-version={widgetVersion}
+      data-ciencia-locale={locale}
+      className="ciencia-widget"
     />
   );
 };
 
-export default HiEventsWidget;
+export default CienciaWidget;
         `);
 
         setReactUsageCode(`
 import React from 'react';
-import HiEventsWidget from './HiEventsWidget';
+import CienciaWidget from './CienciaWidget';
 
 const App = () => {
   return (
     <div>
       <h1>My Website</h1>
-      <HiEventsWidget 
+      <CienciaWidget 
         eventId="${eventId}"
         primaryColor="${form.values.primary_color}"
         primaryTextColor="${form.values.primary_text_color}"

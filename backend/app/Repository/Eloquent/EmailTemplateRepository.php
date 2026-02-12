@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\EmailTemplateDomainObject;
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
-use HiEvents\Models\EmailTemplate;
-use HiEvents\Repository\Interfaces\EmailTemplateRepositoryInterface;
+use Ciencia\DomainObjects\EmailTemplateDomainObject;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\Models\EmailTemplate;
+use Ciencia\Repository\Interfaces\EmailTemplateRepositoryInterface;
 use Illuminate\Support\Collection;
 
 class EmailTemplateRepository extends BaseRepository implements EmailTemplateRepositoryInterface

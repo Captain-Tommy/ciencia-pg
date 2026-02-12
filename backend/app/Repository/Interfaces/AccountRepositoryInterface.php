@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\Models\Account;
-use HiEvents\Repository\Eloquent\BaseRepository;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\Models\Account;
+use Ciencia\Repository\Eloquent\BaseRepository;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 
 /**

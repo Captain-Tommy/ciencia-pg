@@ -1,24 +1,24 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event;
+namespace Ciencia\Services\Application\Handlers\Event;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\OrganizerSettingDomainObject;
-use HiEvents\DomainObjects\ProductCategoryDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\Repository\Eloquent\Value\OrderAndDirection;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Event\DTO\GetPublicEventDTO;
-use HiEvents\Services\Domain\Event\EventPageViewIncrementService;
-use HiEvents\Services\Domain\Product\ProductFilterService;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\OrganizerSettingDomainObject;
+use Ciencia\DomainObjects\ProductCategoryDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\Repository\Eloquent\Value\OrderAndDirection;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Event\DTO\GetPublicEventDTO;
+use Ciencia\Services\Domain\Event\EventPageViewIncrementService;
+use Ciencia\Services\Domain\Product\ProductFilterService;
 
 class GetPublicEventHandler
 {

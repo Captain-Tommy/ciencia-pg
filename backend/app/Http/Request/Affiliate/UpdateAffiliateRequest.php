@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Request\Affiliate;
+namespace Ciencia\Http\Request\Affiliate;
 
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Validators\Rules\AffiliateRules;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Validators\Rules\AffiliateRules;
 
 class UpdateAffiliateRequest extends BaseRequest
 {

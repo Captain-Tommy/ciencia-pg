@@ -1,8 +1,8 @@
-# Repository Pattern in Hi.Events
+# Repository Pattern in Ciencia 2k26
 
 ## Overview
 
-Hi.Events uses a clean implementation of the Repository Pattern that provides abstraction between the domain layer and data persistence. All repositories follow interface-based design and return domain objects instead of Eloquent models.
+Ciencia 2k26 uses a clean implementation of the Repository Pattern that provides abstraction between the domain layer and data persistence. All repositories follow interface-based design and return domain objects instead of Eloquent models.
 
 ## Architecture
 
@@ -136,10 +136,10 @@ private function hydrateDomainObjectFromModel(Model $model): DomainObjectInterfa
 ```php
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\AffiliateDomainObject;
-use HiEvents\DataTransferObjects\QueryParamsDTO;
+use Ciencia\DomainObjects\AffiliateDomainObject;
+use Ciencia\DataTransferObjects\QueryParamsDTO;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 interface AffiliateRepositoryInterface extends RepositoryInterface
@@ -157,12 +157,12 @@ interface AffiliateRepositoryInterface extends RepositoryInterface
 ```php
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AffiliateDomainObject;
-use HiEvents\DomainObjects\Generated\AffiliateDomainObjectAbstract;
-use HiEvents\Models\Affiliate;
-use HiEvents\Repository\Interfaces\AffiliateRepositoryInterface;
+use Ciencia\DomainObjects\AffiliateDomainObject;
+use Ciencia\DomainObjects\Generated\AffiliateDomainObjectAbstract;
+use Ciencia\Models\Affiliate;
+use Ciencia\Repository\Interfaces\AffiliateRepositoryInterface;
 use Illuminate\Database\Query\Builder;
 
 class AffiliateRepository extends BaseRepository implements AffiliateRepositoryInterface

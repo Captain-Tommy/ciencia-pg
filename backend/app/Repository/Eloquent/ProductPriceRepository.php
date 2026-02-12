@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\Models\ProductPrice;
-use HiEvents\Repository\Interfaces\ProductPriceRepositoryInterface;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\Models\ProductPrice;
+use Ciencia\Repository\Interfaces\ProductPriceRepositoryInterface;
 
 class ProductPriceRepository extends BaseRepository implements ProductPriceRepositoryInterface
 {

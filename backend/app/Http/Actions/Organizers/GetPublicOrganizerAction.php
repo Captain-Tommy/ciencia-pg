@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\Organizers;
+namespace Ciencia\Http\Actions\Organizers;
 
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\Status\OrganizerStatus;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Organizer\OrganizerResourcePublic;
-use HiEvents\Services\Application\Handlers\Organizer\GetPublicOrganizerHandler;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\Status\OrganizerStatus;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Organizer\OrganizerResourcePublic;
+use Ciencia\Services\Application\Handlers\Organizer\GetPublicOrganizerHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Psr\Log\LoggerInterface;

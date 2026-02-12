@@ -2,16 +2,16 @@
 
 namespace Tests\Unit\Services\Domain\SelfService;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Mail\Order\OrderDetailsChangedMail;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Domain\Mail\SendOrderDetailsService;
-use HiEvents\Services\Domain\SelfService\OrderAuditLogService;
-use HiEvents\Services\Domain\SelfService\SelfServiceEditOrderService;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Mail\Order\OrderDetailsChangedMail;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Domain\Mail\SendOrderDetailsService;
+use Ciencia\Services\Domain\SelfService\OrderAuditLogService;
+use Ciencia\Services\Domain\SelfService\SelfServiceEditOrderService;
 use Illuminate\Support\Facades\Mail;
 use Mockery;
 use Mockery\MockInterface;

@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\Status\EventStatus;
-use HiEvents\DomainObjects\Status\OrderPaymentStatus;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Services\Application\Handlers\Admin\DTO\AdminDashboardResponseDTO;
-use HiEvents\Services\Application\Handlers\Admin\DTO\GetAdminDashboardDataDTO;
+use Ciencia\DomainObjects\Status\EventStatus;
+use Ciencia\DomainObjects\Status\OrderPaymentStatus;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Services\Application\Handlers\Admin\DTO\AdminDashboardResponseDTO;
+use Ciencia\Services\Application\Handlers\Admin\DTO\GetAdminDashboardDataDTO;
 use Illuminate\Support\Facades\DB;
 
 class GetAdminDashboardDataHandler

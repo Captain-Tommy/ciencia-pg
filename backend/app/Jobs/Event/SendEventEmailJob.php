@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Jobs\Event;
+namespace Ciencia\Jobs\Event;
 
-use HiEvents\DomainObjects\Generated\OutgoingMessageDomainObjectAbstract;
-use HiEvents\DomainObjects\Status\OutgoingMessageStatus;
-use HiEvents\Mail\Event\EventMessage;
-use HiEvents\Repository\Interfaces\OutgoingMessageRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Message\DTO\SendMessageDTO;
+use Ciencia\DomainObjects\Generated\OutgoingMessageDomainObjectAbstract;
+use Ciencia\DomainObjects\Status\OutgoingMessageStatus;
+use Ciencia\Mail\Event\EventMessage;
+use Ciencia\Repository\Interfaces\OutgoingMessageRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Message\DTO\SendMessageDTO;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

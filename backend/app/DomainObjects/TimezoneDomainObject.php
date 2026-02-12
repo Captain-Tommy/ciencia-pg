@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
 class TimezoneDomainObject extends Generated\TimezoneDomainObjectAbstract
 {

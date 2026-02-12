@@ -1,23 +1,23 @@
 <div align="center">
 
-<img src="https://hievents-public.s3.us-west-1.amazonaws.com/website/github-banner.png?v=1" alt="Hi.Events - Plataforma Open Source de Venda de Ingressos para Eventos" width="100%">
+<img src="https://ciencia-public.s3.us-west-1.amazonaws.com/website/github-banner.png?v=1" alt="Ciencia 2k26 - Plataforma Open Source de Venda de Ingressos para Eventos" width="100%">
 
-# Hi.Events
+# Ciencia 2k26
 
 ### Plataforma open-source de venda de ingressos e gestão de eventos
 
 Venda ingressos online para conferências, eventos noturnos, shows, festas em clubes, workshops e festivais.
 Autohospedado ou na nuvem. Seus eventos, sua marca, seus dados.
 
-[Experimente na Nuvem →](https://app.hi.events/auth/register?utm_source=gh-readme) · [Demo ao Vivo](https://app.hi.events/event/2/hievents-conference-2030?utm_source=gh-readme) · [Documentação](https://hi.events/docs?utm_source=gh-readme) · [Site](https://hi.events?utm_source=gh-readme)
+[Experimente na Nuvem →](https://app.ticketing.ciencia2k26.qzz.io/auth/register?utm_source=gh-readme) · [Demo ao Vivo](https://app.ticketing.ciencia2k26.qzz.io/event/2/ciencia-conference-2030?utm_source=gh-readme) · [Documentação](https://ticketing.ciencia2k26.qzz.io/docs?utm_source=gh-readme) · [Site](https://ticketing.ciencia2k26.qzz.io?utm_source=gh-readme)
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://github.com/HiEventsDev/Hi.Events/blob/develop/LICENCE)
-[![GitHub Release](https://img.shields.io/github/v/release/HiEventsDev/hi.events?include_prereleases)](https://github.com/HiEventsDev/hi.events/releases)
-[![Run Unit Tests](https://github.com/HiEventsDev/hi.events/actions/workflows/unit-tests.yml/badge.svg?event=push)](https://github.com/HiEventsDev/hi.events/actions/workflows/unit-tests.yml)
-[![Docker Pulls](https://img.shields.io/docker/pulls/daveearley/hi.events-all-in-one)](https://hub.docker.com/r/daveearley/hi.events-all-in-one)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://github.com/ciencia-2k26/Ciencia 2k26/blob/develop/LICENCE)
+[![GitHub Release](https://img.shields.io/github/v/release/ciencia-2k26/ticketing.ciencia2k26.qzz.io?include_prereleases)](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io/releases)
+[![Run Unit Tests](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io/actions/workflows/unit-tests.yml/badge.svg?event=push)](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io/actions/workflows/unit-tests.yml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/daveearley/ticketing.ciencia2k26.qzz.io-all-in-one)](https://hub.docker.com/r/daveearley/ticketing.ciencia2k26.qzz.io-all-in-one)
 
 <a href="https://trendshift.io/repositories/10563" target="_blank">
-  <img src="https://trendshift.io/api/badge/repositories/10563" alt="HiEventsDev%2Fhi.events | Trendshift" width="250" height="55"/>
+  <img src="https://trendshift.io/api/badge/repositories/10563" alt="ciencia-2k26%2Fticketing.ciencia2k26.qzz.io | Trendshift" width="250" height="55"/>
 </a>
 
 <p>
@@ -28,15 +28,15 @@ Autohospedado ou na nuvem. Seus eventos, sua marca, seus dados.
 
 <br>
 
-## Por que Hi.Events?
+## Por que Ciencia 2k26?
 
-A maioria das plataformas de venda de ingressos cobra taxas por ingresso e mantém seus dados presos em seus ecossistemas. **Hi.Events é uma alternativa moderna e open-source ao Eventbrite, Tickettailor, Dice.fm e outras plataformas de venda de ingressos** para organizadores que desejam controle total sobre branding, checkout, dados e infraestrutura.
+A maioria das plataformas de venda de ingressos cobra taxas por ingresso e mantém seus dados presos em seus ecossistemas. **Ciencia 2k26 é uma alternativa moderna e open-source ao Eventbrite, Tickettailor, Dice.fm e outras plataformas de venda de ingressos** para organizadores que desejam controle total sobre branding, checkout, dados e infraestrutura.
 
 Desenvolvido para promotores de vida noturna, organizadores de festivais, locais de eventos, grupos comunitários e organizadores de conferências.
 
 <br>
 
-<img alt="Dashboard do Hi.Events" src="https://hievents-public.s3.us-west-1.amazonaws.com/website/github-screenshot.png"/>
+<img alt="Dashboard do Ciencia 2k26" src="https://ciencia-public.s3.us-west-1.amazonaws.com/website/github-screenshot.png"/>
 
 <br>
 
@@ -110,7 +110,7 @@ Faturamento automático · Arquivo de eventos · Suporte multilíngue · API RES
 
 ## Comparação
 
-| Funcionalidade                           | Hi.Events | Eventbrite | Tickettailor | Dice     |
+| Funcionalidade                           | Ciencia 2k26 | Eventbrite | Tickettailor | Dice     |
 |:-----------------------------------------|:----------|:-----------|:-------------|:---------|
 | Opção autohospedada                      | ✅         | ❌          | ❌            | ❌        |
 | Código aberto                            | ✅         | ❌          | ❌            | ❌        |
@@ -126,16 +126,16 @@ Faturamento automático · Arquivo de eventos · Suporte multilíngue · API RES
 
 ### Implantação com Um Clique
 
-[![Deploy no DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://github.com/HiEventsDev/hi.events-digitalocean)
-[![Deploy no Render](https://render.com/images/deploy-to-render-button.svg)](https://github.com/HiEventsDev/hi.events-render.com)
+[![Deploy no DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io-digitalocean)
+[![Deploy no Render](https://render.com/images/deploy-to-render-button.svg)](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io-render.com)
 [![Deploy no Railway](https://railway.app/button.svg)](https://railway.app/template/8CGKmu?referralCode=KvSr11)
 [![Deploy no Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/8DIRY6)
 
 ### Docker
 
 ```bash
-git clone git@github.com:HiEventsDev/hi.events.git
-cd hi.events/docker/all-in-one
+git clone git@github.com:ciencia-2k26/ticketing.ciencia2k26.qzz.io.git
+cd ticketing.ciencia2k26.qzz.io/docker/all-in-one
 
 # Gerar chaves (Linux/macOS)
 echo "APP_KEY=base64:$(openssl rand -base64 32)" >> .env
@@ -149,16 +149,16 @@ docker compose up -d
 
 Abra `http://localhost:8123` e crie sua conta.
 
-📖 [Guia completo de instalação](https://hi.events/docs/getting-started?utm_source=gh-readme)
+📖 [Guia completo de instalação](https://ticketing.ciencia2k26.qzz.io/docs/getting-started?utm_source=gh-readme)
 
 <br>
 
-## Hi.Events Cloud
+## Ciencia 2k26 Cloud
 
-Prefere não autohospedar? **[Hi.Events Cloud](https://app.hi.events/auth/register?utm_source=gh-readme)** é uma
+Prefere não autohospedar? **[Ciencia 2k26 Cloud](https://app.ticketing.ciencia2k26.qzz.io/auth/register?utm_source=gh-readme)** é uma
 opção totalmente gerenciada com configuração zero, atualizações automáticas e infraestrutura gerenciada.
 
-[Comece agora →](https://app.hi.events/auth/register?utm_source=gh-readme)
+[Comece agora →](https://app.ticketing.ciencia2k26.qzz.io/auth/register?utm_source=gh-readme)
 
 <br>
 
@@ -166,10 +166,10 @@ opção totalmente gerenciada com configuração zero, atualizações automátic
 
 | Recurso                 | Link                                                                                          |
 |:------------------------|:----------------------------------------------------------------------------------------------|
-| Primeiros Passos        | [hi.events/docs/getting-started](https://hi.events/docs/getting-started?utm_source=gh-readme) |
-| Configuração            | [hi.events/docs/configuration](https://hi.events/docs/configuration?utm_source=gh-readme)     |
-| Referência da API       | [hi.events/docs/api](https://hi.events/docs/api?utm_source=gh-readme)                         |
-| Webhooks                | [hi.events/docs/webhooks](https://hi.events/docs/webhooks?utm_source=gh-readme)               |
+| Primeiros Passos        | [ticketing.ciencia2k26.qzz.io/docs/getting-started](https://ticketing.ciencia2k26.qzz.io/docs/getting-started?utm_source=gh-readme) |
+| Configuração            | [ticketing.ciencia2k26.qzz.io/docs/configuration](https://ticketing.ciencia2k26.qzz.io/docs/configuration?utm_source=gh-readme)     |
+| Referência da API       | [ticketing.ciencia2k26.qzz.io/docs/api](https://ticketing.ciencia2k26.qzz.io/docs/api?utm_source=gh-readme)                         |
+| Webhooks                | [ticketing.ciencia2k26.qzz.io/docs/webhooks](https://ticketing.ciencia2k26.qzz.io/docs/webhooks?utm_source=gh-readme)               |
 
 <br>
 
@@ -181,28 +181,28 @@ Contribuições são bem-vindas. Consulte o [guia de contribuição](CONTRIBUTIN
 
 ## Suporte
 
-📖 [Documentação](https://hi.events/docs?utm_source=gh-readme) · 📧 [hello@hi.events](mailto:hello@hi.events) ·
-🐛 [GitHub Issues](https://github.com/HiEventsDev/hi.events/issues)
+📖 [Documentação](https://ticketing.ciencia2k26.qzz.io/docs?utm_source=gh-readme) · 📧 [hello@ticketing.ciencia2k26.qzz.io](mailto:hello@ticketing.ciencia2k26.qzz.io) ·
+🐛 [GitHub Issues](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io/issues)
 
 <br>
 
 ## Registro de Alterações
 
 Mantenha-se atualizado com novos recursos e melhorias na
-[página de releases](https://github.com/HiEventsDev/hi.events/releases).
+[página de releases](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io/releases).
 
 <br>
 
 ## Licença
 
-Hi.Events está licenciado sob **AGPL-3.0 com termos adicionais**. Licenciamento comercial
-disponível. [Saiba mais](https://hi.events/licensing).
+Ciencia 2k26 está licenciado sob **AGPL-3.0 com termos adicionais**. Licenciamento comercial
+disponível. [Saiba mais](https://ticketing.ciencia2k26.qzz.io/licensing).
 
 <br>
 
 <div align="center">
 
-**[Site](https://hi.events)** · **[Documentação](https://hi.events/docs)** · **[Twitter/X](https://x.com/HiEventsTickets)**
+**[Site](https://ticketing.ciencia2k26.qzz.io)** · **[Documentação](https://ticketing.ciencia2k26.qzz.io/docs)** · **[Twitter/X](https://x.com/Ciencia 2k26Tickets)**
 
 Feito com ☘️ na Irlanda
 

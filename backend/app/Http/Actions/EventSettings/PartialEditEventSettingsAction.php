@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\EventSettings;
+namespace Ciencia\Http\Actions\EventSettings;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\EventSettings\UpdateEventSettingsRequest;
-use HiEvents\Resources\Event\EventSettingsResource;
-use HiEvents\Services\Application\Handlers\EventSettings\DTO\PartialUpdateEventSettingsDTO;
-use HiEvents\Services\Application\Handlers\EventSettings\PartialUpdateEventSettingsHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\EventSettings\UpdateEventSettingsRequest;
+use Ciencia\Resources\Event\EventSettingsResource;
+use Ciencia\Services\Application\Handlers\EventSettings\DTO\PartialUpdateEventSettingsDTO;
+use Ciencia\Services\Application\Handlers\EventSettings\PartialUpdateEventSettingsHandler;
 use Illuminate\Http\JsonResponse;
 use Throwable;
 

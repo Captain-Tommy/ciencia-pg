@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Resources\Organizer;
+namespace Ciencia\Resources\Organizer;
 
-use HiEvents\DomainObjects\OrganizerSettingDomainObject;
+use Ciencia\DomainObjects\OrganizerSettingDomainObject;
 
 /**
  * We can extend the OrganizerSettingsResource for now

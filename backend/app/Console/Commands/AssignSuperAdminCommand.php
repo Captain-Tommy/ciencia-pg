@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Console\Commands;
+namespace Ciencia\Console\Commands;
 
 use Exception;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Repository\Interfaces\AccountUserRepositoryInterface;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Repository\Interfaces\AccountUserRepositoryInterface;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
 use Illuminate\Console\Command;
 use Psr\Log\LoggerInterface;
 

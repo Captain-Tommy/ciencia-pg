@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\OrganizerSettingDomainObject;
-use HiEvents\Models\OrganizerSetting;
-use HiEvents\Repository\Interfaces\OrganizerSettingsRepositoryInterface;
+use Ciencia\DomainObjects\OrganizerSettingDomainObject;
+use Ciencia\Models\OrganizerSetting;
+use Ciencia\Repository\Interfaces\OrganizerSettingsRepositoryInterface;
 
 class OrganizerSettingsRepository extends BaseRepository implements OrganizerSettingsRepositoryInterface
 {

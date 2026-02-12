@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Resources\Account;
+namespace Ciencia\Resources\Account;
 
-use HiEvents\DomainObjects\AccountVatSettingDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\AccountVatSettingDomainObject;
+use Ciencia\Resources\BaseResource;
 
 /**
  * @mixin AccountVatSettingDomainObject

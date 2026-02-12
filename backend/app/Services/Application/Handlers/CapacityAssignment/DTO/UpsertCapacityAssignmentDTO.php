@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CapacityAssignment\DTO;
+namespace Ciencia\Services\Application\Handlers\CapacityAssignment\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Status\CapacityAssignmentStatus;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Status\CapacityAssignmentStatus;
 
 class UpsertCapacityAssignmentDTO extends BaseDTO
 {

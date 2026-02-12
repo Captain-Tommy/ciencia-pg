@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Resources\Account;
+namespace Ciencia\Resources\Account;
 
-use HiEvents\Resources\BaseResource;
+use Ciencia\Resources\BaseResource;
 use Illuminate\Http\Request;
 
 class AdminAccountResource extends BaseResource

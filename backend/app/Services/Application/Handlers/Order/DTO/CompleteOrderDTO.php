@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order\DTO;
+namespace Ciencia\Services\Application\Handlers\Order\DTO;
 
-use HiEvents\DataTransferObjects\Attributes\CollectionOf;
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\Attributes\CollectionOf;
+use Ciencia\DataTransferObjects\BaseDTO;
 use Illuminate\Support\Collection;
 
 class CompleteOrderDTO extends BaseDTO

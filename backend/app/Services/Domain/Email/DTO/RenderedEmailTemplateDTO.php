@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Domain\Email\DTO;
+namespace Ciencia\Services\Domain\Email\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
+use Ciencia\DataTransferObjects\BaseDataObject;
 
 class RenderedEmailTemplateDTO extends BaseDataObject
 {

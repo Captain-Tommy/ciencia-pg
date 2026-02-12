@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\QuestionDomainObject;
-use HiEvents\Repository\Eloquent\BaseRepository;
+use Ciencia\DomainObjects\QuestionDomainObject;
+use Ciencia\Repository\Eloquent\BaseRepository;
 use Illuminate\Support\Collection;
 
 /**

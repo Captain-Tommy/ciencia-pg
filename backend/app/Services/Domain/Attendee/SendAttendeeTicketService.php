@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Domain\Attendee;
+namespace Ciencia\Services\Domain\Attendee;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Services\Domain\Email\MailBuilderService;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Services\Domain\Email\MailBuilderService;
 use Illuminate\Contracts\Mail\Mailer;
 
 class SendAttendeeTicketService

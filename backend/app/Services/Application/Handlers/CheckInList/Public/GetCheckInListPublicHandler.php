@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CheckInList\Public;
+namespace Ciencia\Services\Application\Handlers\CheckInList\Public;
 
-use HiEvents\DomainObjects\CheckInListDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\CheckInListRepositoryInterface;
+use Ciencia\DomainObjects\CheckInListDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\CheckInListRepositoryInterface;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 class GetCheckInListPublicHandler

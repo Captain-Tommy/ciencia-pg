@@ -2,8 +2,8 @@
 
 namespace Tests\Unit\Services\Infrastructure\Stripe;
 
-use HiEvents\DomainObjects\Enums\StripePlatform;
-use HiEvents\Services\Infrastructure\Stripe\StripeConfigurationService;
+use Ciencia\DomainObjects\Enums\StripePlatform;
+use Ciencia\Services\Infrastructure\Stripe\StripeConfigurationService;
 use Tests\TestCase;
 
 class StripeConfigurationServiceTest extends TestCase

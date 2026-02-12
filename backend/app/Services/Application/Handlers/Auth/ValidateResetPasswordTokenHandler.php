@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Auth;
+namespace Ciencia\Services\Application\Handlers\Auth;
 
-use HiEvents\DomainObjects\PasswordResetTokenDomainObject;
-use HiEvents\Exceptions\InvalidPasswordResetTokenException;
-use HiEvents\Services\Domain\Auth\ResetPasswordTokenValidateService;
+use Ciencia\DomainObjects\PasswordResetTokenDomainObject;
+use Ciencia\Exceptions\InvalidPasswordResetTokenException;
+use Ciencia\Services\Domain\Auth\ResetPasswordTokenValidateService;
 
 class ValidateResetPasswordTokenHandler
 {

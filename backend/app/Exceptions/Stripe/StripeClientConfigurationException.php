@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Exceptions\Stripe;
+namespace Ciencia\Exceptions\Stripe;
 
-use HiEvents\Exceptions\BaseException;
+use Ciencia\Exceptions\BaseException;
 
 class StripeClientConfigurationException extends BaseException
 {

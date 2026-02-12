@@ -2,21 +2,21 @@
 
 namespace Tests\Unit\Services\Domain\Event;
 
-use HiEvents\DomainObjects\Enums\HomepageBackgroundType;
-use HiEvents\DomainObjects\Enums\ImageType;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\OrganizerSettingDomainObject;
-use HiEvents\Exceptions\OrganizerNotFoundException;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventSettingsRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventStatisticRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
-use HiEvents\Services\Domain\Event\CreateEventService;
-use HiEvents\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
+use Ciencia\DomainObjects\Enums\HomepageBackgroundType;
+use Ciencia\DomainObjects\Enums\ImageType;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\OrganizerSettingDomainObject;
+use Ciencia\Exceptions\OrganizerNotFoundException;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventSettingsRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventStatisticRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\Services\Domain\Event\CreateEventService;
+use Ciencia\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
 use Illuminate\Database\DatabaseManager;
-use HiEvents\Repository\Interfaces\ImageRepositoryInterface;
+use Ciencia\Repository\Interfaces\ImageRepositoryInterface;
 use Illuminate\Config\Repository;
 use Illuminate\Filesystem\FilesystemManager;
 use Mockery;

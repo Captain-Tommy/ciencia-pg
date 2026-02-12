@@ -1,8 +1,8 @@
-@php /** @var \HiEvents\DomainObjects\EventDomainObject $event */ @endphp
-@php /** @var \HiEvents\DomainObjects\EventSettingDomainObject $eventSettings */ @endphp
-@php /** @var \HiEvents\Services\Application\Handlers\Message\DTO\SendMessageDTO $messageData */ @endphp
+@php /** @var \Ciencia\DomainObjects\EventDomainObject $event */ @endphp
+@php /** @var \Ciencia\DomainObjects\EventSettingDomainObject $eventSettings */ @endphp
+@php /** @var \Ciencia\Services\Application\Handlers\Message\DTO\SendMessageDTO $messageData */ @endphp
 
-@php /** @see \HiEvents\Mail\Event\EventMessage */ @endphp
+@php /** @see \Ciencia\Mail\Event\EventMessage */ @endphp
 
 <x-mail::message>
 {!! $messageData->message !!}

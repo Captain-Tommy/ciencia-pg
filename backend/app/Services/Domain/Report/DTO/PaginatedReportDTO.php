@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Domain\Report\DTO;
+namespace Ciencia\Services\Domain\Report\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
+use Ciencia\DataTransferObjects\BaseDataObject;
 use Illuminate\Support\Collection;
 
 class PaginatedReportDTO extends BaseDataObject

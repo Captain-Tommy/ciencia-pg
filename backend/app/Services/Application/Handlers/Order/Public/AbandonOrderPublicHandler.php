@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order\Public;
+namespace Ciencia\Services\Application\Handlers\Order\Public;
 
-use HiEvents\DomainObjects\Generated\OrderDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Exceptions\UnauthorizedException;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Infrastructure\Session\CheckoutSessionManagementService;
+use Ciencia\DomainObjects\Generated\OrderDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Exceptions\UnauthorizedException;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Infrastructure\Session\CheckoutSessionManagementService;
 use Illuminate\Log\Logger;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

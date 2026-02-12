@@ -2,12 +2,12 @@
 
 namespace Tests\Unit\Services\Application\Handlers\Admin;
 
-use HiEvents\DataTransferObjects\UpdateAccountConfigurationDTO;
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\Repository\Interfaces\AccountConfigurationRepositoryInterface;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Admin\UpdateAccountConfigurationHandler;
+use Ciencia\DataTransferObjects\UpdateAccountConfigurationDTO;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\Repository\Interfaces\AccountConfigurationRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Admin\UpdateAccountConfigurationHandler;
 use Mockery;
 use Tests\TestCase;
 

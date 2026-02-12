@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Request\Organizer;
+namespace Ciencia\Http\Request\Organizer;
 
-use HiEvents\DomainObjects\Status\OrganizerStatus;
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\DomainObjects\Status\OrganizerStatus;
+use Ciencia\Http\Request\BaseRequest;
 use Illuminate\Validation\Rule;
 
 class UpdateOrganizerStatusRequest extends BaseRequest

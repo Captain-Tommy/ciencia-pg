@@ -1,28 +1,28 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\TicketLookup;
+namespace Ciencia\Services\Application\Handlers\TicketLookup;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\Generated\EventDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\OrderDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\OrganizerDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\ProductDomainObjectAbstract;
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\DomainObjects\TicketLookupTokenDomainObject;
-use HiEvents\Exceptions\InvalidTicketLookupTokenException;
-use HiEvents\Repository\Eloquent\Value\OrderAndDirection;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Repository\Interfaces\TicketLookupTokenRepositoryInterface;
-use HiEvents\Services\Application\Handlers\TicketLookup\DTO\GetOrdersByLookupTokenDTO;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\Generated\EventDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\OrderDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\OrganizerDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\ProductDomainObjectAbstract;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\DomainObjects\TicketLookupTokenDomainObject;
+use Ciencia\Exceptions\InvalidTicketLookupTokenException;
+use Ciencia\Repository\Eloquent\Value\OrderAndDirection;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Repository\Interfaces\TicketLookupTokenRepositoryInterface;
+use Ciencia\Services\Application\Handlers\TicketLookup\DTO\GetOrdersByLookupTokenDTO;
 use Illuminate\Support\Collection;
 
 class GetOrdersByLookupTokenHandler

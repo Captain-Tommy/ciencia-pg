@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders\Public;
+namespace Ciencia\Http\Actions\Orders\Public;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Order\OrderResourcePublic;
-use HiEvents\Services\Application\Handlers\Order\DTO\GetOrderPublicDTO;
-use HiEvents\Services\Application\Handlers\Order\GetOrderPublicHandler;
-use HiEvents\Services\Infrastructure\Session\CheckoutSessionManagementService;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Order\OrderResourcePublic;
+use Ciencia\Services\Application\Handlers\Order\DTO\GetOrderPublicDTO;
+use Ciencia\Services\Application\Handlers\Order\GetOrderPublicHandler;
+use Ciencia\Services\Infrastructure\Session\CheckoutSessionManagementService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

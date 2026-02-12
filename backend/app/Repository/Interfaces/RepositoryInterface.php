@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
 use Exception;
-use HiEvents\DomainObjects\Interfaces\DomainObjectInterface;
-use HiEvents\Repository\Eloquent\Value\OrderAndDirection;
-use HiEvents\Repository\Eloquent\Value\Relationship;
+use Ciencia\DomainObjects\Interfaces\DomainObjectInterface;
+use Ciencia\Repository\Eloquent\Value\OrderAndDirection;
+use Ciencia\Repository\Eloquent\Value\Relationship;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Pagination\LengthAwarePaginator;

@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Services\Domain\Order;
+namespace Ciencia\Services\Domain\Order;
 
 use Brick\Money\Currency;
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
-use HiEvents\DomainObjects\AccountVatSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Services\Domain\Order\DTO\ApplicationFeeValuesDTO;
-use HiEvents\Services\Domain\Order\Vat\VatRateDeterminationService;
-use HiEvents\Services\Infrastructure\CurrencyConversion\CurrencyConversionClientInterface;
-use HiEvents\Values\MoneyValue;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\DomainObjects\AccountVatSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Services\Domain\Order\DTO\ApplicationFeeValuesDTO;
+use Ciencia\Services\Domain\Order\Vat\VatRateDeterminationService;
+use Ciencia\Services\Infrastructure\CurrencyConversion\CurrencyConversionClientInterface;
+use Ciencia\Values\MoneyValue;
 use Illuminate\Config\Repository;
 
 class OrderApplicationFeeCalculationService

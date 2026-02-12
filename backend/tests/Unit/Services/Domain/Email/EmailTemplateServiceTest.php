@@ -2,12 +2,12 @@
 
 namespace Tests\Unit\Services\Domain\Email;
 
-use HiEvents\DomainObjects\EmailTemplateDomainObject;
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
-use HiEvents\Repository\Interfaces\EmailTemplateRepositoryInterface;
-use HiEvents\Services\Domain\Email\EmailTemplateService;
-use HiEvents\Services\Domain\Email\EmailTokenContextBuilder;
-use HiEvents\Services\Infrastructure\Email\LiquidTemplateRenderer;
+use Ciencia\DomainObjects\EmailTemplateDomainObject;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\Repository\Interfaces\EmailTemplateRepositoryInterface;
+use Ciencia\Services\Domain\Email\EmailTemplateService;
+use Ciencia\Services\Domain\Email\EmailTokenContextBuilder;
+use Ciencia\Services\Infrastructure\Email\LiquidTemplateRenderer;
 use Tests\TestCase;
 use Mockery;
 

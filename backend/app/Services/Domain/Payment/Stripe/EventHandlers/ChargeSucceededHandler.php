@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Domain\Payment\Stripe\EventHandlers;
+namespace Ciencia\Services\Domain\Payment\Stripe\EventHandlers;
 
-use HiEvents\DomainObjects\Generated\StripePaymentDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\StripePaymentDomainObject;
-use HiEvents\Repository\Eloquent\StripePaymentsRepository;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Services\Domain\Payment\Stripe\StripePaymentPlatformFeeExtractionService;
+use Ciencia\DomainObjects\Generated\StripePaymentDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\StripePaymentDomainObject;
+use Ciencia\Repository\Eloquent\StripePaymentsRepository;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Services\Domain\Payment\Stripe\StripePaymentPlatformFeeExtractionService;
 use Psr\Log\LoggerInterface;
 use Stripe\Charge;
 

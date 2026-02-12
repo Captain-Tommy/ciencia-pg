@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Mail\TicketLookup;
+namespace Ciencia\Mail\TicketLookup;
 
-use HiEvents\Helper\Url;
-use HiEvents\Mail\BaseMail;
+use Ciencia\Helper\Url;
+use Ciencia\Mail\BaseMail;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 

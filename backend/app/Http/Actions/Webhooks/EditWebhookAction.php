@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\Webhooks;
+namespace Ciencia\Http\Actions\Webhooks;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\Status\WebhookStatus;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Webhook\UpsertWebhookRequest;
-use HiEvents\Resources\Webhook\WebhookResource;
-use HiEvents\Services\Application\Handlers\Webhook\DTO\EditWebhookDTO;
-use HiEvents\Services\Application\Handlers\Webhook\EditWebhookHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\Status\WebhookStatus;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Webhook\UpsertWebhookRequest;
+use Ciencia\Resources\Webhook\WebhookResource;
+use Ciencia\Services\Application\Handlers\Webhook\DTO\EditWebhookDTO;
+use Ciencia\Services\Application\Handlers\Webhook\EditWebhookHandler;
 use Illuminate\Http\JsonResponse;
 
 class EditWebhookAction extends BaseAction

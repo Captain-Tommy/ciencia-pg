@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
 interface TaxAndFeeRepositoryInterface extends RepositoryInterface
 {

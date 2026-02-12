@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Domain\Payment\Stripe;
+namespace Ciencia\Services\Domain\Payment\Stripe;
 
-use HiEvents\Repository\Interfaces\StripePayoutsRepositoryInterface;
-use HiEvents\Repository\Interfaces\StripePaymentsRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderPaymentPlatformFeeRepositoryInterface;
-use HiEvents\Services\Domain\Payment\Stripe\DTOs\StripePayoutCreationDTO;
+use Ciencia\Repository\Interfaces\StripePayoutsRepositoryInterface;
+use Ciencia\Repository\Interfaces\StripePaymentsRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderPaymentPlatformFeeRepositoryInterface;
+use Ciencia\Services\Domain\Payment\Stripe\DTOs\StripePayoutCreationDTO;
 use Psr\Log\LoggerInterface;
 
 class StripePayoutService

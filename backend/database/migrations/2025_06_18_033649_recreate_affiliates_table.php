@@ -1,6 +1,6 @@
 <?php
 
-use HiEvents\DomainObjects\Status\AffiliateStatus;
+use Ciencia\DomainObjects\Status\AffiliateStatus;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;

@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Jobs\Order;
+namespace Ciencia\Jobs\Order;
 
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Services\Domain\Mail\SendOrderDetailsService;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Services\Domain\Mail\SendOrderDetailsService;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

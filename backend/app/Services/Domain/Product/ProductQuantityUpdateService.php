@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Services\Domain\Product;
+namespace Ciencia\Services\Domain\Product;
 
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
-use HiEvents\DomainObjects\Generated\CapacityAssignmentDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductPriceRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\DomainObjects\Generated\CapacityAssignmentDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\Repository\Interfaces\CapacityAssignmentRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductPriceRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;

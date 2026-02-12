@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\EmailTemplate;
+namespace Ciencia\Services\Application\Handlers\EmailTemplate;
 
-use HiEvents\DomainObjects\EmailTemplateDomainObject;
-use HiEvents\Exceptions\EmailTemplateValidationException;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Repository\Interfaces\EmailTemplateRepositoryInterface;
-use HiEvents\Services\Application\Handlers\EmailTemplate\DTO\UpsertEmailTemplateDTO;
-use HiEvents\Services\Domain\Email\EmailTemplateService;
+use Ciencia\DomainObjects\EmailTemplateDomainObject;
+use Ciencia\Exceptions\EmailTemplateValidationException;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Repository\Interfaces\EmailTemplateRepositoryInterface;
+use Ciencia\Services\Application\Handlers\EmailTemplate\DTO\UpsertEmailTemplateDTO;
+use Ciencia\Services\Domain\Email\EmailTemplateService;
 
 class CreateEmailTemplateHandler
 {

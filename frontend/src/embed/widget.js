@@ -10,15 +10,15 @@
             const scriptURL = scriptElement.src;
             scriptOrigin = new URL(scriptURL).origin;
         } catch (e) {
-            console.error('HiEvent widget error: Invalid script URL');
+            console.error('Ciencia widget error: Invalid script URL');
             return;
         }
 
-        const widgets = document.querySelectorAll('.hievents-widget');
+        const widgets = document.querySelectorAll('.ciencia-widget');
         widgets.forEach((widget, index) => {
-            const eventId = widget.getAttribute('data-hievents-id');
+            const eventId = widget.getAttribute('data-ciencia-id');
             if (!eventId) {
-                console.error('HiEvent widget error: data-hievents-id is required');
+                console.error('Ciencia widget error: data-ciencia-id is required');
                 return;
             }
 
@@ -39,17 +39,17 @@
                 ' allow-presentation'
             );
 
-            iframe.setAttribute('title', 'Hi.Events Widget');
+            iframe.setAttribute('title', 'Ciencia 2k26 Widget');
             iframe.style.border = 'none';
             iframe.style.width = '100%';
 
-            const iframeId = `hievents-iframe-${index}`;
+            const iframeId = `ciencias-iframe-${index}`;
             iframe.id = iframeId;
 
             let src = `${scriptOrigin}/widget/${encodeURIComponent(eventId)}?iframeId=${iframeId}&`;
             const params = [];
             Array.from(widget.attributes).forEach(attr => {
-                if (attr.name.startsWith('data-hievents-') && attr.name !== 'data-hievents-id') {
+                if (attr.name.startsWith('data-ciencia-') && attr.name !== 'data-ciencia-id') {
                     const paramName = attr.name.substring(13).replace(/-([a-z])/g, (g) => g[1].toUpperCase());
                     params.push(`${paramName}=${encodeURIComponent(attr.value)}`);
                 }
@@ -59,7 +59,7 @@
 
             widget.appendChild(iframe);
 
-            const autoResize = widget.getAttribute('data-hievents-autoresize') !== 'false';
+            const autoResize = widget.getAttribute('data-ciencia-autoresize') !== 'false';
 
             if (autoResize) {
                 window.addEventListener('message', (event) => {

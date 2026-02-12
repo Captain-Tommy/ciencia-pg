@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
-use HiEvents\DomainObjects\PromoCodeDomainObject;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Models\PromoCode;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Models\PromoCode;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Builder;
 

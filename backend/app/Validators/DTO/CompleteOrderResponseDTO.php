@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Validators\DTO;
+namespace Ciencia\Validators\DTO;
 
 class CompleteOrderResponseDTO
 {

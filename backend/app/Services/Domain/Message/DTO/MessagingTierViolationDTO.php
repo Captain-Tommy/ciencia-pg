@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Domain\Message\DTO;
+namespace Ciencia\Services\Domain\Message\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
-use HiEvents\DomainObjects\Enums\MessagingTierViolationEnum;
+use Ciencia\DataTransferObjects\BaseDataObject;
+use Ciencia\DomainObjects\Enums\MessagingTierViolationEnum;
 
 class MessagingTierViolationDTO extends BaseDataObject
 {

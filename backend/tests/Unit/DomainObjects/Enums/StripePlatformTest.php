@@ -2,7 +2,7 @@
 
 namespace Tests\Unit\DomainObjects\Enums;
 
-use HiEvents\DomainObjects\Enums\StripePlatform;
+use Ciencia\DomainObjects\Enums\StripePlatform;
 use Tests\TestCase;
 
 class StripePlatformTest extends TestCase

@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CheckInList\DTO;
+namespace Ciencia\Services\Application\Handlers\CheckInList\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\Http\DTO\QueryParamsDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\Http\DTO\QueryParamsDTO;
 
 class GetCheckInListsDTO extends BaseDTO
 {

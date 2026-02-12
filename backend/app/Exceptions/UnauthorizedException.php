@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Exceptions;
+namespace Ciencia\Exceptions;
 
-use HiEvents\Http\ResponseCodes;
+use Ciencia\Http\ResponseCodes;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
 use Throwable;
 

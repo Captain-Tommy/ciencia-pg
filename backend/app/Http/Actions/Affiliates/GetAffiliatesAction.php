@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Affiliates;
+namespace Ciencia\Http\Actions\Affiliates;
 
-use HiEvents\DomainObjects\AffiliateDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Repository\Interfaces\AffiliateRepositoryInterface;
-use HiEvents\Resources\Affiliate\AffiliateResource;
+use Ciencia\DomainObjects\AffiliateDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Repository\Interfaces\AffiliateRepositoryInterface;
+use Ciencia\Resources\Affiliate\AffiliateResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

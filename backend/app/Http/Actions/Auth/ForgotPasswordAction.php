@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Actions\Auth;
+namespace Ciencia\Http\Actions\Auth;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Auth\ForgotPasswordRequest;
-use HiEvents\Services\Application\Handlers\Auth\ForgotPasswordHandler;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Auth\ForgotPasswordRequest;
+use Ciencia\Services\Application\Handlers\Auth\ForgotPasswordHandler;
 use Illuminate\Http\JsonResponse;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 

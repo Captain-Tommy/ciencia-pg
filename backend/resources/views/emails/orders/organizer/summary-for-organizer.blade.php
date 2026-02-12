@@ -1,8 +1,8 @@
-@php use HiEvents\Helper\Currency @endphp
+@php use Ciencia\Helper\Currency @endphp
 
 @php /** @uses /backend/app/Mail/OrderSummary.php */ @endphp
-@php /** @var \HiEvents\DomainObjects\OrderDomainObject $order */ @endphp
-@php /** @var \HiEvents\DomainObjects\EventDomainObject $event */ @endphp
+@php /** @var \Ciencia\DomainObjects\OrderDomainObject $order */ @endphp
+@php /** @var \Ciencia\DomainObjects\EventDomainObject $event */ @endphp
 
 <x-mail::message>
 # {{ __('You\'ve received a new order!') }} 🎉

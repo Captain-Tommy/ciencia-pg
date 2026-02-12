@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Domain\Payment\Stripe\DTOs;
+namespace Ciencia\Services\Domain\Payment\Stripe\DTOs;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\DomainObjects\AccountVatSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Values\MoneyValue;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\DomainObjects\AccountVatSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Values\MoneyValue;
 
 class CreatePaymentIntentRequestDTO extends BaseDTO
 {

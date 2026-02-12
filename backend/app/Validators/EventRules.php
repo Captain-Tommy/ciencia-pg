@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Validators;
+namespace Ciencia\Validators;
 
-use HiEvents\DomainObjects\Enums\EventCategory;
+use Ciencia\DomainObjects\Enums\EventCategory;
 use Illuminate\Validation\Rule;
 
 trait EventRules

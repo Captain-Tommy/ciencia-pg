@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Domain\ProductCategory;
+namespace Ciencia\Services\Domain\ProductCategory;
 
-use HiEvents\DomainObjects\Generated\ProductCategoryDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\ProductDomainObjectAbstract;
-use HiEvents\Exceptions\CannotDeleteEntityException;
-use HiEvents\Repository\Interfaces\ProductCategoryRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Services\Domain\Product\DeleteProductService;
+use Ciencia\DomainObjects\Generated\ProductCategoryDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\ProductDomainObjectAbstract;
+use Ciencia\Exceptions\CannotDeleteEntityException;
+use Ciencia\Repository\Interfaces\ProductCategoryRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Services\Domain\Product\DeleteProductService;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Support\Collection;
 use Psr\Log\LoggerInterface;

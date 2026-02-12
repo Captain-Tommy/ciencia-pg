@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Domain\User;
+namespace Ciencia\Services\Domain\User;
 
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\AccountUserRepositoryInterface;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountUserRepositoryInterface;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 class VerifyUserEmailService

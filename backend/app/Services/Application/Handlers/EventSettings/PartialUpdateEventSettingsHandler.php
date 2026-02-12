@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\EventSettings;
+namespace Ciencia\Services\Application\Handlers\EventSettings;
 
-use HiEvents\DataTransferObjects\AddressDTO;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\Exceptions\RefundNotPossibleException;
-use HiEvents\Repository\Interfaces\EventSettingsRepositoryInterface;
-use HiEvents\Services\Application\Handlers\EventSettings\DTO\PartialUpdateEventSettingsDTO;
-use HiEvents\Services\Application\Handlers\EventSettings\DTO\UpdateEventSettingsDTO;
+use Ciencia\DataTransferObjects\AddressDTO;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\Exceptions\RefundNotPossibleException;
+use Ciencia\Repository\Interfaces\EventSettingsRepositoryInterface;
+use Ciencia\Services\Application\Handlers\EventSettings\DTO\PartialUpdateEventSettingsDTO;
+use Ciencia\Services\Application\Handlers\EventSettings\DTO\UpdateEventSettingsDTO;
 use Throwable;
 
 class PartialUpdateEventSettingsHandler

@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Services\Domain\Product;
+namespace Ciencia\Services\Domain\Product;
 
-use HiEvents\DomainObjects\Enums\PromoCodeDiscountTypeEnum;
-use HiEvents\DomainObjects\Enums\ProductPriceType;
-use HiEvents\DomainObjects\PromoCodeDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\Helper\Currency;
-use HiEvents\Services\Domain\Product\DTO\OrderProductPriceDTO;
-use HiEvents\Services\Domain\Product\DTO\PriceDTO;
+use Ciencia\DomainObjects\Enums\PromoCodeDiscountTypeEnum;
+use Ciencia\DomainObjects\Enums\ProductPriceType;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\Helper\Currency;
+use Ciencia\Services\Domain\Product\DTO\OrderProductPriceDTO;
+use Ciencia\Services\Domain\Product\DTO\PriceDTO;
 
 class ProductPriceService
 {

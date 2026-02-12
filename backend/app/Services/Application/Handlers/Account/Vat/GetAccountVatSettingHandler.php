@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Account\Vat;
+namespace Ciencia\Services\Application\Handlers\Account\Vat;
 
-use HiEvents\DomainObjects\AccountVatSettingDomainObject;
-use HiEvents\Repository\Interfaces\AccountVatSettingRepositoryInterface;
+use Ciencia\DomainObjects\AccountVatSettingDomainObject;
+use Ciencia\Repository\Interfaces\AccountVatSettingRepositoryInterface;
 
 class GetAccountVatSettingHandler
 {

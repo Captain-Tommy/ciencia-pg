@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Exceptions;
+namespace Ciencia\Exceptions;
 
 class CreateStripeConnectAccountLinksFailedException extends BaseException
 {

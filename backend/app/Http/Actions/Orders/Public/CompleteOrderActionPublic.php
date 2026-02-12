@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Orders\Public;
+namespace Ciencia\Http\Actions\Orders\Public;
 
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Order\CompleteOrderRequest;
-use HiEvents\Resources\Order\OrderResourcePublic;
-use HiEvents\Services\Application\Handlers\Order\CompleteOrderHandler;
-use HiEvents\Services\Application\Handlers\Order\DTO\CompleteOrderDTO;
-use HiEvents\Services\Application\Handlers\Order\DTO\CompleteOrderOrderDTO;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Order\CompleteOrderRequest;
+use Ciencia\Resources\Order\OrderResourcePublic;
+use Ciencia\Services\Application\Handlers\Order\CompleteOrderHandler;
+use Ciencia\Services\Application\Handlers\Order\DTO\CompleteOrderDTO;
+use Ciencia\Services\Application\Handlers\Order\DTO\CompleteOrderOrderDTO;
 use Illuminate\Http\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 

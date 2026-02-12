@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\Models\Account;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\Models\Account;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 
 class AccountRepository extends BaseRepository implements AccountRepositoryInterface

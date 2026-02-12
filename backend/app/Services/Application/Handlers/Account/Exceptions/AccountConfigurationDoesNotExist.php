@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Account\Exceptions;
+namespace Ciencia\Services\Application\Handlers\Account\Exceptions;
 
 use Exception;
 

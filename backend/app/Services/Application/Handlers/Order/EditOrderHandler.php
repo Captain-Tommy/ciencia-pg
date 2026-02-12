@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order;
+namespace Ciencia\Services\Application\Handlers\Order;
 
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Services\Application\Handlers\Order\DTO\EditOrderDTO;
-use HiEvents\Services\Domain\Order\EditOrderService;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Services\Application\Handlers\Order\DTO\EditOrderDTO;
+use Ciencia\Services\Domain\Order\EditOrderService;
 use Psr\Log\LoggerInterface;
 use Throwable;
 

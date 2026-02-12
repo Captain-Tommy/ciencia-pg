@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Database\Factories;
 
-use HiEvents\Helper\IdHelper;
+use Ciencia\Helper\IdHelper;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\HiEvents\Models\Account>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\Ciencia\Models\Account>
  */
 class AccountFactory extends Factory
 {

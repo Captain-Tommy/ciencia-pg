@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event;
+namespace Ciencia\Services\Application\Handlers\Event;
 
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\EventStatisticDomainObject;
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Event\DTO\GetEventsDTO;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\EventStatisticDomainObject;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Event\DTO\GetEventsDTO;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 class GetEventsHandler

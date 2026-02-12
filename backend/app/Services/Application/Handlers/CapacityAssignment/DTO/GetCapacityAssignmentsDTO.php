@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CapacityAssignment\DTO;
+namespace Ciencia\Services\Application\Handlers\CapacityAssignment\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\Http\DTO\QueryParamsDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\Http\DTO\QueryParamsDTO;
 
 class GetCapacityAssignmentsDTO extends BaseDTO
 {

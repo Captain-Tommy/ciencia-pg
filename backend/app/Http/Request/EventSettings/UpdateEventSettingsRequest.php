@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Request\EventSettings;
+namespace Ciencia\Http\Request\EventSettings;
 
-use HiEvents\DomainObjects\Enums\AttendeeDetailsCollectionMethod;
-use HiEvents\DomainObjects\Enums\HomepageBackgroundType;
-use HiEvents\DomainObjects\Enums\PaymentProviders;
-use HiEvents\DomainObjects\Enums\PriceDisplayMode;
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Validators\Rules\RulesHelper;
+use Ciencia\DomainObjects\Enums\AttendeeDetailsCollectionMethod;
+use Ciencia\DomainObjects\Enums\HomepageBackgroundType;
+use Ciencia\DomainObjects\Enums\PaymentProviders;
+use Ciencia\DomainObjects\Enums\PriceDisplayMode;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Validators\Rules\RulesHelper;
 use Illuminate\Validation\Rule;
 
 class UpdateEventSettingsRequest extends BaseRequest

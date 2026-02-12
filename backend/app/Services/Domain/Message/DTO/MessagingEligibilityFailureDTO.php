@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Domain\Message\DTO;
+namespace Ciencia\Services\Domain\Message\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
-use HiEvents\DomainObjects\Enums\MessagingEligibilityFailureEnum;
+use Ciencia\DataTransferObjects\BaseDataObject;
+use Ciencia\DomainObjects\Enums\MessagingEligibilityFailureEnum;
 
 class MessagingEligibilityFailureDTO extends BaseDataObject
 {

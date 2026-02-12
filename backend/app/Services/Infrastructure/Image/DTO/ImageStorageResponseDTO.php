@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Image\DTO;
+namespace Ciencia\Services\Infrastructure\Image\DTO;
 
 readonly class ImageStorageResponseDTO
 {

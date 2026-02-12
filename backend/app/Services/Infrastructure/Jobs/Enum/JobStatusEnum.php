@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Jobs\Enum;
+namespace Ciencia\Services\Infrastructure\Jobs\Enum;
 
-use HiEvents\DomainObjects\Enums\BaseEnum;
+use Ciencia\DomainObjects\Enums\BaseEnum;
 
 enum JobStatusEnum
 {

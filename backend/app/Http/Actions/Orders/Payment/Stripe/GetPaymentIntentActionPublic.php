@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders\Payment\Stripe;
+namespace Ciencia\Http\Actions\Orders\Payment\Stripe;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Order\Payment\Stripe\GetPaymentIntentHandler;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Order\Payment\Stripe\GetPaymentIntentHandler;
 use Illuminate\Http\JsonResponse;
 
 class GetPaymentIntentActionPublic extends BaseAction

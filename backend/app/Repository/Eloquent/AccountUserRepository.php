@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AccountUserDomainObject;
-use HiEvents\Models\AccountUser;
-use HiEvents\Repository\Interfaces\AccountUserRepositoryInterface;
+use Ciencia\DomainObjects\AccountUserDomainObject;
+use Ciencia\Models\AccountUser;
+use Ciencia\Repository\Interfaces\AccountUserRepositoryInterface;
 
 class AccountUserRepository extends BaseRepository implements AccountUserRepositoryInterface
 {

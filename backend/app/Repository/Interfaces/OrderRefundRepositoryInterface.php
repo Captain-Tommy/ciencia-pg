@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\OrderRefundDomainObject;
+use Ciencia\DomainObjects\OrderRefundDomainObject;
 
 /**
  * @extends RepositoryInterface<OrderRefundDomainObject>

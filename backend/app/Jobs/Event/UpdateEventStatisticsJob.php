@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Jobs\Event;
+namespace Ciencia\Jobs\Event;
 
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Exceptions\EventStatisticsVersionMismatchException;
-use HiEvents\Services\Domain\EventStatistics\EventStatisticsIncrementService;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Exceptions\EventStatisticsVersionMismatchException;
+use Ciencia\Services\Domain\EventStatistics\EventStatisticsIncrementService;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

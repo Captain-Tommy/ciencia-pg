@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Admin\Accounts;
+namespace Ciencia\Http\Actions\Admin\Accounts;
 
-use HiEvents\DataTransferObjects\UpdateAccountConfigurationDTO;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Account\AccountConfigurationResource;
-use HiEvents\Services\Application\Handlers\Admin\UpdateAccountConfigurationHandler;
+use Ciencia\DataTransferObjects\UpdateAccountConfigurationDTO;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Account\AccountConfigurationResource;
+use Ciencia\Services\Application\Handlers\Admin\UpdateAccountConfigurationHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

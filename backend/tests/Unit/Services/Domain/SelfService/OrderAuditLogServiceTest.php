@@ -2,12 +2,12 @@
 
 namespace Tests\Unit\Services\Domain\SelfService;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Enums\OrderAuditAction;
-use HiEvents\DomainObjects\OrderAuditLogDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Repository\Interfaces\OrderAuditLogRepositoryInterface;
-use HiEvents\Services\Domain\SelfService\OrderAuditLogService;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Enums\OrderAuditAction;
+use Ciencia\DomainObjects\OrderAuditLogDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Repository\Interfaces\OrderAuditLogRepositoryInterface;
+use Ciencia\Services\Domain\SelfService\OrderAuditLogService;
 use Mockery;
 use Mockery\MockInterface;
 use Tests\TestCase;

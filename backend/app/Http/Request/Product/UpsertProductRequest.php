@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Request\Product;
+namespace Ciencia\Http\Request\Product;
 
-use HiEvents\DomainObjects\Enums\ProductPriceType;
-use HiEvents\DomainObjects\Enums\ProductType;
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Validators\Rules\RulesHelper;
+use Ciencia\DomainObjects\Enums\ProductPriceType;
+use Ciencia\DomainObjects\Enums\ProductType;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Validators\Rules\RulesHelper;
 use Illuminate\Validation\Rule;
 
 class UpsertProductRequest extends BaseRequest

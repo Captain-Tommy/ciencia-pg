@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\Interfaces\IsFilterable;
-use HiEvents\DomainObjects\Interfaces\IsSortable;
-use HiEvents\DomainObjects\SortingAndFiltering\AllowedSorts;
-use HiEvents\DomainObjects\Status\EventLifecycleStatus;
-use HiEvents\Helper\StringHelper;
-use HiEvents\Helper\Url;
+use Ciencia\DomainObjects\Interfaces\IsFilterable;
+use Ciencia\DomainObjects\Interfaces\IsSortable;
+use Ciencia\DomainObjects\SortingAndFiltering\AllowedSorts;
+use Ciencia\DomainObjects\Status\EventLifecycleStatus;
+use Ciencia\Helper\StringHelper;
+use Ciencia\Helper\Url;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 

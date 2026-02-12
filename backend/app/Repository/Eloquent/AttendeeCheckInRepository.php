@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AttendeeCheckInDomainObject;
-use HiEvents\Models\AttendeeCheckIn;
-use HiEvents\Repository\Interfaces\AttendeeCheckInRepositoryInterface;
+use Ciencia\DomainObjects\AttendeeCheckInDomainObject;
+use Ciencia\Models\AttendeeCheckIn;
+use Ciencia\Repository\Interfaces\AttendeeCheckInRepositoryInterface;
 
 class AttendeeCheckInRepository extends BaseRepository implements AttendeeCheckInRepositoryInterface
 {

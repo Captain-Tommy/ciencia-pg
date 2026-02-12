@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\EmailTemplates;
+namespace Ciencia\Http\Actions\EmailTemplates;
 
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Resources\EmailTemplateResource;
-use HiEvents\Services\Application\Handlers\EmailTemplate\GetEmailTemplatesHandler;
-use HiEvents\Services\Application\Handlers\EmailTemplate\DTO\GetEmailTemplatesDTO;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Resources\EmailTemplateResource;
+use Ciencia\Services\Application\Handlers\EmailTemplate\GetEmailTemplatesHandler;
+use Ciencia\Services\Application\Handlers\EmailTemplate\DTO\GetEmailTemplatesDTO;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rules\Enum;

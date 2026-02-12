@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\QuestionAndAnswerViewDomainObject;
-use HiEvents\Models\QuestionAndAnswerView;
-use HiEvents\Repository\Interfaces\QuestionAndAnswerViewRepositoryInterface;
+use Ciencia\DomainObjects\QuestionAndAnswerViewDomainObject;
+use Ciencia\Models\QuestionAndAnswerView;
+use Ciencia\Repository\Interfaces\QuestionAndAnswerViewRepositoryInterface;
 
 class QuestionAndAnswerViewRepository extends BaseRepository implements QuestionAndAnswerViewRepositoryInterface
 {

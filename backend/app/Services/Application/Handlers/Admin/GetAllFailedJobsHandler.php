@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
-use HiEvents\Models\FailedJob;
-use HiEvents\Services\Application\Handlers\Admin\DTO\GetAllFailedJobsDTO;
+use Ciencia\Models\FailedJob;
+use Ciencia\Services\Application\Handlers\Admin\DTO\GetAllFailedJobsDTO;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 
 class GetAllFailedJobsHandler

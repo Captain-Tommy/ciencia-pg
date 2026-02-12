@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Auth\DTO;
+namespace Ciencia\Services\Application\Handlers\Auth\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class ResetPasswordDTO extends BaseDTO
 {

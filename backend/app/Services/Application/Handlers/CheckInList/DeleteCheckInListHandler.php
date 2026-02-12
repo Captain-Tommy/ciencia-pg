@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CheckInList;
+namespace Ciencia\Services\Application\Handlers\CheckInList;
 
-use HiEvents\Repository\Interfaces\CheckInListRepositoryInterface;
+use Ciencia\Repository\Interfaces\CheckInListRepositoryInterface;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 class DeleteCheckInListHandler

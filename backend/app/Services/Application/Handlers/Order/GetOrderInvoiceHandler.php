@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order;
+namespace Ciencia\Services\Application\Handlers\Order;
 
-use HiEvents\Services\Application\Handlers\Order\DTO\GetOrderInvoiceDTO;
-use HiEvents\Services\Domain\Order\DTO\InvoicePdfResponseDTO;
-use HiEvents\Services\Domain\Order\GenerateOrderInvoicePDFService;
+use Ciencia\Services\Application\Handlers\Order\DTO\GetOrderInvoiceDTO;
+use Ciencia\Services\Domain\Order\DTO\InvoicePdfResponseDTO;
+use Ciencia\Services\Domain\Order\GenerateOrderInvoicePDFService;
 
 class GetOrderInvoiceHandler
 {

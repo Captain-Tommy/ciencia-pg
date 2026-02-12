@@ -1,17 +1,17 @@
 <?php
 
-namespace HiEvents\Exports;
+namespace Ciencia\Exports;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Enums\ProductPriceType;
-use HiEvents\DomainObjects\Enums\QuestionTypeEnum;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\DomainObjects\ProductPriceDomainObject;
-use HiEvents\DomainObjects\QuestionDomainObject;
-use HiEvents\Resources\Attendee\AttendeeResource;
-use HiEvents\Services\Domain\Question\QuestionAnswerFormatter;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Enums\ProductPriceType;
+use Ciencia\DomainObjects\Enums\QuestionTypeEnum;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\DomainObjects\ProductPriceDomainObject;
+use Ciencia\DomainObjects\QuestionDomainObject;
+use Ciencia\Resources\Attendee\AttendeeResource;
+use Ciencia\Services\Domain\Question\QuestionAnswerFormatter;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Support\Collection;

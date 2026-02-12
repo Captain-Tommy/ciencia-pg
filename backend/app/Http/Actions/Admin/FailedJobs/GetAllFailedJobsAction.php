@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Admin\FailedJobs;
+namespace Ciencia\Http\Actions\Admin\FailedJobs;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Resources\Admin\AdminFailedJobResource;
-use HiEvents\Services\Application\Handlers\Admin\DTO\GetAllFailedJobsDTO;
-use HiEvents\Services\Application\Handlers\Admin\GetAllFailedJobsHandler;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Resources\Admin\AdminFailedJobResource;
+use Ciencia\Services\Application\Handlers\Admin\DTO\GetAllFailedJobsDTO;
+use Ciencia\Services\Application\Handlers\Admin\GetAllFailedJobsHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

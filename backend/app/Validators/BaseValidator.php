@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Validators;
+namespace Ciencia\Validators;
 
 abstract class BaseValidator
 {

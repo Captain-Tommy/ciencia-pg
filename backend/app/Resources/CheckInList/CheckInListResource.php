@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\CheckInList;
+namespace Ciencia\Resources\CheckInList;
 
-use HiEvents\DomainObjects\CheckInListDomainObject;
-use HiEvents\Resources\Product\ProductResource;
+use Ciencia\DomainObjects\CheckInListDomainObject;
+use Ciencia\Resources\Product\ProductResource;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 /**

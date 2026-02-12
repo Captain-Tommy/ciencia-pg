@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Http\Actions\Attendees;
+namespace Ciencia\Http\Actions\Attendees;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\CannotCheckInException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Attendee\CheckInAttendeeRequest;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Resources\Attendee\AttendeeResource;
-use HiEvents\Services\Application\Handlers\Attendee\CheckInAttendeeHandler;
-use HiEvents\Services\Application\Handlers\Attendee\DTO\CheckInAttendeeDTO;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\CannotCheckInException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Attendee\CheckInAttendeeRequest;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Resources\Attendee\AttendeeResource;
+use Ciencia\Services\Application\Handlers\Attendee\CheckInAttendeeHandler;
+use Ciencia\Services\Application\Handlers\Attendee\DTO\CheckInAttendeeDTO;
 use Illuminate\Http\JsonResponse;
 
 class CheckInAttendeeAction extends BaseAction

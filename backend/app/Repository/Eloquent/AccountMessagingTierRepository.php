@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AccountMessagingTierDomainObject;
-use HiEvents\Models\AccountMessagingTier;
-use HiEvents\Repository\Interfaces\AccountMessagingTierRepositoryInterface;
+use Ciencia\DomainObjects\AccountMessagingTierDomainObject;
+use Ciencia\Models\AccountMessagingTier;
+use Ciencia\Repository\Interfaces\AccountMessagingTierRepositoryInterface;
 
 class AccountMessagingTierRepository extends BaseRepository implements AccountMessagingTierRepositoryInterface
 {

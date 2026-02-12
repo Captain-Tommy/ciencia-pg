@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Repository\DTO\Organizer\OrganizerStatsResponseDTO;
-use HiEvents\Repository\Eloquent\BaseRepository;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Repository\DTO\Organizer\OrganizerStatsResponseDTO;
+use Ciencia\Repository\Eloquent\BaseRepository;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 /**

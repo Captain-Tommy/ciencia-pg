@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Services\Domain\Invoice;
+namespace Ciencia\Services\Domain\Invoice;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\InvoiceDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\Status\InvoiceStatus;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\InvoiceRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\InvoiceDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\Status\InvoiceStatus;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\InvoiceRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
 
 class InvoiceCreateService
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent\Value;
+namespace Ciencia\Repository\Eloquent\Value;
 
-use HiEvents\DomainObjects\Interfaces\DomainObjectInterface;
+use Ciencia\DomainObjects\Interfaces\DomainObjectInterface;
 use InvalidArgumentException;
 
 class Relationship

@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
-use HiEvents\DomainObjects\DTO\AccountApplicationFeeDTO;
-use HiEvents\DomainObjects\Enums\StripePlatform;
+use Ciencia\DomainObjects\DTO\AccountApplicationFeeDTO;
+use Ciencia\DomainObjects\Enums\StripePlatform;
 use Illuminate\Support\Collection;
 
 class AccountDomainObject extends Generated\AccountDomainObjectAbstract

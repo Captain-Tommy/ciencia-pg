@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Affiliates;
+namespace Ciencia\Http\Actions\Affiliates;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\Status\AffiliateStatus;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Affiliate\UpdateAffiliateRequest;
-use HiEvents\Resources\Affiliate\AffiliateResource;
-use HiEvents\Services\Application\Handlers\Affiliate\DTO\UpsertAffiliateDTO;
-use HiEvents\Services\Application\Handlers\Affiliate\UpdateAffiliateHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\Status\AffiliateStatus;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Affiliate\UpdateAffiliateRequest;
+use Ciencia\Resources\Affiliate\AffiliateResource;
+use Ciencia\Services\Application\Handlers\Affiliate\DTO\UpsertAffiliateDTO;
+use Ciencia\Services\Application\Handlers\Affiliate\UpdateAffiliateHandler;
 use Illuminate\Http\JsonResponse;
 
 class UpdateAffiliateAction extends BaseAction

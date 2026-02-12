@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Domain\Question;
+namespace Ciencia\Services\Domain\Question;
 
-use HiEvents\DomainObjects\Generated\QuestionDomainObjectAbstract;
-use HiEvents\DomainObjects\QuestionDomainObject;
-use HiEvents\Repository\Interfaces\QuestionRepositoryInterface;
-use HiEvents\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
+use Ciencia\DomainObjects\Generated\QuestionDomainObjectAbstract;
+use Ciencia\DomainObjects\QuestionDomainObject;
+use Ciencia\Repository\Interfaces\QuestionRepositoryInterface;
+use Ciencia\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
 use Illuminate\Database\DatabaseManager;
 use Throwable;
 

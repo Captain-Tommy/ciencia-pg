@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Request\Order;
+namespace Ciencia\Http\Request\Order;
 
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Validators\CompleteOrderValidator;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Validators\CompleteOrderValidator;
 
 class CompleteOrderRequest extends BaseRequest
 {

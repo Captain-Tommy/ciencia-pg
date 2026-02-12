@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\Account\Stripe;
+namespace Ciencia\Resources\Account\Stripe;
 
-use HiEvents\Resources\Account\AccountResource;
-use HiEvents\Services\Application\Handlers\Account\Payment\Stripe\DTO\CreateStripeConnectAccountResponse;
+use Ciencia\Resources\Account\AccountResource;
+use Ciencia\Services\Application\Handlers\Account\Payment\Stripe\DTO\CreateStripeConnectAccountResponse;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 /**

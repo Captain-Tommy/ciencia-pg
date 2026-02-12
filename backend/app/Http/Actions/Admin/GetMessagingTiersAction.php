@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Admin;
+namespace Ciencia\Http\Actions\Admin;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Resources\Admin\AccountMessagingTierResource;
-use HiEvents\Repository\Interfaces\AccountMessagingTierRepositoryInterface;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Resources\Admin\AccountMessagingTierResource;
+use Ciencia\Repository\Interfaces\AccountMessagingTierRepositoryInterface;
 use Illuminate\Http\JsonResponse;
 
 class GetMessagingTiersAction extends BaseAction

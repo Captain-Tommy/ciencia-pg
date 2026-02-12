@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CheckInList\Public;
+namespace Ciencia\Services\Application\Handlers\CheckInList\Public;
 
-use HiEvents\DomainObjects\AttendeeCheckInDomainObject;
-use HiEvents\Exceptions\CannotCheckInException;
-use HiEvents\Services\Application\Handlers\CheckInList\Public\DTO\CreateAttendeeCheckInPublicDTO;
-use HiEvents\Services\Domain\CheckInList\CreateAttendeeCheckInService;
-use HiEvents\Services\Domain\CheckInList\DTO\CreateAttendeeCheckInsResponseDTO;
-use HiEvents\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\CheckinEvent;
+use Ciencia\DomainObjects\AttendeeCheckInDomainObject;
+use Ciencia\Exceptions\CannotCheckInException;
+use Ciencia\Services\Application\Handlers\CheckInList\Public\DTO\CreateAttendeeCheckInPublicDTO;
+use Ciencia\Services\Domain\CheckInList\CreateAttendeeCheckInService;
+use Ciencia\Services\Domain\CheckInList\DTO\CreateAttendeeCheckInsResponseDTO;
+use Ciencia\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\CheckinEvent;
 use Psr\Log\LoggerInterface;
 use Throwable;
 

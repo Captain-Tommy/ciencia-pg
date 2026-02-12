@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Question;
+namespace Ciencia\Services\Application\Handlers\Question;
 
-use HiEvents\Services\Application\Handlers\Question\DTO\EditQuestionAnswerDTO;
-use HiEvents\Services\Domain\Question\EditQuestionAnswerService;
-use HiEvents\Services\Domain\Question\Exception\InvalidAnswerException;
+use Ciencia\Services\Application\Handlers\Question\DTO\EditQuestionAnswerDTO;
+use Ciencia\Services\Domain\Question\EditQuestionAnswerService;
+use Ciencia\Services\Domain\Question\Exception\InvalidAnswerException;
 use JsonException;
 
 class EditQuestionAnswerHandler

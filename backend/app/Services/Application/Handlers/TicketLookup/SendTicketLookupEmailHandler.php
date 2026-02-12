@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\TicketLookup;
+namespace Ciencia\Services\Application\Handlers\TicketLookup;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\Generated\OrderDomainObjectAbstract;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Mail\TicketLookup\TicketLookupEmail;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Repository\Interfaces\TicketLookupTokenRepositoryInterface;
-use HiEvents\Services\Application\Handlers\TicketLookup\DTO\SendTicketLookupEmailDTO;
-use HiEvents\Services\Infrastructure\TokenGenerator\TokenGeneratorService;
+use Ciencia\DomainObjects\Generated\OrderDomainObjectAbstract;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Mail\TicketLookup\TicketLookupEmail;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Repository\Interfaces\TicketLookupTokenRepositoryInterface;
+use Ciencia\Services\Application\Handlers\TicketLookup\DTO\SendTicketLookupEmailDTO;
+use Ciencia\Services\Infrastructure\TokenGenerator\TokenGeneratorService;
 use Illuminate\Contracts\Mail\Mailer;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Support\Collection;

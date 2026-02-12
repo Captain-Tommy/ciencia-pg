@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Services\Domain\PromoCode;
+namespace Ciencia\Services\Domain\PromoCode;
 
-use HiEvents\DomainObjects\Enums\PromoCodeDiscountTypeEnum;
-use HiEvents\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
-use HiEvents\DomainObjects\PromoCodeDomainObject;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Helper\DateHelper;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
-use HiEvents\Services\Domain\Product\EventProductValidationService;
-use HiEvents\Services\Domain\Product\Exception\UnrecognizedProductIdException;
+use Ciencia\DomainObjects\Enums\PromoCodeDiscountTypeEnum;
+use Ciencia\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Helper\DateHelper;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\Services\Domain\Product\EventProductValidationService;
+use Ciencia\Services\Domain\Product\Exception\UnrecognizedProductIdException;
 
 class CreatePromoCodeService
 {

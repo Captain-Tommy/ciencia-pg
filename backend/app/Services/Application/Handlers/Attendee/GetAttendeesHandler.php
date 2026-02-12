@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Attendee;
+namespace Ciencia\Services\Application\Handlers\Attendee;
 
-use HiEvents\DomainObjects\AttendeeCheckInDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\DomainObjects\AttendeeCheckInDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 class GetAttendeesHandler

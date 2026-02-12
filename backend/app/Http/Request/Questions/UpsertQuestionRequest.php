@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Request\Questions;
+namespace Ciencia\Http\Request\Questions;
 
-use HiEvents\DomainObjects\Enums\QuestionBelongsTo;
-use HiEvents\DomainObjects\Enums\QuestionTypeEnum;
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\DomainObjects\Enums\QuestionBelongsTo;
+use Ciencia\DomainObjects\Enums\QuestionTypeEnum;
+use Ciencia\Http\Request\BaseRequest;
 use Illuminate\Validation\Rule;
 
 class UpsertQuestionRequest extends BaseRequest

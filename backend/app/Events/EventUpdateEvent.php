@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Events;
+namespace Ciencia\Events;
 
-use HiEvents\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
 use Illuminate\Foundation\Events\Dispatchable;
 
 class EventUpdateEvent

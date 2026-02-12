@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Services\Domain\Auth;
+namespace Ciencia\Services\Domain\Auth;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\DomainObjects\AccountUserDomainObject;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\DomainObjects\Status\UserStatus;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\UnauthorizedException;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\AccountUserRepositoryInterface;
-use HiEvents\Services\Domain\Auth\DTO\LoginResponse;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\DomainObjects\AccountUserDomainObject;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\DomainObjects\Status\UserStatus;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\UnauthorizedException;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\AccountUserRepositoryInterface;
+use Ciencia\Services\Domain\Auth\DTO\LoginResponse;
 use Illuminate\Support\Collection;
 use PHPOpenSourceSaver\JWTAuth\JWTAuth;
 use Psr\Log\LoggerInterface;

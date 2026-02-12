@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Organizers;
+namespace Ciencia\Http\Actions\Organizers;
 
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
-use HiEvents\Resources\Organizer\OrganizerResource;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\Resources\Organizer\OrganizerResource;
 use Illuminate\Http\JsonResponse;
 
 class GetOrganizersAction extends BaseAction

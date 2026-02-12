@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Message;
+namespace Ciencia\Services\Application\Handlers\Message;
 
-use HiEvents\DomainObjects\MessageDomainObject;
-use HiEvents\DomainObjects\Status\MessageStatus;
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\DomainObjects\MessageDomainObject;
+use Ciencia\DomainObjects\Status\MessageStatus;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
 use Illuminate\Validation\ValidationException;
 
 class CancelMessageHandler

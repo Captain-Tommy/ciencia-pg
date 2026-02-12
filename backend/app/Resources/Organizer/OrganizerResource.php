@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\Organizer;
+namespace Ciencia\Resources\Organizer;
 
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Resources\Image\ImageResource;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Resources\Image\ImageResource;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 /**

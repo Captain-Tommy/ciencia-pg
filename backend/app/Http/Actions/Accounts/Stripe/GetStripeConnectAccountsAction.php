@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\Accounts\Stripe;
+namespace Ciencia\Http\Actions\Accounts\Stripe;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Account\Stripe\StripeConnectAccountsResponseResource;
-use HiEvents\Services\Application\Handlers\Account\Payment\Stripe\GetStripeConnectAccountsHandler;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Account\Stripe\StripeConnectAccountsResponseResource;
+use Ciencia\Services\Application\Handlers\Account\Payment\Stripe\GetStripeConnectAccountsHandler;
 use Illuminate\Http\JsonResponse;
 use Throwable;
 

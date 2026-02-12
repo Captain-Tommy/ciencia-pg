@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Question\DTO;
+namespace Ciencia\Services\Application\Handlers\Question\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class EditQuestionAnswerDTO extends BaseDTO
 {

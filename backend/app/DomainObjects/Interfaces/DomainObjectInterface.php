@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DomainObjects\Interfaces;
+namespace Ciencia\DomainObjects\Interfaces;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,20 +1,20 @@
 <?php
 
-namespace HiEvents\Services\Domain\Payment\Stripe\EventHandlers;
+namespace Ciencia\Services\Domain\Payment\Stripe\EventHandlers;
 
 use Brick\Money\Money;
-use HiEvents\DomainObjects\Enums\PaymentProviders;
-use HiEvents\DomainObjects\Generated\OrderDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\Status\OrderRefundStatus;
-use HiEvents\Repository\Interfaces\OrderRefundRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Repository\Interfaces\StripePaymentsRepositoryInterface;
-use HiEvents\Services\Domain\EventStatistics\EventStatisticsRefundService;
-use HiEvents\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\OrderEvent;
-use HiEvents\Values\MoneyValue;
+use Ciencia\DomainObjects\Enums\PaymentProviders;
+use Ciencia\DomainObjects\Generated\OrderDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\Status\OrderRefundStatus;
+use Ciencia\Repository\Interfaces\OrderRefundRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Repository\Interfaces\StripePaymentsRepositoryInterface;
+use Ciencia\Services\Domain\EventStatistics\EventStatisticsRefundService;
+use Ciencia\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\OrderEvent;
+use Ciencia\Values\MoneyValue;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Log\Logger;
 use Stripe\Refund;

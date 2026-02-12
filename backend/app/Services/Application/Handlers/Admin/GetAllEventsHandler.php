@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Admin\DTO\GetAllEventsDTO;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Admin\DTO\GetAllEventsDTO;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 
 class GetAllEventsHandler

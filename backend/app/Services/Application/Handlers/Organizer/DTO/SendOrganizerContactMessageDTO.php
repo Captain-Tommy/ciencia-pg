@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Organizer\DTO;
+namespace Ciencia\Services\Application\Handlers\Organizer\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
+use Ciencia\DataTransferObjects\BaseDataObject;
 
 class SendOrganizerContactMessageDTO extends BaseDataObject
 {

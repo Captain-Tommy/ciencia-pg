@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Providers;
+namespace Ciencia\Providers;
 
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;

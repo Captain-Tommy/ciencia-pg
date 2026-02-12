@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders;
+namespace Ciencia\Http\Actions\Orders;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Message\SendMessageRequest;
-use HiEvents\Jobs\Event\SendMessagesJob;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Message\SendMessageRequest;
+use Ciencia\Jobs\Event\SendMessagesJob;
 use Illuminate\Http\Response;
 
 class MessageOrderAction extends BaseAction

@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Database\Factories;
 
-use HiEvents\Models\Account;
-use HiEvents\Models\AccountVatSetting;
+use Ciencia\Models\Account;
+use Ciencia\Models\AccountVatSetting;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\HiEvents\Models\AccountVatSetting>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\Ciencia\Models\AccountVatSetting>
  */
 class AccountVatSettingFactory extends Factory
 {

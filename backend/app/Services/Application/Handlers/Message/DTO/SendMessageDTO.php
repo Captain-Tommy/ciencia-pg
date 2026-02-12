@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Message\DTO;
+namespace Ciencia\Services\Application\Handlers\Message\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Enums\MessageTypeEnum;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Enums\MessageTypeEnum;
 
 class SendMessageDTO extends BaseDTO
 {

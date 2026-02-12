@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\CheckInList\Public;
+namespace Ciencia\Services\Application\Handlers\CheckInList\Public;
 
-use HiEvents\Exceptions\CannotCheckInException;
-use HiEvents\Services\Application\Handlers\CheckInList\Public\DTO\DeleteAttendeeCheckInPublicDTO;
-use HiEvents\Services\Domain\CheckInList\DeleteAttendeeCheckInService;
-use HiEvents\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\CheckinEvent;
+use Ciencia\Exceptions\CannotCheckInException;
+use Ciencia\Services\Application\Handlers\CheckInList\Public\DTO\DeleteAttendeeCheckInPublicDTO;
+use Ciencia\Services\Domain\CheckInList\DeleteAttendeeCheckInService;
+use Ciencia\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\CheckinEvent;
 use Illuminate\Database\DatabaseManager;
 use Psr\Log\LoggerInterface;
 use Throwable;

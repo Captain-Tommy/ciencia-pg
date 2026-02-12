@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
 /**
  * As this is related to a view, and not a table, this was not auto-generated.

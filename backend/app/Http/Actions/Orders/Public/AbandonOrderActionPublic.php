@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders\Public;
+namespace Ciencia\Http\Actions\Orders\Public;
 
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Exceptions\UnauthorizedException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Order\OrderResourcePublic;
-use HiEvents\Services\Application\Handlers\Order\Public\AbandonOrderPublicHandler;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Exceptions\UnauthorizedException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Order\OrderResourcePublic;
+use Ciencia\Services\Application\Handlers\Order\Public\AbandonOrderPublicHandler;
 use Illuminate\Http\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;

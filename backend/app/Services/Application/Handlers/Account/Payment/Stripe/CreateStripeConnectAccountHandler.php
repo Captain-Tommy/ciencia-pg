@@ -1,23 +1,23 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Account\Payment\Stripe;
+namespace Ciencia\Services\Application\Handlers\Account\Payment\Stripe;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\DomainObjects\AccountStripePlatformDomainObject;
-use HiEvents\DomainObjects\Enums\StripeConnectAccountType;
-use HiEvents\DomainObjects\Enums\StripePlatform;
-use HiEvents\DomainObjects\Generated\AccountStripePlatformDomainObjectAbstract;
-use HiEvents\Exceptions\CreateStripeConnectAccountFailedException;
-use HiEvents\Exceptions\CreateStripeConnectAccountLinksFailedException;
-use HiEvents\Exceptions\SaasModeEnabledException;
-use HiEvents\Exceptions\Stripe\StripeClientConfigurationException;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\AccountStripePlatformRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Account\Payment\Stripe\DTO\CreateStripeConnectAccountDTO;
-use HiEvents\Services\Application\Handlers\Account\Payment\Stripe\DTO\CreateStripeConnectAccountResponse;
-use HiEvents\Services\Domain\Payment\Stripe\StripeAccountSyncService;
-use HiEvents\Services\Infrastructure\Stripe\StripeClientFactory;
-use HiEvents\Services\Infrastructure\Stripe\StripeConfigurationService;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\DomainObjects\AccountStripePlatformDomainObject;
+use Ciencia\DomainObjects\Enums\StripeConnectAccountType;
+use Ciencia\DomainObjects\Enums\StripePlatform;
+use Ciencia\DomainObjects\Generated\AccountStripePlatformDomainObjectAbstract;
+use Ciencia\Exceptions\CreateStripeConnectAccountFailedException;
+use Ciencia\Exceptions\CreateStripeConnectAccountLinksFailedException;
+use Ciencia\Exceptions\SaasModeEnabledException;
+use Ciencia\Exceptions\Stripe\StripeClientConfigurationException;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountStripePlatformRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Account\Payment\Stripe\DTO\CreateStripeConnectAccountDTO;
+use Ciencia\Services\Application\Handlers\Account\Payment\Stripe\DTO\CreateStripeConnectAccountResponse;
+use Ciencia\Services\Domain\Payment\Stripe\StripeAccountSyncService;
+use Ciencia\Services\Infrastructure\Stripe\StripeClientFactory;
+use Ciencia\Services\Infrastructure\Stripe\StripeConfigurationService;
 use Illuminate\Config\Repository;
 use Illuminate\Database\DatabaseManager;
 use Psr\Log\LoggerInterface;

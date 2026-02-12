@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Models;
+namespace Ciencia\Models;
 
-use HiEvents\DomainObjects\Generated\ProductDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\ProductDomainObjectAbstract;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;

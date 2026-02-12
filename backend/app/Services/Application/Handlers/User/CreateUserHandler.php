@@ -1,18 +1,18 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\User;
+namespace Ciencia\Services\Application\Handlers\User;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\DomainObjects\Status\UserStatus;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Exceptions\UnauthorizedException;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\User\DTO\CreateUserDTO;
-use HiEvents\Services\Domain\Account\AccountUserAssociationService;
-use HiEvents\Services\Domain\User\SendUserInvitationService;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\DomainObjects\Status\UserStatus;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Exceptions\UnauthorizedException;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\User\DTO\CreateUserDTO;
+use Ciencia\Services\Domain\Account\AccountUserAssociationService;
+use Ciencia\Services\Domain\User\SendUserInvitationService;
 use Illuminate\Database\DatabaseManager;
 use Throwable;
 

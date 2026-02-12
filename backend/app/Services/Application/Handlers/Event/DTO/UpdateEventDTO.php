@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event\DTO;
+namespace Ciencia\Services\Application\Handlers\Event\DTO;
 
-use HiEvents\DataTransferObjects\AddressDTO;
-use HiEvents\DataTransferObjects\Attributes\CollectionOf;
-use HiEvents\DataTransferObjects\AttributesDTO;
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\Enums\EventCategory;
-use HiEvents\DomainObjects\Status\EventStatus;
+use Ciencia\DataTransferObjects\AddressDTO;
+use Ciencia\DataTransferObjects\Attributes\CollectionOf;
+use Ciencia\DataTransferObjects\AttributesDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\Enums\EventCategory;
+use Ciencia\DomainObjects\Status\EventStatus;
 use Illuminate\Support\Collection;
 
 class UpdateEventDTO extends BaseDTO

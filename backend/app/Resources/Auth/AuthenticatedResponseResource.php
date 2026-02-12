@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Resources\Auth;
+namespace Ciencia\Resources\Auth;
 
-use HiEvents\Resources\Account\AccountResource;
-use HiEvents\Resources\User\UserResource;
-use HiEvents\Services\Application\Handlers\Auth\DTO\AuthenticatedResponseDTO;
+use Ciencia\Resources\Account\AccountResource;
+use Ciencia\Resources\User\UserResource;
+use Ciencia\Services\Application\Handlers\Auth\DTO\AuthenticatedResponseDTO;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 /**

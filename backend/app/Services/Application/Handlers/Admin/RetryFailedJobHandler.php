@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
-use HiEvents\Models\FailedJob;
+use Ciencia\Models\FailedJob;
 use Illuminate\Support\Facades\Artisan;
 
 class RetryFailedJobHandler

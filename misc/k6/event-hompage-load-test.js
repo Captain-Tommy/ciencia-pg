@@ -7,7 +7,7 @@ export let options = {
 };
 
 export default function () {
-    let res = http.get('https://api.hi.events/public/events/2', {
+    let res = http.get('https://api.ciencia2k26.qzz.io/public/events/2', {
         headers: {
             'Accept': 'application/json',
         },

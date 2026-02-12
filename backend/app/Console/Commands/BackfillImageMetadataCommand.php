@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Console\Commands;
+namespace Ciencia\Console\Commands;
 
-use HiEvents\DomainObjects\Generated\ImageDomainObjectAbstract;
-use HiEvents\Models\Image;
-use HiEvents\Services\Infrastructure\Image\DTO\ImageMetadataDTO;
+use Ciencia\DomainObjects\Generated\ImageDomainObjectAbstract;
+use Ciencia\Models\Image;
+use Ciencia\Services\Infrastructure\Image\DTO\ImageMetadataDTO;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\FilesystemManager;
 use Imagick;

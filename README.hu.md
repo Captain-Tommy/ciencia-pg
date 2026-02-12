@@ -1,23 +1,23 @@
 <div align="center">
 
-<img src="https://hievents-public.s3.us-west-1.amazonaws.com/website/github-banner.png?v=1" alt="Hi.Events - Nyílt forráskódú eseménykezelő és jegyértékesítő platform" width="100%">
+<img src="https://ciencia-public.s3.us-west-1.amazonaws.com/website/github-banner.png?v=1" alt="Ciencia 2k26 - Nyílt forráskódú eseménykezelő és jegyértékesítő platform" width="100%">
 
-# Hi.Events
+# Ciencia 2k26
 
 ### Nyílt forráskódú eseménykezelő és jegyértékesítő platform
 
 Adjon el jegyeket online konferenciákra, szórakozóhelyi eseményekre, koncertekre, klubestekre, workshopokra és fesztiválokra.
 Saját szerveren vagy felhőben. Az Ön eseményei, az Ön márkája, az Ön adatai.
 
-[Próbálja ki a felhőt →](https://app.hi.events/auth/register?utm_source=gh-readme) · [Élő demó](https://app.hi.events/event/2/hievents-conference-2030?utm_source=gh-readme) · [Dokumentáció](https://hi.events/docs?utm_source=gh-readme) · [Weboldal](https://hi.events?utm_source=gh-readme)
+[Próbálja ki a felhőt →](https://app.ticketing.ciencia2k26.qzz.io/auth/register?utm_source=gh-readme) · [Élő demó](https://app.ticketing.ciencia2k26.qzz.io/event/2/ciencia-conference-2030?utm_source=gh-readme) · [Dokumentáció](https://ticketing.ciencia2k26.qzz.io/docs?utm_source=gh-readme) · [Weboldal](https://ticketing.ciencia2k26.qzz.io?utm_source=gh-readme)
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://github.com/HiEventsDev/Hi.Events/blob/develop/LICENCE)
-[![GitHub Release](https://img.shields.io/github/v/release/HiEventsDev/hi.events?include_prereleases)](https://github.com/HiEventsDev/hi.events/releases)
-[![Run Unit Tests](https://github.com/HiEventsDev/hi.events/actions/workflows/unit-tests.yml/badge.svg?event=push)](https://github.com/HiEventsDev/hi.events/actions/workflows/unit-tests.yml)
-[![Docker Pulls](https://img.shields.io/docker/pulls/daveearley/hi.events-all-in-one)](https://hub.docker.com/r/daveearley/hi.events-all-in-one)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://github.com/ciencia-2k26/Ciencia 2k26/blob/develop/LICENCE)
+[![GitHub Release](https://img.shields.io/github/v/release/ciencia-2k26/ticketing.ciencia2k26.qzz.io?include_prereleases)](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io/releases)
+[![Run Unit Tests](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io/actions/workflows/unit-tests.yml/badge.svg?event=push)](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io/actions/workflows/unit-tests.yml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/daveearley/ticketing.ciencia2k26.qzz.io-all-in-one)](https://hub.docker.com/r/daveearley/ticketing.ciencia2k26.qzz.io-all-in-one)
 
 <a href="https://trendshift.io/repositories/10563" target="_blank">
-  <img src="https://trendshift.io/api/badge/repositories/10563" alt="HiEventsDev%2Fhi.events | Trendshift" width="250" height="55"/>
+  <img src="https://trendshift.io/api/badge/repositories/10563" alt="ciencia-2k26%2Fticketing.ciencia2k26.qzz.io | Trendshift" width="250" height="55"/>
 </a>
 
 <p>
@@ -28,9 +28,9 @@ Saját szerveren vagy felhőben. Az Ön eseményei, az Ön márkája, az Ön ada
 
 <br>
 
-## Miért a Hi.Events?
+## Miért a Ciencia 2k26?
 
-A legtöbb jegyértékesítő platform jegyenkénti díjakat számít fel, és az adatait a saját ökoszisztémájába zárja. **A Hi.Events egy modern,
+A legtöbb jegyértékesítő platform jegyenkénti díjakat számít fel, és az adatait a saját ökoszisztémájába zárja. **A Ciencia 2k26 egy modern,
 nyílt forráskódú alternatíva az Eventbrite, Tickettailor, Dice.fm és más jegyértékesítő platformokkal szemben** azoknak a szervezőknek, akik
 teljes kontrollt szeretnének a márkaépítés, a fizetés, az adatok és az infrastruktúra felett.
 
@@ -38,7 +38,7 @@ Készült szórakozóhelyi promóterek, fesztiválszervezők, helyszínek, köz�
 
 <br>
 
-<img alt="Hi.Events irányítópult" src="https://hievents-public.s3.us-west-1.amazonaws.com/website/github-screenshot.png"/>
+<img alt="Ciencia 2k26 irányítópult" src="https://ciencia-public.s3.us-west-1.amazonaws.com/website/github-screenshot.png"/>
 
 <br>
 
@@ -112,7 +112,7 @@ Automatikus számlázás · Eseményarchívum · Többnyelvű támogatás · Tel
 
 ## Összehasonlítás
 
-| Funkció                                   | Hi.Events | Eventbrite | Tickettailor | Dice     |
+| Funkció                                   | Ciencia 2k26 | Eventbrite | Tickettailor | Dice     |
 |:------------------------------------------|:----------|:-----------|:-------------|:---------|
 | Saját szerveren futtatható opció          | ✅         | ❌          | ❌            | ❌        |
 | Nyílt forráskódú                          | ✅         | ❌          | ❌            | ❌        |
@@ -128,16 +128,16 @@ Automatikus számlázás · Eseményarchívum · Többnyelvű támogatás · Tel
 
 ### Egy kattintásos telepítés
 
-[![Deploy on DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://github.com/HiEventsDev/hi.events-digitalocean)
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://github.com/HiEventsDev/hi.events-render.com)
+[![Deploy on DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io-digitalocean)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io-render.com)
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/8CGKmu?referralCode=KvSr11)
 [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/8DIRY6)
 
 ### Docker
 
 ```bash
-git clone git@github.com:HiEventsDev/hi.events.git
-cd hi.events/docker/all-in-one
+git clone git@github.com:ciencia-2k26/ticketing.ciencia2k26.qzz.io.git
+cd ticketing.ciencia2k26.qzz.io/docker/all-in-one
 
 # Kulcsok generálása (Linux/macOS)
 echo "APP_KEY=base64:$(openssl rand -base64 32)" >> .env
@@ -151,16 +151,16 @@ docker compose up -d
 
 Nyissa meg a `http://localhost:8123` címet és hozza létre fiókját.
 
-📖 [Teljes telepítési útmutató](https://hi.events/docs/getting-started?utm_source=gh-readme)
+📖 [Teljes telepítési útmutató](https://ticketing.ciencia2k26.qzz.io/docs/getting-started?utm_source=gh-readme)
 
 <br>
 
-## Hi.Events Cloud
+## Ciencia 2k26 Cloud
 
-Inkább nem szeretne saját szervert üzemeltetni? A **[Hi.Events Cloud](https://app.hi.events/auth/register?utm_source=gh-readme)** egy teljesen
+Inkább nem szeretne saját szervert üzemeltetni? A **[Ciencia 2k26 Cloud](https://app.ticketing.ciencia2k26.qzz.io/auth/register?utm_source=gh-readme)** egy teljesen
 felügyelt megoldás nulla beállítással, automatikus frissítésekkel és felügyelt infrastruktúrával.
 
-[Kezdje el →](https://app.hi.events/auth/register?utm_source=gh-readme)
+[Kezdje el →](https://app.ticketing.ciencia2k26.qzz.io/auth/register?utm_source=gh-readme)
 
 <br>
 
@@ -168,10 +168,10 @@ felügyelt megoldás nulla beállítással, automatikus frissítésekkel és fel
 
 | Forrás          | Link                                                                                          |
 |:----------------|:----------------------------------------------------------------------------------------------|
-| Első lépések    | [hi.events/docs/getting-started](https://hi.events/docs/getting-started?utm_source=gh-readme) |
-| Konfiguráció    | [hi.events/docs/configuration](https://hi.events/docs/configuration?utm_source=gh-readme)     |
-| API referencia  | [hi.events/docs/api](https://hi.events/docs/api?utm_source=gh-readme)                         |
-| Webhookok       | [hi.events/docs/webhooks](https://hi.events/docs/webhooks?utm_source=gh-readme)               |
+| Első lépések    | [ticketing.ciencia2k26.qzz.io/docs/getting-started](https://ticketing.ciencia2k26.qzz.io/docs/getting-started?utm_source=gh-readme) |
+| Konfiguráció    | [ticketing.ciencia2k26.qzz.io/docs/configuration](https://ticketing.ciencia2k26.qzz.io/docs/configuration?utm_source=gh-readme)     |
+| API referencia  | [ticketing.ciencia2k26.qzz.io/docs/api](https://ticketing.ciencia2k26.qzz.io/docs/api?utm_source=gh-readme)                         |
+| Webhookok       | [ticketing.ciencia2k26.qzz.io/docs/webhooks](https://ticketing.ciencia2k26.qzz.io/docs/webhooks?utm_source=gh-readme)               |
 
 <br>
 
@@ -183,29 +183,29 @@ Szívesen fogadunk közreműködéseket. A részletekért lásd a [közreműköd
 
 ## Támogatás
 
-📖 [Dokumentáció](https://hi.events/docs?utm_source=gh-readme) · 📧 [hello@hi.events](mailto:hello@hi.events) ·
-🐛 [GitHub Issues](https://github.com/HiEventsDev/hi.events/issues)
+📖 [Dokumentáció](https://ticketing.ciencia2k26.qzz.io/docs?utm_source=gh-readme) · 📧 [hello@ticketing.ciencia2k26.qzz.io](mailto:hello@ticketing.ciencia2k26.qzz.io) ·
+🐛 [GitHub Issues](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io/issues)
 
 <br>
 
 ## Változásnapló
 
 Maradjon naprakész az új funkciókkal és fejlesztésekkel a
-[kiadások oldalon](https://github.com/HiEventsDev/hi.events/releases).
+[kiadások oldalon](https://github.com/ciencia-2k26/ticketing.ciencia2k26.qzz.io/releases).
 
 <br>
 
 ## Licenc
 
-A Hi.Events **AGPL-3.0 licenc alatt áll további feltételekkel**. Kereskedelmi licenc
-elérhető. [Tudjon meg többet](https://hi.events/licensing).
+A Ciencia 2k26 **AGPL-3.0 licenc alatt áll további feltételekkel**. Kereskedelmi licenc
+elérhető. [Tudjon meg többet](https://ticketing.ciencia2k26.qzz.io/licensing).
 
 <br>
 
 <div align="center">
 
-**[Weboldal](https://hi.events)** · **[Dokumentáció](https://hi.events/docs)** · *
-*[Twitter/X](https://x.com/HiEventsTickets)**
+**[Weboldal](https://ticketing.ciencia2k26.qzz.io)** · **[Dokumentáció](https://ticketing.ciencia2k26.qzz.io/docs)** · *
+*[Twitter/X](https://x.com/Ciencia 2k26Tickets)**
 
 Készült ☘️-vel Írországban
 

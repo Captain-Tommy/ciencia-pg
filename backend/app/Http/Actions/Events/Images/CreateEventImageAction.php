@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\Events\Images;
+namespace Ciencia\Http\Actions\Events\Images;
 
-use HiEvents\DomainObjects\Enums\ImageType;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Event\CreateEventImageRequest;
-use HiEvents\Resources\Image\ImageResource;
-use HiEvents\Services\Application\Handlers\Event\CreateEventImageHandler;
-use HiEvents\Services\Application\Handlers\Event\DTO\CreateEventImageDTO;
+use Ciencia\DomainObjects\Enums\ImageType;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Event\CreateEventImageRequest;
+use Ciencia\Resources\Image\ImageResource;
+use Ciencia\Services\Application\Handlers\Event\CreateEventImageHandler;
+use Ciencia\Services\Application\Handlers\Event\DTO\CreateEventImageDTO;
 use Illuminate\Http\JsonResponse;
 
 class CreateEventImageAction extends BaseAction

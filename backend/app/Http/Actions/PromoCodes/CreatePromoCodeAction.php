@@ -1,17 +1,17 @@
 <?php
 
-namespace HiEvents\Http\Actions\PromoCodes;
+namespace Ciencia\Http\Actions\PromoCodes;
 
-use HiEvents\DomainObjects\Enums\PromoCodeDiscountTypeEnum;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\PromoCode\CreateUpdatePromoCodeRequest;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Resources\PromoCode\PromoCodeResource;
-use HiEvents\Services\Application\Handlers\PromoCode\CreatePromoCodeHandler;
-use HiEvents\Services\Application\Handlers\PromoCode\DTO\UpsertPromoCodeDTO;
-use HiEvents\Services\Domain\Product\Exception\UnrecognizedProductIdException;
+use Ciencia\DomainObjects\Enums\PromoCodeDiscountTypeEnum;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\PromoCode\CreateUpdatePromoCodeRequest;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Resources\PromoCode\PromoCodeResource;
+use Ciencia\Services\Application\Handlers\PromoCode\CreatePromoCodeHandler;
+use Ciencia\Services\Application\Handlers\PromoCode\DTO\UpsertPromoCodeDTO;
+use Ciencia\Services\Domain\Product\Exception\UnrecognizedProductIdException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\ValidationException;
 

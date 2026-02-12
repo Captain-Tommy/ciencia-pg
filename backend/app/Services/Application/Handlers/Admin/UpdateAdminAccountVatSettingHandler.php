@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
-use HiEvents\DataTransferObjects\UpdateAdminAccountVatSettingDTO;
-use HiEvents\DomainObjects\AccountVatSettingDomainObject;
-use HiEvents\Repository\Interfaces\AccountVatSettingRepositoryInterface;
+use Ciencia\DataTransferObjects\UpdateAdminAccountVatSettingDTO;
+use Ciencia\DomainObjects\AccountVatSettingDomainObject;
+use Ciencia\Repository\Interfaces\AccountVatSettingRepositoryInterface;
 
 class UpdateAdminAccountVatSettingHandler
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Exports;
+namespace Ciencia\Exports;
 
-use HiEvents\Resources\PromoCode\PromoCodeResource;
+use Ciencia\Resources\PromoCode\PromoCodeResource;
 use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;

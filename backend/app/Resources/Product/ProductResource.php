@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Resources\Product;
+namespace Ciencia\Resources\Product;
 
-use HiEvents\DomainObjects\Enums\ProductPriceType;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Resources\Tax\TaxAndFeeResource;
+use Ciencia\DomainObjects\Enums\ProductPriceType;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Resources\Tax\TaxAndFeeResource;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 

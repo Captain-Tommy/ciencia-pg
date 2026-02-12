@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Jobs\Message;
+namespace Ciencia\Jobs\Message;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\MessageDomainObject;
-use HiEvents\Mail\Admin\MessagePendingReviewMail;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\MessageDomainObject;
+use Ciencia\Mail\Admin\MessagePendingReviewMail;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
 use Illuminate\Bus\Queueable;
 use Illuminate\Config\Repository;
 use Illuminate\Contracts\Mail\Mailer;

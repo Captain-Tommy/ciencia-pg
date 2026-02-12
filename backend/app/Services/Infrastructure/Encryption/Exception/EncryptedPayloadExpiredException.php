@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Encryption\Exception;
+namespace Ciencia\Services\Infrastructure\Encryption\Exception;
 
 use Exception;
 

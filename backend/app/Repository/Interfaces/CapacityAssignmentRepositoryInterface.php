@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Repository\Interfaces;
+namespace Ciencia\Repository\Interfaces;
 
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
-use HiEvents\Http\DTO\QueryParamsDTO;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\Http\DTO\QueryParamsDTO;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 
 /**

@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event;
+namespace Ciencia\Services\Application\Handlers\Event;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\AccountNotVerifiedException;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Event\DTO\UpdateEventStatusDTO;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\AccountNotVerifiedException;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Event\DTO\UpdateEventStatusDTO;
 use Illuminate\Database\DatabaseManager;
 use Psr\Log\LoggerInterface;
 use Throwable;

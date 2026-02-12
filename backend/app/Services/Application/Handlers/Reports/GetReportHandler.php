@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Reports;
+namespace Ciencia\Services\Application\Handlers\Reports;
 
-use HiEvents\Services\Application\Handlers\Reports\DTO\GetReportDTO;
-use HiEvents\Services\Domain\Report\Factory\ReportServiceFactory;
+use Ciencia\Services\Application\Handlers\Reports\DTO\GetReportDTO;
+use Ciencia\Services\Domain\Report\Factory\ReportServiceFactory;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
 

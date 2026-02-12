@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Services\Domain\CheckInList;
+namespace Ciencia\Services\Domain\CheckInList;
 
 use Exception;
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\CheckInListDomainObject;
-use HiEvents\DomainObjects\Generated\AttendeeDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\CheckInListDomainObjectAbstract;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Exceptions\CannotCheckInException;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\CheckInListRepositoryInterface;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\CheckInListDomainObject;
+use Ciencia\DomainObjects\Generated\AttendeeDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\CheckInListDomainObjectAbstract;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Exceptions\CannotCheckInException;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\CheckInListRepositoryInterface;
 use Illuminate\Support\Collection;
 
 class CheckInListDataService

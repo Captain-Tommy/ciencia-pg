@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\TaxesAndFees;
+namespace Ciencia\Http\Actions\TaxesAndFees;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\Exceptions\ResourceNameAlreadyExistsException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\TaxOrFee\CreateTaxOrFeeRequest;
-use HiEvents\Resources\Tax\TaxAndFeeResource;
-use HiEvents\Services\Application\Handlers\TaxAndFee\CreateTaxOrFeeHandler;
-use HiEvents\Services\Application\Handlers\TaxAndFee\DTO\UpsertTaxDTO;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\Exceptions\ResourceNameAlreadyExistsException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\TaxOrFee\CreateTaxOrFeeRequest;
+use Ciencia\Resources\Tax\TaxAndFeeResource;
+use Ciencia\Services\Application\Handlers\TaxAndFee\CreateTaxOrFeeHandler;
+use Ciencia\Services\Application\Handlers\TaxAndFee\DTO\UpsertTaxDTO;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\ValidationException;
 

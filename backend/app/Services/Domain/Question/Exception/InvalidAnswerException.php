@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Domain\Question\Exception;
+namespace Ciencia\Services\Domain\Question\Exception;
 
 use Exception;
 

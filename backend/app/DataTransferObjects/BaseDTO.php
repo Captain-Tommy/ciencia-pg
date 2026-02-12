@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\DataTransferObjects;
+namespace Ciencia\DataTransferObjects;
 
-use HiEvents\DataTransferObjects\Attributes\CollectionOf;
+use Ciencia\DataTransferObjects\Attributes\CollectionOf;
 use Illuminate\Support\Collection;
 use ReflectionClass;
 use ReflectionProperty;

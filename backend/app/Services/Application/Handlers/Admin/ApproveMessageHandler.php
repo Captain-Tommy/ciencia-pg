@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\MessageDomainObject;
-use HiEvents\DomainObjects\Status\MessageStatus;
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
-use HiEvents\Services\Domain\Message\MessageDispatchService;
+use Ciencia\DomainObjects\MessageDomainObject;
+use Ciencia\DomainObjects\Status\MessageStatus;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\Services\Domain\Message\MessageDispatchService;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Validation\ValidationException;
 

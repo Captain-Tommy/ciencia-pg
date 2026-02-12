@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\DomainObjects\AccountAttributionDomainObject;
-use HiEvents\DomainObjects\Status\EventStatus;
-use HiEvents\Models\AccountAttribution;
-use HiEvents\Repository\Interfaces\AccountAttributionRepositoryInterface;
+use Ciencia\DomainObjects\AccountAttributionDomainObject;
+use Ciencia\DomainObjects\Status\EventStatus;
+use Ciencia\Models\AccountAttribution;
+use Ciencia\Repository\Interfaces\AccountAttributionRepositoryInterface;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Facades\DB;
 

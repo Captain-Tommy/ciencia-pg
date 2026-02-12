@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Http\DTO;
+namespace Ciencia\Http\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class FilterFieldDTO extends BaseDTO
 {

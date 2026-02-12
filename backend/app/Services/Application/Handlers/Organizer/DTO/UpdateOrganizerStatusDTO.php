@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Organizer\DTO;
+namespace Ciencia\Services\Application\Handlers\Organizer\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class UpdateOrganizerStatusDTO extends BaseDTO
 {

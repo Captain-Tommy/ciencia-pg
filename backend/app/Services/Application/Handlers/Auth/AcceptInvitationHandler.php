@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Auth;
+namespace Ciencia\Services\Application\Handlers\Auth;
 
-use HiEvents\DomainObjects\Status\UserStatus;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Repository\Interfaces\AccountUserRepositoryInterface;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Auth\DTO\AcceptInvitationDTO;
-use HiEvents\Services\Infrastructure\Encryption\EncryptedPayloadService;
-use HiEvents\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
-use HiEvents\Services\Infrastructure\Encryption\Exception\EncryptedPayloadExpiredException;
+use Ciencia\DomainObjects\Status\UserStatus;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Repository\Interfaces\AccountUserRepositoryInterface;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Auth\DTO\AcceptInvitationDTO;
+use Ciencia\Services\Infrastructure\Encryption\EncryptedPayloadService;
+use Ciencia\Services\Infrastructure\Encryption\Exception\DecryptionFailedException;
+use Ciencia\Services\Infrastructure\Encryption\Exception\EncryptedPayloadExpiredException;
 use Illuminate\Contracts\Hashing\Hasher;
 use Illuminate\Database\DatabaseManager;
 use Psr\Log\LoggerInterface;

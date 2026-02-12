@@ -17,7 +17,7 @@ services:
       AWS_ACCESS_KEY_ID: ""
       AWS_SECRET_ACCESS_KEY: ""
       AWS_DEFAULT_REGION: "us-west-1"
-      AWS_PUBLIC_BUCKET: "hievents-public"
+      AWS_PUBLIC_BUCKET: "ciencia-public"
       AWS_PRIVATE_BUCKET: "hievents-private"
       STRIPE_PUBLIC_KEY: ""
       STRIPE_SECRET_KEY: ""

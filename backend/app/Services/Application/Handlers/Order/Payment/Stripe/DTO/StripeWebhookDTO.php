@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order\Payment\Stripe\DTO;
+namespace Ciencia\Services\Application\Handlers\Order\Payment\Stripe\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class StripeWebhookDTO extends BaseDTO
 {

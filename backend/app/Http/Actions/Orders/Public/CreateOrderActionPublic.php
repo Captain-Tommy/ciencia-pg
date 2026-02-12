@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Orders\Public;
+namespace Ciencia\Http\Actions\Orders\Public;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Order\CreateOrderRequest;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Resources\Order\OrderResourcePublic;
-use HiEvents\Services\Application\Handlers\Order\CreateOrderHandler;
-use HiEvents\Services\Application\Handlers\Order\DTO\CreateOrderPublicDTO;
-use HiEvents\Services\Application\Handlers\Order\DTO\ProductOrderDetailsDTO;
-use HiEvents\Services\Application\Locale\LocaleService;
-use HiEvents\Services\Domain\Order\OrderCreateRequestValidationService;
-use HiEvents\Services\Infrastructure\Session\CheckoutSessionManagementService;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Order\CreateOrderRequest;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Resources\Order\OrderResourcePublic;
+use Ciencia\Services\Application\Handlers\Order\CreateOrderHandler;
+use Ciencia\Services\Application\Handlers\Order\DTO\CreateOrderPublicDTO;
+use Ciencia\Services\Application\Handlers\Order\DTO\ProductOrderDetailsDTO;
+use Ciencia\Services\Application\Locale\LocaleService;
+use Ciencia\Services\Domain\Order\OrderCreateRequestValidationService;
+use Ciencia\Services\Infrastructure\Session\CheckoutSessionManagementService;
 use Illuminate\Http\JsonResponse;
 use Throwable;
 

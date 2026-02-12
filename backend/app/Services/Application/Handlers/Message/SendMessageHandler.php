@@ -1,23 +1,23 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Message;
+namespace Ciencia\Services\Application\Handlers\Message;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\Enums\MessageTypeEnum;
-use HiEvents\DomainObjects\MessageDomainObject;
-use HiEvents\DomainObjects\Status\MessageStatus;
-use HiEvents\Exceptions\AccountNotVerifiedException;
-use HiEvents\Exceptions\MessagingTierLimitExceededException;
-use HiEvents\Jobs\Event\SendMessagesJob;
-use HiEvents\Jobs\Message\MessagePendingReviewJob;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\AttendeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Message\DTO\SendMessageDTO;
-use HiEvents\Services\Domain\Message\MessagingEligibilityService;
-use HiEvents\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
+use Ciencia\DomainObjects\Enums\MessageTypeEnum;
+use Ciencia\DomainObjects\MessageDomainObject;
+use Ciencia\DomainObjects\Status\MessageStatus;
+use Ciencia\Exceptions\AccountNotVerifiedException;
+use Ciencia\Exceptions\MessagingTierLimitExceededException;
+use Ciencia\Jobs\Event\SendMessagesJob;
+use Ciencia\Jobs\Message\MessagePendingReviewJob;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\AttendeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Message\DTO\SendMessageDTO;
+use Ciencia\Services\Domain\Message\MessagingEligibilityService;
+use Ciencia\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
 use Illuminate\Config\Repository;
 use Illuminate\Support\Collection;
 

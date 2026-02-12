@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Http\Request\User;
+namespace Ciencia\Http\Request\User;
 
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\Http\Request\BaseRequest;
 
 class EmailChangeRequest extends BaseRequest
 {

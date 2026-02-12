@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Http\DTO;
+namespace Ciencia\Http\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
+use Ciencia\DataTransferObjects\BaseDataObject;
 
 class GetSitemapEventsDTO extends BaseDataObject
 {

@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Order;
+namespace Ciencia\Services\Application\Handlers\Order;
 
-use HiEvents\DomainObjects\AffiliateDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\Generated\AffiliateDomainObjectAbstract;
-use HiEvents\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\PromoCodeDomainObject;
-use HiEvents\DomainObjects\Status\AffiliateStatus;
-use HiEvents\DomainObjects\Status\EventStatus;
-use HiEvents\Repository\Interfaces\AffiliateRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Order\DTO\CreateOrderPublicDTO;
-use HiEvents\Services\Domain\Order\OrderItemProcessingService;
-use HiEvents\Services\Domain\Order\OrderManagementService;
+use Ciencia\DomainObjects\AffiliateDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\Generated\AffiliateDomainObjectAbstract;
+use Ciencia\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
+use Ciencia\DomainObjects\Status\AffiliateStatus;
+use Ciencia\DomainObjects\Status\EventStatus;
+use Ciencia\Repository\Interfaces\AffiliateRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Order\DTO\CreateOrderPublicDTO;
+use Ciencia\Services\Domain\Order\OrderItemProcessingService;
+use Ciencia\Services\Domain\Order\OrderManagementService;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Validation\UnauthorizedException;
 use Throwable;

@@ -1,18 +1,18 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\PromoCode;
+namespace Ciencia\Services\Application\Handlers\PromoCode;
 
-use HiEvents\DomainObjects\Enums\PromoCodeDiscountTypeEnum;
-use HiEvents\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
-use HiEvents\DomainObjects\PromoCodeDomainObject;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Helper\DateHelper;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
-use HiEvents\Services\Application\Handlers\PromoCode\DTO\UpsertPromoCodeDTO;
-use HiEvents\Services\Domain\Product\EventProductValidationService;
-use HiEvents\Services\Domain\Product\Exception\UnrecognizedProductIdException;
+use Ciencia\DomainObjects\Enums\PromoCodeDiscountTypeEnum;
+use Ciencia\DomainObjects\Generated\PromoCodeDomainObjectAbstract;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Helper\DateHelper;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\Services\Application\Handlers\PromoCode\DTO\UpsertPromoCodeDTO;
+use Ciencia\Services\Domain\Product\EventProductValidationService;
+use Ciencia\Services\Domain\Product\Exception\UnrecognizedProductIdException;
 
 readonly class UpdatePromoCodeHandler
 {

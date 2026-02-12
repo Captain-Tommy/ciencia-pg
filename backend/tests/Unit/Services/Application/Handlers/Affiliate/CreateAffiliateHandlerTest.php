@@ -2,12 +2,12 @@
 
 namespace Tests\Unit\Services\Application\Handlers\Affiliate;
 
-use HiEvents\DomainObjects\AffiliateDomainObject;
-use HiEvents\DomainObjects\Status\AffiliateStatus;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Repository\Interfaces\AffiliateRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Affiliate\CreateAffiliateHandler;
-use HiEvents\Services\Application\Handlers\Affiliate\DTO\UpsertAffiliateDTO;
+use Ciencia\DomainObjects\AffiliateDomainObject;
+use Ciencia\DomainObjects\Status\AffiliateStatus;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Repository\Interfaces\AffiliateRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Affiliate\CreateAffiliateHandler;
+use Ciencia\Services\Application\Handlers\Affiliate\DTO\UpsertAffiliateDTO;
 use Mockery as m;
 use Tests\TestCase;
 

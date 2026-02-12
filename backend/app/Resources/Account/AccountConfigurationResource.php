@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Resources\Account;
+namespace Ciencia\Resources\Account;
 
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 /**

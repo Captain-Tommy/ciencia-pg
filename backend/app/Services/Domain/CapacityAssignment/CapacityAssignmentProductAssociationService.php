@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Domain\CapacityAssignment;
+namespace Ciencia\Services\Domain\CapacityAssignment;
 
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
 use Illuminate\Database\DatabaseManager;
 
 class CapacityAssignmentProductAssociationService

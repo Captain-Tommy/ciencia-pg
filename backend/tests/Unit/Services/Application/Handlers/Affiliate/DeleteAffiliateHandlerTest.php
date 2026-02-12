@@ -2,9 +2,9 @@
 
 namespace Tests\Unit\Services\Application\Handlers\Affiliate;
 
-use HiEvents\DomainObjects\AffiliateDomainObject;
-use HiEvents\Repository\Interfaces\AffiliateRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Affiliate\DeleteAffiliateHandler;
+use Ciencia\DomainObjects\AffiliateDomainObject;
+use Ciencia\Repository\Interfaces\AffiliateRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Affiliate\DeleteAffiliateHandler;
 use Mockery as m;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Tests\TestCase;

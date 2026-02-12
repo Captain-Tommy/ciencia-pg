@@ -1,21 +1,21 @@
 <?php
 
-namespace HiEvents\Services\Domain\SelfService;
+namespace Ciencia\Services\Domain\SelfService;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\InvoiceDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Helper\IdHelper;
-use HiEvents\Mail\Order\OrderDetailsChangedMail;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Domain\Mail\SendOrderDetailsService;
-use HiEvents\Services\Domain\SelfService\DTO\EditOrderResultDTO;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\InvoiceDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Helper\IdHelper;
+use Ciencia\Mail\Order\OrderDetailsChangedMail;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Domain\Mail\SendOrderDetailsService;
+use Ciencia\Services\Domain\SelfService\DTO\EditOrderResultDTO;
 use Illuminate\Support\Facades\Mail;
 
 class SelfServiceEditOrderService

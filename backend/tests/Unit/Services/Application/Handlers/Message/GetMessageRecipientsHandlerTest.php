@@ -2,12 +2,12 @@
 
 namespace Tests\Unit\Services\Application\Handlers\Message;
 
-use HiEvents\DomainObjects\MessageDomainObject;
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Http\DTO\QueryParamsDTO;
-use HiEvents\Repository\Interfaces\MessageRepositoryInterface;
-use HiEvents\Repository\Interfaces\OutgoingMessageRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Message\GetMessageRecipientsHandler;
+use Ciencia\DomainObjects\MessageDomainObject;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Http\DTO\QueryParamsDTO;
+use Ciencia\Repository\Interfaces\MessageRepositoryInterface;
+use Ciencia\Repository\Interfaces\OutgoingMessageRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Message\GetMessageRecipientsHandler;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Mockery as m;
 use Tests\TestCase;

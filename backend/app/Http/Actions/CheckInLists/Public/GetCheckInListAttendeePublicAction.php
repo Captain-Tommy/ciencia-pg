@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\CheckInLists\Public;
+namespace Ciencia\Http\Actions\CheckInLists\Public;
 
-use HiEvents\Exceptions\CannotCheckInException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Attendee\AttendeeWithCheckInPublicResource;
-use HiEvents\Services\Application\Handlers\CheckInList\Public\GetCheckInListAttendeePublicHandler;
+use Ciencia\Exceptions\CannotCheckInException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Attendee\AttendeeWithCheckInPublicResource;
+use Ciencia\Services\Application\Handlers\CheckInList\Public\GetCheckInListAttendeePublicHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;

@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\Events;
+namespace Ciencia\Http\Actions\Events;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\CannotChangeCurrencyException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Event\UpdateEventRequest;
-use HiEvents\Resources\Event\EventResource;
-use HiEvents\Services\Application\Handlers\Event\DTO\UpdateEventDTO;
-use HiEvents\Services\Application\Handlers\Event\UpdateEventHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\CannotChangeCurrencyException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Event\UpdateEventRequest;
+use Ciencia\Resources\Event\EventResource;
+use Ciencia\Services\Application\Handlers\Event\DTO\UpdateEventDTO;
+use Ciencia\Services\Application\Handlers\Event\UpdateEventHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\ValidationException;
 use Throwable;

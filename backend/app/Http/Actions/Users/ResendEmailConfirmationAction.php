@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Actions\Users;
+namespace Ciencia\Http\Actions\Users;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\User\ResendEmailConfirmationHandler;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\User\ResendEmailConfirmationHandler;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Cache;
 use Symfony\Component\HttpKernel\Exception\TooManyRequestsHttpException;

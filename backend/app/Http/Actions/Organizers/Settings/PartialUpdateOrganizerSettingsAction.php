@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Organizers\Settings;
+namespace Ciencia\Http\Actions\Organizers\Settings;
 
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Organizer\Settings\PartialUpdateOrganizerSettingsRequest;
-use HiEvents\Resources\Organizer\OrganizerSettingsResource;
-use HiEvents\Services\Application\Handlers\Organizer\DTO\PartialUpdateOrganizerSettingsDTO;
-use HiEvents\Services\Application\Handlers\Organizer\Settings\PartialUpdateOrganizerSettingsHandler;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Organizer\Settings\PartialUpdateOrganizerSettingsRequest;
+use Ciencia\Resources\Organizer\OrganizerSettingsResource;
+use Ciencia\Services\Application\Handlers\Organizer\DTO\PartialUpdateOrganizerSettingsDTO;
+use Ciencia\Services\Application\Handlers\Organizer\Settings\PartialUpdateOrganizerSettingsHandler;
 use Illuminate\Http\JsonResponse;
 
 class PartialUpdateOrganizerSettingsAction extends BaseAction

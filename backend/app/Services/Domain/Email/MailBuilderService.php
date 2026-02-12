@@ -1,17 +1,17 @@
 <?php
 
-namespace HiEvents\Services\Domain\Email;
+namespace Ciencia\Services\Domain\Email;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\InvoiceDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Mail\Attendee\AttendeeTicketMail;
-use HiEvents\Mail\Order\OrderSummary;
-use HiEvents\Services\Domain\Email\DTO\RenderedEmailTemplateDTO;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\InvoiceDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Mail\Attendee\AttendeeTicketMail;
+use Ciencia\Mail\Order\OrderSummary;
+use Ciencia\Services\Domain\Email\DTO\RenderedEmailTemplateDTO;
 
 class MailBuilderService
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Events;
+namespace Ciencia\Events;
 
 use Illuminate\Bus\Dispatcher as QueueDispatcher;
 use Illuminate\Events\Dispatcher as EventDispatcher;

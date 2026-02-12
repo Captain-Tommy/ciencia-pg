@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\ProductCategories;
+namespace Ciencia\Http\Actions\ProductCategories;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\ProductCategory\UpsertProductCategoryRequest;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Resources\ProductCategory\ProductCategoryResource;
-use HiEvents\Services\Application\Handlers\ProductCategory\CreateProductCategoryHandler;
-use HiEvents\Services\Application\Handlers\ProductCategory\DTO\UpsertProductCategoryDTO;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\ProductCategory\UpsertProductCategoryRequest;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Resources\ProductCategory\ProductCategoryResource;
+use Ciencia\Services\Application\Handlers\ProductCategory\CreateProductCategoryHandler;
+use Ciencia\Services\Application\Handlers\ProductCategory\DTO\UpsertProductCategoryDTO;
 use Illuminate\Http\JsonResponse;
 
 class CreateProductCategoryAction extends BaseAction

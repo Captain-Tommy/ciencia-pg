@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Sitemap;
+namespace Ciencia\Http\Actions\Sitemap;
 
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Sitemap\GetSitemapEventsHandler;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Sitemap\GetSitemapEventsHandler;
 use Illuminate\Http\Response;
 
 class GetSitemapEventsAction extends BaseAction

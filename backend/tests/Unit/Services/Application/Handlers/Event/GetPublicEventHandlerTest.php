@@ -2,14 +2,14 @@
 
 namespace Tests\Unit\Services\Application\Handlers\Event;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\PromoCodeDomainObject;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\PromoCodeRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Event\DTO\GetPublicEventDTO;
-use HiEvents\Services\Application\Handlers\Event\GetPublicEventHandler;
-use HiEvents\Services\Domain\Event\EventPageViewIncrementService;
-use HiEvents\Services\Domain\Product\ProductFilterService;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\PromoCodeDomainObject;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\PromoCodeRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Event\DTO\GetPublicEventDTO;
+use Ciencia\Services\Application\Handlers\Event\GetPublicEventHandler;
+use Ciencia\Services\Domain\Event\EventPageViewIncrementService;
+use Ciencia\Services\Domain\Product\ProductFilterService;
 use Mockery as m;
 use Tests\TestCase;
 

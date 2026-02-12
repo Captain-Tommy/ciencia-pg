@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Orders\Public;
+namespace Ciencia\Http\Actions\Orders\Public;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Order\OrderResourcePublic;
-use HiEvents\Services\Application\Handlers\Order\DTO\TransitionOrderToOfflinePaymentPublicDTO;
-use HiEvents\Services\Application\Handlers\Order\TransitionOrderToOfflinePaymentHandler;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Order\OrderResourcePublic;
+use Ciencia\Services\Application\Handlers\Order\DTO\TransitionOrderToOfflinePaymentPublicDTO;
+use Ciencia\Services\Application\Handlers\Order\TransitionOrderToOfflinePaymentHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Products;
+namespace Ciencia\Http\Actions\Products;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\InvalidTaxOrFeeIdException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Product\UpsertProductRequest;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Resources\Product\ProductResource;
-use HiEvents\Services\Application\Handlers\Product\CreateProductHandler;
-use HiEvents\Services\Application\Handlers\Product\DTO\UpsertProductDTO;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\InvalidTaxOrFeeIdException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Product\UpsertProductRequest;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Resources\Product\ProductResource;
+use Ciencia\Services\Application\Handlers\Product\CreateProductHandler;
+use Ciencia\Services\Application\Handlers\Product\DTO\UpsertProductDTO;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\ValidationException;
 use Throwable;

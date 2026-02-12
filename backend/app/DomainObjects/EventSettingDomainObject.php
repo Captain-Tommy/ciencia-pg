@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
-use HiEvents\DataTransferObjects\AddressDTO;
-use HiEvents\Helper\AddressHelper;
+use Ciencia\DataTransferObjects\AddressDTO;
+use Ciencia\Helper\AddressHelper;
 
 class EventSettingDomainObject extends Generated\EventSettingDomainObjectAbstract
 {

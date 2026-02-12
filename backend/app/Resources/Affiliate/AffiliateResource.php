@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Resources\Affiliate;
+namespace Ciencia\Resources\Affiliate;
 
-use HiEvents\DomainObjects\AffiliateDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\AffiliateDomainObject;
+use Ciencia\Resources\BaseResource;
 use Illuminate\Http\Request;
 
 /**

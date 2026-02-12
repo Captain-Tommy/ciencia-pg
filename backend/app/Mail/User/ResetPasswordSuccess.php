@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Mail\User;
+namespace Ciencia\Mail\User;
 
-use HiEvents\Mail\BaseMail;
+use Ciencia\Mail\BaseMail;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 

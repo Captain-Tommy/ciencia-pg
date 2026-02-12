@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Mail\Organizer;
+namespace Ciencia\Mail\Organizer;
 
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Mail\BaseMail;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Mail\BaseMail;
 use Illuminate\Mail\Mailables\Address;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;

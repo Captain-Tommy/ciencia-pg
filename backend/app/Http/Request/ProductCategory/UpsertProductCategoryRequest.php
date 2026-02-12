@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Http\Request\ProductCategory;
+namespace Ciencia\Http\Request\ProductCategory;
 
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\Http\Request\BaseRequest;
 
 class UpsertProductCategoryRequest extends BaseRequest
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\EmailTemplate;
+namespace Ciencia\Services\Application\Handlers\EmailTemplate;
 
-use HiEvents\Services\Application\Handlers\EmailTemplate\DTO\PreviewEmailTemplateDTO;
-use HiEvents\Services\Domain\Email\EmailTemplateService;
+use Ciencia\Services\Application\Handlers\EmailTemplate\DTO\PreviewEmailTemplateDTO;
+use Ciencia\Services\Domain\Email\EmailTemplateService;
 
 class PreviewEmailTemplateHandler
 {

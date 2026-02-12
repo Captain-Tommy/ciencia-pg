@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\DomainEvents\Enums;
+namespace Ciencia\Services\Infrastructure\DomainEvents\Enums;
 
-use HiEvents\DomainObjects\Enums\BaseEnum;
+use Ciencia\DomainObjects\Enums\BaseEnum;
 
 enum DomainEventType: string
 {

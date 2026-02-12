@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Domain\ProductCategory;
+namespace Ciencia\Services\Domain\ProductCategory;
 
-use HiEvents\DomainObjects\Generated\ProductCategoryDomainObjectAbstract;
-use HiEvents\DomainObjects\ProductCategoryDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Repository\Eloquent\Value\OrderAndDirection;
-use HiEvents\Repository\Eloquent\Value\Relationship;
-use HiEvents\Repository\Interfaces\ProductCategoryRepositoryInterface;
+use Ciencia\DomainObjects\Generated\ProductCategoryDomainObjectAbstract;
+use Ciencia\DomainObjects\ProductCategoryDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Repository\Eloquent\Value\OrderAndDirection;
+use Ciencia\Repository\Eloquent\Value\Relationship;
+use Ciencia\Repository\Interfaces\ProductCategoryRepositoryInterface;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 class GetProductCategoryService

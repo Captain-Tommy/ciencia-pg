@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Events;
+namespace Ciencia\Events;
 
-use HiEvents\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
 use Illuminate\Foundation\Events\Dispatchable;
 
 class OrderStatusChangedEvent

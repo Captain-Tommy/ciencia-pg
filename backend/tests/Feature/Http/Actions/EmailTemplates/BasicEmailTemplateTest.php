@@ -2,9 +2,9 @@
 
 namespace Tests\Feature\Http\Actions\EmailTemplates;
 
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Models\AccountConfiguration;
-use HiEvents\Models\User;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Models\AccountConfiguration;
+use Ciencia\Models\User;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Tests\TestCase;
 

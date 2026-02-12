@@ -1,6 +1,6 @@
 <?php
 
-use HiEvents\DomainObjects\Status\WebhookStatus;
+use Ciencia\DomainObjects\Status\WebhookStatus;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;

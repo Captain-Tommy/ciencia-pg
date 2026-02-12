@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Repository\Eloquent;
+namespace Ciencia\Repository\Eloquent;
 
-use HiEvents\Repository\Interfaces\StripePayoutsRepositoryInterface;
-use HiEvents\Models\StripePayout;
-use HiEvents\DomainObjects\StripePayoutDomainObject;
+use Ciencia\Repository\Interfaces\StripePayoutsRepositoryInterface;
+use Ciencia\Models\StripePayout;
+use Ciencia\DomainObjects\StripePayoutDomainObject;
 
 class StripePayoutsRepository extends BaseRepository implements StripePayoutsRepositoryInterface
 {

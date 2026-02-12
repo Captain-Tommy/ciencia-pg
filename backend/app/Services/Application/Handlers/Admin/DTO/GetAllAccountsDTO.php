@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Admin\DTO;
+namespace Ciencia\Services\Application\Handlers\Admin\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
+use Ciencia\DataTransferObjects\BaseDataObject;
 
 class GetAllAccountsDTO extends BaseDataObject
 {

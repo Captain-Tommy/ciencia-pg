@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\Order;
+namespace Ciencia\Resources\Order;
 
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\Resources\BaseResource;
 use Illuminate\Http\Request;
 
 /**

@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Users;
+namespace Ciencia\Http\Actions\Users;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\User\ConfirmEmailWithCodeHandler;
-use HiEvents\Services\Application\Handlers\User\DTO\ConfirmEmailWithCodeDTO;
-use HiEvents\Services\Application\Handlers\User\Exception\InvalidEmailVerificationCodeException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\User\ConfirmEmailWithCodeHandler;
+use Ciencia\Services\Application\Handlers\User\DTO\ConfirmEmailWithCodeDTO;
+use Ciencia\Services\Application\Handlers\User\Exception\InvalidEmailVerificationCodeException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;

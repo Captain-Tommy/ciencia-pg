@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\DataTransferObjects\Attributes;
+namespace Ciencia\DataTransferObjects\Attributes;
 
 use Attribute;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Questions;
+namespace Ciencia\Http\Actions\Questions;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Questions\SortQuestionsRequest;
-use HiEvents\Services\Application\Handlers\Question\SortQuestionsHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Questions\SortQuestionsRequest;
+use Ciencia\Services\Application\Handlers\Question\SortQuestionsHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;

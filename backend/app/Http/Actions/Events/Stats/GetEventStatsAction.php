@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Http\Actions\Events\Stats;
+namespace Ciencia\Http\Actions\Events\Stats;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Event\DTO\EventStatsRequestDTO;
-use HiEvents\Services\Application\Handlers\Event\GetEventStatsHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Event\DTO\EventStatsRequestDTO;
+use Ciencia\Services\Application\Handlers\Event\GetEventStatsHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\JsonResource;
 

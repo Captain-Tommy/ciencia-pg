@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Domain\CheckInList;
+namespace Ciencia\Services\Domain\CheckInList;
 
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
 use Illuminate\Database\DatabaseManager;
 
 class CheckInListProductAssociationService

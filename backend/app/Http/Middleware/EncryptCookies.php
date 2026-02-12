@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Http\Middleware;
+namespace Ciencia\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as Middleware;
 

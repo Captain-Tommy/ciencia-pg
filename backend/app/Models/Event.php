@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Models;
+namespace Ciencia\Models;
 
-use HiEvents\DomainObjects\Generated\EventDomainObjectAbstract;
-use HiEvents\Models\Traits\HasImages;
+use Ciencia\DomainObjects\Generated\EventDomainObjectAbstract;
+use Ciencia\Models\Traits\HasImages;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;

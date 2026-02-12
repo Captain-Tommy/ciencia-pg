@@ -2,13 +2,13 @@
 
 namespace Tests\Unit\Services\Domain\Order;
 
-use HiEvents\DomainObjects\AccountConfigurationDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\Services\Domain\Order\OrderApplicationFeeCalculationService;
-use HiEvents\Services\Domain\Order\Vat\VatRateDeterminationService;
-use HiEvents\Services\Infrastructure\CurrencyConversion\CurrencyConversionClientInterface;
-use HiEvents\Values\MoneyValue;
+use Ciencia\DomainObjects\AccountConfigurationDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\Services\Domain\Order\OrderApplicationFeeCalculationService;
+use Ciencia\Services\Domain\Order\Vat\VatRateDeterminationService;
+use Ciencia\Services\Infrastructure\CurrencyConversion\CurrencyConversionClientInterface;
+use Ciencia\Values\MoneyValue;
 use Illuminate\Config\Repository;
 use PHPUnit\Framework\TestCase;
 

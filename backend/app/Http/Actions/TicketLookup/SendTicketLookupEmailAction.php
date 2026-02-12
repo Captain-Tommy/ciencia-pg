@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\TicketLookup;
+namespace Ciencia\Http\Actions\TicketLookup;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\TicketLookup\SendTicketLookupEmailRequest;
-use HiEvents\Services\Application\Handlers\TicketLookup\DTO\SendTicketLookupEmailDTO;
-use HiEvents\Services\Application\Handlers\TicketLookup\SendTicketLookupEmailHandler;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\TicketLookup\SendTicketLookupEmailRequest;
+use Ciencia\Services\Application\Handlers\TicketLookup\DTO\SendTicketLookupEmailDTO;
+use Ciencia\Services\Application\Handlers\TicketLookup\SendTicketLookupEmailHandler;
 use Illuminate\Http\JsonResponse;
 
 class SendTicketLookupEmailAction extends BaseAction

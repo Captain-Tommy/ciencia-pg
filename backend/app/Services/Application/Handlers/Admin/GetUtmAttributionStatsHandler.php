@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
-use HiEvents\Repository\Interfaces\AccountAttributionRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Admin\DTO\GetUtmAttributionStatsDTO;
+use Ciencia\Repository\Interfaces\AccountAttributionRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Admin\DTO\GetUtmAttributionStatsDTO;
 
 class GetUtmAttributionStatsHandler
 {

@@ -120,7 +120,7 @@ export interface Account {
     configuration?: AccountConfiguration;
     requires_manual_verification?: boolean;
     stripe_platform: string;
-    stripe_hi_events_primary_platform?: string;
+    stripe_ticketing.ciencia2k26.qzz.io_primary_platform?: string;
 }
 
 export interface AccountConfiguration {

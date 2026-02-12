@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Http\Request\Organizer;
+namespace Ciencia\Http\Request\Organizer;
 
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\Http\Request\BaseRequest;
 use Illuminate\Validation\Rule;
 
 class UpsertOrganizerRequest extends BaseRequest

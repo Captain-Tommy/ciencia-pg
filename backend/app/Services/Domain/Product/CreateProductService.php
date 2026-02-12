@@ -1,18 +1,18 @@
 <?php
 
-namespace HiEvents\Services\Domain\Product;
+namespace Ciencia\Services\Domain\Product;
 
 use Exception;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Helper\DateHelper;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Services\Domain\Tax\DTO\TaxAndProductAssociateParams;
-use HiEvents\Services\Domain\Tax\TaxAndProductAssociationService;
-use HiEvents\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\ProductEvent;
-use HiEvents\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Helper\DateHelper;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Services\Domain\Tax\DTO\TaxAndProductAssociateParams;
+use Ciencia\Services\Domain\Tax\TaxAndProductAssociationService;
+use Ciencia\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\ProductEvent;
+use Ciencia\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Support\Collection;
 use Throwable;

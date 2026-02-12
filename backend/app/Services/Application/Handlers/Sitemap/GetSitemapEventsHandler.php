@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Sitemap;
+namespace Ciencia\Services\Application\Handlers\Sitemap;
 
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Services\Domain\Sitemap\SitemapGeneratorService;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Services\Domain\Sitemap\SitemapGeneratorService;
 use Illuminate\Support\Facades\Cache;
 
 class GetSitemapEventsHandler

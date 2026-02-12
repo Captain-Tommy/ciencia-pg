@@ -1,17 +1,17 @@
 <?php
 
-namespace HiEvents\Mail\Attendee;
+namespace Ciencia\Mail\Attendee;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Helper\StringHelper;
-use HiEvents\Helper\Url;
-use HiEvents\Mail\BaseMail;
-use HiEvents\Services\Domain\Email\DTO\RenderedEmailTemplateDTO;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Helper\StringHelper;
+use Ciencia\Helper\Url;
+use Ciencia\Mail\BaseMail;
+use Ciencia\Services\Domain\Email\DTO\RenderedEmailTemplateDTO;
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;

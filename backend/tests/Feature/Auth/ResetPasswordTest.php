@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Tests\Feature\Auth;
 
-use HiEvents\Mail\User\ForgotPassword;
-use HiEvents\Mail\User\ResetPasswordSuccess;
-use HiEvents\Models\AccountConfiguration;
-use HiEvents\Models\User;
+use Ciencia\Mail\User\ForgotPassword;
+use Ciencia\Mail\User\ResetPasswordSuccess;
+use Ciencia\Models\AccountConfiguration;
+use Ciencia\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Mail;
 use ReflectionClass;

@@ -1,8 +1,8 @@
 <?php
 
-use HiEvents\DomainObjects\Enums\CountryCode;
-use HiEvents\Models\AccountStripePlatform;
-use HiEvents\Models\AccountVatSetting;
+use Ciencia\DomainObjects\Enums\CountryCode;
+use Ciencia\Models\AccountStripePlatform;
+use Ciencia\Models\AccountVatSetting;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Migrations\Migration;

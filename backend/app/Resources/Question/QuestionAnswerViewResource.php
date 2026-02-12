@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Resources\Question;
+namespace Ciencia\Resources\Question;
 
-use HiEvents\DomainObjects\Enums\QuestionTypeEnum;
-use HiEvents\DomainObjects\QuestionAndAnswerViewDomainObject;
-use HiEvents\Services\Domain\Question\QuestionAnswerFormatter;
+use Ciencia\DomainObjects\Enums\QuestionTypeEnum;
+use Ciencia\DomainObjects\QuestionAndAnswerViewDomainObject;
+use Ciencia\Services\Domain\Question\QuestionAnswerFormatter;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 

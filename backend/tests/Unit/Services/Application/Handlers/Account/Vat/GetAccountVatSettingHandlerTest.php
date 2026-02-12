@@ -2,9 +2,9 @@
 
 namespace Tests\Unit\Services\Application\Handlers\Account\Vat;
 
-use HiEvents\DomainObjects\AccountVatSettingDomainObject;
-use HiEvents\Repository\Interfaces\AccountVatSettingRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Account\Vat\GetAccountVatSettingHandler;
+use Ciencia\DomainObjects\AccountVatSettingDomainObject;
+use Ciencia\Repository\Interfaces\AccountVatSettingRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Account\Vat\GetAccountVatSettingHandler;
 use Mockery;
 use Tests\TestCase;
 

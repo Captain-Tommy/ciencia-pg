@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Http\Request\Image;
+namespace Ciencia\Http\Request\Image;
 
-use HiEvents\DomainObjects\Enums\ImageType;
+use Ciencia\DomainObjects\Enums\ImageType;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 

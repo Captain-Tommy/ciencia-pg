@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Actions\CheckInLists\Public;
+namespace Ciencia\Http\Actions\CheckInLists\Public;
 
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\CheckInList\CheckInListResourcePublic;
-use HiEvents\Services\Application\Handlers\CheckInList\Public\GetCheckInListPublicHandler;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\CheckInList\CheckInListResourcePublic;
+use Ciencia\Services\Application\Handlers\CheckInList\Public\GetCheckInListPublicHandler;
 use Illuminate\Http\JsonResponse;
 
 class GetCheckInListPublicAction extends BaseAction

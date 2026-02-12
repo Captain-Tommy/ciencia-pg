@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Questions;
+namespace Ciencia\Http\Actions\Questions;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\CannotDeleteEntityException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Question\DeleteQuestionHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\CannotDeleteEntityException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Question\DeleteQuestionHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Throwable;

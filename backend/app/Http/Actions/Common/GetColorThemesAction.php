@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Actions\Common;
+namespace Ciencia\Http\Actions\Common;
 
-use HiEvents\DomainObjects\Enums\ColorTheme;
-use HiEvents\Http\Actions\BaseAction;
+use Ciencia\DomainObjects\Enums\ColorTheme;
+use Ciencia\Http\Actions\BaseAction;
 use Illuminate\Http\JsonResponse;
 
 class GetColorThemesAction extends BaseAction

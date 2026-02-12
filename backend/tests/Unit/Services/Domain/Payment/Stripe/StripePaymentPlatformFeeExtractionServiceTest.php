@@ -2,12 +2,12 @@
 
 namespace Tests\Unit\Services\Domain\Payment\Stripe;
 
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\StripePaymentDomainObject;
-use HiEvents\Repository\Interfaces\OrderPaymentPlatformFeeRepositoryInterface;
-use HiEvents\Services\Domain\Order\OrderPaymentPlatformFeeService;
-use HiEvents\Services\Domain\Payment\Stripe\StripePaymentPlatformFeeExtractionService;
-use HiEvents\Services\Infrastructure\Stripe\StripeClientFactory;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\StripePaymentDomainObject;
+use Ciencia\Repository\Interfaces\OrderPaymentPlatformFeeRepositoryInterface;
+use Ciencia\Services\Domain\Order\OrderPaymentPlatformFeeService;
+use Ciencia\Services\Domain\Payment\Stripe\StripePaymentPlatformFeeExtractionService;
+use Ciencia\Services\Infrastructure\Stripe\StripeClientFactory;
 use Illuminate\Support\Facades\Config;
 use Mockery as m;
 use Psr\Log\LoggerInterface;

@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Request\PromoCode;
+namespace Ciencia\Http\Request\PromoCode;
 
-use HiEvents\DomainObjects\Enums\PromoCodeDiscountTypeEnum;
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\DomainObjects\Enums\PromoCodeDiscountTypeEnum;
+use Ciencia\Http\Request\BaseRequest;
 use Illuminate\Validation\Rule;
 
 class CreateUpdatePromoCodeRequest extends BaseRequest

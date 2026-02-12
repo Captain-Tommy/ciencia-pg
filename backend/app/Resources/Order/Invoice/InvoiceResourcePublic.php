@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\Order\Invoice;
+namespace Ciencia\Resources\Order\Invoice;
 
-use HiEvents\DomainObjects\InvoiceDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\InvoiceDomainObject;
+use Ciencia\Resources\BaseResource;
 
 /** @mixin InvoiceDomainObject */
 class InvoiceResourcePublic extends BaseResource

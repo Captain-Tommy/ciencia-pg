@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Accounts;
+namespace Ciencia\Http\Actions\Accounts;
 
-use HiEvents\Exceptions\EmailAlreadyExists;
-use HiEvents\Exceptions\UnauthorizedException;
-use HiEvents\Http\Actions\Auth\BaseAuthAction;
-use HiEvents\Http\Request\Account\CreateAccountRequest;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Resources\Account\AccountResource;
-use HiEvents\Services\Application\Handlers\Account\CreateAccountHandler;
-use HiEvents\Services\Application\Handlers\Account\DTO\CreateAccountDTO;
-use HiEvents\Services\Application\Handlers\Account\Exceptions\AccountConfigurationDoesNotExist;
-use HiEvents\Services\Application\Handlers\Account\Exceptions\AccountRegistrationDisabledException;
-use HiEvents\Services\Application\Handlers\Auth\DTO\LoginCredentialsDTO;
-use HiEvents\Services\Application\Handlers\Auth\LoginHandler;
-use HiEvents\Services\Application\Locale\LocaleService;
+use Ciencia\Exceptions\EmailAlreadyExists;
+use Ciencia\Exceptions\UnauthorizedException;
+use Ciencia\Http\Actions\Auth\BaseAuthAction;
+use Ciencia\Http\Request\Account\CreateAccountRequest;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Resources\Account\AccountResource;
+use Ciencia\Services\Application\Handlers\Account\CreateAccountHandler;
+use Ciencia\Services\Application\Handlers\Account\DTO\CreateAccountDTO;
+use Ciencia\Services\Application\Handlers\Account\Exceptions\AccountConfigurationDoesNotExist;
+use Ciencia\Services\Application\Handlers\Account\Exceptions\AccountRegistrationDisabledException;
+use Ciencia\Services\Application\Handlers\Auth\DTO\LoginCredentialsDTO;
+use Ciencia\Services\Application\Handlers\Auth\LoginHandler;
+use Ciencia\Services\Application\Locale\LocaleService;
 use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\ValidationException;

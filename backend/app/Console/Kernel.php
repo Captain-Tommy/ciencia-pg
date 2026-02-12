@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Console;
+namespace Ciencia\Console;
 
-use HiEvents\Jobs\Message\SendScheduledMessagesJob;
+use Ciencia\Jobs\Message\SendScheduledMessagesJob;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 

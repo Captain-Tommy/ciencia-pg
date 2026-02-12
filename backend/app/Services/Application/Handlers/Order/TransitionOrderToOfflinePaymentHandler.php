@@ -1,24 +1,24 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order;
+namespace Ciencia\Services\Application\Handlers\Order;
 
-use HiEvents\DomainObjects\Enums\PaymentProviders;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\Generated\OrderDomainObjectAbstract;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\Status\OrderPaymentStatus;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Events\OrderStatusChangedEvent;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Exceptions\UnauthorizedException;
-use HiEvents\Repository\Interfaces\EventSettingsRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Order\DTO\TransitionOrderToOfflinePaymentPublicDTO;
-use HiEvents\Services\Domain\Product\ProductQuantityUpdateService;
-use HiEvents\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
-use HiEvents\Services\Infrastructure\DomainEvents\Events\OrderEvent;
+use Ciencia\DomainObjects\Enums\PaymentProviders;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\Generated\OrderDomainObjectAbstract;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\Status\OrderPaymentStatus;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Events\OrderStatusChangedEvent;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Exceptions\UnauthorizedException;
+use Ciencia\Repository\Interfaces\EventSettingsRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Order\DTO\TransitionOrderToOfflinePaymentPublicDTO;
+use Ciencia\Services\Domain\Product\ProductQuantityUpdateService;
+use Ciencia\Services\Infrastructure\DomainEvents\DomainEventDispatcherService;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\Services\Infrastructure\DomainEvents\Events\OrderEvent;
 use Illuminate\Database\DatabaseManager;
 
 class TransitionOrderToOfflinePaymentHandler

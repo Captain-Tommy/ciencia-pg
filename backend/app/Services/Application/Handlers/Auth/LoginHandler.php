@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Auth;
+namespace Ciencia\Services\Application\Handlers\Auth;
 
-use HiEvents\Repository\Interfaces\AccountUserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Auth\DTO\LoginCredentialsDTO;
-use HiEvents\Services\Domain\Auth\DTO\LoginResponse;
-use HiEvents\Services\Domain\Auth\LoginService;
+use Ciencia\Repository\Interfaces\AccountUserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Auth\DTO\LoginCredentialsDTO;
+use Ciencia\Services\Domain\Auth\DTO\LoginResponse;
+use Ciencia\Services\Domain\Auth\LoginService;
 
 readonly class LoginHandler
 {

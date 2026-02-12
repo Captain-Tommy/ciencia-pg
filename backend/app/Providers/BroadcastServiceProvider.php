@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Providers;
+namespace Ciencia\Providers;
 
 use Illuminate\Support\Facades\Broadcast;
 use Illuminate\Support\ServiceProvider;

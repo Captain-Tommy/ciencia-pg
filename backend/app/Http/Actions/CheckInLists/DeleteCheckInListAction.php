@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Actions\CheckInLists;
+namespace Ciencia\Http\Actions\CheckInLists;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\CheckInList\DeleteCheckInListHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\CheckInList\DeleteCheckInListHandler;
 use Illuminate\Http\Response;
 
 class DeleteCheckInListAction extends BaseAction

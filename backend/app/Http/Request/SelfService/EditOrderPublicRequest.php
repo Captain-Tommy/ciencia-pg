@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Http\Request\SelfService;
+namespace Ciencia\Http\Request\SelfService;
 
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\Http\Request\BaseRequest;
 
 class EditOrderPublicRequest extends BaseRequest
 {

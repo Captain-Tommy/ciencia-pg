@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
-use HiEvents\Models\Message;
-use HiEvents\Services\Application\Handlers\Admin\DTO\GetAllMessagesForAdminDTO;
+use Ciencia\Models\Message;
+use Ciencia\Services\Application\Handlers\Admin\DTO\GetAllMessagesForAdminDTO;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 
 class GetAllMessagesForAdminHandler

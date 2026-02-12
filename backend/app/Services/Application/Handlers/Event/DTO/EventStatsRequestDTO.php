@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event\DTO;
+namespace Ciencia\Services\Application\Handlers\Event\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class EventStatsRequestDTO extends BaseDTO
 {

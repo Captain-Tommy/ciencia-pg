@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Account\Payment\Stripe;
+namespace Ciencia\Services\Application\Handlers\Account\Payment\Stripe;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\DomainObjects\AccountStripePlatformDomainObject;
-use HiEvents\DomainObjects\Enums\StripePlatform;
-use HiEvents\Exceptions\Stripe\StripeClientConfigurationException;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Account\Payment\Stripe\DTO\GetStripeConnectAccountsResponseDTO;
-use HiEvents\Services\Application\Handlers\Account\Payment\Stripe\DTO\StripeConnectAccountDTO;
-use HiEvents\Services\Domain\Payment\Stripe\StripeAccountSyncService;
-use HiEvents\Services\Infrastructure\Stripe\StripeClientFactory;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\DomainObjects\AccountStripePlatformDomainObject;
+use Ciencia\DomainObjects\Enums\StripePlatform;
+use Ciencia\Exceptions\Stripe\StripeClientConfigurationException;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Account\Payment\Stripe\DTO\GetStripeConnectAccountsResponseDTO;
+use Ciencia\Services\Application\Handlers\Account\Payment\Stripe\DTO\StripeConnectAccountDTO;
+use Ciencia\Services\Domain\Payment\Stripe\StripeAccountSyncService;
+use Ciencia\Services\Infrastructure\Stripe\StripeClientFactory;
 use Illuminate\Support\Collection;
 use Psr\Log\LoggerInterface;
 use Throwable;

@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event;
+namespace Ciencia\Services\Application\Handlers\Event;
 
-use HiEvents\DomainObjects\Enums\HomepageBackgroundType;
-use HiEvents\DomainObjects\Enums\ImageType;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Repository\Interfaces\EventSettingsRepositoryInterface;
-use HiEvents\Repository\Interfaces\ImageRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Event\DTO\DeleteEventImageDTO;
+use Ciencia\DomainObjects\Enums\HomepageBackgroundType;
+use Ciencia\DomainObjects\Enums\ImageType;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Repository\Interfaces\EventSettingsRepositoryInterface;
+use Ciencia\Repository\Interfaces\ImageRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Event\DTO\DeleteEventImageDTO;
 use Illuminate\Database\DatabaseManager;
 use Throwable;
 

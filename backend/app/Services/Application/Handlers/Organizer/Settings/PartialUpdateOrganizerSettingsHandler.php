@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Organizer\Settings;
+namespace Ciencia\Services\Application\Handlers\Organizer\Settings;
 
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\OrganizerSettingDomainObject;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrganizerSettingsRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Organizer\DTO\PartialUpdateOrganizerSettingsDTO;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\OrganizerSettingDomainObject;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrganizerSettingsRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Organizer\DTO\PartialUpdateOrganizerSettingsDTO;
 use Spatie\LaravelData\Data;
 
 class PartialUpdateOrganizerSettingsHandler

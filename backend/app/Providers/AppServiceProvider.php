@@ -1,17 +1,17 @@
 <?php
 
-namespace HiEvents\Providers;
+namespace Ciencia\Providers;
 
 use Doctrine\DBAL\Configuration;
 use Doctrine\DBAL\DriverManager;
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Models\Event;
-use HiEvents\Models\Organizer;
-use HiEvents\Services\Infrastructure\CurrencyConversion\CurrencyConversionClientInterface;
-use HiEvents\Services\Infrastructure\CurrencyConversion\NoOpCurrencyConversionClient;
-use HiEvents\Services\Infrastructure\CurrencyConversion\OpenExchangeRatesCurrencyConversionClient;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Models\Event;
+use Ciencia\Models\Organizer;
+use Ciencia\Services\Infrastructure\CurrencyConversion\CurrencyConversionClientInterface;
+use Ciencia\Services\Infrastructure\CurrencyConversion\NoOpCurrencyConversionClient;
+use Ciencia\Services\Infrastructure\CurrencyConversion\OpenExchangeRatesCurrencyConversionClient;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Facades\DB;
@@ -19,8 +19,8 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 use Stripe\StripeClient;
-use HiEvents\Services\Infrastructure\Stripe\StripeConfigurationService;
-use HiEvents\Services\Infrastructure\Stripe\StripeClientFactory;
+use Ciencia\Services\Infrastructure\Stripe\StripeConfigurationService;
+use Ciencia\Services\Infrastructure\Stripe\StripeClientFactory;
 
 class AppServiceProvider extends ServiceProvider
 {

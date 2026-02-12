@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Attendee\DTO;
+namespace Ciencia\Services\Application\Handlers\Attendee\DTO;
 
-use HiEvents\DataTransferObjects\Attributes\CollectionOf;
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\Attributes\CollectionOf;
+use Ciencia\DataTransferObjects\BaseDTO;
 use Illuminate\Support\Collection;
 
 class CreateAttendeeDTO extends BaseDTO

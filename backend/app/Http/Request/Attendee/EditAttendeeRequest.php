@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Request\Attendee;
+namespace Ciencia\Http\Request\Attendee;
 
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Validators\Rules\RulesHelper;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Validators\Rules\RulesHelper;
 
 class EditAttendeeRequest extends BaseRequest
 {

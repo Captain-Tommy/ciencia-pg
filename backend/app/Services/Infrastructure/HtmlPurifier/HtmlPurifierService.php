@@ -1,6 +1,6 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\HtmlPurifier;
+namespace Ciencia\Services\Infrastructure\HtmlPurifier;
 
 use HTMLPurifier;
 use HTMLPurifier_Config;

@@ -1,23 +1,23 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Authorization;
+namespace Ciencia\Services\Infrastructure\Authorization;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\Status\UserStatus;
-use HiEvents\DomainObjects\TaxAndFeesDomainObject;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\UnauthorizedException;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\AccountUserRepositoryInterface;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\ImageRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
-use HiEvents\Repository\Interfaces\TaxAndFeeRepositoryInterface;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\Status\UserStatus;
+use Ciencia\DomainObjects\TaxAndFeesDomainObject;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\UnauthorizedException;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountUserRepositoryInterface;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\ImageRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\Repository\Interfaces\TaxAndFeeRepositoryInterface;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
 use Illuminate\Auth\AuthManager;
 use Illuminate\Foundation\Application;
 

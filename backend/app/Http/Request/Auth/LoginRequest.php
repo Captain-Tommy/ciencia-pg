@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Http\Request\Auth;
+namespace Ciencia\Http\Request\Auth;
 
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\Http\Request\BaseRequest;
 
 class LoginRequest extends BaseRequest
 {

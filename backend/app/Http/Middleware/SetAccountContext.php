@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Middleware;
+namespace Ciencia\Http\Middleware;
 
 use Closure;
-use HiEvents\Models\User;
+use Ciencia\Models\User;
 use Illuminate\Support\Facades\Auth;
 
 class SetAccountContext

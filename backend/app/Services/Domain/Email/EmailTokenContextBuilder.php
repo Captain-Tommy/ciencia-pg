@@ -1,21 +1,21 @@
 <?php
 
-namespace HiEvents\Services\Domain\Email;
+namespace Ciencia\Services\Domain\Email;
 
 use Carbon\Carbon;
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Enums\PaymentProviders;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Helper\AddressHelper;
-use HiEvents\Helper\Currency;
-use HiEvents\Helper\DateHelper;
-use HiEvents\Helper\IdHelper;
-use HiEvents\Helper\Url;
-use HiEvents\Locale;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Enums\PaymentProviders;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Helper\AddressHelper;
+use Ciencia\Helper\Currency;
+use Ciencia\Helper\DateHelper;
+use Ciencia\Helper\IdHelper;
+use Ciencia\Helper\Url;
+use Ciencia\Locale;
 
 class EmailTokenContextBuilder
 {

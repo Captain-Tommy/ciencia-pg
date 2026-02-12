@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Domain\Product\DTO;
+namespace Ciencia\Services\Domain\Product\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DomainObjects\CapacityAssignmentDomainObject;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DomainObjects\CapacityAssignmentDomainObject;
 use Illuminate\Support\Collection;
 
 class AvailableProductQuantitiesDTO extends BaseDTO

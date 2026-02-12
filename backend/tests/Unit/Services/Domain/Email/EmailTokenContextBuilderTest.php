@@ -2,14 +2,14 @@
 
 namespace Tests\Unit\Services\Domain\Email;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\EventSettingDomainObject;
-use HiEvents\DomainObjects\OrderDomainObject;
-use HiEvents\DomainObjects\OrderItemDomainObject;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\DomainObjects\Enums\PaymentProviders;
-use HiEvents\Services\Domain\Email\EmailTokenContextBuilder;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\EventSettingDomainObject;
+use Ciencia\DomainObjects\OrderDomainObject;
+use Ciencia\DomainObjects\OrderItemDomainObject;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\DomainObjects\Enums\PaymentProviders;
+use Ciencia\Services\Domain\Email\EmailTokenContextBuilder;
 use Illuminate\Support\Collection;
 use Mockery;
 use Tests\TestCase;

@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Domain\Organizer;
+namespace Ciencia\Services\Domain\Organizer;
 
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Exceptions\OrganizerNotFoundException;
-use HiEvents\Repository\Interfaces\OrganizerRepositoryInterface;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Exceptions\OrganizerNotFoundException;
+use Ciencia\Repository\Interfaces\OrganizerRepositoryInterface;
 
 class OrganizerFetchService
 {

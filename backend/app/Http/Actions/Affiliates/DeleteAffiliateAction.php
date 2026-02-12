@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Affiliates;
+namespace Ciencia\Http\Actions\Affiliates;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Affiliate\DeleteAffiliateHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Affiliate\DeleteAffiliateHandler;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 

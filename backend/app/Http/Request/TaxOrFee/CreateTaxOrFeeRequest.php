@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Http\Request\TaxOrFee;
+namespace Ciencia\Http\Request\TaxOrFee;
 
-use HiEvents\DomainObjects\Enums\TaxCalculationType;
-use HiEvents\DomainObjects\Enums\TaxType;
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\DomainObjects\Enums\TaxCalculationType;
+use Ciencia\DomainObjects\Enums\TaxType;
+use Ciencia\Http\Request\BaseRequest;
 use Illuminate\Validation\Rule;
 
 class CreateTaxOrFeeRequest extends BaseRequest

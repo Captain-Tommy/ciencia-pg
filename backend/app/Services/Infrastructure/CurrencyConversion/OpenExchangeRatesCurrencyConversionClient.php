@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\CurrencyConversion;
+namespace Ciencia\Services\Infrastructure\CurrencyConversion;
 
 use Brick\Math\Exception\NumberFormatException;
 use Brick\Math\Exception\RoundingNecessaryException;
 use Brick\Money\Currency;
 use Brick\Money\Exception\UnknownCurrencyException;
-use HiEvents\Services\Infrastructure\CurrencyConversion\Exception\CurrencyConversionErrorException;
-use HiEvents\Values\MoneyValue;
+use Ciencia\Services\Infrastructure\CurrencyConversion\Exception\CurrencyConversionErrorException;
+use Ciencia\Values\MoneyValue;
 use JsonException;
 use Psr\Log\LoggerInterface;
 use Psr\SimpleCache\CacheInterface;

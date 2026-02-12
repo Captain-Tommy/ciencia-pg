@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Exceptions;
+namespace Ciencia\Exceptions;
 
 use Exception;
-use HiEvents\Services\Domain\Message\DTO\MessagingTierViolationDTO;
+use Ciencia\Services\Domain\Message\DTO\MessagingTierViolationDTO;
 
 class MessagingTierLimitExceededException extends Exception
 {

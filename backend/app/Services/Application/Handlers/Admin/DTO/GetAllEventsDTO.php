@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Admin\DTO;
+namespace Ciencia\Services\Application\Handlers\Admin\DTO;
 
-use HiEvents\DataTransferObjects\BaseDataObject;
-use HiEvents\DomainObjects\Generated\EventDomainObjectAbstract;
+use Ciencia\DataTransferObjects\BaseDataObject;
+use Ciencia\DomainObjects\Generated\EventDomainObjectAbstract;
 
 class GetAllEventsDTO extends BaseDataObject
 {

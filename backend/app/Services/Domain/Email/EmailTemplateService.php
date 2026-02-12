@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Domain\Email;
+namespace Ciencia\Services\Domain\Email;
 
-use HiEvents\DomainObjects\EmailTemplateDomainObject;
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
-use HiEvents\Repository\Interfaces\EmailTemplateRepositoryInterface;
-use HiEvents\Services\Domain\Email\DTO\RenderedEmailTemplateDTO;
-use HiEvents\Services\Infrastructure\Email\LiquidTemplateRenderer;
+use Ciencia\DomainObjects\EmailTemplateDomainObject;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\Repository\Interfaces\EmailTemplateRepositoryInterface;
+use Ciencia\Services\Domain\Email\DTO\RenderedEmailTemplateDTO;
+use Ciencia\Services\Infrastructure\Email\LiquidTemplateRenderer;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 class EmailTemplateService

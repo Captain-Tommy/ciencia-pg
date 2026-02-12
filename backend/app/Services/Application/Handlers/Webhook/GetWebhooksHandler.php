@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Webhook;
+namespace Ciencia\Services\Application\Handlers\Webhook;
 
-use HiEvents\Repository\Eloquent\Value\OrderAndDirection;
-use HiEvents\Repository\Interfaces\WebhookRepositoryInterface;
+use Ciencia\Repository\Eloquent\Value\OrderAndDirection;
+use Ciencia\Repository\Interfaces\WebhookRepositoryInterface;
 use Illuminate\Support\Collection;
 
 class GetWebhooksHandler

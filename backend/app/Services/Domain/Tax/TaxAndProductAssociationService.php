@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Domain\Tax;
+namespace Ciencia\Services\Domain\Tax;
 
 use Exception;
-use HiEvents\Exceptions\InvalidTaxOrFeeIdException;
-use HiEvents\Repository\Interfaces\ProductRepositoryInterface;
-use HiEvents\Repository\Interfaces\TaxAndFeeRepositoryInterface;
-use HiEvents\Services\Domain\Tax\DTO\TaxAndProductAssociateParams;
+use Ciencia\Exceptions\InvalidTaxOrFeeIdException;
+use Ciencia\Repository\Interfaces\ProductRepositoryInterface;
+use Ciencia\Repository\Interfaces\TaxAndFeeRepositoryInterface;
+use Ciencia\Services\Domain\Tax\DTO\TaxAndProductAssociateParams;
 use Illuminate\Support\Collection;
 
 readonly class TaxAndProductAssociationService

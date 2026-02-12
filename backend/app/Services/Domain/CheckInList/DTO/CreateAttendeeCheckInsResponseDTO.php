@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Domain\CheckInList\DTO;
+namespace Ciencia\Services\Domain\CheckInList\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
-use HiEvents\DataTransferObjects\ErrorBagDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\ErrorBagDTO;
 use Illuminate\Support\Collection;
 
 class CreateAttendeeCheckInsResponseDTO extends BaseDTO

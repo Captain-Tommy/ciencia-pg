@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Resources\Account\Stripe;
+namespace Ciencia\Resources\Account\Stripe;
 
-use HiEvents\Resources\BaseResource;
-use HiEvents\Services\Application\Handlers\Account\Payment\Stripe\DTO\GetStripeConnectAccountsResponseDTO;
-use HiEvents\Services\Application\Handlers\Account\Payment\Stripe\DTO\StripeConnectAccountDTO;
+use Ciencia\Resources\BaseResource;
+use Ciencia\Services\Application\Handlers\Account\Payment\Stripe\DTO\GetStripeConnectAccountsResponseDTO;
+use Ciencia\Services\Application\Handlers\Account\Payment\Stripe\DTO\StripeConnectAccountDTO;
 use Illuminate\Http\Request;
 
 /**

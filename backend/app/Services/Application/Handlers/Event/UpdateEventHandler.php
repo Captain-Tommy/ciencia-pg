@@ -1,17 +1,17 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event;
+namespace Ciencia\Services\Application\Handlers\Event;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Events\Dispatcher;
-use HiEvents\Events\EventUpdateEvent;
-use HiEvents\Exceptions\CannotChangeCurrencyException;
-use HiEvents\Helper\DateHelper;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Repository\Interfaces\OrderRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Event\DTO\UpdateEventDTO;
-use HiEvents\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Events\Dispatcher;
+use Ciencia\Events\EventUpdateEvent;
+use Ciencia\Exceptions\CannotChangeCurrencyException;
+use Ciencia\Helper\DateHelper;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Repository\Interfaces\OrderRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Event\DTO\UpdateEventDTO;
+use Ciencia\Services\Infrastructure\HtmlPurifier\HtmlPurifierService;
 use Illuminate\Database\DatabaseManager;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 use Throwable;

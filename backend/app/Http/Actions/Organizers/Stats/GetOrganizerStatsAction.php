@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\Organizers\Stats;
+namespace Ciencia\Http\Actions\Organizers\Stats;
 
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Organizer\DTO\GetOrganizerStatsRequestDTO;
-use HiEvents\Services\Application\Handlers\Organizer\GetOrganizerStatsHandler;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Organizer\DTO\GetOrganizerStatsRequestDTO;
+use Ciencia\Services\Application\Handlers\Organizer\GetOrganizerStatsHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 

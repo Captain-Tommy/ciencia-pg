@@ -2,9 +2,9 @@
 
 namespace Tests\Unit\Services\Application\Handlers\Admin;
 
-use HiEvents\Models\Account;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Admin\GetAccountHandler;
+use Ciencia\Models\Account;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Admin\GetAccountHandler;
 use Mockery;
 use Tests\TestCase;
 

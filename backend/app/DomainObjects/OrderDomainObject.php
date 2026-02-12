@@ -1,18 +1,18 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
 use Exception;
-use HiEvents\DataTransferObjects\AddressDTO;
-use HiEvents\DomainObjects\Enums\PaymentProviders;
-use HiEvents\DomainObjects\Enums\ProductType;
-use HiEvents\DomainObjects\Interfaces\IsFilterable;
-use HiEvents\DomainObjects\Interfaces\IsSortable;
-use HiEvents\DomainObjects\SortingAndFiltering\AllowedSorts;
-use HiEvents\DomainObjects\Status\OrderPaymentStatus;
-use HiEvents\DomainObjects\Status\OrderRefundStatus;
-use HiEvents\DomainObjects\Status\OrderStatus;
-use HiEvents\Helper\AddressHelper;
+use Ciencia\DataTransferObjects\AddressDTO;
+use Ciencia\DomainObjects\Enums\PaymentProviders;
+use Ciencia\DomainObjects\Enums\ProductType;
+use Ciencia\DomainObjects\Interfaces\IsFilterable;
+use Ciencia\DomainObjects\Interfaces\IsSortable;
+use Ciencia\DomainObjects\SortingAndFiltering\AllowedSorts;
+use Ciencia\DomainObjects\Status\OrderPaymentStatus;
+use Ciencia\DomainObjects\Status\OrderRefundStatus;
+use Ciencia\DomainObjects\Status\OrderStatus;
+use Ciencia\Helper\AddressHelper;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
 use RuntimeException;

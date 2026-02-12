@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Validators\Rules;
+namespace Ciencia\Validators\Rules;
 
-use HiEvents\DomainObjects\Status\AffiliateStatus;
+use Ciencia\DomainObjects\Status\AffiliateStatus;
 use Illuminate\Validation\Rule;
 
 class AffiliateRules

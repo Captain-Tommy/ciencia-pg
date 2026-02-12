@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Images\DTO;
+namespace Ciencia\Services\Application\Handlers\Images\DTO;
 
-use HiEvents\DomainObjects\Enums\ImageType;
+use Ciencia\DomainObjects\Enums\ImageType;
 use Illuminate\Http\UploadedFile;
 
 class CreateImageDTO

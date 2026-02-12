@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event;
+namespace Ciencia\Services\Application\Handlers\Event;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Services\Domain\Event\DTO\DuplicateEventDataDTO;
-use HiEvents\Services\Domain\Event\DuplicateEventService;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Services\Domain\Event\DTO\DuplicateEventDataDTO;
+use Ciencia\Services\Domain\Event\DuplicateEventService;
 use Throwable;
 
 class DuplicateEventHandler

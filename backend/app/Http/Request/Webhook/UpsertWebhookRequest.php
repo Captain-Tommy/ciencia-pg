@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Request\Webhook;
+namespace Ciencia\Http\Request\Webhook;
 
-use HiEvents\DomainObjects\Status\WebhookStatus;
-use HiEvents\Http\Request\BaseRequest;
-use HiEvents\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
-use HiEvents\Validators\Rules\NoInternalUrlRule;
+use Ciencia\DomainObjects\Status\WebhookStatus;
+use Ciencia\Http\Request\BaseRequest;
+use Ciencia\Services\Infrastructure\DomainEvents\Enums\DomainEventType;
+use Ciencia\Validators\Rules\NoInternalUrlRule;
 use Illuminate\Validation\Rule;
 
 class UpsertWebhookRequest extends BaseRequest

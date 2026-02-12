@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Domain;
+namespace Ciencia\Services\Domain;
 
-use HiEvents\DomainObjects\Generated\WebhookDomainObjectAbstract;
-use HiEvents\DomainObjects\Status\WebhookStatus;
-use HiEvents\DomainObjects\WebhookDomainObject;
-use HiEvents\Repository\Interfaces\WebhookRepositoryInterface;
+use Ciencia\DomainObjects\Generated\WebhookDomainObjectAbstract;
+use Ciencia\DomainObjects\Status\WebhookStatus;
+use Ciencia\DomainObjects\WebhookDomainObject;
+use Ciencia\Repository\Interfaces\WebhookRepositoryInterface;
 use Illuminate\Support\Str;
 use Psr\Log\LoggerInterface;
 

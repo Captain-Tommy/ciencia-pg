@@ -1,12 +1,12 @@
 <?php
 
-namespace HiEvents\Services\Domain\Order;
+namespace Ciencia\Services\Domain\Order;
 
-use HiEvents\DomainObjects\Enums\PaymentProviders;
-use HiEvents\DomainObjects\Generated\OrderApplicationFeeDomainObjectAbstract;
-use HiEvents\DomainObjects\Status\OrderApplicationFeeStatus;
-use HiEvents\Helper\Currency;
-use HiEvents\Repository\Interfaces\OrderApplicationFeeRepositoryInterface;
+use Ciencia\DomainObjects\Enums\PaymentProviders;
+use Ciencia\DomainObjects\Generated\OrderApplicationFeeDomainObjectAbstract;
+use Ciencia\DomainObjects\Status\OrderApplicationFeeStatus;
+use Ciencia\Helper\Currency;
+use Ciencia\Repository\Interfaces\OrderApplicationFeeRepositoryInterface;
 
 class OrderApplicationFeeService
 {

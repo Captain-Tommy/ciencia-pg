@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Questions;
+namespace Ciencia\Http\Actions\Questions;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Questions\EditQuestionAnswerRequest;
-use HiEvents\Services\Application\Handlers\Question\DTO\EditQuestionAnswerDTO;
-use HiEvents\Services\Application\Handlers\Question\EditQuestionAnswerHandler;
-use HiEvents\Services\Domain\Question\Exception\InvalidAnswerException;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Questions\EditQuestionAnswerRequest;
+use Ciencia\Services\Application\Handlers\Question\DTO\EditQuestionAnswerDTO;
+use Ciencia\Services\Application\Handlers\Question\EditQuestionAnswerHandler;
+use Ciencia\Services\Domain\Question\Exception\InvalidAnswerException;
 use Illuminate\Http\Response;
 use Illuminate\Validation\ValidationException;
 

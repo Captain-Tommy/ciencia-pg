@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
-use HiEvents\DomainObjects\Enums\StripePlatform;
+use Ciencia\DomainObjects\Enums\StripePlatform;
 
 class StripePaymentDomainObject extends Generated\StripePaymentDomainObjectAbstract
 {

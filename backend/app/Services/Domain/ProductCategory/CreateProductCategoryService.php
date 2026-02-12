@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Domain\ProductCategory;
+namespace Ciencia\Services\Domain\ProductCategory;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\ProductCategoryDomainObject;
-use HiEvents\Repository\Interfaces\ProductCategoryRepositoryInterface;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\ProductCategoryDomainObject;
+use Ciencia\Repository\Interfaces\ProductCategoryRepositoryInterface;
 
 class CreateProductCategoryService
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Event;
+namespace Ciencia\Services\Application\Handlers\Event;
 
-use HiEvents\DomainObjects\ImageDomainObject;
-use HiEvents\Services\Application\Handlers\Event\DTO\CreateEventImageDTO;
-use HiEvents\Services\Domain\Event\CreateEventImageService;
+use Ciencia\DomainObjects\ImageDomainObject;
+use Ciencia\Services\Application\Handlers\Event\DTO\CreateEventImageDTO;
+use Ciencia\Services\Domain\Event\CreateEventImageService;
 use Throwable;
 
 class CreateEventImageHandler

@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Order\Payment\Stripe;
+namespace Ciencia\Services\Application\Handlers\Order\Payment\Stripe;
 
-use HiEvents\Exceptions\CannotAcceptPaymentException;
-use HiEvents\Services\Application\Handlers\Order\Payment\Stripe\DTO\StripeWebhookDTO;
-use HiEvents\Services\Domain\Payment\Stripe\EventHandlers\AccountUpdateHandler;
-use HiEvents\Services\Domain\Payment\Stripe\EventHandlers\ChargeRefundUpdatedHandler;
-use HiEvents\Services\Domain\Payment\Stripe\EventHandlers\ChargeSucceededHandler;
-use HiEvents\Services\Domain\Payment\Stripe\EventHandlers\PaymentIntentFailedHandler;
-use HiEvents\Services\Domain\Payment\Stripe\EventHandlers\PaymentIntentSucceededHandler;
-use HiEvents\Services\Domain\Payment\Stripe\EventHandlers\PayoutPaidHandler;
+use Ciencia\Exceptions\CannotAcceptPaymentException;
+use Ciencia\Services\Application\Handlers\Order\Payment\Stripe\DTO\StripeWebhookDTO;
+use Ciencia\Services\Domain\Payment\Stripe\EventHandlers\AccountUpdateHandler;
+use Ciencia\Services\Domain\Payment\Stripe\EventHandlers\ChargeRefundUpdatedHandler;
+use Ciencia\Services\Domain\Payment\Stripe\EventHandlers\ChargeSucceededHandler;
+use Ciencia\Services\Domain\Payment\Stripe\EventHandlers\PaymentIntentFailedHandler;
+use Ciencia\Services\Domain\Payment\Stripe\EventHandlers\PaymentIntentSucceededHandler;
+use Ciencia\Services\Domain\Payment\Stripe\EventHandlers\PayoutPaidHandler;
 use Illuminate\Cache\Repository;
 use Illuminate\Log\Logger;
 use JsonException;
@@ -18,7 +18,7 @@ use Stripe\Exception\SignatureVerificationException;
 use Stripe\Webhook;
 use Throwable;
 use UnexpectedValueException;
-use HiEvents\Services\Infrastructure\Stripe\StripeConfigurationService;
+use Ciencia\Services\Infrastructure\Stripe\StripeConfigurationService;
 
 class IncomingWebhookHandler
 {

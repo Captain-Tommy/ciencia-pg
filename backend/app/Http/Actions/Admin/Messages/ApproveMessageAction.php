@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Admin\Messages;
+namespace Ciencia\Http\Actions\Admin\Messages;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\Admin\ApproveMessageHandler;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\Admin\ApproveMessageHandler;
 use Illuminate\Http\JsonResponse;
 
 class ApproveMessageAction extends BaseAction

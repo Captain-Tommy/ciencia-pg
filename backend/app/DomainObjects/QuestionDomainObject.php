@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\DomainObjects;
+namespace Ciencia\DomainObjects;
 
-use HiEvents\DomainObjects\Enums\QuestionTypeEnum;
+use Ciencia\DomainObjects\Enums\QuestionTypeEnum;
 use Illuminate\Support\Collection;
 
 class QuestionDomainObject extends Generated\QuestionDomainObjectAbstract

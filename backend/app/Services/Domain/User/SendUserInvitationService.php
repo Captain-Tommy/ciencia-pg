@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Services\Domain\User;
+namespace Ciencia\Services\Domain\User;
 
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Helper\Url;
-use HiEvents\Mail\User\UserInvited;
-use HiEvents\Services\Infrastructure\Encryption\EncryptedPayloadService;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Helper\Url;
+use Ciencia\Mail\User\UserInvited;
+use Ciencia\Services\Infrastructure\Encryption\EncryptedPayloadService;
 use Illuminate\Config\Repository;
 use Illuminate\Contracts\Mail\Mailer;
 

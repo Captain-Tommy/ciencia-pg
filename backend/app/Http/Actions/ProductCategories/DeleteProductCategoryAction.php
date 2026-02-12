@@ -1,11 +1,11 @@
 <?php
 
-namespace HiEvents\Http\Actions\ProductCategories;
+namespace Ciencia\Http\Actions\ProductCategories;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\CannotDeleteEntityException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Services\Application\Handlers\ProductCategory\DeleteProductCategoryHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\CannotDeleteEntityException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Services\Application\Handlers\ProductCategory\DeleteProductCategoryHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Throwable;

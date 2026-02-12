@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Account\DTO;
+namespace Ciencia\Services\Application\Handlers\Account\DTO;
 
-use HiEvents\DataTransferObjects\BaseDTO;
+use Ciencia\DataTransferObjects\BaseDTO;
 
 class UpdateAccountDTO extends BaseDTO
 {

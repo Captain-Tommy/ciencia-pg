@@ -1,8 +1,8 @@
 <?php
 
-namespace HiEvents\Services\Application\Handlers\Question;
+namespace Ciencia\Services\Application\Handlers\Question;
 
-use HiEvents\Repository\Interfaces\QuestionAndAnswerViewRepositoryInterface;
+use Ciencia\Repository\Interfaces\QuestionAndAnswerViewRepositoryInterface;
 use Illuminate\Support\Collection;
 
 class ExportAnswersHandler

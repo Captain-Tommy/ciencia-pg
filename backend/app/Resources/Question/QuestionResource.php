@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Resources\Question;
+namespace Ciencia\Resources\Question;
 
-use HiEvents\DomainObjects\QuestionDomainObject;
-use HiEvents\Resources\BaseResource;
+use Ciencia\DomainObjects\QuestionDomainObject;
+use Ciencia\Resources\BaseResource;
 use Illuminate\Http\Request;
 
 /**

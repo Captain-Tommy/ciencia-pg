@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Resources\Attendee;
+namespace Ciencia\Resources\Attendee;
 
-use HiEvents\DomainObjects\AttendeeDomainObject;
-use HiEvents\DomainObjects\Enums\QuestionBelongsTo;
-use HiEvents\Resources\CheckInList\AttendeeCheckInResource;
-use HiEvents\Resources\Order\OrderResource;
-use HiEvents\Resources\Question\QuestionAnswerViewResource;
-use HiEvents\Resources\Product\ProductResource;
+use Ciencia\DomainObjects\AttendeeDomainObject;
+use Ciencia\DomainObjects\Enums\QuestionBelongsTo;
+use Ciencia\Resources\CheckInList\AttendeeCheckInResource;
+use Ciencia\Resources\Order\OrderResource;
+use Ciencia\Resources\Question\QuestionAnswerViewResource;
+use Ciencia\Resources\Product\ProductResource;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 

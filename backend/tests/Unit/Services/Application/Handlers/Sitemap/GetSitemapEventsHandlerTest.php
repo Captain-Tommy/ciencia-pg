@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Services\Application\Handlers\Sitemap;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\ResourceNotFoundException;
-use HiEvents\Repository\Interfaces\EventRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Sitemap\GetSitemapEventsHandler;
-use HiEvents\Services\Domain\Sitemap\SitemapGeneratorService;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\ResourceNotFoundException;
+use Ciencia\Repository\Interfaces\EventRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Sitemap\GetSitemapEventsHandler;
+use Ciencia\Services\Domain\Sitemap\SitemapGeneratorService;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;

@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Services\Infrastructure\Image;
+namespace Ciencia\Services\Infrastructure\Image;
 
-use HiEvents\Services\Infrastructure\Image\DTO\ImageStorageResponseDTO;
-use HiEvents\Services\Infrastructure\Image\Exception\CouldNotUploadImageException;
+use Ciencia\Services\Infrastructure\Image\DTO\ImageStorageResponseDTO;
+use Ciencia\Services\Infrastructure\Image\Exception\CouldNotUploadImageException;
 use Illuminate\Config\Repository;
 use Illuminate\Filesystem\FilesystemManager;
 use Illuminate\Http\UploadedFile;

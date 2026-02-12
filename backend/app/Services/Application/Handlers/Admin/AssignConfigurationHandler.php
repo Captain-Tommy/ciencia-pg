@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Admin;
+namespace Ciencia\Services\Application\Handlers\Admin;
 
-use HiEvents\Repository\Interfaces\AccountConfigurationRepositoryInterface;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountConfigurationRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 class AssignConfigurationHandler

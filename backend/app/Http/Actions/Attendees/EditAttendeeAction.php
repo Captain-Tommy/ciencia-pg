@@ -1,14 +1,14 @@
 <?php
 
-namespace HiEvents\Http\Actions\Attendees;
+namespace Ciencia\Http\Actions\Attendees;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\Exceptions\NoTicketsAvailableException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\Attendee\EditAttendeeRequest;
-use HiEvents\Resources\Attendee\AttendeeResource;
-use HiEvents\Services\Application\Handlers\Attendee\DTO\EditAttendeeDTO;
-use HiEvents\Services\Application\Handlers\Attendee\EditAttendeeHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\Exceptions\NoTicketsAvailableException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\Attendee\EditAttendeeRequest;
+use Ciencia\Resources\Attendee\AttendeeResource;
+use Ciencia\Services\Application\Handlers\Attendee\DTO\EditAttendeeDTO;
+use Ciencia\Services\Application\Handlers\Attendee\EditAttendeeHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\ValidationException;
 use Throwable;

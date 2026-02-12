@@ -1,13 +1,13 @@
 <?php
 
-namespace HiEvents\Http\Actions\Users;
+namespace Ciencia\Http\Actions\Users;
 
-use HiEvents\Exceptions\PasswordInvalidException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\User\UpdateMeRequest;
-use HiEvents\Resources\User\UserResource;
-use HiEvents\Services\Application\Handlers\User\DTO\UpdateMeDTO;
-use HiEvents\Services\Application\Handlers\User\UpdateMeHandler;
+use Ciencia\Exceptions\PasswordInvalidException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\User\UpdateMeRequest;
+use Ciencia\Resources\User\UserResource;
+use Ciencia\Services\Application\Handlers\User\DTO\UpdateMeDTO;
+use Ciencia\Services\Application\Handlers\User\UpdateMeHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\ValidationException;
 

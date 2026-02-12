@@ -1,16 +1,16 @@
 <?php
 
-namespace HiEvents\Http\Actions\EmailTemplates;
+namespace Ciencia\Http\Actions\EmailTemplates;
 
-use HiEvents\DomainObjects\Enums\EmailTemplateType;
-use HiEvents\DomainObjects\OrganizerDomainObject;
-use HiEvents\Exceptions\AccountNotVerifiedException;
-use HiEvents\Exceptions\EmailTemplateValidationException;
-use HiEvents\Exceptions\ResourceConflictException;
-use HiEvents\Http\Resources\EmailTemplateResource;
-use HiEvents\Http\ResponseCodes;
-use HiEvents\Services\Application\Handlers\EmailTemplate\CreateEmailTemplateHandler;
-use HiEvents\Services\Application\Handlers\EmailTemplate\DTO\UpsertEmailTemplateDTO;
+use Ciencia\DomainObjects\Enums\EmailTemplateType;
+use Ciencia\DomainObjects\OrganizerDomainObject;
+use Ciencia\Exceptions\AccountNotVerifiedException;
+use Ciencia\Exceptions\EmailTemplateValidationException;
+use Ciencia\Exceptions\ResourceConflictException;
+use Ciencia\Http\Resources\EmailTemplateResource;
+use Ciencia\Http\ResponseCodes;
+use Ciencia\Services\Application\Handlers\EmailTemplate\CreateEmailTemplateHandler;
+use Ciencia\Services\Application\Handlers\EmailTemplate\DTO\UpsertEmailTemplateDTO;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;

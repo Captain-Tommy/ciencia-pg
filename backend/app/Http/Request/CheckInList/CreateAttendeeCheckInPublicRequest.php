@@ -1,9 +1,9 @@
 <?php
 
-namespace HiEvents\Http\Request\CheckInList;
+namespace Ciencia\Http\Request\CheckInList;
 
-use HiEvents\DomainObjects\Enums\AttendeeCheckInActionType;
-use HiEvents\Http\Request\BaseRequest;
+use Ciencia\DomainObjects\Enums\AttendeeCheckInActionType;
+use Ciencia\Http\Request\BaseRequest;
 use Illuminate\Validation\Rule;
 
 class CreateAttendeeCheckInPublicRequest extends BaseRequest

@@ -1,15 +1,15 @@
 <?php
 
-namespace HiEvents\Http\Actions\Users;
+namespace Ciencia\Http\Actions\Users;
 
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\CannotUpdateResourceException;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Http\Request\User\UpdateUserRequest;
-use HiEvents\Resources\User\UserResource;
-use HiEvents\Services\Application\Handlers\User\DTO\UpdateUserDTO;
-use HiEvents\Services\Application\Handlers\User\UpdateUserHandler;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\CannotUpdateResourceException;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Http\Request\User\UpdateUserRequest;
+use Ciencia\Resources\User\UserResource;
+use Ciencia\Services\Application\Handlers\User\DTO\UpdateUserDTO;
+use Ciencia\Services\Application\Handlers\User\UpdateUserHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\ValidationException;
 use Throwable;

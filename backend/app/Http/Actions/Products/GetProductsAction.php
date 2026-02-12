@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Http\Actions\Products;
+namespace Ciencia\Http\Actions\Products;
 
-use HiEvents\DomainObjects\EventDomainObject;
-use HiEvents\DomainObjects\ProductDomainObject;
-use HiEvents\Http\Actions\BaseAction;
-use HiEvents\Resources\Product\ProductResource;
-use HiEvents\Services\Application\Handlers\Product\GetProductsHandler;
+use Ciencia\DomainObjects\EventDomainObject;
+use Ciencia\DomainObjects\ProductDomainObject;
+use Ciencia\Http\Actions\BaseAction;
+use Ciencia\Resources\Product\ProductResource;
+use Ciencia\Services\Application\Handlers\Product\GetProductsHandler;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
