@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7649da1e3e0f8fad888953eb259e42b7",
+    "content-hash": "a36e3064cee7e9127fe6cb6df6165266",
     "packages": [
         {
             "name": "amphp/amp",
@@ -1044,25 +1044,25 @@
         },
         {
             "name": "brick/math",
-            "version": "0.13.1",
+            "version": "0.14.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "fc7ed316430118cc7836bf45faff18d5dfc8de04"
+                "reference": "63422359a44b7f06cae63c3b429b59e8efcc0629"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/fc7ed316430118cc7836bf45faff18d5dfc8de04",
-                "reference": "fc7ed316430118cc7836bf45faff18d5dfc8de04",
+                "url": "https://api.github.com/repos/brick/math/zipball/63422359a44b7f06cae63c3b429b59e8efcc0629",
+                "reference": "63422359a44b7f06cae63c3b429b59e8efcc0629",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "php": "^8.2"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.2",
-                "phpunit/phpunit": "^10.1",
-                "vimeo/psalm": "6.8.8"
+                "phpstan/phpstan": "2.1.22",
+                "phpunit/phpunit": "^11.5"
             },
             "type": "library",
             "autoload": {
@@ -1092,7 +1092,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.13.1"
+                "source": "https://github.com/brick/math/tree/0.14.8"
             },
             "funding": [
                 {
@@ -1100,33 +1100,34 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-29T13:50:30+00:00"
+            "time": "2026-02-10T14:33:43+00:00"
         },
         {
             "name": "brick/money",
-            "version": "0.10.2",
+            "version": "0.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/money.git",
-                "reference": "4ee860c0371aabef5faaddcc28b27f208bb67b76"
+                "reference": "44f262f867e6ec56cac21f4e55d630f2fd343eab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/money/zipball/4ee860c0371aabef5faaddcc28b27f208bb67b76",
-                "reference": "4ee860c0371aabef5faaddcc28b27f208bb67b76",
+                "url": "https://api.github.com/repos/brick/money/zipball/44f262f867e6ec56cac21f4e55d630f2fd343eab",
+                "reference": "44f262f867e6ec56cac21f4e55d630f2fd343eab",
                 "shasum": ""
             },
             "require": {
-                "brick/math": "~0.12.0|~0.13.0",
-                "php": "^8.1"
+                "brick/math": "~0.14.4",
+                "php": "^8.2",
+                "symfony/deprecation-contracts": "^2.2|^3.0"
             },
             "require-dev": {
-                "brick/varexporter": "~0.5.0",
+                "brick/varexporter": "0.7.0",
                 "ext-dom": "*",
                 "ext-pdo": "*",
                 "php-coveralls/php-coveralls": "^2.2",
-                "phpunit/phpunit": "^10.1",
-                "vimeo/psalm": "6.3.0"
+                "phpunit/phpunit": "^11.0",
+                "vimeo/psalm": "6.14.3"
             },
             "suggest": {
                 "ext-intl": "Required to format Money objects"
@@ -1149,7 +1150,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/money/issues",
-                "source": "https://github.com/brick/money/tree/0.10.2"
+                "source": "https://github.com/brick/money/tree/0.11.1"
             },
             "funding": [
                 {
@@ -1157,7 +1158,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-08-05T13:08:53+00:00"
+            "time": "2026-02-12T09:47:51+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
