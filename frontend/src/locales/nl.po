@@ -1282,6 +1282,7 @@ msgstr "Campagne"
 #: src/components/common/EmailTemplateSettings/EmailTemplateSettingsBase.tsx:121
 #: src/components/common/PromoCodeTable/index.tsx:40
 #: src/components/common/QuestionAndAnswerList/index.tsx:149
+#: src/components/routes/event/messages.tsx:80
 #: src/components/routes/product-widget/OrderSummaryAndProducts/EditAttendeeModal/index.tsx:85
 #: src/components/routes/product-widget/OrderSummaryAndProducts/EditOrderModal/index.tsx:85
 #: src/utilites/confirmationDialog.tsx:17
@@ -1309,8 +1310,8 @@ msgid "Cancel Order {0}"
 msgstr "Annuleer order {0}"
 
 #: src/components/routes/event/messages.tsx:111
-msgid "Cancel scheduled message"
-msgstr "Gepland bericht annuleren"
+#~ msgid "Cancel scheduled message"
+#~ msgstr "Gepland bericht annuleren"
 
 #: src/components/modals/CancelOrderModal/index.tsx:67
 msgid "Canceling will cancel all attendees associated with this order, and release the tickets back into the available pool."
@@ -1543,6 +1544,14 @@ msgstr "Kies de standaardinstelling voor nieuwe evenementen. Dit kan per eveneme
 msgid "Choose who pays the platform fee. This does not affect additional fees you've configured in your account settings."
 msgstr "Kies wie de platformkosten betaalt. Dit heeft geen invloed op extra kosten die u in uw accountinstellingen hebt geconfigureerd."
 
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
+#~ msgid "Ciencia 2k26 Fee"
+#~ msgstr "Ciencia 2k26 kosten"
+
+#: src/components/routes/organizer/Reports/index.tsx:42
+msgid "Ciencia 2k26 platform fees and VAT breakdown by transaction"
+msgstr "Ciencia 2k26 platformkosten en BTW-uitsplitsing per transactie"
+
 #: src/components/common/CheckoutQuestion/index.tsx:162
 #: src/components/routes/event/Settings/Sections/LocationSettings/index.tsx:134
 #: src/components/routes/organizer/Settings/Sections/AddressSettings/index.tsx:92
@@ -1720,8 +1729,8 @@ msgstr "Afgeronde bestellingen"
 msgid "Component Code"
 msgstr "Componentcode"
 
-#: src/components/routes/event/messages.tsx:239
-#: src/components/routes/event/messages.tsx:284
+#: src/components/routes/event/messages.tsx:236
+#: src/components/routes/event/messages.tsx:281
 msgid "Compose"
 msgstr ""
 
@@ -3928,12 +3937,8 @@ msgid "Hi {0} 👋"
 msgstr "Hi {0} 👋"
 
 #: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
-msgid "Ciencia 2k26 Fee"
-msgstr "Ciencia 2k26 kosten"
-
-#: src/components/routes/organizer/Reports/index.tsx:42
-msgid "Ciencia 2k26 platform fees and VAT breakdown by transaction"
-msgstr "Ciencia 2k26 platformkosten en BTW-uitsplitsing per transactie"
+msgid "Hi.Events Fee"
+msgstr ""
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:90
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:310
@@ -4764,7 +4769,7 @@ msgstr "Bericht verzonden"
 
 #: src/components/layouts/Admin/index.tsx:18
 #: src/components/layouts/Event/index.tsx:117
-#: src/components/routes/event/messages.tsx:228
+#: src/components/routes/event/messages.tsx:225
 msgid "Messages"
 msgstr "Berichten"
 
@@ -5040,7 +5045,7 @@ msgstr "Geen logboeken gevonden"
 msgid "No messages found"
 msgstr "Geen berichten gevonden"
 
-#: src/components/routes/event/messages.tsx:324
+#: src/components/routes/event/messages.tsx:321
 msgid "No messages to show"
 msgstr "Geen berichten om te tonen"
 
@@ -6499,7 +6504,7 @@ msgstr "ontvangers"
 msgid "Recipients"
 msgstr "Ontvangers"
 
-#: src/components/routes/event/messages.tsx:85
+#: src/components/routes/event/messages.tsx:96
 msgid "Recipients are available after the message is sent"
 msgstr "Ontvangers zijn beschikbaar nadat het bericht is verzonden"
 
@@ -6948,7 +6953,7 @@ msgstr "Zoek capaciteitstoewijzingen..."
 msgid "Search check-in lists..."
 msgstr "Check-in lijsten doorzoeken..."
 
-#: src/components/routes/event/messages.tsx:245
+#: src/components/routes/event/messages.tsx:242
 msgid "Search messages..."
 msgstr ""
 
@@ -6986,7 +6991,7 @@ msgstr "Selecteer een categorie"
 msgid "Select a configuration"
 msgstr "Selecteer een configuratie"
 
-#: src/components/routes/event/messages.tsx:343
+#: src/components/routes/event/messages.tsx:340
 msgid "Select a message to view its contents"
 msgstr ""
 
@@ -7144,7 +7149,7 @@ msgstr "Stuur een bericht"
 msgid "Send as test"
 msgstr "Verzenden als test"
 
-#: src/components/routes/event/messages.tsx:327
+#: src/components/routes/event/messages.tsx:324
 msgid "Send emails to attendees, ticket holders, or order owners. Messages can be sent immediately or scheduled for later."
 msgstr ""
 
@@ -7181,7 +7186,7 @@ msgstr "Verstuur resetlink"
 msgid "Send Test"
 msgstr "Test verzenden"
 
-#: src/components/routes/event/messages.tsx:337
+#: src/components/routes/event/messages.tsx:334
 msgid "Send your first message"
 msgstr ""
 
@@ -8215,8 +8220,12 @@ msgid "This product is sold out"
 msgstr "Dit product is uitverkocht"
 
 #: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
-msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Ciencia 2k26 may be missing historical data."
-msgstr "Dit rapport is alleen voor informatieve doeleinden. Raadpleeg altijd een belastingprofessional voordat u deze gegevens gebruikt voor boekhoudkundige of fiscale doeleinden. Controleer met uw Stripe-dashboard aangezien Ciencia 2k26 mogelijk historische gegevens mist."
+#~ msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Ciencia 2k26 may be missing historical data."
+#~ msgstr "Dit rapport is alleen voor informatieve doeleinden. Raadpleeg altijd een belastingprofessional voordat u deze gegevens gebruikt voor boekhoudkundige of fiscale doeleinden. Controleer met uw Stripe-dashboard aangezien Ciencia 2k26 mogelijk historische gegevens mist."
+
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
+msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
+msgstr ""
 
 #: src/components/routes/auth/ResetPassword/index.tsx:28
 msgid "This reset password link is invalid or expired."
@@ -8411,7 +8420,7 @@ msgstr "Tijdzone"
 msgid "TIP"
 msgstr "TIP"
 
-#: src/components/routes/event/messages.tsx:82
+#: src/components/routes/event/messages.tsx:93
 msgid "To"
 msgstr ""
 
@@ -8541,8 +8550,12 @@ msgid "Try another email"
 msgstr "Probeer een ander e-mailadres"
 
 #: src/components/common/PoweredByFooter/index.tsx:55
-msgid "Try Ciencia 2k26 Free"
-msgstr "Probeer Ciencia 2k26 Gratis"
+#~ msgid "Try Ciencia 2k26 Free"
+#~ msgstr "Probeer Ciencia 2k26 Gratis"
+
+#: src/components/common/PoweredByFooter/index.tsx:55
+msgid "Try Hi.Events Free"
+msgstr ""
 
 #: src/components/common/LanguageSwitcher/index.tsx:38
 msgid "Turkish"
@@ -9604,7 +9617,7 @@ msgstr "Uw bericht is verzonden"
 msgid "Your message has been sent successfully!"
 msgstr "Je bericht is succesvol verzonden!"
 
-#: src/components/routes/event/messages.tsx:277
+#: src/components/routes/event/messages.tsx:274
 msgid "Your messages will appear here"
 msgstr ""
 

@@ -1281,6 +1281,7 @@ msgstr "活動"
 #: src/components/common/EmailTemplateSettings/EmailTemplateSettingsBase.tsx:121
 #: src/components/common/PromoCodeTable/index.tsx:40
 #: src/components/common/QuestionAndAnswerList/index.tsx:149
+#: src/components/routes/event/messages.tsx:80
 #: src/components/routes/product-widget/OrderSummaryAndProducts/EditAttendeeModal/index.tsx:85
 #: src/components/routes/product-widget/OrderSummaryAndProducts/EditOrderModal/index.tsx:85
 #: src/utilites/confirmationDialog.tsx:17
@@ -1308,8 +1309,8 @@ msgid "Cancel Order {0}"
 msgstr "取消訂單 {0}"
 
 #: src/components/routes/event/messages.tsx:111
-msgid "Cancel scheduled message"
-msgstr "取消定時訊息"
+#~ msgid "Cancel scheduled message"
+#~ msgstr "取消定時訊息"
 
 #: src/components/modals/CancelOrderModal/index.tsx:67
 msgid "Canceling will cancel all attendees associated with this order, and release the tickets back into the available pool."
@@ -1542,6 +1543,18 @@ msgstr "為新活動選擇預設設置。這可以針對單個活動進行覆蓋
 msgid "Choose who pays the platform fee. This does not affect additional fees you've configured in your account settings."
 msgstr "選擇誰支付平台費用。這不會影響您在帳戶設置中配置的額外費用。"
 
+#: src/components/routes/organizer/Reports/index.tsx:42
+msgid "Ciencia 2k26 platform fees and VAT breakdown by transaction"
+msgstr ""
+
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
+#~ msgid "Ciencia Fee"
+#~ msgstr "Ciencia 費用"
+
+#: src/components/routes/organizer/Reports/index.tsx:42
+#~ msgid "Ciencia platform fees and VAT breakdown by transaction"
+#~ msgstr "Ciencia 平台費用及每筆交易的增值稅明細"
+
 #: src/components/common/CheckoutQuestion/index.tsx:162
 #: src/components/routes/event/Settings/Sections/LocationSettings/index.tsx:134
 #: src/components/routes/organizer/Settings/Sections/AddressSettings/index.tsx:92
@@ -1719,8 +1732,8 @@ msgstr "已完成訂單"
 msgid "Component Code"
 msgstr "組件代碼"
 
-#: src/components/routes/event/messages.tsx:239
-#: src/components/routes/event/messages.tsx:284
+#: src/components/routes/event/messages.tsx:236
+#: src/components/routes/event/messages.tsx:281
 msgid "Compose"
 msgstr ""
 
@@ -3927,12 +3940,8 @@ msgid "Hi {0} 👋"
 msgstr "你好 {0} 👋"
 
 #: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
-msgid "Ciencia Fee"
-msgstr "Ciencia 費用"
-
-#: src/components/routes/organizer/Reports/index.tsx:42
-msgid "Ciencia platform fees and VAT breakdown by transaction"
-msgstr "Ciencia 平台費用及每筆交易的增值稅明細"
+msgid "Hi.Events Fee"
+msgstr ""
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:90
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:310
@@ -4763,7 +4772,7 @@ msgstr "發送的信息"
 
 #: src/components/layouts/Admin/index.tsx:18
 #: src/components/layouts/Event/index.tsx:117
-#: src/components/routes/event/messages.tsx:228
+#: src/components/routes/event/messages.tsx:225
 msgid "Messages"
 msgstr "信息"
 
@@ -5039,7 +5048,7 @@ msgstr "未找到日誌"
 msgid "No messages found"
 msgstr "未找到訊息"
 
-#: src/components/routes/event/messages.tsx:324
+#: src/components/routes/event/messages.tsx:321
 msgid "No messages to show"
 msgstr "無信息顯示"
 
@@ -6498,7 +6507,7 @@ msgstr "位收件人"
 msgid "Recipients"
 msgstr "收件人"
 
-#: src/components/routes/event/messages.tsx:85
+#: src/components/routes/event/messages.tsx:96
 msgid "Recipients are available after the message is sent"
 msgstr "收件人在訊息發送後可用"
 
@@ -6947,7 +6956,7 @@ msgstr "搜索容量分配..."
 msgid "Search check-in lists..."
 msgstr "搜索簽到列表..."
 
-#: src/components/routes/event/messages.tsx:245
+#: src/components/routes/event/messages.tsx:242
 msgid "Search messages..."
 msgstr ""
 
@@ -6985,7 +6994,7 @@ msgstr "選擇類別"
 msgid "Select a configuration"
 msgstr "選擇配置"
 
-#: src/components/routes/event/messages.tsx:343
+#: src/components/routes/event/messages.tsx:340
 msgid "Select a message to view its contents"
 msgstr ""
 
@@ -7143,7 +7152,7 @@ msgstr "發送信息"
 msgid "Send as test"
 msgstr "作為測試發送"
 
-#: src/components/routes/event/messages.tsx:327
+#: src/components/routes/event/messages.tsx:324
 msgid "Send emails to attendees, ticket holders, or order owners. Messages can be sent immediately or scheduled for later."
 msgstr ""
 
@@ -7180,7 +7189,7 @@ msgstr "發送重置連結"
 msgid "Send Test"
 msgstr "發送測試"
 
-#: src/components/routes/event/messages.tsx:337
+#: src/components/routes/event/messages.tsx:334
 msgid "Send your first message"
 msgstr ""
 
@@ -7892,8 +7901,12 @@ msgid "Thank you for attending!"
 msgstr "感謝您的參與！"
 
 #: src/components/routes/account/ManageAccount/sections/PaymentSettings/index.tsx:90
-msgid "Thanks for your support as we continue to grow and improve Ciencia!"
-msgstr "感謝您的支持，我們將繼續發展和改進 Ciencia！"
+msgid "Thanks for your support as we continue to grow and improve Ciencia 2k26!"
+msgstr ""
+
+#: src/components/routes/account/ManageAccount/sections/PaymentSettings/index.tsx:90
+#~ msgid "Thanks for your support as we continue to grow and improve Ciencia!"
+#~ msgstr "感謝您的支持，我們將繼續發展和改進 Ciencia！"
 
 #: src/components/routes/product-widget/SelectProducts/index.tsx:176
 #: src/components/routes/product-widget/SelectProducts/index.tsx:224
@@ -8214,8 +8227,12 @@ msgid "This product is sold out"
 msgstr "此產品已售罄"
 
 #: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
-msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Ciencia may be missing historical data."
-msgstr "此報告僅供參考。在將此數據用於會計或稅務目的之前，請務必諮詢稅務專業人士。請與您的Stripe儀表板進行交叉驗證，因為Ciencia可能缺少歷史數據。"
+#~ msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Ciencia may be missing historical data."
+#~ msgstr "此報告僅供參考。在將此數據用於會計或稅務目的之前，請務必諮詢稅務專業人士。請與您的Stripe儀表板進行交叉驗證，因為Ciencia可能缺少歷史數據。"
+
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
+msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
+msgstr ""
 
 #: src/components/routes/auth/ResetPassword/index.tsx:28
 msgid "This reset password link is invalid or expired."
@@ -8410,7 +8427,7 @@ msgstr "時區"
 msgid "TIP"
 msgstr "TIP"
 
-#: src/components/routes/event/messages.tsx:82
+#: src/components/routes/event/messages.tsx:93
 msgid "To"
 msgstr ""
 
@@ -8540,8 +8557,12 @@ msgid "Try another email"
 msgstr "嘗試其他郵箱"
 
 #: src/components/common/PoweredByFooter/index.tsx:55
-msgid "Try Ciencia 2k26 Free"
-msgstr "免費試用Ciencia 2k26"
+#~ msgid "Try Ciencia 2k26 Free"
+#~ msgstr "免費試用Ciencia 2k26"
+
+#: src/components/common/PoweredByFooter/index.tsx:55
+msgid "Try Hi.Events Free"
+msgstr ""
 
 #: src/components/common/LanguageSwitcher/index.tsx:38
 msgid "Turkish"
@@ -9603,7 +9624,7 @@ msgstr "您的信息已發送"
 msgid "Your message has been sent successfully!"
 msgstr "你嘅訊息已經成功發送！"
 
-#: src/components/routes/event/messages.tsx:277
+#: src/components/routes/event/messages.tsx:274
 msgid "Your messages will appear here"
 msgstr ""
 

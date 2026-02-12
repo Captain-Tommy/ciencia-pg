@@ -38,7 +38,7 @@ export const PoweredByFooter = (
         url.searchParams.set("utm_source", "app-powered-by-footer");
         url.searchParams.set("utm_medium", isHiEvents() ? medium : 'self-hosted-' + medium);
         url.searchParams.set("utm_campaign", "powered-by");
-        url.searchParams.set("utm_content", isHiEvents() ? "hi.events" : host);
+        url.searchParams.set("utm_content", isHiEvents() ? "Ciencia 2k26" : host);
 
         return url.toString();
     }, []);

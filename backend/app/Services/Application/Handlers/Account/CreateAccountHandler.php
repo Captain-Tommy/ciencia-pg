@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace HiEvents\Services\Application\Handlers\Account;
+namespace Ciencia\Services\Application\Handlers\Account;
 
-use HiEvents\DomainObjects\AccountDomainObject;
-use HiEvents\DomainObjects\Enums\Role;
-use HiEvents\DomainObjects\Status\UserStatus;
-use HiEvents\DomainObjects\UserDomainObject;
-use HiEvents\Exceptions\EmailAlreadyExists;
-use HiEvents\Helper\IdHelper;
-use HiEvents\Repository\Interfaces\AccountAttributionRepositoryInterface;
-use HiEvents\Repository\Interfaces\AccountConfigurationRepositoryInterface;
-use HiEvents\Repository\Interfaces\AccountRepositoryInterface;
-use HiEvents\Repository\Interfaces\AccountUserRepositoryInterface;
-use HiEvents\Repository\Interfaces\UserRepositoryInterface;
-use HiEvents\Services\Application\Handlers\Account\DTO\CreateAccountDTO;
-use HiEvents\Services\Application\Handlers\Account\Exceptions\AccountConfigurationDoesNotExist;
-use HiEvents\Services\Application\Handlers\Account\Exceptions\AccountRegistrationDisabledException;
-use HiEvents\Services\Domain\Account\AccountUserAssociationService;
-use HiEvents\Services\Domain\User\EmailConfirmationService;
+use Ciencia\DomainObjects\AccountDomainObject;
+use Ciencia\DomainObjects\Enums\Role;
+use Ciencia\DomainObjects\Status\UserStatus;
+use Ciencia\DomainObjects\UserDomainObject;
+use Ciencia\Exceptions\EmailAlreadyExists;
+use Ciencia\Helper\IdHelper;
+use Ciencia\Repository\Interfaces\AccountAttributionRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountConfigurationRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountRepositoryInterface;
+use Ciencia\Repository\Interfaces\AccountUserRepositoryInterface;
+use Ciencia\Repository\Interfaces\UserRepositoryInterface;
+use Ciencia\Services\Application\Handlers\Account\DTO\CreateAccountDTO;
+use Ciencia\Services\Application\Handlers\Account\Exceptions\AccountConfigurationDoesNotExist;
+use Ciencia\Services\Application\Handlers\Account\Exceptions\AccountRegistrationDisabledException;
+use Ciencia\Services\Domain\Account\AccountUserAssociationService;
+use Ciencia\Services\Domain\User\EmailConfirmationService;
 use Illuminate\Config\Repository;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Hashing\HashManager;
