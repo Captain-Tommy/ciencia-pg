@@ -1,17 +1,17 @@
 import {Event, Product} from "../types.ts";
-import {MantineColor} from "@mantine/core";
+import type {MantineColor} from "@mantine/core";
 import {getConfig} from "./config.ts";
 
-export function isNumber(value: any): value is number {
+export function isNumber(value: unknown): value is number {
     return typeof value === 'number'
 }
 
-export const isObjectEmpty = (objectName: any) => {
+export const isObjectEmpty = (objectName: Record<string, unknown>) => {
     return Object.keys(objectName).length === 0
 }
 
-export const pluck = <T, K extends keyof T>(obj: T, keys: K[]): Pick<T, K> => {
-    const ret: any = {};
+export const pluck = <T extends Record<string, any>, K extends keyof T>(obj: T, keys: K[]): Pick<T, K> => {
+    const ret = {} as Pick<T, K>;
     for (const key of keys) {
         ret[key] = obj[key];
     }
@@ -91,7 +91,13 @@ export const formatNumber = (number: number) => {
     return new Intl.NumberFormat().format(number);
 }
 
-export const isSsr = () => import.meta.env.SSR;
+export const isSsr = () => {
+    try {
+        return !!import.meta.env?.SSR;
+    } catch {
+        return false;
+    }
+}
 
 /**
  * (c) Hi.Events Ltd 2025
